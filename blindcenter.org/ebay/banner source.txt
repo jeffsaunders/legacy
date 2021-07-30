@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+<!-- saved from url=(0013)about:internet -->
+<meta name="GENERATOR" content="Koolmoves">
+<script src="AC_RunActiveContent.js" type="text/javascript"></script>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<CENTER>
+<script type="text/javascript">AC_FL_RunContent('codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,65,0','loop','true','bgcolor','#ffffff','width','798','height','130','src','Ebay Banner','quality','high','pluginspage','http://www.macromedia.com/go/getflashplayer','movie','Ebay Banner');
+</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id=EbayBanner width=798 height=130 codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,65,0">
+ <param name="movie" value="Ebay Banner.swf" />
+ <param name="quality" value="high" />
+ <param name="play" value="true" />
+ <param name="loop" value="true" />
+ <param name="bgcolor" value="#ffffff" />
+ <embed src="Ebay Banner.swf"  width=798 height=130 bgcolor="#ffffff" quality="high" loop="true"
+  type="application/x-shockwave-flash" pluginspace="http://www.macromedia.com/go/getflashplayer" />
+</object></noscript>
+</CENTER>
+</BODY>
+</HTML>

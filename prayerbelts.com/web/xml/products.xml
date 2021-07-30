@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- #BeginSnippet name="products.xml" wysiwyg="no" -->
+<products>
+	<product>
+		<inStock>Y</inStock>
+		<item>InJesusName</item>
+		<price>19.95</price>
+		<title>In JESUS Name We Pray</title>
+		<titleImage>In-JESUS-Name-We-Pray.jpg</titleImage>
+		<images>
+			<thumb1>InJesusBlackThumb.jpg</thumb1>
+			<image1>InJesusBlack.jpg</image1>
+			<enlarge1>InJesusBlackHiRes.jpg</enlarge1>
+			<thumb2>UniversalBlackThumb.jpg</thumb2>
+			<image2>UniversalBlack.jpg</image2>
+			<enlarge2>UniversalBlackHiRes.jpg</enlarge2>
+			<thumb3>InJesusBrownThumb.jpg</thumb3>
+			<image3>InJesusBrown.jpg</image3>
+			<enlarge3>InJesusBrownHiRes.jpg</enlarge3>
+			<thumb4>UniversalBrownThumb.jpg</thumb4>
+			<image4>UniversalBrown.jpg</image4>
+			<enlarge4>UniversalBrownHiRes.jpg</enlarge4>
+			<thumb5>InJesusJeansThumb.jpg</thumb5>
+			<image5>InJesusJeans.jpg</image5>
+			<enlarge5>InJesusJeansHiRes.jpg</enlarge5>
+			<thumb6>UniversalJeansThumb.jpg</thumb6>
+			<image6>UniversalJeans.jpg</image6>
+			<enlarge6>UniversalJeansHiRes.jpg</enlarge6>
+		</images>
+		<defaultImage>InJesusBackCropped.jpg</defaultImage>
+		<defaultEnlarge>InJesusBackHiResCropped.jpg</defaultEnlarge>
+		<cartThumb>InJesusListThumb.jpg</cartThumb>
+		<color>
+			<colorValue></colorValue>
+			<colorDesc>Select</colorDesc>
+			<default>N</default>
+			<disabled>Y</disabled>
+		</color>
+		<color>
+			<colorValue>Black w/White Embroidery</colorValue>
+			<colorDesc>Black w/White Embroidery</colorDesc>
+			<default>Y</default>
+			<disabled>N</disabled>
+		</color>
+		<size>
+			<sizeValue></sizeValue>
+			<sizeDesc>Select</sizeDesc>
+			<default>N</default>
+			<disabled>Y</disabled>
+		</size>
+		<size>
+			<sizeValue>One Size - 48"</sizeValue>
+			<sizeDesc>One Size - 48"</sizeDesc>
+			<default>Y</default>
+			<disabled>N</disabled>
+		</size>
+		<width>
+			<widthValue></widthValue>
+			<widthDesc>Select</widthDesc>
+			<default>N</default>
+			<disabled>Y</disabled>
+		</width>
+		<width>
+			<widthValue>One Width - 1 1/2"</widthValue>
+			<widthDesc>One Width - 1 1/2"</widthDesc>
+			<default>Y</default>
+			<disabled>N</disabled>
+		</width>
+		<detail>100% Polyester.</detail>
+		<detail>One Size Fits Most.</detail>
+		<detail>Double D-Ring Closure.</detail>
+		<detail>Width 1 1/2".</detail>
+		<detail>Length 48".</detail>
+		<detail>Black with White Embroidered Message.</detail>
+	</product>
+	<product>
+		<inStock>Y</inStock>
+		<item>JesusIsLord</item>
+		<price>19.95</price>
+		<title>JESUS Is My LORD and Savior</title>
+		<titleImage>JESUS-Is-My-LORD-and-Savior.jpg</titleImage>
+		<images>
+			<thumb1>JesusIsBlackThumb.jpg</thumb1>
+			<image1>JesusIsBlack.jpg</image1>
+			<enlarge1>JesusIsBlackHiRes.jpg</enlarge1>
+			<thumb2>UniversalBlackThumb.jpg</thumb2>
+			<image2>UniversalBlack.jpg</image2>
+			<enlarge2>UniversalBlackHiRes.jpg</enlarge2>
+			<thumb3>JesusIsBrownThumb.jpg</thumb3>
+			<image3>JesusIsBrown.jpg</image3>
+			<enlarge3>JesusIsBrownHiRes.jpg</enlarge3>
+			<thumb4>UniversalBrownThumb.jpg</thumb4>
+			<image4>UniversalBrown.jpg</image4>
+			<enlarge4>UniversalBrownHiRes.jpg</enlarge4>
+			<thumb5>JesusIsJeansThumb.jpg</thumb5>
+			<image5>JesusIsJeans.jpg</image5>
+			<enlarge5>JesusIsJeansHiRes.jpg</enlarge5>
+			<thumb6>UniversalJeansThumb.jpg</thumb6>
+			<image6>UniversalJeans.jpg</image6>
+			<enlarge6>UniversalJeansHiRes.jpg</enlarge6>
+		</images>
+		<defaultImage>JesusIsBackCropped.jpg</defaultImage>
+		<defaultEnlarge>JesusIsBackHiResCropped.jpg</defaultEnlarge>
+		<cartThumb>JesusIsListThumb.jpg</cartThumb>
+		<color>
+			<colorValue></colorValue>
+			<colorDesc>Select</colorDesc>
+			<default>N</default>
+			<disabled>Y</disabled>
+		</color>
+		<color>
+			<colorValue>Black w/White Embroidery</colorValue>
+			<colorDesc>Black w/White Embroidery</colorDesc>
+			<default>Y</default>
+			<disabled>N</disabled>
+		</color>
+		<size>
+			<sizeValue></sizeValue>
+			<sizeDesc>Select</sizeDesc>
+			<default>N</default>
+			<disabled>Y</disabled>
+		</size>
+		<size>
+			<sizeValue>One Size - 48"</sizeValue>
+			<sizeDesc>One Size - 48"</sizeDesc>
+			<default>Y</default>
+			<disabled>N</disabled>
+		</size>
+		<width>
+			<widthValue></widthValue>
+			<widthDesc>Select</widthDesc>
+			<default>N</default>
+			<disabled>Y</disabled>
+		</width>
+		<width>
+			<widthValue>One Width - 1 1/2"</widthValue>
+			<widthDesc>One Width - 1 1/2"</widthDesc>
+			<default>Y</default>
+			<disabled>N</disabled>
+		</width>
+		<detail>100% Polyester.</detail>
+		<detail>One Size Fits Most.</detail>
+		<detail>Double D-Ring Closure.</detail>
+		<detail>Width 1 1/2".</detail>
+		<detail>Length 48".</detail>
+		<detail>Black with White Embroidered Message.</detail>
+	</product>
+</products>
+<!-- #EndSnippet -->

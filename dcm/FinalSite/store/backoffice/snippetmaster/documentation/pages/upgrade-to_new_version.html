@@ -1,0 +1,97 @@
+<html><!-- InstanceBegin template="/Templates/manual - main page.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title></title>
+<!-- InstanceEndEditable -->
+<link href="includes/styles.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+<body bgcolor="#E1E1E1">
+<table width=75% border=0 cellpadding=0 cellspacing=0>
+  <tr>
+    <td><!-- InstanceBeginEditable name="Main Content" --> 
+      <h1><B>U</B><B>pgrading From A Previous Version</B></h1>
+      <p> If you are currently using SnippetMaster version <strong>1.x</strong> 
+        and you want to upgrade to the latest version (<strong>2.x</strong>), 
+        then here are the instructions.</p>
+      <h3>Backup your existing config.inc.php file</h3>
+      <p>The first thing you should do is log into your web server and make a 
+        backup of your <strong>/snippetmaster/includes/config.inc.php</strong> 
+        file. Save this file to your computer and keep it safe. You shouldn't 
+        need it for anything, but it will be handy as a reference when you're 
+        setting up all the options in the new <a href="admin-overview.html"> Admin 
+        Area</a>.</p>
+      <h3>Backup ALL files</h3>
+      <ol>
+        <li>Make a backup of your entire <strong>/snippetmaster</strong> folder. 
+          If you're using some kind of hosting control panel, then you might need 
+          to backup your entire account. Whatever you need to do.. do it now so 
+          that you have a backup of your existing installation. This is a &quot;just 
+          in case&quot; safety precaution.</li>
+      </ol>
+      <h3>OK, now lets get started.</h3>
+      <ol>
+        <li>Using your FTP program, log into your web server and rename your existing 
+          <strong>/snippetmaster </strong>folder to something else. (ie: <strong>/snippetmaster<em>-old</em></strong>) 
+          Once the new version is installed and you are happy with how it works, 
+          then you can delete this folder.<br>
+          <br>
+          <strong>Note: </strong>The new version is significantly different then 
+          the old version, and none of the old program files are used. Once you 
+          are happy with how the new version is working, you can delete the old 
+          version -- it is no longer needed. </li>
+        <li>Go through the <a href="install-getting-started.html">Getting Started</a> 
+          steps.</li>
+        <li>Go through the <a href="install-wizard.html">Install Wizard</a>.</li>
+        <li>Now comes the hard part. Normally, new users would be instructed to 
+          <a href="snippet-tags-basic-config.html">start adding snippet tags to 
+          their files</a>. However, you already <em>have</em> snippet tags in 
+          your files... <strong><br>
+          <br>
+          ... the problem is that they are no longer correct.</strong></li>
+      </ol>
+      <h3><a name="newtag"></a>The Snippet Tag System Has Changed</h3>
+      <p>Every file that currently has snippet tags will need to be changed. The 
+        old method of specifying the &quot;snippet&quot; of text that is to be 
+        editable is now different. Unfortunately, this major change was required 
+        in order to make the snippet tags fully HTML standards compliant and work 
+        with all browsers and webpage editors.</p>
+      <blockquote> 
+        <p>Please take a few minutes to visit the <a href="snippet-tags-basic-config.html">Basic 
+          Configuration</a> page and the <a href="snippet-tag-attributes.html">Advanced 
+          Snippet Tag Attributes</a> page for details on how the new snippet tags 
+          work.</p>
+      </blockquote>
+      <p><strong>Here is what you must do:</strong></p>
+      <ol>
+        <li> Change any occurance of: <br>
+          <br>
+          <strong><font color="#CC6600">&lt;snippet name=&quot;snippet name&quot;&gt;<br>
+          <br>
+          </font></strong><em>or</em><strong><font color="#CC6600"><br>
+          <br>
+          &lt;snippet&gt; </font></strong><br>
+          <br>
+          to: <br>
+          <font color="#009900"><br>
+          <strong>&lt;!-- #BeginSnippet name=&quot;snippet name&quot; --&gt;<br>
+          </strong></font></li>
+        <li> Change any occurance of: <br>
+          <br>
+          <strong><font color="#CC6600">&lt;/snippet&gt;</font></strong><br>
+          <br>
+          To:<br>
+          <br>
+          <strong><font color="#009900">&lt;!-- #EndSnippet --&gt;</font></strong></li>
+      </ol>
+      <p>If you only have a few files, then I encourage you to make these required 
+        changes manually. However, if you have many snippet files, then you might 
+        want to use an automated &quot;search &amp; replace&quot; utility to make 
+        the changes for you.</p>
+      <!-- InstanceEndEditable --> 
+      <p>&nbsp;</p>
+    </td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

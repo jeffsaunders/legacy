@@ -1,0 +1,2 @@
+[03-Aug-2011 11:18:30] PHP Warning:  include(/store/infoBox.php?id=dk8olq9jdv1c16kgbioakakdq4): failed to open stream: No such file or directory in /var/www/clients/client3/web1/web/sandbox/dcm/store/index.php on line 28
+[03-Aug-2011 11:18:30] PHP Warning:  include(): Failed opening '/store/infoBox.php?id=dk8olq9jdv1c16kgbioakakdq4' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /var/www/clients/client3/web1/web/sandbox/dcm/store/index.php on line 28

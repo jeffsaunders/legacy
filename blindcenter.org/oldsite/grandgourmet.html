@@ -1,0 +1,54 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+
+<!--
+Grand Gourmet Basket Popup
+
+Design Copyright 2001-2003 Network Resources
+Images Copyright 2001-2003 Blind Center of Nevada
+Authored by Jeff S. Saunders 10/16/2001
+Modified by Jeff S. Saunders 11/05/2003
+-->
+
+<html>
+
+<head>
+	<title>Grand Gourmet Basket</title>
+
+	<script language="javascript">
+// Begin Loading Images for Menu Buttons
+	if (document.images) {
+
+	// MouseOut Images
+                  
+		img1off = new Image(); 
+		img1off.src = "images/grandgourmetwrapped.jpg"; 
+
+	// MouseOver Images
+                  
+		img1on = new Image(); 
+		img1on.src = "images/grandgourmetopen.jpg"; 
+	}
+
+	// Begin Swap Button
+	function imgOn(imgName) {
+        if (document.images) {
+            document[imgName].src = eval(imgName + "on.src");
+        }
+	}
+
+	function imgOff(imgName) {
+        if (document.images) {
+            document[imgName].src = eval(imgName + "off.src");
+        }
+	}
+
+	</script>
+
+</head>
+
+<body bgcolor="White" leftmargin=0 topmargin=0>
+
+<a href="javascript:window.close()" onMouseOver="imgOn('img1')" onMouseOut= "imgOff('img1')"><img src="images/grandgourmetwrapped.jpg" alt="" name="img1" id="img1" width="400" height="525" border="0"></a>
+
+</body>
+</html>

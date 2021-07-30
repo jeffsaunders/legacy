@@ -1,0 +1,1 @@
+[07-Aug-2011 23:07:40] PHP Warning:  strlen() expects parameter 1 to be string, array given in /var/www/clients/client3/web1/web/sandbox/dcm/store/includes/functions/functions_general.php on line 152

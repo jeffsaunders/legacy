@@ -1,0 +1,27 @@
+a {
+ 	color: #333399;
+ }
+
+a:active, a:hover {
+ 	color: #FF0000;
+ }
+ 
+ p, td, body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000;
+}
+li {
+	margin-bottom: 10px;
+}

@@ -1,0 +1,168 @@
+ 
+
+<html>
+ <title>wmuhomes.com - 3 homes found</title>
+ <body bgcolor="#ffffff">
+ 
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-158337-3");
+pageTracker._trackPageview();
+} catch(err) {}</script> 
+ 
+<link rel="stylesheet" href="wmuhomes.css" type="text/css">
+<center>
+<table border="0" cellpadding="0" cellspacing="0" width="85%">
+ <tr>
+	<td width="100%">
+	 <a href="/"><img src="images/logo.gif" height="62" width="233" border="0"></a>
+    </td>
+
+    <td width=15>
+     <img src="images/blank.gif" width="15">
+    </td>
+    
+    <td valign="bottom">
+     <!--- <img src="images/toolbar.gif" width="281" height="15" border="0"> --->
+    </td>
+ </tr>
+ 
+ <tr>
+ 	<td height='15' colspan='3'>
+     <img src="blank.gif" height="15">
+ 	</td>
+ </tr>
+ 
+ <tr>
+  	<td colspan='3'>
+  	
+  		<!--- Being Results --->						
+				<a href="/"><IMG SRC="http://www.macupdate.com/images/back_arrow.gif" WIDTH="7" HEIGHT="9" BORDER="0"></a>&nbsp;
+				<a href="/" class="column">Search Again</a> &nbsp;
+
+
+  			<table border='0' cellpadding='3' cellspacing='0' width='100%'>
+  			 <tr>
+  			  <td bgcolor='cccccc' colspan='7'>
+  			  	Search Results: 3 listings found
+  			  </td>
+  			 </tr>
+ 
+ <tr align='left' bgcolor='ffffff'>
+  			  <td>
+  			   &nbsp;
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=osborne&order=contact&order=street&order=contact&order=street&order=street' class='column'><b>Street</b></a>
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=osborne&order=contact&order=street&order=contact&order=street&order=rent' class='column'><b>Rent</b></a>
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=osborne&order=contact&order=street&order=contact&order=street&order=bedrooms' class='column'><b>Bedrooms</b></a>
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=osborne&order=contact&order=street&order=contact&order=street&order=utilities' class='column'><b>Util Incl.</b></a>
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=osborne&order=contact&order=street&order=contact&order=street&order=available' class='column'><b>Available</b></a>
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=osborne&order=contact&order=street&order=contact&order=street&order=contact' class='column'><b>Contact</b></a>
+  			  </td>
+  			 </tr>
+			 <tr align='left' bgcolor='#eeeeee'>
+			  <td>
+				 <a href='info.php?id=101'><img src='images/uploads/101_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=101' class='street'>814 W South St Apt 1</a><br>
+				<span class=description>Large bedrooms, fireplace, covered porch, perfect location.</span>
+			  </td>
+			  <td>
+				<span class=description>$900</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;Yes</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-15</span>
+			  </td>
+				  <td>
+				<span class=description>Kevin Osborne (for J Mueller)</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#ffffff'>
+			  <td>
+				 <a href='info.php?id=102'><img src='images/uploads/102_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=102' class='street'>814 W South St Apt 3</a><br>
+				<span class=description>Walk to K-College/WMU, huge balcony, washer, utilities included.</span>
+			  </td>
+			  <td>
+				<span class=description>$500</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;Yes</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-15</span>
+			  </td>
+				  <td>
+				<span class=description>Kevin Osborne (for J Mueller)</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#eeeeee'>
+			  <td>
+				 <a href='info.php?id=54'><img src='images/uploads/54_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=54' class='street'>924 S Westnedge Ave  </a><br>
+				<span class=description>Huge rooms, stainless appl., garage w/remote, heated tile, A/C.</span>
+			  </td>
+			  <td>
+				<span class=description>$1560</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;No</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Kevin Osborne (for J Mueller)</span>
+			  </td>
+			 </tr>
+			 	 
+     		 <tr align='left' bgcolor='cccccc'>
+  			  <td colspan='7' align='center'>
+ 1  			  </td>
+  			 </tr>			 
+  			</table><br>
+  			<a href="/add2.php" class="street">Add a Listing</a>		
+  		<!--- End Results --->
+  	
+  	</td>
+ </tr>
+ 
+</table>
+</center>
+
+</body>
+</html>

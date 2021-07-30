@@ -1,0 +1,7 @@
+#!/bin/sh
+
+exec /usr/bin/php-cgi \
+-d open_basedir=/var/www/clients/client3/web1 \
+-d upload_tmp_dir=/var/www/clients/client3/web1/tmp \
+-d session.save_path=/var/www/clients/client3/web1/tmp
+# -d safe_mode=${SAFE_MODE}

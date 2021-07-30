@@ -1,0 +1,325 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+
+<!--
+Holiday Baskets Checkout
+
+Design Copyright 2001-2003 Network Resources
+Images Copyright 2001-2003 Blind Center of Nevada
+Authored by Jeff S. Saunders 10/16/2001
+Modified by Jeff S. Saunders 11/05/2003
+-->
+
+<html>
+
+<head>	<title>Blind Center of Nevada</title>
+
+	<style type="text/css">
+	.greetext  { font-family: serif; font-size: 16px;color: #006600;}
+	.blacktext { font-family: serif; font-size: 16px;color: #000000;}    
+	.checkout {font-family: serif; font-size: 16px; color: #000000;}
+	.checkoutinput {font-family: serif; font-size: 16px; color: #000000;}   
+	.nopcart {background: #464444;border: 1px;font-family: serif; font-size: 16px; color: #ffffff;}
+	.nopheader {background: #CCCCCC;font-family: serif; font-size: 18px; color: #000000;}
+	.nopentry {background: #FFFFFF;font-family: serif; font-size: 16px; color: #000000;}
+	.noptotal {background: #FFFFFF;font-family: serif; font-size: 16px; color: #000000;}
+	.nopbutton {color: #000000;} 
+	</style>
+	
+<!-- Spawns Child Window -->	
+	<script language="javascript">
+
+	// This function spawns a child window 
+
+	//   SpawnChild(URL including fully qualified URL's,
+	//				Width of the spawned window in pixels,
+	//				Height of the spawned window in pixels,
+	//				Centered (no/0 or 1/yes, which overrides the positioning values below),
+	//				Netscape distance from left in pixels (unless Centered = 1/yes),
+	//				Netscape distance from top in pixels (unless Centered = 1/yes),
+	//				Internet Explorer distance from left in pixels (unless Centered = 1/yes),
+	//				Internet Explorer distance from top in pixels (unless Centered = 1/yes),
+	//				Is window resizable? (no/0 or yes/1 - either works),
+	//				Display scrollbars? (no/0 or yes/1),
+	//				Display menubar? (no/0 or yes/1),
+	//				Display toolbar? (no/0 or yes/1),
+	//				Display statusbar? (no/0 or yes/1)
+	//				)
+
+	// Example - SpawnChild('http://192.168.0.1/ChildWindowContent.html','500','200','150','no','200','150','200','yes','yes','no','0','1')
+	// Creates a window that is 500x200 pels located 150 pels from the left and 200 pels from the top (NOT centered) which loads a page from a server at 192.168.0.1 named ChildWindowContent.html, resizable, with scrollbars & statusbar on.
+	
+	function SpawnChild(Content, ChildName, Width, Height, Centered, NSx, NSy, IEx, IEy, Resizable, ScrollBars, MenuBar, ToolBar, StatusBar){
+		if (window.child && !(window.child.closed))
+			window.child.close();
+		var URL=Content;
+		var Name=ChildName;
+ 		var WindowWidth=parseInt(Width);
+ 		var WindowHeight=parseInt(Height);
+		if ((Centered == "1")||(Centered == "yes")){
+			Left=(screen.width/2)-(Width/2);
+			Top=(screen.height/2)-(Height/2);
+			NSx=Left;
+			NSy=Top;
+			IEx=Left;
+			IEy=Top
+		}
+ 		var ScreenX=parseInt(NSx);
+ 		var ScreenY=parseInt(NSy);
+ 		var Left=parseInt(IEx);
+ 		var Top=parseInt(IEy);
+ 		var Resize=Resizable;
+ 		var SB=ScrollBars;
+		var MB=MenuBar;
+ 		var TB=ToolBar;
+ 		var Status=StatusBar;
+    	child=window.open(URL, Name, "width=" + WindowWidth + ",height=" + WindowHeight + ",screenX=" + ScreenX + ",screenY=" + ScreenY + ",left=" + Left + ",top=" + Top + ",resizable=" + Resize + ",scrollbars=" + SB + ",menubar=" + MB + ",toolbar=" + TB + ",status=" + Status);
+	}
+	</script>
+
+	<script src="language-en.js"></script>
+	<script src="nopcart.js">
+	//=====================================================================||
+	//               NOP Design JavaScript Shopping Cart                   ||
+	//                                                                     ||
+	// For more information on SmartSystems, or how NOPDesign can help you ||
+	// Please visit us on the WWW at http://www.nopdesign.com              ||
+	//                                                                     ||
+	// JavaScript Shop Module, V.4.4.0                                     ||
+	//=====================================================================||
+	</script>
+
+	<script>
+	function CheckForm( theform )
+	{
+		var bMissingFields = false;
+		var strFields = "";
+	
+		if( theform.b_first.value == '' ){
+			bMissingFields = true;
+			strFields += "     Billing: First Name\n";
+		}
+		if( theform.b_last.value == '' ){
+			bMissingFields = true;
+			strFields += "     Billing: Last Name\n";
+		}
+		if( theform.b_addr.value == '' ){
+			bMissingFields = true;
+			strFields += "     Billing: Address\n";
+		}
+		if( theform.b_city.value == '' ){
+			bMissingFields = true;
+			strFields += "     Billing: City\n";
+		}
+		if( theform.b_state.value == '' ){
+			bMissingFields = true;
+			strFields += "     Billing: State\n";
+		}
+		if( theform.b_zip.value == '' ){
+			bMissingFields = true;
+			strFields += "     Billing: Zipcode\n";
+		}
+		if( theform.b_phone.value == '' ){
+			bMissingFields = true;
+			strFields += "     Billing: Phone\n";
+		}
+		if( theform.b_email.value == '' ){
+			bMissingFields = true;
+			strFields += "     Billing: Email\n";
+		}
+		
+		if( bMissingFields ) {
+			alert( "I'm sorry, but you must provide the following field(s) before continuing:\n" + strFields );
+			return false;
+		}
+	
+		return true;
+	}
+	</script>
+
+</head>
+
+<body bgcolor="White" leftmargin=0 topmargin=0>
+
+<table width="600" border="0" cellpadding="0" cellspacing="0">
+<tr>
+	<td colspan="2"><img src="media/HolidayBasketsHeader2.gif" alt="" width="570" height="232" border="0"></td>
+</tr>
+</table>
+
+<noscript>
+Whoops, we detected that your browser does not have JavaScript, or it is disabled.  Our product catalog requires that you
+have JavaScript enabled to order products.  <a href="http://www.netscape.com">Netscape</a> and <a href="http://www.microsoft.com/ie">Microsoft</a>
+offer free browsers which support JavaScript.  If you are using a JavaScript compliant browser and still have problems, make sure you
+have JavaScript enabled in your browser's preferences.
+</noscript>
+
+<table width="600" border="0" cellpadding="5" cellspacing="0">
+<tr>
+	<td rowspan="20"><img src="images/spacer.gif" width="90" height="1" alt="" border="0"></td>
+	<td align="center"><br><strong>Your Order Total:</strong><br><img src="images/spacer.gif" width="1" height="5" alt="" border="0"><br></td>
+</tr>
+<tr>
+	<td align="center"><form action="/cgi-bin/checkout.pl" method="POST" onSubmit="return CheckForm(this)">
+		<nobr>
+		<script>
+			CheckoutCart();
+		</script>
+		</nobr>
+	</td>
+</tr>
+<tr>
+	<td class="blacktext"><br><strong>Please fill out the following information below to complete your order.</strong></td>
+</tr>
+<tr>
+	<td style="padding-left:0px; padding-right:0px;"><hr></td>
+</tr>
+<tr bgcolor="#E0E0E0">
+	<td class="blacktext"><font size="+1"><strong>Billing Information:</strong></font><br><img src="images/spacer.gif" width="1" height="5" alt="" border="0"><br></td>
+</tr>
+<tr bgcolor="#E0E0E0">
+	<td>
+		<table width="510" border="0" cellspacing="0" cellpadding="0" class="blacktext">
+		<tr>
+			<td><strong>Name:</strong>    </td>
+			<td><input type="text" size="31" name="b_first"><img src="images/spacer.gif" width="7" height="1" alt="" border="0"><input type="text" size="34" name="b_last"></td>
+		</tr>
+		<tr>
+			<td><strong>Address:</strong> </td>
+			<td><input type="text" name="b_addr" size="70"> </td>
+		</tr>
+		<tr>
+			<td>         </td>
+			<td><input type="text" name="b_addr2" size="70"></td>
+		</tr>
+		<tr>
+			<td><strong>City:</strong>    <br><br></td>
+			<td><input type="text" size="31" name="b_city"><img src="images/spacer.gif" width="10" height="1" alt="" border="0"><strong>State:</strong><img src="images/spacer.gif" width="12" height="1" alt="" border="0"><input type="text" size="1"  name="b_state"><img src="images/spacer.gif" width="10" height="1" alt="" border="0"><strong>Zip:</strong><img src="images/spacer.gif" width="12" height="1" alt="" border="0"><input type="text" size="12"  name="b_zip"><br><br></td>
+		</tr>
+		<tr>
+			<td><strong>Phone:</strong>   </td>
+			<td><input type="text" size="31" name="b_phone"><img src="images/spacer.gif" width="10" height="1" alt="" border="0"><strong>Fax:</strong><img src="images/spacer.gif" width="20" height="1" alt="" border="0"><input type="text" size="25" name="b_fax"></td>
+		</tr>
+		<tr>
+			<td><strong>Email:</strong>   </td>
+			<td><input type="text" size="70" name="b_email"> </td>
+		</tr>
+		<tr>
+			<td colspan="2"><img src="images/spacer.gif" width="1" height="5" alt="" border="0"></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td style="padding-left:0px; padding-right:0px;"><hr></td>
+</tr>
+<tr bgcolor="#E0E0E0">
+	<td class="blacktext"><font size="+1"><strong>Shipping Information (if different from billing - no P.O. Boxes):</strong></font><br><img src="images/spacer.gif" width="1" height="5" alt="" border="0"><br></td>
+</tr>
+<tr bgcolor="#E0E0E0">
+	<td>
+		<table width="510" border="0" cellspacing="0" cellpadding="0" class="blacktext">
+		<tr>
+			<td><strong>Name:</strong>    </td>
+			<td><input type="text" size="31" name="s_first"><img src="images/spacer.gif" width="7" height="1" alt="" border="0"><input type="text" size="34" name="s_last"></td>
+		</tr>
+		<tr>
+			<td><strong>Address:</strong> </td>
+			<td><input type="text" name="s_addr" size="70"> </td>
+		</tr>
+		<tr>
+			<td>         </td>
+			<td><input type="text" name="s_addr2" size="70"></td>
+		</tr>
+		<tr>
+			<td><strong>City:</strong>    <br><br></td>
+			<td><input type="text" size="31" name="s_city"><img src="images/spacer.gif" width="10" height="1" alt="" border="0"><strong>State:</strong><img src="images/spacer.gif" width="12" height="1" alt="" border="0"><input type="text" size="1"  name="s_state"><img src="images/spacer.gif" width="10" height="1" alt="" border="0"><strong>Zip:</strong><img src="images/spacer.gif" width="12" height="1" alt="" border="0"><input type="text" size="12"  name="s_zip"><br><br></td>
+		</tr>
+		<tr>
+			<td><strong>Phone:</strong>   </td>
+			<td><input type="text" size="31" name="s_phone"><img src="images/spacer.gif" width="10" height="1" alt="" border="0"><strong>Fax:</strong><img src="images/spacer.gif" width="20" height="1" alt="" border="0"><input type="text" size="25" name="s_fax"></td>
+		</tr>
+		<tr>
+			<td><strong>Email:</strong>   </td>
+			<td><input type="text" size="70" name="s_email"> </td>
+		</tr>
+		<tr>
+			<td colspan="2"><img src="images/spacer.gif" width="1" height="5" alt="" border="0"></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td style="padding-left:0px; padding-right:0px;"><hr></td>
+</tr>
+<tr bgcolor="#E0E0E0">
+	<td class="blacktext"><font size="+1"><strong>Complimentary Greeting Card Message:</strong></font><br><img src="images/spacer.gif" width="1" height="5" alt="" border="0"><br></td>
+</tr>
+<tr bgcolor="#E0E0E0">
+	<td>
+		<table width="510" border="0" cellspacing="0" cellpadding="0" class="blacktext">
+		<tr>
+			<td><TEXTAREA NAME="greeting" ROWS=6 COLS=60></TEXTAREA></td>
+		</tr>
+		<tr>
+			<td colspan="2"><img src="images/spacer.gif" width="1" height="5" alt="" border="0"></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td style="padding-left:0px; padding-right:0px;"><hr></td>
+</tr>
+<tr bgcolor="#E0E0E0">
+	<td class="blacktext"><font size="+1"><strong>Additional Comments/Special Instructions:</strong></font><br><img src="images/spacer.gif" width="1" height="5" alt="" border="0"><br></td>
+</tr>
+<tr bgcolor="#E0E0E0">
+	<td>
+		<table width="510" border="0" cellspacing="0" cellpadding="0" class="blacktext">
+		<tr>
+			<td><TEXTAREA NAME="comment" ROWS=6 COLS=60></TEXTAREA></td>
+		</tr>
+		<tr>
+			<td colspan="2"><img src="images/spacer.gif" width="1" height="5" alt="" border="0"></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td style="padding-left:0px; padding-right:0px;"><hr></td>
+</tr>
+<tr bgcolor="#E0E0E0">
+	<td class="blacktext"><font size="+1"><strong>Payment Information:</strong></font><br><img src="images/spacer.gif" width="1" height="5" alt="" border="0"><br></td>
+</tr>
+<tr bgcolor="#E0E0E0">
+	<td>
+		<table width="510" border="0" cellspacing="0" cellpadding="0" class="blacktext">
+		<tr>
+			<td><strong>Method:</strong>    </td>
+			<td><input type="radio" name="payment_type" value="Check" checked>&nbsp;<b>Check</b>&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="payment_type" value="MasterCard">&nbsp;<b>MasterCard</b>&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="payment_type" value="Visa">&nbsp;<b>Visa</b></td>
+		</tr>
+		<tr>
+			<td><strong>Name on Card:</strong> </td>
+			<td><input type="text" name="name_on_card" size="63"> </td>
+		</tr>
+		<tr>
+			<td><strong>Card#:</strong>        </td>
+			<td><input type="text" onKeyPress="return keyCheck(event, this)" name="card_number" size="63"></td>
+		</tr>
+		<tr>
+			<td><strong>Exp. Date:</strong>    </td>
+			<td><input type="text" onKeyPress="return keyCheck(event, this)" name="card_expiration" size="25"><img src="images/spacer.gif" width="11" height="1" alt="" border="0"><a href="javascript:SpawnChild('cardid.html','child','325','485','yes','40','40','40','40','0','0','0','0','0')"><strong><font color="#000000">Card ID (CVV):</font></strong></a><img src="images/spacer.gif" width="15" height="1" alt="" border="0"><input type="text" size="12" name="card_id"></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td style="padding-left:0px; padding-right:0px;"><hr></td>
+</tr>
+<tr>
+	<td align="center" class="blacktext"><input type=submit Value="Submit Order"> <INPUT type=RESET value="  Clear Form  "></form>    
+</td>
+</tr>
+</table>
+
+</body>
+</html>

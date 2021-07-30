@@ -1,0 +1,176 @@
+
+<html>
+	<head>
+		<title>Appraisal FAQ - Ascent Appraisal, Inc. - FAQ</title>
+		<META HTTP-EQUIV="Expires" CONTENT="-1">
+		<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+		<META NAME="keywords" CONTENT="home appraisal, house appraisal, real estate appraiser, real estate appraisal, property appraiser, home appraisers, property appraisal, residential appraisal, commercial appraisal, house appraisers, appraisal services, commercial real estate appraisal, NV appraisers, appraisal services, estate appraisals, real estate appraisal services">
+		<META NAME="description" CONTENT="We are a residential Real Estate and Business Appraisal company. This site contains information about our valuation services and general Real Estate and Appraisal information.">
+
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/themeScripts.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/flashobject.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/flashPopup.js"></SCRIPT>
+
+		<LINK rel="stylesheet" type="text/css" href="/Styles.css">
+		<LINK rel="stylesheet" type="text/css" href="/templates/themes/mountain/styleSheet.css">
+		
+	</head>
+
+	<body bgcolor="#FFFFFF" topmargin="0" leftmargin="0">
+			
+		<div id="flashPopupNavLeft" style="position:absolute; width:5px; height:5px; z-index:999; left: -200px; top: 200px; visibility: visible;" onMouseOver="stopTime();" onMouseOut="startTime();">
+			<!-- alt content goes here, renders when the user doesn't have the proper flash file -->
+		</div>
+			
+		<table id="flashNav" width="764" align="center" height="100%" border="0" cellpadding="0" cellspacing="10">
+			<tr> 
+				<td width="764" height="142" colspan="3" bgcolor="#FFFFFF">
+					<div id="topFlashNav"><!-- needs flash plugin --></div>
+				</td>
+			</tr>
+			<tr>
+				<td class="nav" width="160" valign="top" bgcolor="#FFFFFF">
+					<div id="leftFlashNav"><!-- needs flash plugin --></div>
+				</td>
+				
+				<script type="text/javascript">
+				
+					var dtDate = new Date();
+					var szPageGuid = dtDate.getUTCMilliseconds().toString();
+				
+					// <![CDATA[
+					var foTop = new FlashObject("/templates/themes/FamilyLight/TopNav.swf", "topNav", "764", "142", 7, "#FFFFFF", "/XSitesBasic/HTMLSite.aspx");
+					foTop.addVariable("host", "www.ascentnv.com");
+					foTop.addVariable("AWSAccountsID", "27120");
+					foTop.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foTop.addVariable("ChosenLanguage", "English");
+					foTop.addVariable("IsMaster", "True");
+					foTop.addVariable("lcGuid", szPageGuid);
+					foTop.addParam("wmode", "transparent");
+					foTop.addParam("scale", "noscale");
+					foTop.addParam("salign", "lt");
+					foTop.addParam("menu", "false");
+					foTop.write("topFlashNav");
+
+					var foSec = new FlashObject("/templates/themes/FamilyLight/LeftNav.swf", "leftNav", "160", "650", 7, "#FFFFFF");
+					foSec.addVariable("host", "www.ascentnv.com");
+					foSec.addVariable("AWSAccountsID", "27120");
+					foSec.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foSec.addVariable("ChosenLanguage", "English");
+					foSec.addVariable("lcGuid", szPageGuid);
+					foSec.addParam("scale", "noscale");
+					foSec.addParam("salign", "lt");
+					foSec.addParam("menu", "false");
+					foSec.write("leftFlashNav");
+					
+					var foDiv = new FlashObject("/templates/themes/nestedNav/style1.swf", "popupSwf", "200", "25", 7, "#FFFFFF");
+					foDiv.addVariable("host", "www.ascentnv.com");
+					foDiv.addVariable("AWSAccountsID", "27120");
+					foDiv.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foDiv.addVariable("ChosenLanguage", "English");
+					foDiv.addVariable("lcGuid", szPageGuid);
+					foDiv.addParam("scale", "noscale");
+					foDiv.addParam("salign", "lt");
+					foDiv.addParam("menu", "false");
+					foDiv.write("flashPopupNavLeft");
+					// ]]>
+				</script>
+				
+				<td width="604" valign="top" bgcolor="#FFFFFF">
+					<table border="0" cellpadding="0" cellspacing="0" width="100%">
+						<tr>
+							<td>
+<script language="JavaScript" type="text/JavaScript" src="/Admin/JS/WizardV1.js"></script>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+	<tr>
+		
+		
+		
+		<td>
+		</td>
+		
+	</tr>
+	<tr>
+		<td width="100%" valign=top colspan=7>
+			
+<SCRIPT TYPE="text/javascript" SRC="/scripts/flashobject_fp8.js"></SCRIPT>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+	<tr>
+		<td>
+			<!--<img src="/graphics/shim.gif" border="0" width="10" height="10">-->
+		</td>
+		<td width="100%" valign=top>
+			<A name=top></A><FONT face=Verdana size=-1><A href="#whatis"><B>What is an appraisal?</B></A><BR><A href="#whatdoes"><B>What does an appraiser do?</B></A><BR><A href="#whyneed"><B>Why would a person need a home appraisal?</B></A><BR><A href="#whatisdiff"><B>What is the difference between an appraisal and a home inspection?</B></A><BR><A href="#appAndCMA"><B>What is the difference between an Appraisal and a Comparative Market Analysis (CMA)?</A></B><BR><A href="#reportContain"><B>What does the appraisal report contain?</B></A><BR><A href="#assurance"><B>After completing the report, what assurance is there that the value indicated is valid?</B></A><BR><A href="#certified"><B>How are appraisers certified?</B></A><BR><A href="#workfor"><B>Who do appraisers work for?</B></A><BR><A href="#information"><B>Where does an appraiser get the information used to estimate value?</B></A><BR><A href="#professional"><B>Why do I need a professional appraisal?</B></A><BR><A href="#PMI"><B>What exactly is PMI and how can I get rid of it?</B></A><BR><A href="#getready"><B>How do I get ready for the appraiser?</B></A><BR><A href="#marketValue"><B>What is ''Market Value?''</B></A><BR><A href="#ownsReport"><B>Who Actually Owns the Appraisal Report?</B></A><BR><A href="#renovations"><B>Which home renovations add the most to the price?</B></A><BR><BR><BR><A name=whatis><B>What is an appraisal?</B></A>&nbsp;&nbsp;&nbsp;<A href="#top">Back to top</A><BR><BR>An appraisal is a thought process leading to an opinion of value. This opinion or estimate is arrived at through a formal process that typically uses the three ''common approaches to value''. They are the Cost Approach - which is what it would cost to replace the improvements, less physical deterioration and other factors, plus the land value. There is the Sales Comparison Approach - which involves making a comparison to other similar, nearby properties which have recently sold. The Sales Comparison Approach is normally the most accurate and best indicator of value for a residential property. The third approach is the Income Approach, which is of most importance in appraising income producing properties - it involves estimating what an investor would pay based on the income produced by the property. For a more detailed description of the appraisal process click here: <A href="javascript: whatIs();">What is an appraisal?</A><BR><BR><BR><A name=whatdoes><B>What does an appraiser do?</A>&nbsp;&nbsp;&nbsp;<A href="#top">Back to top</A></B><BR><BR>An appraiser provides a professional, unbiased opinion of market value, to be used in making real estate decisions. Appraisers present their formal analysis in appraisal reports.<BR><BR><BR><A name=whyneed><B>Why would a person need a home appraisal?</B></A>&nbsp;&nbsp;&nbsp;<A href="#top">Back to top</A><BR><BR>There are many reasons to obtain an appraisal with the most common reason being real estate and mortgage transactions. Other reasons for ordering an appraisal include:<BR>
+<LI>To obtain a loan.</LI><BR>
+<LI>To lower your tax burden.</LI><BR>
+<LI>To establish the replacement cost of insurance.</LI><BR>
+<LI>To contest high property taxes.</LI><BR>
+<LI>To settle an estate.</LI><BR>
+<LI>To provide a negotiating tool when purchasing real estate.</LI><BR>
+<LI>To determine a reasonable price when selling real estate.</LI><BR>
+<LI>To protect your rights in a condemnation case.</LI><BR>
+<LI>Because a government agency such as the IRS requires it.</LI><BR>
+<LI>If you are involved in a lawsuit.</LI><BR><BR>For more details on when you might need an appraisal click here: <A href="javascript: whenTo();">When to get an Appraisal</A><BR><BR><BR><B><A name=whatisdiff>What is the difference between an appraisal and a home inspection?</B></A>&nbsp;&nbsp;&nbsp;<A href="#top">Back to top</A><BR><BR>The appraiser is not a home inspector nor does he/she do a complete home inspection. An inspection is a third-party evaluation of the accessible structure and mechanical systems of a house, from the roof to the foundation. The standard home inspector's report will include an evaluation of the condition of the home's heating system, central air conditioning system (temperature permitting), interior plumbing and electrical systems; the roof, attic, and visible insulation; walls, ceilings, floors, windows and doors; the foundation, basement, and visible structure.<BR><BR><A name=appAndCMA><B>What is the difference between an Appraisal and a Comparative Market Analysis (CMA)?</B></A>&nbsp;&nbsp;&nbsp;<A href="#top">Back to top</A><BR><BR>Simply put, the difference is night and day. The CMA relies on vague market trends. The appraisal relies on specific, verifiable comparable sales. In addition, the appraisal looks at other factors like condition, location and construction costs. A CMA delivers a ''ball park figure.'' An appraisal delivers a defensible and carefully documented opinion of value.<BR><BR>But the biggest difference is the person creating the report. A CMA is created by a real estate agent who may or may not have a true grasp of the market or valuation concepts. The appraisal is created by a licensed, certified professional who has made a career out of valuing properties. Further, the appraiser is an independent voice, with no vested interest in the value of a home, unlike the real estate agent, whose income is tied to the value of the home.<BR><BR><BR><B><A name=reportContain>What does the appraisal report contain?</B></A>&nbsp;&nbsp;&nbsp;<A href="#top">Back to top</A><BR><BR>Each report must reflect a credible estimate of value and must identify the following:<BR>
+<LI>The client and other intended users.</LI><BR>
+<LI>The intended use of the report.</LI><BR>
+<LI>The purpose of the assignment.</LI><BR>
+<LI>The type of value reported and the definition of the value reported.</LI><BR>
+<LI>The effective date of the appraiser's opinions and conclusions.</LI><BR>
+<LI>Relevant property characteristics, including location attributes, physical attributes, legal attributes, economic attributes, the real property interest valued, and Non real estate items included in the appraisal, such as personal property, including trade fixtures and intangible items.</LI><BR>
+<LI>All known: easements, restrictions, encumbrances, leases, reservations, covenants, contracts, declarations, special assessments, ordinances, and other items of a similar nature.</LI><BR>
+<LI>Division of interest, such as fractional interest, physical segment and partial holding.</LI><BR>
+<LI>The scope of work used to complete the assignment.</LI><BR><BR>For a more detailed look at what goes into an appraisal report click here: <A href="javascript: sampleAppr();">Sample Appraisal Report</A><BR><BR><BR><A name=assurance><B>After completing the report, what assurance is there that the value indicated is valid?</B></A>&nbsp;&nbsp;&nbsp;<A href="#top">Back to top</A><BR><BR>In communicating an appraisal report, each appraiser must ensure the following:<BR>
+<LI>That the information analysis utilized in the appraisal was appropriate.</LI><BR>
+<LI>That significant errors of omission or commission were not committed individually or collectively.</LI><BR>
+<LI>That appraisal services were not rendered in a careless or negligent manner.</LI><BR>
+<LI>That a credible, supportable appraisal report was communicated.</LI><BR><BR>Most states require that real estate appraisers are state licensed or certified. The state licensed or certified appraiser is trained to render an unbiased opinion based upon extensive education and experience requirements. To become licensed or certified, appraisers must fulfill rigorous education and experience requirements. In addition, appraisers must abide by a strict industry code of ethics and comply with national standards of practice for real estate appraisal. The rules for developing an appraisal and reporting its results are insured by enforcement of the Uniform Standards of Professional Appraisal Practice (USPAP).<BR><BR><BR><A name=certified><B>How are appraisers certified?</B></A>&nbsp;&nbsp;&nbsp;<A href="#top">Back to top</A><BR><BR>Regulations regarding licensing and certification of Real Estate Appraisers vary from state to state. However, licensing and certification is most often associated with many hours of coursework, tests and practical experience. Once an appraiser is licensed, he or she is required to take continuing education courses in order to keep the license current. To see the specific requirements for any state <A href="javascript: requirements();">click here</A>.<BR><BR><BR><A name=workfor><B>Who do appraisers work for?</B></A>&nbsp;&nbsp;&nbsp;<A href="#top">Back to top</A><BR><BR>Typically, appraisers are employed by lenders to estimate the value of real estate involved in a loan transaction. Appraisers also provide opinions in litigation cases, tax matters and investment decisions.<BR><BR><BR><A name=information><B>Where does an appraiser get the information used to estimate value?</B></A>&nbsp;&nbsp;&nbsp;<A href="#top">Back to top</A><BR><BR>Gathering data is one of the primary roles of an appraiser. Data can be divided into Specific and General. Specific data is gathered from the home itself. Location, condition, amenities, size and other specific data are gathered by the appraiser during an inspection.<BR><BR>General data is gathered from a number of sources. Local Multiple Listing Services (MLS) provide data on recently sold homes that might be used as comparables. Tax records and other public documents verify actual sales prices in a market. Flood zone data is gathered from FEMA data outlets, such as a la mode's InterFlood product. And most importantly, the appraiser gathers general data from his or her past experience in creating appraisals for other properties in the same market.<BR><BR><BR><A name=professional><B>Why do I need a professional appraisal?</B></A>&nbsp;&nbsp;&nbsp;<A href="#top">Back to top</A><BR><BR>Anytime the value of your home or other real property is being used to make a significant financial decision, an appraisal helps. If you're selling your home, an appraisal helps you set the most appropriate value. If you're buying, it makes sure you don't overpay. If you're engaged in an estate settlement or divorce, it ensures that property is divided fairly. A home is often the single, largest financial asset anybody owns. Knowing its true value means you can the right financial decisions.<BR><BR><BR><A name=PMI><B>What exactly is PMI and how can I get rid of it?</B></A>&nbsp;&nbsp;&nbsp;<A href="#top">Back to top</A><BR><BR>PMI stands for Private Mortgage Insurance. It insures a lender against loss on homes purchased with a down-payment of less than 20%. Once equity in the home reaches 20% you can eliminate the PMI and start saving immediately. For a detailed discussion of PMI and how to get rid of it click here: <A href="javascript: PMI();">What is PMI and how to get rid of it</A><BR><BR><BR><A name=getready><B>How do I get ready for the appraiser?</B></A>&nbsp;&nbsp;&nbsp;<A href="#top">Back to top</A><BR><BR>The first step in most appraisals is the home inspection. During this process, the appraiser will come to your home and measure it, determine the layout of the rooms inside, confirm all aspects of the home's general condition, and take several photos of your house for inclusion in the report. The best thing you can do to help is make sure the appraiser has easy access to the exterior of the house. Trim any bushes and move any items that would make it difficult to measure the structure. On the inside, make sure that the appraiser can easily access items like furnaces and water heaters.<BR><BR>The following Items, if available, will help your appraiser to provide a more accurate appraisal in a shorter period of time:<BR>
+<LI>A survey of the house and property.</LI><BR>
+<LI>A deed or title report showing the legal description.</LI><BR>
+<LI>A recent tax bill.</LI><BR>
+<LI>A list of personal property to be sold with the house if applicable.</LI><BR>
+<LI>A copy of the original plans.</LI><BR><BR><BR><A name=marketValue><B>What is ''Market Value?''</B></A>&nbsp;&nbsp;&nbsp;<A href="#top">Back to top</A><BR><BR>Market value or fair market value is the most probable price that a property should bring (will sell for) in a competitive and open market under all conditions requisite to a fair sale, the buyer and seller, each acting prudently, knowledgeably and assuming the price is not affected by undue stimulus. Implicit in this definition is the consummation of a sale as of a specified date and the passing of title from seller to buyer under conditions whereby: (1) buyer and seller are typically motivated; (2) both parties are well informed or well advised; (3) a reasonable time is allowed for exposure to the open market; (4) payment is made in terms of cash in U.S. dollars or in terms of financial arrangements comparable thereto; and (5) the price represents the normal consideration for the property sold unaffected by special or creative financing or sales concessions granted by anyone associated with the sale.<BR><BR><BR><A name=ownsReport><B>Who Actually Owns the Appraisal Report?</B></A>&nbsp;&nbsp;&nbsp;<A href="#top">Back to top</A><BR><BR>In most real estate transactions, the appraisal is ordered by the lender. While the home buyer pays for the report as part of the closing costs, the lender retains the right to use the report or any information contained within. The home buyer is entitled to a copy of the report - it's usually included with all of the other closing documents - but is not entitled to use the report for any other purpose without permission from the lender.<BR><BR>The exception to this rule is when a home owner engages an appraiser directly. In these cases, the appraiser may stipulate how the appraisal can be used; for PMI removal, or estate planning or tax challenges, for example. If not stipulated otherwise, the home owner can use the appraisal for any purpose.<BR><BR><BR><A name=renovations><B>Which home renovations add the most to the price?</B></A>&nbsp;&nbsp;&nbsp;<A href="#top">Back to top</A><BR><BR>The answer to this is different depending upon the location of the home. Different markets value amenities differently. Adding a central air conditioner in Houston, Texas may add significant value, while putting one in a home located in Buffalo, New York might not have much impact.<BR><BR>As a rule, the most value returned from renovating a home comes in the kitchen. According to one national survey, kitchen remodels returned an average of 88% of the investment. In other words, a $10,000 kitchen remodeling project would add approximately $8,800 to the value of the home. Bathrooms were second, returning 85%.</FONT>
+			
+		</td>
+		
+		<td>
+			<!--<img src="/graphics/shim.gif" border="0" width="10" height="10">-->
+		</td>
+		
+	</tr>
+</table>
+<!--<div id="FormsLayer" style="position:absolute; width:368px; height:178; z-index:2; left: 0; top: 0; visibility: visible;"></div>-->
+			
+		</td>
+	</tr>
+</table>
+<div align=center class=tableText>6120 Shelter Creek Avenue  Las Vegas, NV 89110<br><nobr>Phone: (702) 641-5657</nobr> <nobr>Fax: (702) 641-7944</nobr> <nobr><script language=javascript> var username = 'contact'; var hostname = 'ascentnv.com'; document.write('<nobr>E-mail: <a href=mail' + 'to:' + username + '@' + hostname + '>' + username + '@' + hostname + '</a>');</script><p><a href="/W-9/License/EO"><nobr>W-9 / License / E&O</nobr></a> | <a href="/CodeofEthics"><nobr>Code of Ethics</nobr></a> | <a href="/AppraisalReviews"><nobr>Appraisal Reviews</nobr></a> | <a href="/DateofDeathValuations"><nobr>Date of Death Valuations</nobr></a> | <a href="/Appraiserethics"><nobr>Appraiser ethics</nobr></a> | <a href="/Threeapproachestovalue"><nobr>Three approaches to value</nobr></a> | <a href="/WhatisUSPAP"><nobr>What is USPAP?</nobr></a> | <a href="/Pre-ListingAppraisals"><nobr>Pre-Listing Appraisals</nobr></a> | <a href="/RelocationAppraisal"><nobr>Relocation Appraisal</nobr></a> | <a href="/15vs30YearMtgCalc"><nobr>15 vs 30 Year Mtg Calc</nobr></a> | <a href="/RefiBreakevenCalc"><nobr>Refi Breakeven Calc</nobr></a> | <a href="/MortgageFraud"><nobr>Mortgage Fraud</nobr></a> | <a href="/ResidentialInvestment"><nobr>Residential Investment</nobr></a> | <a href="/OurTechnology"><nobr>Our Technology</nobr></a> | <a href="/OrderanAppraisal"><nobr>Order an Appraisal</nobr></a> | <a href="/ClientLogin"><nobr>Client Login</nobr></a> | <a href="/TellaFriend"><nobr>Tell a Friend</nobr></a> | <a href="/DownloadAdobeAcrobat"><nobr>Download Adobe Acrobat</nobr></a> | <a href="/Services"><nobr>Services</nobr></a> | <a href="/ContactUs"><nobr>Contact Us</nobr></a> | <a href="/WhatisanAppraisal"><nobr>What is an Appraisal</nobr></a> | <a href="/WhygetanAppraisal"><nobr>Why get an Appraisal</nobr></a> | <a href="/AboutPMI"><nobr>About PMI</nobr></a> | <a href="/FAQ"><nobr>FAQ</nobr></a> | <a href="/GlossaryofTerms"><nobr>Glossary of Terms</nobr></a> | <a href="/RealEstateNews"><nobr>Real Estate News</nobr></a> | <a href="/ExpertWitness"><nobr>Expert Witness</nobr></a> | <a href="/DivorceAppraisals"><nobr>Divorce Appraisals</nobr></a> | <a href="/EstateAppraisals"><nobr>Estate Appraisals</nobr></a> | <a href="/AppraisalMyths"><nobr>Appraisal Myths</nobr></a> | <a href="/ForBuyers"><nobr>For Buyers</nobr></a> | <a href="/HomeSellerServices"><nobr>Home Seller Services</nobr></a> | <a href="/ForHomeowners"><nobr>For Homeowners</nobr></a> | <a href="/HowtoPrepare"><nobr>How to Prepare</nobr></a> | <a href="/PressRelease"><nobr>Press Release</nobr></a><p>Copyright &copy; 2006&nbsp;Ascent Appraisal, Inc.<br>Portions Copyright &copy; 2006 a la mode, inc.<br>Another XSite by <a href='http://www.alamode.com/' target='_blank'>a la mode, inc.</a>&nbsp;|&nbsp;<a href='https://ascentnv.appraiserxsites.com/apps/alamodelogin/login.aspx' target='_new'>Admin Login</a>|&nbsp;<a href='/TermsOfUse'>Terms of Use</a></div>
+
+
+
+	</td>
+	</tr>
+	</table>
+	<table width="95%" border="0" cellspacing="1" cellpadding="10">
+		<tr>
+			<td><br></td>
+		</tr>
+		<tr> 
+			<td>
+				<div align="center" class="tableText"><br>
+					<table border="0" cellpadding="0" cellspacing="0" width="95%">
+						<tr>
+							<td>
+								
+							</td>
+						</tr>
+					</table>
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

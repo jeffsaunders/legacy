@@ -1,0 +1,47 @@
+mysql> select * from corppartners;
++-----------------------------------+-----------+------+
+| company_name                      | level     | url  |
++-----------------------------------+-----------+------+
+| A & A Asphalt                     | Supporter | NULL |
+| A-Able Tree Service               | Supporter | NULL |
+| Ahern Rental                      | Supporter | NULL |
+| Anderson Dairy                    | Supporter | NULL |
+| B & D Plastering                  | Supporter | NULL |
+| California Portland Cement        | Supporter | NULL |
+| Collin Color                      | Supporter | NULL |
+| Custom Teleconnect                | Supporter | NULL |
+| Danielle's                        | Supporter | NULL |
+| Davis Concrete                    | Supporter | NULL |
+| Dennis Cox                        | Supporter | NULL |
+| Green Valley Pools                | Supporter | NULL |
+| Jerico Trucking & Equipment       | Supporter | NULL |
+| Kubota & Associates               | Supporter | NULL |
+| KVBC Channel 3                    | Supporter | NULL |
+| Las Vegas Paving                  | Supporter | NULL |
+| Letizia Ad Team                   | Supporter | NULL |
+| McNeilus Financial                | Supporter | NULL |
+| Mediversal, Inc.                  | Supporter | NULL |
+| P & S Metals                      | Supporter | NULL |
+| Par 3                             | Supporter | NULL |
+| Par 5 Enterprises                 | Supporter | NULL |
+| Patrick Signs                     | Supporter | NULL |
+| Plant World Nursery               | Supporter | NULL |
+| Precast Concrete Company          | Supporter | NULL |
+| R & K Concrete Cutting            | Supporter | NULL |
+| R. Garn Mabey, MD                 | Supporter | NULL |
+| Riverside Cement                  | Supporter | NULL |
+| Riviera Employees Foundation      | Supporter | NULL |
+| SCP Pool Corporation              | Supporter | NULL |
+| Sierra Ready Mix                  | Supporter | NULL |
+| Silver State Materials            | Supporter | NULL |
+| Sunburst Shutters                 | Supporter | NULL |
+| Sunrise Hospital Auxilary         | Supporter | NULL |
+| Tate, Snyder & Kimsey             | Supporter | NULL |
+| Tiberti Fence Company             | Supporter | NULL |
+| U.S. Food Service                 | Supporter | NULL |
+| Von Tobel Foundation              | Supporter | NULL |
+| Desert Springs Pools & Spas, Inc. | Associate | NULL |
+| Novartis Pharmaceuticals          | Associate | NULL |
++-----------------------------------+-----------+------+
+40 rows in set (0.00 sec)
+

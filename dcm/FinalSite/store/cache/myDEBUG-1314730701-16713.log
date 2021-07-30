@@ -1,0 +1,1 @@
+[30-Aug-2011 13:58:21] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Unknown modifier 'H' in /home/dcmclean/public_html/store/includes/modules/pages/popup_image/header_php.php on line 41

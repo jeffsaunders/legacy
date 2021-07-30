@@ -1,0 +1,240 @@
+<!-- BEGIN Include home.php -->
+
+<!-- <h#> tags found throughout are for SEO -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<!-- First row of promo boxes -->
+<tr>
+	<td valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+		<?
+		// Build list of 3 featured products for the first row
+		$result = mysql_query("SELECT * FROM phones WHERE display = 'F' ORDER BY rand() LIMIT 3", $linkID);
+
+		// Found some! (more than NONE)
+		if ($result){
+			for ($counter=1; $counter <= mysql_num_rows($result); $counter++){
+				$row = mysql_fetch_assoc($result);
+				echo'
+			<td><img src="images/spacer.gif" alt="" width="12" height="1" border="0"></td>
+			<td width="300">
+				<table width="300" border="0" cellspacing="0" cellpadding="0" align="center">
+				<tr>
+					<h1><td height="24" background="images/TabTop.gif" class="bodyWhite"><strong>&nbsp;&nbsp;'.$row["manufacturer"].'&nbsp;'.$row["model"].'</strong></td></h1>
+				</tr>
+				<tr>
+					<td background="images/TabBG.gif">
+						<table width="280" border="0" cellspacing="0" cellpadding="0" align="center">
+						<tr>
+							<td><img src="images/spacer.gif" alt="" width="1" height="210" border="0"></td>
+							<td width="100">
+								<a href="?sec=details&prod='.$row["product_id"].'">
+								<img src="images/phones/'.$row["image"].'" alt="'.$row["manufacturer"].'&nbsp;'.$row["model"].'" width="100" height="200" border="0">
+								</a>
+							</td>
+							<td width="10"><img src="images/spacer.gif" alt="" width="5" height="1" border="0"></td>
+							<td valign="top">
+								<br>
+								<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+								<tr>
+									<h1><td align="center" valign="top" class="xbigBlack">
+										<nobr><strong>'.$row["manufacturer"].'&nbsp;'.$row["model"].'</strong></nobr>
+									</td></h1>
+								</tr>
+								<tr>
+									<td align="center" valign="top" class="bigBlack">
+										'.$row["tagline"].'<br><img src="images/spacer.gif" alt="" width="1" height="10" border="0"><br>
+									</td>
+								</tr>
+								<tr>
+									<td width="100%" height="1" bgcolor="#000000">
+										<img src="images/spacer.gif" alt="" width="180" height="1" border="0"><br>
+									</td>
+								</tr>
+								<tr>
+									<td valign="top" class="smallBlack">
+									<img src="images/spacer.gif" alt="" width="1" height="10" border="0"><br>
+									<li>'.$row["bullet1"].'
+									<li>'.$row["bullet2"].'
+									<li>'.$row["bullet3"].'
+									<br><img src="images/spacer.gif" alt="" width="1" height="10" border="0"><br>
+									</td>
+								</tr>
+								<tr>
+									<td width="100%" height="1" bgcolor="#000000">
+										<img src="images/spacer.gif" alt="" width="180" height="1" border="0"><br>
+									</td>
+								</tr>
+								<tr>
+									<td align="center" valign="top" class="bigBlack">
+										<img src="images/spacer.gif" alt="" width="1" height="10" border="0"><br>
+										<nobr><strong>'.$row["hookline"].'</strong></nobr><br>
+										<img src="images/spacer.gif" alt="" width="1" height="10" border="0"><br>
+									</td>
+								</tr>
+								<tr>
+									<td align="center">
+										<a href="?sec=details&prod='.$row["product_id"].'"><img src="images/TellMeMore.gif" alt="Tell me more about the '.$row["manufacturer"].'&nbsp;'.$row["model"].'" width="125" height="25" border="0"></a><br>
+									</td>
+								</tr>
+								</table>
+							</td>
+						</tr>						
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td bgcolor="#E20074"><img src="images/spacer.gif" alt="" width="100%" height="2" border="0"></td>
+				</tr>
+				</table>
+			</td>
+				';
+			};
+			if (($counter-1)%3!=0){ // Row not full
+				if (fmod($counter, 3)==0){ //Only 2 products on this row
+					echo'
+			<td><img src="images/spacer.gif" alt="" width="312" height="1" border="0"></td>
+					';
+				};
+				if (fmod($counter, 2)==0){ //Only 1 product on this row
+					echo'
+			<td><img src="images/spacer.gif" alt="" width="624" height="1" border="0"></td>
+					';
+				};
+			};
+		};
+		?>
+			<td><img src="images/spacer.gif" alt="" width="12" height="1" border="0"></td>
+		</tr>		
+		</table>	
+	</td>
+</tr>
+<tr>
+	<td><img src="images/spacer.gif" alt="" width="1" height="10" border="0"></td>
+</tr>
+<!-- Second & third rows of promo boxes -->
+<tr>
+	<td valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+		<?
+		// Build list of 6 non-featured products for the second & third rows
+		$result = mysql_query("SELECT * FROM phones WHERE display = 'P' ORDER BY rand() LIMIT 6", $linkID);
+
+		// Found some! (more than NONE)
+		if ($result){
+			for ($counter=1; $counter <= mysql_num_rows($result); $counter++){
+				$row = mysql_fetch_assoc($result);
+				echo'
+			<td><img src="images/spacer.gif" alt="" width="12" height="1" border="0"></td>
+			<td width="300">
+				<table width="300" border="0" cellspacing="0" cellpadding="0" align="center">
+				<tr>
+					<h1><td height="24" background="images/TabTop.gif" class="bodyWhite"><strong>&nbsp;&nbsp;'.$row["manufacturer"].'&nbsp;'.$row["model"].'</strong></td></h1>
+				</tr>
+				<tr>
+					<td background="images/TabBG.gif">
+						<table width="280" border="0" cellspacing="0" cellpadding="0" align="center">
+						<tr>
+							<td><img src="images/spacer.gif" alt="" width="1" height="210" border="0"></td>
+							<td width="100">
+								<a href="?sec=details&prod='.$row["product_id"].'">
+								<img src="images/phones/'.$row["image"].'" alt="'.$row["manufacturer"].'&nbsp;'.$row["model"].'" width="100" height="200" border="0">
+								</a>
+							</td>
+							<td width="10"><img src="images/spacer.gif" alt="" width="5" height="1" border="0"></td>
+							<td valign="top">
+								<br>
+								<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+								<tr>
+									<h1><td align="center" valign="top" class="xbigBlack">
+										<nobr><strong>'.$row["manufacturer"].'&nbsp;'.$row["model"].'</strong></nobr>
+									</td></h1>
+								</tr>
+								<tr>
+									<td align="center" valign="top" class="bigBlack">
+										'.$row["tagline"].'<br><img src="images/spacer.gif" alt="" width="1" height="10" border="0"><br>
+									</td>
+								</tr>
+								<tr>
+									<td width="100%" height="1" bgcolor="#000000">
+										<img src="images/spacer.gif" alt="" width="180" height="1" border="0"><br>
+									</td>
+								</tr>
+								<tr>
+									<td valign="top" class="smallBlack">
+									<img src="images/spacer.gif" alt="" width="1" height="10" border="0"><br>
+									<li>'.$row["bullet1"].'
+									<li>'.$row["bullet2"].'
+									<li>'.$row["bullet3"].'
+									<br><img src="images/spacer.gif" alt="" width="1" height="10" border="0"><br>
+									</td>
+								</tr>
+								<tr>
+									<td width="100%" height="1" bgcolor="#000000">
+										<img src="images/spacer.gif" alt="" width="180" height="1" border="0"><br>
+									</td>
+								</tr>
+								<tr>
+									<td align="center" valign="top" class="bigBlack">
+										<img src="images/spacer.gif" alt="" width="1" height="10" border="0"><br>
+										<nobr><strong>'.$row["hookline"].'</strong></nobr><br>
+										<img src="images/spacer.gif" alt="" width="1" height="10" border="0"><br>
+									</td>
+								</tr>
+								<tr>
+									<td align="center">
+										<a href="?sec=details&prod='.$row["product_id"].'"><img src="images/TellMeMore.gif" alt="Tell me more about the '.$row["manufacturer"].'&nbsp;'.$row["model"].'" width="125" height="25" border="0"></a><br>
+									</td>
+								</tr>
+								</table>
+							</td>
+						</tr>						
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td bgcolor="#E20074"><img src="images/spacer.gif" alt="" width="100%" height="2" border="0"></td>
+				</tr>
+				</table>
+			</td>
+				';
+				if (($counter==3) && ($counter < mysql_num_rows($result))){ // First row is full, make second row
+					echo'
+			<td><img src="images/spacer.gif" alt="" width="12" height="1" border="0"></td>
+		</tr>		
+		</table>	
+	</td>
+</tr>
+<tr>
+	<td><img src="images/spacer.gif" alt="" width="1" height="10" border="0"></td>
+</tr>
+<!-- Third row of promo boxes -->
+<tr>
+	<td valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+					';
+				};
+			};
+			if (($counter-1)%3!=0){ // Row not full
+				if ((fmod($counter, 3)==0) || (fmod($counter, 6)==0)){ //Only 2 products on this row
+					echo'
+			<td><img src="images/spacer.gif" alt="" width="312" height="1" border="0"></td>
+					';
+				}else{ //Only 1 product on this row
+					echo'
+			<td><img src="images/spacer.gif" alt="" width="624" height="1" border="0"></td>
+					';
+				};
+			};
+		};
+		?>
+			<td><img src="images/spacer.gif" alt="" width="12" height="1" border="0"></td>
+		</tr>		
+		</table>	
+	</td>
+</tr>
+</table>
+
+<!-- END Include home.php -->

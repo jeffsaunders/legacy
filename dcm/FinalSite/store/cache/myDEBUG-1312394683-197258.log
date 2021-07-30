@@ -1,0 +1,1 @@
+[03-Aug-2011 13:04:43] PHP Catchable fatal error:  Object of class shoppingCart could not be converted to string in /var/www/clients/client3/web1/web/sandbox/dcm/store/includes/templates/dcmcleanair/common/html_header.php on line 40

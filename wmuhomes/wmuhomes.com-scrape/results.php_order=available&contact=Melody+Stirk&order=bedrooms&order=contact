@@ -1,0 +1,243 @@
+ 
+
+<html>
+ <title>wmuhomes.com - 6 homes found</title>
+ <body bgcolor="#ffffff">
+ 
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-158337-3");
+pageTracker._trackPageview();
+} catch(err) {}</script> 
+ 
+<link rel="stylesheet" href="wmuhomes.css" type="text/css">
+<center>
+<table border="0" cellpadding="0" cellspacing="0" width="85%">
+ <tr>
+	<td width="100%">
+	 <a href="/"><img src="images/logo.gif" height="62" width="233" border="0"></a>
+    </td>
+
+    <td width=15>
+     <img src="images/blank.gif" width="15">
+    </td>
+    
+    <td valign="bottom">
+     <!--- <img src="images/toolbar.gif" width="281" height="15" border="0"> --->
+    </td>
+ </tr>
+ 
+ <tr>
+ 	<td height='15' colspan='3'>
+     <img src="blank.gif" height="15">
+ 	</td>
+ </tr>
+ 
+ <tr>
+  	<td colspan='3'>
+  	
+  		<!--- Being Results --->						
+				<a href="/"><IMG SRC="http://www.macupdate.com/images/back_arrow.gif" WIDTH="7" HEIGHT="9" BORDER="0"></a>&nbsp;
+				<a href="/" class="column">Search Again</a> &nbsp;
+
+
+  			<table border='0' cellpadding='3' cellspacing='0' width='100%'>
+  			 <tr>
+  			  <td bgcolor='cccccc' colspan='7'>
+  			  	Search Results: 6 listings found
+  			  </td>
+  			 </tr>
+ 
+ <tr align='left' bgcolor='ffffff'>
+  			  <td>
+  			   &nbsp;
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=Melody+Stirk&order=bedrooms&order=contact&order=street' class='column'><b>Street</b></a>
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=Melody+Stirk&order=bedrooms&order=contact&order=rent' class='column'><b>Rent</b></a>
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=Melody+Stirk&order=bedrooms&order=contact&order=bedrooms' class='column'><b>Bedrooms</b></a>
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=Melody+Stirk&order=bedrooms&order=contact&order=utilities' class='column'><b>Util Incl.</b></a>
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=Melody+Stirk&order=bedrooms&order=contact&order=available' class='column'><b>Available</b></a>
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=Melody+Stirk&order=bedrooms&order=contact&order=contact' class='column'><b>Contact</b></a>
+  			  </td>
+  			 </tr>
+			 <tr align='left' bgcolor='#eeeeee'>
+			  <td>
+				 <a href='info.php?id=1671'><img src='images/uploads/1671_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1671' class='street'>828 W Walnut St  </a><br>
+				<span class=description>Beautiful old woodwork, off-street parking, washer/dryer.</span>
+			  </td>
+			  <td>
+				<span class=description>$1100</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;No</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Melody Stirk</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#ffffff'>
+			  <td>
+				 <a href='info.php?id=1731'><img src='images/uploads/1731_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1731' class='street'>736 Wheaton Ave  </a><br>
+				<span class=description>Large kitchen, jet tub, beautiful wood floors and trim.</span>
+			  </td>
+			  <td>
+				<span class=description>$1800</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;No</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Melody Stirk</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#eeeeee'>
+			  <td>
+				 <a href='info.php?id=1732'><img src='images/uploads/1732_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1732' class='street'>711 Wheaton Ave  </a><br>
+				<span class=description>Large rooms, wood floors, washer/dryer.</span>
+			  </td>
+			  <td>
+				<span class=description>$1800</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;No</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Melody Stirk</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#ffffff'>
+			  <td>
+				 <a href='info.php?id=1733'><img src='images/uploads/1733_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1733' class='street'>754 Academy St  </a><br>
+				<span class=description>2 kitchens, large balcony, big rooms with hardwood floors.</span>
+			  </td>
+			  <td>
+				<span class=description>$1800</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;No</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Melody Stirk</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#eeeeee'>
+			  <td>
+				 <a href='info.php?id=1734'><img src='images/uploads/1734_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1734' class='street'>722 Wheaton  </a><br>
+				<span class=description>2 living rooms, 2-car garage, washer/dryer.</span>
+			  </td>
+			  <td>
+				<span class=description>$1400</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;No</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Melody Stirk</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#ffffff'>
+			  <td>
+				 <a href='info.php?id=1735'><img src='images/uploads/1735_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1735' class='street'>731 Wheaton St  </a><br>
+				<span class=description>3-story, front porch, decorative fireplace, 2 living rooms.</span>
+			  </td>
+			  <td>
+				<span class=description>$1800</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;No</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Melody Stirk</span>
+			  </td>
+			 </tr>
+			 	 
+     		 <tr align='left' bgcolor='cccccc'>
+  			  <td colspan='7' align='center'>
+ 1  			  </td>
+  			 </tr>			 
+  			</table><br>
+  			<a href="/add2.php" class="street">Add a Listing</a>		
+  		<!--- End Results --->
+  	
+  	</td>
+ </tr>
+ 
+</table>
+</center>
+
+</body>
+</html>

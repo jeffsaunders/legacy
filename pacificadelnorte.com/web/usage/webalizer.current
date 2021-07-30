@@ -1,0 +1,604 @@
+# Webalizer V2.01-10 Incremental Data - 03/12/2006 02:45:16
+2006 3 12 2 45 16
+3057 1204 51 126 15 21 33723055 3057 123 0
+3 198 354 1 12
+78 56 1684949 7 78 9
+100 97 2378264 8 100 10
+18 12 284573 9 18 12
+47 37 936161 6 47 11
+114 87 2404570 5 114 8
+63 51 975657 6 63 7
+4 2 49140 4 4 4
+105 81 1558845 7 105 10
+15 14 201053 6 15 6
+60 49 721144 8 60 10
+2079 618 19498206 6 2079 25
+374 100 3030493 3 374 11
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+31 22 379907 31
+151 59 2177866 151
+202 26 630370 202
+10 6 148274 10
+7 4 93956 7
+21 18 527733 21
+6 4 95199 6
+14 3 55616 14
+25 14 404579 25
+177 89 1798968 177
+135 108 2402444 135
+224 96 2119855 224
+454 133 3869181 454
+114 29 785670 114
+35 5 151063 35
+272 86 1948097 272
+289 90 2205427 289
+15 15 445122 15
+1 0 1062 1
+117 34 1014153 117
+109 68 4008875 109
+203 115 2627717 203
+352 100 2788524 352
+93 80 3043397 93
+1
+0
+0
+1204
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+1674
+0
+0
+0
+0
+0
+0
+175
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/images/properties/oceanas-floorplan.jpg
+0 26 0 287763 0 0
+/images/properties/finca-de-alsides-(1).jpg
+0 4 0 181124 1 0
+/
+0 555 0 13278556 68 20
+/images/properties/playa-hermosa-3-hectareas-(6).jpg
+0 6 0 145052 0 0
+/images/properties/finca-de-alsides-(11).jpg
+0 3 0 55053 0 0
+/images/properties/playa-hermosa-3-hectareas-(12).jpg
+0 6 0 79352 0 0
+/images/properties/oceanas-(2)-th.jpg
+0 19 0 57563 0 1
+/images/realplayer_logo.gif
+0 2 0 3115 0 1
+/images/properties/oceanas-(7).jpg
+0 25 0 241213 0 1
+/images/animals.jpg
+0 22 0 20652 0 0
+/images/properties/finca-de-alsides-(2).jpg
+0 4 0 170400 0 1
+/images/projector.gif
+0 51 0 7596 0 1
+/images/properties/playa-hermosa-3-hectareas-(7).jpg
+0 6 0 146092 0 0
+/images/properties/finca-de-alsides-(12).jpg
+0 3 0 47808 0 1
+/images/properties/vista-a-los-suenos-(1).jpg
+0 34 0 437163 0 0
+/images/properties/playa-hermosa-3-hectareas-(13).jpg
+0 5 0 98253 0 0
+/images/headerbg.jpg
+0 124 0 342162 1 0
+/images/properties/oceanas-(8).jpg
+0 25 0 238714 0 0
+/images/properties/vista-a-los-suenos-(4)-th2.jpg
+0 3 0 9532 0 0
+/images/properties/finca-de-alsides-(3).jpg
+0 4 0 282832 0 0
+/images/properties/oceanas-(1)-th.jpg
+0 18 0 119119 0 0
+/images/noimage.jpg
+0 5 0 3711 0 2
+/images/properties/linda-vista-(10).jpg
+0 1 0 53984 0 0
+/images/properties/playa-hermosa-3-hectareas-(8).jpg
+0 6 0 247452 0 0
+/images/properties/finca-de-alsides-(13).jpg
+0 3 0 44835 0 0
+/images/properties/vista-a-los-suenos-(2).jpg
+0 31 0 290090 1 0
+/images/properties/playa-hermosa-3-hectareas-(14).jpg
+0 6 0 142740 0 0
+/plugintest.js
+0 9 0 34110 0 1
+/images/properties/oceanas-(9).jpg
+0 25 0 160746 0 0
+/images/volcano-parrot.jpg
+0 5 778986855 18566 0 0
+/images/properties/finca-de-alsides-(4).jpg
+0 4 0 125504 0 0
+/images/properties/linda-vista-(1).jpg
+0 3 0 72807 1 0
+/images/properties/lomas-de-jaco-(1).jpg
+0 1 0 54866 1 0
+/images/properties/linda-vista-(11).jpg
+0 1 0 43061 0 0
+/images/properties/playa-hermosa-3-hectareas-(9).jpg
+0 6 0 94384 0 0
+/images/properties/finca-de-alsides-(14).jpg
+0 3 0 49407 0 0
+/images/properties/vista-a-los-suenos-(3).jpg
+0 28 0 172120 0 0
+/images/properties/vista-a-los-suenos-(6)-th.jpg
+0 4 0 14688 0 0
+/images/properties/playa-hermosa-3-hectareas-(15).jpg
+0 6 0 129572 0 0
+/images/properties/vista-a-los-suenos-(5)-th2.jpg
+0 3 0 4740 0 0
+/images/properties/playa-hermosa-3-hectareas-(20).jpg
+0 6 0 146108 0 0
+/images/properties/finca-de-alsides-(5).jpg
+0 4 0 147528 0 0
+/images/properties/linda-vista-(2).jpg
+0 3 0 75156 1 0
+/images/spacer.gif
+0 209 0 1474 0 2
+/images/properties/lomas-de-jaco-(2).jpg
+0 1 0 24948 0 1
+/images/watermark.jpg
+0 195 0 957253 3 3
+/images/properties/linda-vista-(12).jpg
+0 1 0 35314 0 0
+/images/herradura.jpg
+0 5 1953508915 18412 0 1
+/images/properties/finca-de-alsides-(15).jpg
+0 3 0 70302 0 0
+/images/properties/oceanas-(10).jpg
+0 24 0 229558 0 0
+/images/properties/vista-a-los-suenos-(4).jpg
+0 26 0 192980 0 0
+/images/properties/playa-hermosa-3-hectareas-(16).jpg
+0 6 0 97344 0 0
+/images/properties/linda-vista-(10)-th.jpg
+0 17 0 89804 0 0
+/images/properties/playa-hermosa-3-hectareas-(21).jpg
+0 6 0 117332 0 0
+/images/properties/finca-de-alsides-(6).jpg
+0 4 0 98276 0 0
+/images/properties/linda-vista-(3).jpg
+0 3 0 123576 0 0
+/images/properties/lomas-de-jaco-(3).jpg
+0 1 0 19746 0 0
+/images/properties/vista-a-los-suenos-(5)-th.jpg
+0 10 0 9792 0 0
+/media/costaricasmall.flv
+0 1 0 1122115 0 0
+/images/properties/linda-vista-(13).jpg
+0 1 0 21254 0 0
+/images/playa-tamarindo.jpg
+0 25 0 8587 0 0
+/images/properties/finca-de-alsides-(16).jpg
+0 3 0 82710 0 0
+/images/properties/oceanas-(11).jpg
+0 25 0 192906 0 0
+/images/properties/vista-a-los-suenos-(5).jpg
+0 22 0 179786 0 0
+/images/properties/playa-hermosa-3-hectareas-(17).jpg
+0 6 0 153752 0 0
+/images/properties/finca-de-alsides-(8)-th.jpg
+0 17 0 72085 0 0
+/images/properties/playa-hermosa-3-hectareas-(22).jpg
+0 5 0 155888 0 0
+/images/cloudforest.jpg
+0 21 0 4144 0 0
+/images/properties/finca-de-alsides-(7).jpg
+0 4 65 102704 0 0
+/images/properties/linda-vista-(4).jpg
+0 3 0 142704 1 0
+/images/properties/lomas-de-jaco-(4).jpg
+0 1 0 39690 0 0
+/images/properties/linda-vista-(14).jpg
+0 1 0 24841 0 0
+/images/properties/finca-de-alsides-(17).jpg
+0 3 25 149895 0 0
+/images/properties/vista-a-los-suenos-(6).jpg
+0 23 0 202671 0 0
+/images/properties/playa-hermosa-3-hectareas-(18).jpg
+0 6 808464434 149360 0 0
+/images/properties/vista-a-los-suenos-(4)-th.jpg
+0 21 0 38880 0 0
+/images/waterfall.jpg
+0 29 0 21067 0 0
+/images/properties/finca-de-alsides-(8).jpg
+0 4 0 205096 0 0
+/images/properties/linda-vista-(5).jpg
+0 3 0 103134 0 1
+/images/properties/lomas-de-jaco-(5).jpg
+0 1 0 34749 0 0
+/images/properties/linda-vista-(15).jpg
+0 1 0 37550 0 0
+/images/properties/vista-a-los-suenos-(10).jpg
+0 20 0 275103 0 0
+/images/properties/finca-de-alsides-(18).jpg
+0 3 0 156561 0 0
+/images/properties/vista-a-los-suenos-(7).jpg
+0 22 0 203325 0 0
+/images/properties/playa-hermosa-3-hectareas-(19).jpg
+0 6 0 193460 0 0
+/images/properties/oceanas-(1).jpg
+0 28 0 259302 0 0
+/standard.css
+0 198 0 168095 8 12
+/images/properties/finca-de-alsides-(9).jpg
+0 3 0 91479 1 0
+/images/properties/linda-vista-(6).jpg
+0 3 0 82152 0 0
+/images/properties/vista-a-los-suenos-(7c)-th.jpg
+0 20 0 22392 0 0
+/images/properties/lomas-de-jaco-(6).jpg
+0 1 0 38704 0 0
+/images/properties/linda-vista-(16).jpg
+0 1 0 40814 0 0
+/images/properties/playa-hermosa-3-hectareas-(1).jpg
+0 6 0 127340 0 0
+/images/properties/vista-a-los-suenos-(11).jpg
+0 19 0 264186 0 0
+/images/properties/vista-a-los-suenos-(3)-th.jpg
+0 1 0 6590 0 0
+/images/bluedot.gif
+0 190 0 989 0 5
+/images/properties/vista-a-los-suenos-(8).jpg
+0 21 0 279387 0 0
+/media/costaricasmall.swf
+0 13 0 3916432 1 1
+/images/properties/oceanas-(2).jpg
+0 26 0 290535 1 0
+/images/properties/oceanas-(5)-th.jpg
+0 19 0 50908 0 0
+/images/properties/lomas-de-jaco-(1)-th.jpg
+0 17 0 73632 0 0
+/images/properties/linda-vista-(7).jpg
+0 3 0 125805 0 0
+/images/properties/lomas-de-jaco-(7).jpg
+0 1 0 40356 0 0
+/images/properties/linda-vista-(17).jpg
+0 1 0 25025 0 0
+/images/properties/playa-hermosa-3-hectareas-(2).jpg
+0 6 0 106384 0 0
+/images/properties/vista-a-los-suenos-(12).jpg
+0 7 0 132453 0 0
+/images/greatview.jpg
+0 60 0 248787 1 3
+/images/dennis.jpg
+0 4 0 5976 0 1
+/images/properties/vista-a-los-suenos-(9).jpg
+0 21 0 296301 0 0
+/images/properties/oceanas-(3).jpg
+0 26 0 287058 0 1
+/images/properties/vista-a-los-suenos-(8c)-th.jpg
+0 4 0 22392 0 0
+/images/properties/vista-a-los-suenos-(2)-th.jpg
+0 25 0 56695 0 0
+/images/properties/linda-vista-(8).jpg
+0 2 0 109290 0 1
+/images/properties/playa-hermosa-3-hectareas-(3).jpg
+0 6 0 106728 0 0
+/images/properties/playa-hermosa-3-hectareas-th.jpg
+0 42 0 72720 0 0
+/images/properties/oceanas-(4).jpg
+0 26 0 255654 1 0
+/images/properties/linda-vista-(9).jpg
+0 2 0 93526 0 0
+/images/properties/playa-hermosa-3-hectareas-(4).jpg
+0 6 0 136652 0 0
+/images/headerbg2.jpg
+0 77 0 229167 1 1
+/images/properties/playa-hermosa-3-hectareas-(10).jpg
+0 6 0 149456 0 0
+/images/properties/vista-a-los-suenos-(1)-th.jpg
+0 26 0 50640 0 0
+/images/properties/oceanas-(5).jpg
+0 26 0 208033 0 0
+/images/properties/playa-hermosa-3-hectareas-(5).jpg
+0 6 0 135600 0 0
+/images/properties/finca-de-alsides-(10).jpg
+0 3 0 72204 0 0
+/images/properties/playa-hermosa-3-hectareas-(11).jpg
+0 6 0 129520 0 0
+/images/properties/oceanas-(6).jpg
+0 26 0 170296 0 0
+# End Of Table - urls
+# -sites- (monthly)
+unknown.ord.scnet.net
+0 2 2 45591 2 1141948603
+/
+196.40.8.226
+0 13 13 148063 2 1141295605
+/images/projector.gif
+static-70-104-30-194.dllstx.fios.verizon.net
+0 2389 685 21421197 28 1142131516
+/images/watermark.jpg
+66-194-6-83.gen.twtelecom.net
+0 1 1 21883 1 1141253379
+/
+msnbot.msn.com
+0 22 15 351749 7 1141571595
+/
+crawl-66-249-72-129.googlebot.com
+0 2 1 22941 1 1141292238
+/
+aspra25.informatik.uni-leipzig.de
+0 1 1 25133 1 1141641137
+/
+h64-5-245-20.gtcust.grouptelecom.net
+0 1 1 25133 1 1141275305
+/
+c-67-182-49-2.hsd1.ca.comcast.net
+0 70 70 2028453 1 1141342641
+/images/greatview.jpg
+66.220.20.75
+0 1 1 21883 1 1141972448
+/
+dsl-201-128-87-10.prod-infinitum.com.mx
+0 10 10 109209 2 1141299547
+/images/properties/lomas-de-jaco-(1)-th.jpg
+depth.informatik.uni-leipzig.de
+0 1 1 27430 1 1141231267
+/
+crawl-66-249-72-78.googlebot.com
+0 4 3 74083 1 1141790286
+/
+66-194-6-73.gen.twtelecom.net
+0 2 2 43766 2 1141823656
+/
+lj601031.inktomisearch.com
+0 1 1 20458 1 1142005852
+/
+crawl-66-249-72-238.googlebot.com
+0 18 14 325616 3 1142095130
+/
+lj2170.inktomisearch.com
+0 1 1 25133 1 1141403039
+/
+lj601415.inktomisearch.com
+0 1 0 1062 1 1142005852
+-
+woclu2.informatik.uni-leipzig.de
+0 1 0 1062 1 1141754653
+-
+host247-193.pool8711.interbusiness.it
+0 24 24 1492529 4 1142127802
+/
+lj2006.inktomisearch.com
+0 1 1 22026 1 1141230192
+/
+66-194-6-80.gen.twtelecom.net
+0 1 1 21883 1 1141374751
+/
+lj2550.inktomisearch.com
+0 1 1 20458 1 1141337969
+/
+mmcrm4047.search.mud.yahoo.com
+0 1 0 0 1 1141385679
+/images/greatview.jpg
+lager.netcraft.com
+0 1 1 21883 1 1142040234
+/
+lj2486.inktomisearch.com
+0 1 1 23989 1 1141615390
+/
+adsl-11-25-223.mia.bellsouth.net
+0 10 10 109209 1 1141905178
+/images/properties/lomas-de-jaco-(1)-th.jpg
+12-223-167-25.client.insightbb.com
+0 2 1 22945 1 1141806106
+/
+sv-crawl.looksmart.com
+0 3 0 3186 3 1141954051
+-
+pcai056.informatik.uni-leipzig.de
+0 2 2 47888 2 1141412892
+/
+ppp-70-250-244-200.dsl.okcyok.swbell.net
+0 43 22 221162 1 1141849448
+/images/spacer.gif
+crawl-66-249-64-38.googlebot.com
+0 2 1 22945 1 1141967754
+/
+66-194-6-70.gen.twtelecom.net
+0 4 4 89594 4 1142128640
+/
+ip68-108-5-86.lv.lv.cox.net
+0 108 93 1482633 5 1141983723
+/
+lj601337.inktomisearch.com
+0 1 1 25133 1 1141702002
+/
+69-167-121-113.atlsfl.adelphia.net
+0 97 77 2174251 2 1141560712
+/images/projector.gif
+dsl-mp-static-170.126.101.203.airtelbroadband.in
+0 16 15 458244 4 1141796133
+/images/properties/linda-vista-(4).jpg
+lj601128.inktomisearch.com
+0 1 0 1062 1 1141702002
+-
+lj2267.inktomisearch.com
+0 2 2 43766 2 1141910934
+/
+155.13.48.17
+0 18 18 215493 1 1141987650
+/images/properties/lomas-de-jaco-(1)-th.jpg
+crawl-66-249-72-179.googlebot.com
+0 8 4 91768 2 1141533214
+/
+lj2010.inktomisearch.com
+0 7 0 7434 7 1141910934
+-
+dialup-4.243.113.222.dial1.sanfrancisco1.level3.net
+0 39 33 819022 6 1141487388
+/images/greatview.jpg
+lj2138.inktomisearch.com
+0 1 1 23713 1 1141476294
+/
+207-36-209-63.ptr.primarydns.com
+0 1 1 21947 1 1142079010
+/
+www.whois.sc
+0 2 1 23070 1 1141635688
+/
+66-194-6-76.gen.twtelecom.net
+0 1 1 21883 1 1142041298
+/
+67-15-47-10.opticaljungle.com
+0 1 1 21883 1 1141937285
+/
+static-71-116-210-51.lsanca.dsl-w.verizon.net
+0 100 51 1064968 3 1142085247
+/images/properties/oceanas-(11).jpg
+209.167.50.22
+0 15 14 323477 1 1141220008
+/
+info015.informatik.uni-leipzig.de
+0 2 2 43766 2 1141562809
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+static-70-104-30-194.dllstx.fios.verizon.net
+0 349 75 1514019 6 1142131516
+/images/watermark.jpg
+host247-193.pool8711.interbusiness.it
+0 24 24 1492529 4 1142127802
+/
+66-194-6-70.gen.twtelecom.net
+0 1 1 23945 1 1142128640
+/
+# End Of Table - sites (daily)
+# -referrers- 
+www.seventwentyfour.com/
+0 1
+- (Direct Request)
+0 244
+http://www.pacificadelnorte.com
+0 14
+http://www.pacificadelnorte.com/
+0 2767
+http://images.google.it/imgres
+0 1
+http://www.google.co.cr/search
+0 1
+http://search.msn.com/results.asp
+0 2
+http://www.nr.net/clientlist.php
+0 1
+http://search.yahoo.com/search
+0 2
+http://www.whois.sc/
+0 1
+http://search.t1msn.com.mx/results.aspx
+0 1
+http://search.msn.com/results.aspx
+0 4
+http://pacificadelnorte.com/
+0 15
+http://www.whois.sc/pacificadelnorte.com
+0 1
+DRT_ResolveBot_Ignore
+0 1
+# End Of Table - referrers
+# -agents- 
+Java/1.5.0_06
+0 1
+findlinks/1.1.1-a1 (+http://wortschatz.uni-leipzig.de/findlin
+0 6
+Googlebot/2.1
+0 32
+msnbot/1.0 (+http://search.msn.com/msnbot.htm)
+0 22
+Microsoft Data Access Internet Publishing Provider Protocol D
+0 4
+Yahoo-MMCrawler/3.x (mms dash mmcrawler dash support at yahoo
+0 1
+Mozilla/5.0
+0 169
+Konqueror/3.0
+0 1
+Konqueror/3.1
+0 3
+Googlebot/2.1 (+http://www.google.com/bot.html)
+0 2
+MS FrontPage 6.0
+0 1
+SurveyBot/2.3 (Whois Source)
+0 2
+MSIE 6.0
+0 2768
+LinkWalker
+0 15
+Microsoft Office Protocol Discovery
+0 1
+FAST-WebCrawler/2.2.5 - Lycos/Alltheweb/Fast
+0 2
+MSFrontPage/6.0
+0 1
+findlinks/1.1-a8 (+http://wortschatz.uni-leipzig.de/findlinks
+0 1
+Yahoo! Slurp
+0 18
+HTTP/1.0
+0 1
+MJ12bot/v1.0.7 (http://majestic12.co.uk/bot.php?+)
+0 2
+# End Of Table - agents
+# -search strings- 
+hectares overlooking los suenos
+1
+property adjacent los suenos
+1
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

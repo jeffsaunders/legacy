@@ -1,0 +1,57 @@
+Nov-07-2011 04:25:50
+=================================
+
+Response Code: 1.
+Response Text: (TESTMODE) This transaction has been approved.
+
+Results Received back from Authorizenet: Array
+(
+    [x_response_code] => 1
+    [x_response_reason_code] => 1
+    [x_response_reason_text] => (TESTMODE) This transaction has been approved.
+    [x_avs_code] => P
+    [x_auth_code] => 000000
+    [x_trans_id] => 0
+    [x_method] => CC
+    [x_card_type] => Visa
+    [x_account_number] => XXXX4559
+    [x_first_name] => Mary
+    [x_last_name] => Valentine
+    [x_company] => NAWCWD
+    [x_address] => Code 476400D
+    [x_city] => China Lake
+    [x_state] => California
+    [x_zip] => 93555
+    [x_country] => United States
+    [x_phone] => 760-939-6234
+    [x_fax] => 
+    [x_email] => mary.valentine@navy.mil
+    [x_invoice_num] => 
+    [x_description] => Website Purchase from DCM Clean Air Store
+    [x_type] => auth_capture
+    [x_cust_id] => 9
+    [x_ship_to_first_name] => Josh
+    [x_ship_to_last_name] => Bates
+    [x_ship_to_company] => NAWCWD
+    [x_ship_to_address] => Code 476400D
+    [x_ship_to_city] => China Lake
+    [x_ship_to_state] => California
+    [x_ship_to_zip] => 93555
+    [x_ship_to_country] => United States
+    [x_amount] => 259.62
+    [x_tax] => 0.00
+    [x_duty] => 0.00
+    [x_freight] => 0.00
+    [x_tax_exempt] => FALSE
+    [x_po_num] => 
+    [x_MD5_Hash] => 17A2736C6FDA104047F7E828C48F5DFB
+    [x_cvv2_resp_code] => 
+    [x_cavv_response] => 
+    [x_test_request] => true
+    [zenid] => c327d6ced68d1a189c23ece66357fcd4
+    [HashValidationValue] => 17A2736C6FDA104047F7E828C48F5DFB
+    [HashMatchStatus] => PASS
+    [url] => https://secure.authorize.net/gateway/transact.dll
+)
+
+

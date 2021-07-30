@@ -1,0 +1,99 @@
+<html><!-- InstanceBegin template="/Templates/manual - main page.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title></title>
+<!-- InstanceEndEditable -->
+<link href="includes/styles.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+<body bgcolor="#E1E1E1">
+<table width=75% border=0 cellpadding=0 cellspacing=0>
+  <tr>
+    <td><!-- InstanceBeginEditable name="Main Content" -->
+      <h1>The Encoding/Encryption System</h1>
+      <p>Many of the SnippetMaster program files are &quot;encoded&quot; (encrypted) 
+        with either <strong>Ioncube Encoder</strong> or <strong>Zend Encoder/Safeguard</strong>. 
+        <font size="1" face="Verdana, Arial, Helvetica, sans-serif">(Unfortunately, 
+        this encryption is necessary because several people stole the source code 
+        from me previously when I left it &quot;open&quot;, and now I must encrypt 
+        it to protect myself from thieves. Sorry!)</font> 
+      <p>A common error you might encounter
+        when trying to run SnippetMaster for the first time is if your server
+        is not yet set up with the ability to &quot;decode&quot; (unencrypt) the files.
+        A
+        typical
+        error
+        might
+        look
+        something
+        like this:
+      <blockquote> 
+        <p><strong>Ioncube</strong><br>
+          The file /path/to/snippetmaster/index.php has been encoded with the 
+          ionCube PHP Encoder and requires the free ioncube_loader_xyz_4.3.so 
+          ionCube PHP Loader to be installed.</p>
+        <p><strong>Zend</strong><br>
+          Fatal error: Unable to read 887 bytes in /home/username/public_html/snippetmaster/index.php 
+          on line 0 </p>
+        </blockquote>
+      <p>If you see this sort of error, then it means you must &quot;install&quot; 
+        the required &quot;loader&quot; file and then everything will start to 
+        work.</p>
+      <p>Note: I am only going to explain how to get the Ioncube encoding system 
+        working here. The Zend version will have to wait. (But be sure you're 
+        uploading the files in BINARY mode.)</p>
+      <blockquote>
+        <p><strong>What is an &quot;ioncube loader&quot; file?</strong> The
+            &quot;loader&quot; file is the file that has all the decryption commands for
+          your server's
+            operating system and version of PHP. The problem is that there are
+          dozens of different operation systems and versions of PHP, and each
+          combination
+          needs
+          a different &quot;loader&quot; file. </p>
+        <p>Loader files for the most popular operating
+            systems and PHP versions are already included inside the /snippetmaster/ioncube/
+            folder, but
+            if you have a &quot;less-common&quot; operating system or PHP version then
+          you might need to visit the ioncube website and download the necessary
+             &quot;loader&quot; file.</p>
+      </blockquote>
+      <h3>It's Easy!</h3>
+      <p>The first place to start is by going to the following file with your
+        web browser:</p>
+      <p><strong>http://<font color="#009900">www.yourdomain.com</font>/<font color="#FF0000">snippetmaster</font>/ioncube/ioncube-loader-helper.php</strong></p>
+      <blockquote>
+        <p><font color="#009900">www.yourdomain.com</font> = your own domain name<br>
+          <font color="#FF0000">snippetmaster</font> = the name of the program
+            folder where the SnippetMaster files are located </p>
+      </blockquote>
+      <p>This will run a quick diagnostic  and probably tell you  the required
+        &quot;loader&quot; is not installed. There are several options to install the required
+        file, but the easiest is to use &quot;run-time loading&quot;. </p>
+      <p>You should look for
+          the text that says something like this:</p>
+      <blockquote>
+        <p>If you do not have access to the php.ini file, please follow the <font color="#0000FF">run-time
+          loading installation instructions</font>.</p>
+      </blockquote>
+      <p>Now you should click the <font color="#0000FF">run-time loading installation
+      instructions</font> link and follow the instructions indicated. Typically,
+      you will need to go to the ioncube.com website, download a specific &quot;loader
+      file&quot; (for your operating system and version of PHP), and then upload it
+      into your /snippetmaster/ioncube folder.      
+      <h3>Need help? </h3>
+      <p> No problem. You
+        can
+        find
+        information
+        on
+        how to
+        obtain
+        help <a href="help.html">here</a>. <br>
+      <!-- InstanceEndEditable -->
+      <p>&nbsp;</p>
+    </td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

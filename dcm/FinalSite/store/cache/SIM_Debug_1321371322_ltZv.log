@@ -1,0 +1,49 @@
+Nov-15-2011 09:35:22
+=================================
+
+Sent to Authorizenet: Array
+(
+    [x_login] => *******
+    [x_amount] => 436.16
+    [x_version] => 3.1
+    [x_method] => CC
+    [x_type] => AUTH_CAPTURE
+    [x_cust_ID] => 11
+    [x_email_customer] => FALSE
+    [x_company] => JDSU
+    [x_first_name] => Jessie
+    [x_last_name] => Mondeau
+    [x_address] => 2789 Northpoint Parkway
+    [x_city] => Santa Rosa
+    [x_state] => California
+    [x_zip] => 95407
+    [x_country] => United States
+    [x_phone] => 707-525-6849
+    [x_fax] => 
+    [x_email] => jessie.mondeau@jdsu.com
+    [x_ship_to_company] => JDSU
+    [x_ship_to_first_name] => Jessie
+    [x_ship_to_last_name] => Mondeau
+    [x_ship_to_address] => 2789 Northpoint Parkway
+    [x_ship_to_city] => Santa Rosa
+    [x_ship_to_state] => California
+    [x_ship_to_zip] => 95407
+    [x_ship_to_country] => United States
+    [x_Customer_IP] => 157.234.210.4
+    [x_relay_response] => TRUE
+    [x_relay_URL] => http://www.dcmsanding.com/store/index.php?main_page=checkout_process&amp;action=confirm
+    [x_invoice_num] => 
+    [x_duplicate_window] => 120
+    [x_allow_partial_Auth] => FALSE
+    [x_description] => Website Purchase from DCM Clean Air Store
+    [x_fp_sequence] => 812
+    [x_fp_timestamp] => 1321371322
+    [x_fp_hash] => 0c680926559edc5133182cd04b6c0518
+    [x_card_num] => XXXXXXXXXXXXXXXXX3559
+    [x_exp_date] => 0713
+    [x_card_code] => 651
+    [zenid] => eb63960a6dca8572889d24a5745ff243
+    [url] => https://secure.authorize.net/gateway/transact.dll
+)
+
+

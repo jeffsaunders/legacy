@@ -1,0 +1,148 @@
+
+<html>
+	<head>
+		<title>Our Appraisal Technology and Tools NV - Ascent Appraisal, Inc. - Our Technology</title>
+		<META HTTP-EQUIV="Expires" CONTENT="-1">
+		<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+		<META NAME="keywords" CONTENT="REAL ESTATE APPRAISER, REAL ESTATE APPRAISAL, RESIDENTIAL APPRAISER, RESIDENTIAL APPRAISALS, RESIDENTIAL APPRAISAL, RESIDENTIAL REAL ESTATE APPRAISER, RESIDENTIAL REAL ESTATE APPRAISALS, APPRAISER, APPRAISAL, REAL ESTATE, APPRAISAL SERVICES, APPRAISER SERVICES, LOCAL APPRAISERS, BUSINESS APPRAISAL, BUSINESS VALUATION, BUSINESS OPPORTUNITY, BUSINESS VALUATION, APPRAISING, HOME APPRAISAL, HOME APPRAISER, HOME APPRAISALS, LOAN APPRIASALS, LOAN APPRAISAL, MORTGAGE APPRAISAL, MORTGAGE APPRAISER, MORTGAGE APPRAISALS, APPRAISAL EXPERT WITNESS, APPRAISAL TESTIMONY, EXPERT WITNESS APPRAISAL, LITIGATION SUPPORT, AQB CERTIFIED USPAP INSTRUCTOR, USPAP EXPERT, LITIGATION CONSULTANT">
+		<META NAME="description" CONTENT="We are a residential Real Estate and Business Appraisal company. This site contains information about our valuation services and general Real Estate and Appraisal information.">
+
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/themeScripts.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/flashobject.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/flashPopup.js"></SCRIPT>
+
+		<LINK rel="stylesheet" type="text/css" href="/Styles.css">
+		<LINK rel="stylesheet" type="text/css" href="/templates/themes/mountain/styleSheet.css">
+		
+	</head>
+
+	<body bgcolor="#FFFFFF" topmargin="0" leftmargin="0">
+			
+		<div id="flashPopupNavLeft" style="position:absolute; width:5px; height:5px; z-index:999; left: -200px; top: 200px; visibility: visible;" onMouseOver="stopTime();" onMouseOut="startTime();">
+			<!-- alt content goes here, renders when the user doesn't have the proper flash file -->
+		</div>
+			
+		<table id="flashNav" width="764" align="center" height="100%" border="0" cellpadding="0" cellspacing="10">
+			<tr> 
+				<td width="764" height="142" colspan="3" bgcolor="#FFFFFF">
+					<div id="topFlashNav"><!-- needs flash plugin --></div>
+				</td>
+			</tr>
+			<tr>
+				<td class="nav" width="160" valign="top" bgcolor="#FFFFFF">
+					<div id="leftFlashNav"><!-- needs flash plugin --></div>
+				</td>
+				
+				<script type="text/javascript">
+				
+					var dtDate = new Date();
+					var szPageGuid = dtDate.getUTCMilliseconds().toString();
+				
+					// <![CDATA[
+					var foTop = new FlashObject("/templates/themes/FamilyLight/TopNav.swf", "topNav", "764", "142", 7, "#FFFFFF", "/XSitesBasic/HTMLSite.aspx");
+					foTop.addVariable("host", "www.ascentnv.com");
+					foTop.addVariable("AWSAccountsID", "27120");
+					foTop.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foTop.addVariable("ChosenLanguage", "English");
+					foTop.addVariable("IsMaster", "True");
+					foTop.addVariable("lcGuid", szPageGuid);
+					foTop.addParam("wmode", "transparent");
+					foTop.addParam("scale", "noscale");
+					foTop.addParam("salign", "lt");
+					foTop.addParam("menu", "false");
+					foTop.write("topFlashNav");
+
+					var foSec = new FlashObject("/templates/themes/FamilyLight/LeftNav.swf", "leftNav", "160", "650", 7, "#FFFFFF");
+					foSec.addVariable("host", "www.ascentnv.com");
+					foSec.addVariable("AWSAccountsID", "27120");
+					foSec.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foSec.addVariable("ChosenLanguage", "English");
+					foSec.addVariable("lcGuid", szPageGuid);
+					foSec.addParam("scale", "noscale");
+					foSec.addParam("salign", "lt");
+					foSec.addParam("menu", "false");
+					foSec.write("leftFlashNav");
+					
+					var foDiv = new FlashObject("/templates/themes/nestedNav/style1.swf", "popupSwf", "200", "25", 7, "#FFFFFF");
+					foDiv.addVariable("host", "www.ascentnv.com");
+					foDiv.addVariable("AWSAccountsID", "27120");
+					foDiv.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foDiv.addVariable("ChosenLanguage", "English");
+					foDiv.addVariable("lcGuid", szPageGuid);
+					foDiv.addParam("scale", "noscale");
+					foDiv.addParam("salign", "lt");
+					foDiv.addParam("menu", "false");
+					foDiv.write("flashPopupNavLeft");
+					// ]]>
+				</script>
+				
+				<td width="604" valign="top" bgcolor="#FFFFFF">
+					<table border="0" cellpadding="0" cellspacing="0" width="100%">
+						<tr>
+							<td>
+<script language="JavaScript" type="text/JavaScript" src="/Admin/JS/WizardV1.js"></script>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+	<tr>
+		
+		
+		
+		<td>
+		</td>
+		
+	</tr>
+	<tr>
+		<td width="100%" valign=top colspan=7>
+			
+<SCRIPT TYPE="text/javascript" SRC="/scripts/flashobject_fp8.js"></SCRIPT>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+	<tr>
+		<td>
+			<!--<img src="/graphics/shim.gif" border="0" width="10" height="10">-->
+		</td>
+		<td width="100%" valign=top>
+			<FONT face=Verdana size=-1><b>Why hire a technically advanced appraiser</b><BR><BR>We all know them. The guys with pounds of silicon hanging from their belts. Every new gadget that has hit the market in the past 10 years has done time around their waist. Call them geeks. Call them nerds. Call them what you will, but by all means, give them your appraisal business. Why? I'm glad you asked.<BR><BR>Appraisers are, by far, the most technical agents in the real estate world. By necessity, they have been drawn into the digital world at a pace not seen by their colleagues. The appraisal process is one that lends itself to technology. And technology has paid significant dividends to those appraisers who have invested in it. These dividends are shared with the appraiser's customers, in the form of shorter turn-around times and a much better final valuation report.<BR><BR>Ordering<BR>Let's start at the beginning. Millions of real estate transactions are processed each year in the United States. Almost all of them require some sort of appraisal. Technology has allowed savvy appraisers to reduce the amount of work their client's need to order, track and receive appraisals. In the past, the primary mode of interaction between an appraiser and his clients was the telephone and fax machine. Clients would send requests via fax, and then often follow it up with a phone call to make sure it was received. Tracking the progress of the appraisal meant more phone calls - a disruption for both the client and the appraiser.<BR><BR>But the modern, technologically advanced appraiser has a better method. Using tools like this web site - complete with the ability to order appraisals on-line - allows clients to shave valuable time off the process of ordering and tracking appraisals. Technologies like a la mode's net.X network are advancing this concept even further, giving its users the ability to not only order appraisals, but track their progress all the way until delivery. No more annoying games of phone tag!<BR><BR>Data Gathering<BR>The appraisal process is nothing if not a data intensive process. Appraisers spend a lot of their time gathering both specific information about the subject property and general data about the local market and developing trends. Once again, technology has stepped in to help appraisers. In the past, the home inspection process has been the time consuming and difficult. To top it off, appraisers then had to come back to the office and transcribe their field notes into the appraisal file itself. No longer.<BR><BR>Today's digital appraiser has several tools that can aid in gathering data in the field. Starting with tools like a la mode's Pocket TOTAL, appraisers are eliminating the duplicate data entry problems of the past. Tools like the Leica Disto Laser meter are making the measurements more accurate. And software like Apex's PocketApex allow the appraiser to sketch the house on the fly. All of this means that the appraiser can get the report done and delivered to the client in a fraction of the time it once took.<BR><BR>On the other side of the data gathering coin is the general data. The Internet has revolutionized the ability of appraisers to get quality data in a fraction of the time it once took. Where once an appraiser would spend hours finding the right location maps and then rubbing on decals, the modern appraiser gets his maps with a few mouse clicks, complete with location markers. And flood maps? Likewise just a few clicks away using services like a la mode's FloodSource. Standardized addressing, accurate postal coding, census tract information, are all at their fingertips. This ensures that the final report is as complete and accurate as possible, requiring fewer call-backs and revisions. A real money saver for busy appraisal clients.<BR><BR>Report delivery<BR>The report is done. Now how is the digital appraiser going to leverage his investment in technology to improve the delivery process? Modern appraisers have forsaken the old print-and-snail mail route for a much more efficient electronic delivery system. Utilizing Adobe's Portable Document Format (PDF) files, an appraiser can deliver a complete, multi-page report, complete with digital photos and maps, through simple e-mail. Now, instead of waiting for the daily mail, or paying for expensive courier services, appraisal customers can simply log into their company email system and retrieve all the appraisals at one time. Without wasting and paper printing the appraisal, it can be routed to the appropriate loan officer or title company in the blink of an electron.<BR><BR>More advanced organizations are leveraging a la mode's net.X network to not only order appraisals, but also to manage the delivery process. Before an appraisal is ever delivered, this cutting edge technology reviews the report and ensures that it meets certain guidelines. Have enough comparables been used? Has the appraiser included a statement of limiting conditions? These items can be checked automatically and the appraiser notified of the deficiency without the client ever getting involved. Now, when the final report is received, the client can be sure the appraisal meets all the basic criteria. Once again, costly follow up and revisions are avoided, lowering everybody's cost of doing business.<BR><BR>Digital Workfile<BR>It would be wonderful if appraisers could complete a report, deliver it and never worry about seeing that document again. But one of the purposes of an appraisal is as a legal document outlining the condition of the property at the time of sale. So appraisers must keep their reports for 5 years, allowing them to recall any appraisal at any time to either defend the valuation or to be used in other legal proceedings.<BR><BR>Here again, the digital appraiser leverages his investment in technology to improve service. By storing every aspect of the appraisal - notes, sketches, supporting documentation and calculations - along with the appraisal, the professional is able to retrieve that report at any time within the five years and recall just what that report was about. And this data is not stored in boxes stacked 5 deep in some rented warehouse. Instead, the digital appraiser uses technology like a la mode's Digital Workfile to electronically include all supporting documents as part of the appraisal file. These files are stored securely on searchable media, such as a la mode's Vault, where the appraiser can find them in a fraction of the time required in the past. This helps appraisal clients by giving them immediate, virtual access to any appraisal they've ordered within the past 5 years.<BR><BR>These are just a few examples of how technologically advanced appraisers are improving the business workflows of their customers. Investing in the right software, services, gadgets and gizmos allows the appraiser to deliver reports quicker, more efficiently and with higher degrees of accuracy. All of which helps keep the appraiser's costs down, and save his clients time and money.</FONT>
+			
+		</td>
+		
+		<td>
+			<!--<img src="/graphics/shim.gif" border="0" width="10" height="10">-->
+		</td>
+		
+	</tr>
+</table>
+<!--<div id="FormsLayer" style="position:absolute; width:368px; height:178; z-index:2; left: 0; top: 0; visibility: visible;"></div>-->
+			
+		</td>
+	</tr>
+</table>
+<div align=center class=tableText>6120 Shelter Creek Avenue  Las Vegas, NV 89110<br><nobr>Phone: (702) 641-5657</nobr> <nobr>Fax: (702) 641-7944</nobr> <nobr><script language=javascript> var username = 'contact'; var hostname = 'ascentnv.com'; document.write('<nobr>E-mail: <a href=mail' + 'to:' + username + '@' + hostname + '>' + username + '@' + hostname + '</a>');</script><p><a href="/W-9/License/EO"><nobr>W-9 / License / E&O</nobr></a> | <a href="/CodeofEthics"><nobr>Code of Ethics</nobr></a> | <a href="/AppraisalReviews"><nobr>Appraisal Reviews</nobr></a> | <a href="/DateofDeathValuations"><nobr>Date of Death Valuations</nobr></a> | <a href="/Appraiserethics"><nobr>Appraiser ethics</nobr></a> | <a href="/Threeapproachestovalue"><nobr>Three approaches to value</nobr></a> | <a href="/WhatisUSPAP"><nobr>What is USPAP?</nobr></a> | <a href="/Pre-ListingAppraisals"><nobr>Pre-Listing Appraisals</nobr></a> | <a href="/RelocationAppraisal"><nobr>Relocation Appraisal</nobr></a> | <a href="/15vs30YearMtgCalc"><nobr>15 vs 30 Year Mtg Calc</nobr></a> | <a href="/RefiBreakevenCalc"><nobr>Refi Breakeven Calc</nobr></a> | <a href="/MortgageFraud"><nobr>Mortgage Fraud</nobr></a> | <a href="/ResidentialInvestment"><nobr>Residential Investment</nobr></a> | <a href="/OurTechnology"><nobr>Our Technology</nobr></a> | <a href="/OrderanAppraisal"><nobr>Order an Appraisal</nobr></a> | <a href="/ClientLogin"><nobr>Client Login</nobr></a> | <a href="/TellaFriend"><nobr>Tell a Friend</nobr></a> | <a href="/DownloadAdobeAcrobat"><nobr>Download Adobe Acrobat</nobr></a> | <a href="/Services"><nobr>Services</nobr></a> | <a href="/ContactUs"><nobr>Contact Us</nobr></a> | <a href="/WhatisanAppraisal"><nobr>What is an Appraisal</nobr></a> | <a href="/WhygetanAppraisal"><nobr>Why get an Appraisal</nobr></a> | <a href="/AboutPMI"><nobr>About PMI</nobr></a> | <a href="/FAQ"><nobr>FAQ</nobr></a> | <a href="/GlossaryofTerms"><nobr>Glossary of Terms</nobr></a> | <a href="/RealEstateNews"><nobr>Real Estate News</nobr></a> | <a href="/ExpertWitness"><nobr>Expert Witness</nobr></a> | <a href="/DivorceAppraisals"><nobr>Divorce Appraisals</nobr></a> | <a href="/EstateAppraisals"><nobr>Estate Appraisals</nobr></a> | <a href="/AppraisalMyths"><nobr>Appraisal Myths</nobr></a> | <a href="/ForBuyers"><nobr>For Buyers</nobr></a> | <a href="/HomeSellerServices"><nobr>Home Seller Services</nobr></a> | <a href="/ForHomeowners"><nobr>For Homeowners</nobr></a> | <a href="/HowtoPrepare"><nobr>How to Prepare</nobr></a> | <a href="/PressRelease"><nobr>Press Release</nobr></a><p>Copyright &copy; 2006&nbsp;Ascent Appraisal, Inc.<br>Portions Copyright &copy; 2006 a la mode, inc.<br>Another XSite by <a href='http://www.alamode.com/' target='_blank'>a la mode, inc.</a>&nbsp;|&nbsp;<a href='https://ascentnv.appraiserxsites.com/apps/alamodelogin/login.aspx' target='_new'>Admin Login</a>|&nbsp;<a href='/TermsOfUse'>Terms of Use</a></div>
+
+
+
+	</td>
+	</tr>
+	</table>
+	<table width="95%" border="0" cellspacing="1" cellpadding="10">
+		<tr>
+			<td><br></td>
+		</tr>
+		<tr> 
+			<td>
+				<div align="center" class="tableText"><br>
+					<table border="0" cellpadding="0" cellspacing="0" width="95%">
+						<tr>
+							<td>
+								
+							</td>
+						</tr>
+					</table>
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

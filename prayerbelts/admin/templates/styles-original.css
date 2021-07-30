@@ -1,0 +1,331 @@
+/* --- set default body style ---*/
+html, body {
+	margin: 0px;
+	background-color: #ffffff;
+	color: #000000;
+	height: 100%   /* --- fixes 100% table/div height when browser not in quirks mode --- */ 
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+/* --- set default link colors ---*/
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:visited  {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover { 
+	color: #666666; 
+	text-decoration: underline;
+}
+
+/* --- outer table holds and centers page elements ---*/
+.outer {
+	width: 100%;
+	height: 100%;
+	border: 0px;
+	text-align: center;
+}
+
+
+/* --- color band at top of editable header region ---*/
+td.topcolorband {
+	background-color: #4F009D;
+}
+
+a.HeaderPoweredBy:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+	
+/* --- header menu table ---*/
+table.headerMenu {
+	width: 100%;
+	border: 0px;
+}	
+
+/* --- content classes for header menu bar ---*/
+tr.menuBackground {
+/* sets background color for menu bar */
+	background-color: #DFDFDF;
+	vertical-align: middle;
+}
+
+.headerWelcomeText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	text-align: left;
+	padding-left: 10px;
+	height: 25px;
+}
+
+.headerLinkBar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #330066;
+	text-align: right;
+	padding-right: 25px;
+}
+
+a.headerLinks { 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #330066;
+	text-decoration: none;
+}
+
+a.headerLinks:visited { 
+	color: #330066; 
+}
+
+a.headerLinks:hover { 
+	color: #666666; 
+	text-decoration: underline;
+}
+	
+a.headerLinks:active { 
+	color: #666666;
+}
+
+
+tr.menubottomLine {
+/* sets color for menu bar bottom line */
+	background-color: #4F009D;
+}
+
+/* --- table for editable footer ---*/
+table.footer {
+	width: 100%;
+	height: 100%;
+	border: 0px;
+}
+
+
+/* --- sets color for footer bar bottom line --- */
+tr.footBottomLine {
+	background-color: #4F009D;
+}
+
+a.copyrightFooter:hover { 
+	color: #333333;
+}
+	
+
+/* --- outer table for login form ---*/
+table.login {
+	width: 350px;
+	border: 0px;
+	padding: 1px;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;	
+}
+
+/* --- login table top bar -- */
+table.loginTop {
+	width: 350px;
+	background-color: #DFDFDF;
+	padding: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	color: #330066;
+	font-weight: bold;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px;
+	border-color: #000000;
+	border-style: solid;
+}
+
+/* --- login table - user entry form -- */
+table.loginMain {
+	width: 350px;
+	background-color: #F2F2F2;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px;
+	border-color: #000000;
+	border-style: solid;
+}
+
+.errorMessage {
+	color: Red;
+}
+	
+.loginText {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	color: #330066;
+	text-align: right;
+	padding: 2px;
+}
+
+.loginButton {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	color: #330066;
+	text-align: left;
+	padding: 2px;
+}
+
+.loginReminder {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	color: #330066;
+}
+
+.loginTextEntry {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	color: #330066;
+	text-align: left;
+	padding: 2px;
+}
+
+.loginTextSmall {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 9px; 
+	color: #330066;
+	text-align: left;
+}
+
+/* --- outer table for file navigation section ---*/
+table.fileNav {
+	width: 700px;
+	border: 0px;
+	padding: 5px;
+	background-color: #F2F2F2;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px;
+	border-color: #000000;
+	border-style: solid;
+	font-size: 12px; 
+	color: #330066; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-weight: bold;	
+}
+
+table.text_regular_white {
+	background-color: #F2F2F2;
+	width: 100%;
+	font-size: 12px; 
+	color: #330066; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-weight: bold;	
+}
+
+.currentLocation {
+	color: #999999;
+	width: 100%;
+	text-align: left;
+	vertical-align: top;
+}
+
+
+.text_small_white {  
+	font-size: 9px; 
+	color: #330066
+}
+
+.text_regular_white {  
+	font-size: 12px; 
+	color: #330066; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-weight: bold;
+}
+
+.Form1 {
+	/* --- not used in default - style for form entry box ---*/
+}
+
+.smallRedText {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: Red;
+	font-weight: bold;
+}
+
+.messageOutput {
+	width: 700px;
+	background-color: #18548F;
+	padding: 5px;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: normal;
+	height: 250px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a.text_regular_white:hover { 
+	color: #666666;
+}
+
+a.text_regular_white:active { 
+	color: #666666
+}
+
+.text_error_red {  
+	font-size: 12px; 
+	color: red; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-weight: bold;
+}
+
+.text_regular_black { 
+	font-size: 12px; 
+	color: #333333; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-weight: normal
+}
+
+.greytext {
+	color: #999999;	
+}
+
+option.filebrowser_snippet_title { background-color: #0000FF; color: white; font-weight: bold; }
+option.filebrowser_snippet {background-color: #DDDDFF; color: black; font-weight: normal;}
+option.filebrowser_whole_file_title { background-color: #cc0000; color: white; font-weight: bold; }
+option.filebrowser_whole_file { background-color: #ffcccc; color: black; font-weight: normal; }
+option.filebrowser_whole_file_title { background-color: #CC6666; color: white; font-weight: bold; }
+
+
+
+.please_wait {
+	color: #009;
+	font-family: Tahoma, MS Sans Serif, helvetica;
+	font-weight: normal;
+	font-size: 11px;
+	text-align: center;
+	border: 1px solid #959596; 
+	background-color: #FFFFFF;
+	layer-background-color: #FFFFFF;
+	vertical-align: middle;
+	cursor: wait;
+	width:400px; 
+	height:150px;
+	position:absolute;
+	top:50%; 
+	left:50%;
+	margin-left: -200px;
+	z-index:99;
+	visibility: hidden;
+}
+

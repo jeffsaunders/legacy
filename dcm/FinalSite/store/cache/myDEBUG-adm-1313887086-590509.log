@@ -1,0 +1,2 @@
+[20-Aug-2011 19:38:06] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/dcmclean/public_html/store/backoffice/includes/modules/product/collect_info.php on line 472
+[20-Aug-2011 19:38:06] PHP Parse error:  syntax error, unexpected '<' in /home/dcmclean/public_html/store/backoffice/includes/modules/product/collect_info.php on line 472

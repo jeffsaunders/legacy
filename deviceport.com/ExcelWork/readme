@@ -1,0 +1,2 @@
+1: create excel file then create range for you data in the excel sheet name it 'myrange'
+make odbc connection "SYSTEM DSN " using  Microsoft Excel Driver name it 'employees_list' then run the example

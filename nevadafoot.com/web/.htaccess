@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteBase /
+
+# Set Conditions
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Don't rewrite if looking specifically for lookup.php - used for AJAX
+#RewriteCond %{REQUEST_URI} !^/?lookup.php
+
+# Don't rewrite if looking specifically for backoffice.php - used for background work
+#RewriteCond %{REQUEST_URI} !^/?backoffice.php
+
+# If not lookup.php (or backoffice.php), then load index.php and pass URI as 'sec' value
+RewriteRule ^(.*) /index.php?sec=$1
+

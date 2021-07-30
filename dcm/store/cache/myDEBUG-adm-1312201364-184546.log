@@ -1,0 +1,3 @@
+[01-Aug-2011 07:22:44] PHP Warning:  strpos(): Offset not contained in string in /var/www/clients/client3/web1/web/sandbox/dcm/store/backoffice/includes/functions/general.php on line 1244
+[01-Aug-2011 07:22:44] PHP Warning:  strpos(): Offset not contained in string in /var/www/clients/client3/web1/web/sandbox/dcm/store/backoffice/includes/functions/general.php on line 1301
+[01-Aug-2011 07:22:44] PHP Warning:  strpos(): Offset not contained in string in /var/www/clients/client3/web1/web/sandbox/dcm/store/backoffice/includes/functions/general.php on line 1301

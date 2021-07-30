@@ -1,0 +1,50 @@
+Sep-29-2011 12:44:14
+=================================
+
+Sent to Authorizenet: Array
+(
+    [x_login] => *******
+    [x_amount] => 923.99
+    [x_version] => 3.1
+    [x_method] => CC
+    [x_type] => AUTH_CAPTURE
+    [x_cust_ID] => 4
+    [x_email_customer] => FALSE
+    [x_company] => Test2
+    [x_first_name] => Jeff
+    [x_last_name] => Saunders
+    [x_address] => 217 Creekside Drive
+    [x_city] => Murphy
+    [x_state] => Texas
+    [x_zip] => 75094
+    [x_country] => United States
+    [x_phone] => 972-805-4311
+    [x_fax] => 
+    [x_email] => jeff@nrnet.com
+    [x_ship_to_company] => Test2
+    [x_ship_to_first_name] => Jeff
+    [x_ship_to_last_name] => Saunders
+    [x_ship_to_address] => 217 Creekside Drive
+    [x_ship_to_city] => Murphy
+    [x_ship_to_state] => Texas
+    [x_ship_to_zip] => 75094
+    [x_ship_to_country] => United States
+    [x_Customer_IP] => 71.244.60.226
+    [x_relay_response] => TRUE
+    [x_relay_URL] => http://www.dcmsanding.com/store/index.php?main_page=checkout_process&amp;action=confirm
+    [x_invoice_num] => 
+    [x_duplicate_window] => 120
+    [x_allow_partial_Auth] => FALSE
+    [x_description] => Website Purchase from DCM Clean Air Store
+    [x_fp_sequence] => 506
+    [x_fp_timestamp] => 1317275054
+    [x_fp_hash] => ba34397b9b7477bde61e748ba0581fbf
+    [x_card_num] => XXXXXXXXXXXXXXXXX0027
+    [x_exp_date] => 0912
+    [x_card_code] => 999
+    [x_Test_Request] => TRUE
+    [zenid] => 2bd07aa2d2e47a113e124370b63f8010
+    [url] => https://secure.authorize.net/gateway/transact.dll
+)
+
+

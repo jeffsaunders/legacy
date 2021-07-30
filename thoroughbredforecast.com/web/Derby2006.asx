@@ -1,0 +1,42 @@
+<ASX version = "3.0">
+
+<!--
+Development & Certain Digital Art Copyright 2001-2006, Network Resources
+Content & Certain Digital Art Copyright 2001-2006, Gaming Broadcast
+Authored by Jeff S. Saunders 05/04/06
+Modified by Jeff S. Saunders 04/16/07
+-->
+
+<TITLE>Thoroughbred Racing Forecast</TITLE>
+<!--<Logo href = "gblogo.gif" Style = "mark" />-->
+
+<ENTRY ClientSkip="no">
+	<!-- Intro Bumper (Show Intro) -->
+	<AUTHOR>ThoroughbredForecast.com</AUTHOR>
+	<COPYRIGHT>(c)2006 ThoroughbredForecast.com</COPYRIGHT>
+	<REF HREF="video/KentuckyDerbyShow2006.wmv"/>
+</ENTRY>
+
+<!--
+<ENTRY ClientSkip="no">
+	<!-- Intro Bumper (Show Intro) -->
+	<AUTHOR>GamingBroadcast.com</AUTHOR>
+	<COPYRIGHT>(c)2006 GamingBroadcast.com</COPYRIGHT>
+	<REF HREF="video/TRFopening.wmv"/>
+</ENTRY>
+
+<ENTRY>
+	<!-- Alamo Commercial -->
+	<AUTHOR>GamingBroadcast.com</AUTHOR>
+	<COPYRIGHT>(c)2006 GamingBroadcast.com</COPYRIGHT>
+	<REF HREF="video/Alamo30.wmv"/>
+</ENTRY>
+
+<ENTRY ClientSkip="no">
+	<!-- Exit Bumper (Show Close) -->
+	<AUTHOR>GamingBroadcast.com</AUTHOR>
+	<COPYRIGHT>(c)2006 GamingBroadcast.com</COPYRIGHT>
+	<REF HREF="video/TRFclosing.wmv"/>
+</ENTRY>-->
+
+</ASX>

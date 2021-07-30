@@ -1,0 +1,478 @@
+###########################
+#  + means a new feature  #
+#  - means a bug fix	  #
+#  * means a misc change  #
+###########################
+
+
+[ October 6, 2009 -- v2.2.3.3 ]
+
+- Fixed remote file include vulnerability in shared.inc.php.
+- Fiexed remote file upload vulnerability in uploadtest.php.
+
+
+[ September 11, 2009 -- v2.2.3.2 ]
+
+- Fixed remote file include vulnerablity in pcltar.lib.php.
+
+[ June 15, 2009 -- v2.2.3.1 ]
+
+- Fixed preview problem with invalid extra baseref URL at top of preview file.
+- Fixed problem with servers that have "_SERVER["DOCUMENT_ROOT"]" misconfigured to be server root instead of account root.
+
+[ Feb 10, 2009 -- v2.2.3 ]
+
++ Added a basic API.  Includes create user PW function.
++ Added POLISH and FRENCH language translations.
++ Added baseref to preview so it works with pages not containing <HEAD> section.
+* Automatically created example users (during install) no longer forced to use same admin email address.
+* Manual install autoinstaller.php check no longer requires emptying of db.inc.php file.
+* Made auto-find of script path work on more servers.
+* Now hides a few non-critical errors, if they occur.
+- Fix "session has already started" PHP notices by adding a check for existing php session before calling "start_session()" function.
+- Fixed license error update page to show correct license status.
+- Fixed js error when program name includes a single quote.
+- Fixed "include()" problem when finding files.
+- Added error output during license key validation to show details of any connection problems.
+- Fixed a few typos in the english language file.
+- Fixed inability to find script URL on some Windows servers where index.php was reported as Index.php.
+- Fixed "base href" problem with preview function on some server configurations. (Images were note displaying.)
+- Fixed openbasedir restriction problem on some servers when using the file browser.
+- Fixed determination of document root when displaying current folder location.
+- Fixed link to CSS styles broken after recent Microsoft updates.
+- Fix remote file include vulnerability. 
+
+
+[ May 15, 2006 -- v2.2.2 ]
+
+- Fixed javascript error when using "wysiwyg=no" or texbox editing for ALL Snippets on a page.
+
+
+[ May 11, 2006 -- v2.2.1 ]
+
++ Display an error message if popup blocker stops File Browser popup window from opening.
++ Added ITALIAN language. (I am looking for translators -- please contact me!)
++ Doctype for file being edited is now used to set the doctype when editing with the wysiwyg editor.
+
+- Fixed auto-installer so it works for servers where it previously couldn't get a folder listing.
+- Fixed Image Browser not returning image URL when selecting mouseover images.
+- Added "base href" tag to preview page immediately after opening HEAD tag.
+
+* Admin area now redirects to login on invalid page access.
+* Streamlined the FileBrowserCallback javascript to work better.
+
+
+[ May 8, 2006 -- v2.2 ]
+
++ Added ability to delete and rename files from within file browser. (Can be enabled for each User.)
++ Added maximum disk space quota/limit. (Can be enabled for each User and/or Upload Group.)
++ The file browser now lists folders first, then files. (In alphabetical order.)
++ Added ability to update license key directly from "invalid key" or other license problem pages.
++ Added database backup capability. (Located in General tab of Admin Area.)
++ Created a really easy-to-user Upgrade Utility.  I'm impressed with myself.  :)
++ Added the DUTCH, SWEDISH, GERMAN languages. (If you can help translate - please contact me!)
+
+* Upgraded wysiwyg editor to version 2.0.6.1 (Lots of editor bug fixes!)
+* Better logic when copying db files during install so "extra" folders in the dir do not cause failure.
+* PHP 4.3 or higher is now checked. (Older versions are insecure.)
+
+- Fixed periodic error with language file not being found properly.
+- Fixed the periodic "invalid license type" error.
+- Fixed problem with languages being displayed in LITE, but unable to use them.
+- Fixed incorrect path to "spacer.gif" file and "setup.css" file in Admin Area.
+- Fixed invalid icons displayed in file browser.
+- Fixed preview-in-new-window system so that it uses frames, and uses doctype of file being edited.
+- Fixed problem with default stylesheet not being found on some improperly configured servers.
+- Fixed problem with editor sometimes not loading properly due to corrupted file.
+- Fixed invalid default .zip file type for new Upload Groups.
+- Fixed spacing problem for invalid login message.
+- PHP error no longer displayed if image filesize is not found in filebrowser.
+
+
+[ April 21, 2006 -- v2.1.1 ]
+
+- Fixed problem with List Groups not keeping their values after editing.
+
+
+[ April 20, 2006 -- v2.1 ]
+
+* Release to the public.
+
+
+[ April 18, 2006 -- v2.0.22 ]
+
+- Removed requirement for a license key. Say hello to the free LITE version!
+* Adjustments to default file type lists, fix a few spelling errors.
+* Added "logout now" button after license key update.
+
+[ April 17, 2006 -- v2.0.21 ]
+
++ Added an error msg if no upload locations are defined for the current upload group. (Instead of just a blank list.)
+- Fixed problem with link browser window not auto-closing after clicking OK.
+- Fixed problem with invalid file path for CSS file that I didn't fix correctly. :(
+
+
+[ April 16, 2006 -- v2.0.20 ]
+
++ Added new "version" value to the database, so the new Upgrade Wizard will 
+  know what version you are upgrading from and can automatically run the right 
+  upgrade tasks.
+- Fixed invalid file path for the CSS file, if using your own file.
+- Added some better logic checking for language files.
+
+
+[ April 15, 2006 -- v2.0.19 ]
+
+- Fixed sorting of files/snippets so that it is case insensitive.
+* Forgot to update the version number in the last release.
+- Fixed a problem with zend encoding not working properly for some php 5 servers.
+- Fixed scrollbar problem with the documentation. 
+
+
+[ April 10, 2006 -- v2.0.18 ]
+
++ MAJOR CHANGE! Added ability to choose what "privilege" scheme should be used when determining
+  if a snippet is editable by the Regular User. Please visit this new option in the General 
+  Tab of the Admin Area. (Also see the "Admin Area: Users" section in the documentation.)
+* Changed color of "whole file" title in file listing dropdown to a more neutral red.
+* Changed "name" of normal user to "regular" user. Updated all docs/language file to use the the same term.
+* File dropdown list now sorts alphabetically.
+* Added .php and .shtml to default link file types.
+- Fixed formating (font size) problem on main admin page for firefox.
+- Fixed a problem with Zend version not working properly on php 5 systems.
+
+
+[ April 9, 2006 -- v2.0.17 ]
+
++ Added new user type.  (SUPER USER - has ability to edit all "whole files" and all snippets.)
++ Added "GZip" compression to the editor. It should be about 75% faster now, especially when reloading the edit page.
+  (Please report any editor problems!)
++ Add new option in admin area to choose if you want RELATIVE or ABSOLUTE urls when adding links/images.
++ Added support for PHP 5 and Apache 2.  (Please let me know if any problems with PHP5 or Apache 2 are found!)
++ After saving, the navigation folder location is now properly preserved. (Don't have to start from beginning again.)
+* Changed Snippet listing dropdown to use colors so it's more obvious what is a SNIPPET and what is a WHOLE FILE
+  (I'm very open to suggestions for better colors!)
++ Added some "usability" stuff to admin area pages. (Inactive elements are hidden or disabled, etc..)
++ Local license key is now automatically written and updated. No need to manually upload it any more.  :)
+* Fixed up the documentation. 
+
+
+[ April 7, 2006 -- v2.0.16 ]
+
++ Added ability to specify what kind (if any) of HTML code validation is desired.  This should
+  allow you to fix the various HTML code output problems by choosing (or specifying your own) html
+  creation and validation rules.  (See the new "HTML Code Validation & Cleanup Rule Sets" section in 
+  the General   tab of the Setup Area.)
++ Added ability to start "whole file editing" with the wysiwyg editor instead of the textbox.
+* Added detection of Opera 8 to display a special message if found.
+- Fixed a problem with foreign characters not being correctly displayed with English.php language file.
+- Fixed password validation error when canceling the "create new user" screen.
+- Fixed bug where toolbar dropdowns were being disabled after hitting preview button.
+
+[ April 4, 2006 -- v2.0.15 ]
+
++ Added ability to set editor heigh or width PER SNIPPET! (Uses "width" & "height" Snippet Tag Attributes.)
++ Added ability to disable wysiwyg editor PER SNIPPET! (Uses "wysiwyg" Snippet Tag Attribute.)
++ Image preview will now auto-refresh when an image is selected from the file browser.
+- Fixed problem with cssgetstyles.inc.php where program was existing if no styles were found. (oops!)
+- Fixed the editor sizing system. Any size you specify for the editor (in an Editor Group) will be used.
+* Changed offline license key system to auto-update.
+
+
+[ April 1, 2006 -- v2.0.14 ]
+
++ Any images or links inserted from the file browser will now be relative instead of absolute. (Popuplar request!)
+- Fixed a problem with image not always showing in the "preview" when browsing for an image. 
+* Changed the "Select a file" dropdown styles to try and make the difference between a SNIPPET and a EDIT WHOLE FILE more obvious. (I'm open to ideas here!)
+* Cleaned up unnecessary BASEURL string in inslink.php and insimage.php calls.
+* Fixed up the example1-single_snippet.html file a bit. ;)
++ Output code from the editor will now be formatted a little nicer.
+* Increased sizing and layout of the filebrowsers.
+* Changed licensing system to use multiple anonymous servers.
+
+
+[ March 31, 2006 -- v2.0.13 ]
+
+- Fixed problem with editor not loading when editing files outside the program install folder.
++ Added ability to auto-detect *embedded* CSS styles. (This was very difficult!! Let me know if any problems.)
+* Added an example "basic" Editor Group.
+* Added an example User.
+- Fixed the "please wait" div when waiting for editor to load.
+- Fixed invalid style in stylesheet.
+- Moved hardcoded text to language file. (Oops!)
+- Fixed invalid URL when linked CSS file is located in web root.
+* Changed preview window "close" button to be a little better looking.  (I think.)
+
+
+[ March 27, 2006 -- v2.0.12 ]
+
++ Added Editor Groups functionality. Any user can be assigned to any editor group.
++ Added support for LINKED stylesheets. (Support for embedded styles will come soon!)
++ Added EXPERIMENTAL WYSIWYG for when editing whole page. (EXPERIMENTAL!!!)
++ Added a "autosize" feature when editing with plain textarea.
++ Added colors to file selection dropdown to differentiate between "whole file" and "snippet".
++ Added a "please wait" while WYSIWYG editor is loading.
+- Many misc bug fixes that were reported in the beta testing forums.
+- Lots of tweaks to the WYSIWYG editing system.
+- Fixed time offset system so it works with GMT properly now.
+- Fixed installer to work with PHP Safe Mode. (I hope.)
+- Fixed Demo Mode, so it can't be turned off except by manually editing database.
+* Upgraded to tinyMCE 2.0.5.1
+* Allow image selection popup window to be resized.
+* Added demo mode selection popup warning.
+
+
+[ February 22, 2006 -- v2.0.11 ]
+
+-Internal release.
+
+
+[ January 3, 2006 -- v2.0.10 ]
+
++ Added php configuration/setting checks to the install wizard. The installer will now produce an error if certain requirements are not found. (ie: safe_mode = on)
+
+
+[ December 16, 2005 -- v2.0.9 ]
+
++ Added "lastsavedon" and "lastsavedby" snippet attribute tags.
++ Editor now shows the last saved date, time, and user.
++ added time/date preference settings to genereal settings area.
+
+
+[ December 13, 2005 -- v2.0.8 ]
+
+* Upgraded editor to latest version (2.0.1) from vendor.
++ Changed header/footer and other template files to use single CSS file.  Thanks to Kelvyn Sheppard for his work on this!
++ Split the "fullname" field into seperate "first name" and "last name" fields. 
++ New general settings option to allow admin to specify the desired header "Welcome" message. 
+* Modified licensing system to allow upgrading "on the fly".
++ Ability to auto-convert UPPERCASE filenames to lowercase when uploading. 
++ Admin can now disable requirement for unique user email addresses. 
+
+
+[ November 25, 2005 -- v2.0.7.2 ]
+
+- Fixed "send password" function. Again.  :)
+
+
+[ November 23, 2005 -- v2.0.7.1 ]
+
+* Changed template system a bit, in preparation for CSS work.
+
+
+[ November 22, 2005 -- v2.0.7 ]
+
+- Fixed problem with "send password" utility.
+- Fixed bug in adding new links/images. (relative links weren't working properly)
++ The editor will now work with either relative OR absolute URLs for images and hyperlinks.
+
+
+[ November 19, 2005 -- v2.0.6 ]
+
+- Files with no file extension were causing the File Explorer to stop. Now they are skipped.
+* Added some better error checking to see if we need to call the installation wizard.
++ Allow setting of the header meta tag "charset" in the language file.
+
+
+[ November 18, 2005 -- v2.0.5 ]
+
+* Major changes to how session variables are stored.
++ Should now work with servers where php is installed as CGI.
+- Fixed problem with editor rewriting <FONT> tags.
+* Misc improvements to documentation
+
+
+[ November 16, 2005 -- v2.0.4 ]
+
+- Fixed tabbing system on install form. (to do: fix other forms once beta is finished.)
+* Gave editor a default size of 400x800. Eventually I will add ability to specify default width/heigh using the Editor Groups system.
++ Added scrollbars to the editor if needed.
+- Fixed navigation system so it is correct even after file is selected to edit.
+
+[ November 14, 2005 -- v2.0.3 ]
+
+- Fixed problem with the popup tooltips (in IE) being hidden behind any select boxes.
+- Fixes to header and footer template system.
+
+
+[ November 13, 2005 -- v2.0.2 ]
+
+- Fixed cross-browser issue with the File Browser when browsing for links or images with the wysiwyg editor. 
+- Fixed permissions problem with uploaded files on servers that don't give correct read permissions.
+
+
+[ November 12, 2005 -- v2.0.1 ]
+
+- Fixed small problem with language file not displaying properly.
+
+
+[ November 11, 2005 -- v2.0 ]
+
++  ** MAJOR CHANGE! ** Changed the snippet tag system so now it is standards
+   compliant and uses HTML comments instead of pseudo-HTML tags.
+   If you are upgrading from a previous version, you MUST modify every page
+   that contains the old snippet tags and change them like this:
+
+   Change:  <snippet name="snippet name">
+       To:  <!-- #BeginSnippet name="snippet name" -->
+
+   Change:  </snippet>
+       To:  <!-- #EndSnippet -->
+
++  MUTIPLE SNIPPETS ON ONE PAGE. With the ability to now have multiple 
+   snippets on a single page, it is mandatory to give each snippet a name. A
+   #BeginSnippet tag without a valid name will not be recognized.
+
++  EXCLUDE or INCLUDE folders. Added the ability to specify a list of folders 
+   to either include or exclude from appearing in the WYSIWYG browse list 
+   when adding/editing a link or image. You can specify either include or 
+   exclude for each list.
+
++  MULITPLE USERS! PRO version now supports unlimited users. Each user 
+   can have their own "starting folder", so you can limit any user to certain 
+   areas of your website. I will be adding additional features to this, so 
+   please let me know your suggestions.  (ie: Ability to specify 
+   "exclude/include" folders on a "per user" basis?)
+
++  DEMONSTRATION MODE. Useful for anyone who wants to install a fully working
+   demo of the software on their website, but doesn't want their customers 
+   to be able to save file changes. Set "$DEMO_MODE = 1" in config.inc.php.
+
++  Added ability to upload files without opening the WYSIWYG editor.
+
++  Added support for a list of "editable file types". Only files in this
+   list will be allowed for editing.
+
++  Added function so users with admin priviledge can edit an entire file, 
+   even if there are no snippets in the file.
+
+*  Improved error checking for saving files from the editor.
+
+*  Improved file upload system so that it checks to see if the uploaded file is 
+   readable by the "nobody/www" user.  If not, it tries to chmod 644 the file.
+
+*  Changed upload system so that valid file extensions ($VALID_UPLOAD_FILE_TYPES)
+   are now case insensitive.
+
+*  Major code cleanup to make things faster and more effecient.
+
++  Added check to make sure file was not modified by someone else while user was 
+   editing.  Error will be displayed if current timestamp is newer then timestamp
+   taken when file was opened for editing.
+
++  Added ability to support unlimited number of websites on a single server with
+   one license key. Contact me if you're interested in using the PRO version
+   for an unlimited number of sites on one server.
+
+*  Login form cursor goes to username box automatically.
+
+*  Removed debug system since it was useless and just added clutter to my life.
+
++  Removed ability for admin to disable authentication. Since some settings are
+   now user-specific, we MUST have a user login to use the program.
+
++  Added automatic session expiry if no action has been taken within a certain
+   duration.  This is for improved security since many users use the program
+   on a shared computer and forget to logout!
+
++  POWER USERS.  Users with power priviledges can edit ANY snippet.
+
++  ADMIN USERS.  Users with admin priviledges can edit ANY snippet and ANY 
+   editable file, even if there are no snippets in it.
+   USE AT YOUR OWN RISK.  Please note that the current WYSIWYG editor sucks
+   and it will really screw up your files if you try to edit a whole file and
+   it contains any complicated html code.  It will also screw up your snippet 
+   tags.  (By causing them to no longer be on their own line after saving.)
+
+-  Fixed problem with upload utility when selected language was not being
+   remembered after file was uploaded.
+
+
+
+
+[ January 3, 2005 -- v1.2.7 ]
+
++ Added a "demonstration mode". Usefull for anyone who wants to install
+  a fully working demo of the software on their website, but doesn't 
+  want their customers to be able to save file changes.
+  Set "$DEMO_MODE = 1" in config.inc.php file to enable.
+  Modified files:
+	/includes/config.inc.php (added $DEMO_MODE variable)
+	/includes/shared.lib.php
+	/templates/main.html
+	/languages/ (all template files were modified)
+
+
+[ November 12, 2004 -- 1.2.6 ]
+* Changed colors a bit
++ Added support for "register_globals=off".
+
+[ December 28, 2002 -- 1.2.5 ]
+- Fixed minor bug with file uploads when open_basedir was restricted.
+
+[ December 10, 2002 -- 1.2.4 ]
+- Fixed (hopefully) the periodic data corruption when certain 
+  browser versions used the preview and save buttons. ("Disabled" 
+  the back button after saving, added target window for save 
+  function, added meta tags to force data reload)
+
+[ December 2, 2002 -- version 1.2.3 ]
+* Fixed small bug in IE 5.5 browsers without recent service packs.
+
+[ November 14, 2002 -- version 1.2.2 ]
+* Minor (non-critical) security enhancements
+* Fixed a few things that didn't work with older versions of PHP.
++ Added a help file.  (Thanks Dan!)
+
+[ November 4, 2002 -- version 1.2.1 ]
++ Security enhancements
+* A few minor cosmetic changes
+
+[ October 20, 2002 -- version 1.2 ]
++ Added support for multiple languages.  See README.html for details.
+* Several small bug fixes and tweaks.
+
+[ September 18, 2002 -- version 1.1.1 ]
++ Preview now opens into a new window with a "close button" on it.
+- Fixed javascript window close error in upload.php file.
+
+[ September 14, 2002 -- version 1.1.0 ]
++ Can now add and modify links for images!
+* More code was cleaned up.
+* Minor changes to editor layout.
+
+[ September 5, 2002 -- version 1.0.2 ]
++ Added file upload ability.
+* After saving, the "View in new window" button now opens an IE window with all 
+  IE options enabled.  (Location bar, toolbar, menu bar, status bar, etc..)  
+  So now you can force a refresh if IE doesn't do it automatically.
+
+[ September 4, 2002 -- version 1.0.1 ]
+- Removed needless call that was left over from debugging.
+- Removed some error checking for required template files that was actually 
+  causing errors.
+- Removed tidyedit function.  It just wasn't needed, and I never plan to use it.
+
+[ August 28, 2002 -- version 1.0 ]
+- Fixed several small bugs
+
+[ March 29, 2002 -- version 1.0 beta 4 ]
++ Ability to specify displayed file types when browsing for images or links.
+- File extensions are now displayed when browsing for links.
+- Spaces now work for all folders.
+
+[ March 23, 2002 -- version 1.0 beta 3 ]
++ Ability to create new links.
++ Ability to remove existing links.
+- Better error handling for link function.
+* Better documentation to insert link window. (For the Target option)
+
+[ March 17, 2002 -- version 1.0 beta 2 ]
+- Fixed a problem with template javascript. 
+  (document.menu.file.value is null error when changing dir's and no snippets 
+  are present.)
+* Tweak of html display code to speed up display.
+* Tested on Win 95, Win 98, W2k, XP - all with no problems.
+
+[ March 16, 2002 -- version 1.0 beta 1 ]
++ Initial release.

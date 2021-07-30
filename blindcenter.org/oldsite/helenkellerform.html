@@ -1,0 +1,116 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+
+<!--
+Helen Keller Registration Form
+
+Design Copyright 2001 Network Resources
+Images Copyright 2001 ISIGHT Center for the Blind
+Authored by Jeff S. Saunders 04/16/2001
+Modified by Jeff S. Saunders 05/28/2002
+-->
+
+<html>
+
+<head>
+	<title>Blind Center of Nevada</title>
+</head>
+	
+<body bgcolor="white">
+<table width="570" border="0" cellpadding="0" cellspacing="0">
+<tr>
+	<td align="center"><img src="media/blindcenterlogo.jpg" alt="" width="214" height="150" border="0"></td>
+</tr>
+<tr>
+	<td align="center"><font size="+1"><br><b>Helen Keller National Center for Deaf-Blind Youths and Adults<br>National Registry of Persons Who are Deaf-Blind</b><br><br></td>
+</tr>
+<tr>
+	<td align="left"><font size="-1">The purpose of the Registry is to provide basic information about persons with deaf-blindness in the United States.&nbsp;&nbsp;This information is to be used as a census, to identify the needs of persons with deaf-blindness, as a planning tool, and for research purposes.&nbsp;&nbsp;All identifying information is confidential and written consent of the individual or guardian is required before it will be shared outside of the Helen Keller National Center.<br><hr><br></td>
+</tr>
+<tr>
+	<td align="left">
+		<form action="helenkellerform.php" method="POST">
+		<input type="hidden" name="recipient" value="isight@blindcenter.org">
+		<input type="hidden" name="subject" value="Helen Keller Registration Form">
+		<input type="hidden" name="required" value="first_name,last_name,address1,city,state,zip,county,birth_date,ssn">
+		<input type="hidden" name="print_blank_fields" value="1">
+		<input type="hidden" name="redirect" value="helenkellerthanks.html">
+		<table border="0" cellspacing="2" cellpadding="0">
+		<tr>
+			<td align="right" valign="top"><b>Name:</b></td>
+			<td align="left">
+			<table cellspacing="0" cellpadding="0">
+			<tr>
+				<td><input type="text" name="first_name" size="16" maxlength="20">&nbsp;<br><font size="-2"><b>&nbsp;First</b></td>
+				<td><input type="text" name="middle_name" size="4" maxlength="20">&nbsp;<br><font size="-2"><b>&nbsp;Middle</b></td>
+				<td><input type="text" name="last_name" size="16" maxlength="20"><br><font size="-2"><b>&nbsp;Last</b></td>
+			</tr>
+			</table>
+			<td width="125" rowspan="14">&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="right" valign="top"><b>Address:</b></td>
+			<td><input type="text" name="address1" size="41" maxlength="50"><br><input type="text" name="address2" size="41" maxlength="50"></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>
+			<table cellspacing="0" cellpadding="0">
+			<tr>
+				<td><input type="text" name="city" size="16" maxlength="20">&nbsp;<br><font size="-2"><b>&nbsp;City</b></td>
+				<td><input type="text" name="state" size="4" maxlength="20">&nbsp;<br><font size="-2"><b>&nbsp;State</b></td>
+				<td><input type="text" name="zip" size="16" maxlength="20"><br><font size="-2"><b>&nbsp;Zip</b></td>
+			</tr>
+			</table>
+		</tr>
+		<tr>
+			<td align="right" valign="top"><b>Phone Number:</b></td>
+			<td><input type="text" name="phone" size="14" maxlength="20">&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="phone_type" value="Voice" checked>&nbsp;<b>Voice</b>&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="phone_type" value="TTY">&nbsp;<b>TTY</b></td>
+		</tr>
+		<tr>
+			<td align="right" valign="top"><b>Email Address:</b></td>
+			<td><input type="text" name="email" size="41" maxlength="50"><br><br></td>
+		</tr>
+		<tr>
+			<td align="right" valign="top"><b>Maiden Name:</b></td>
+			<td><input type="text" name="maiden_name" size="28" maxlength="50">&nbsp;&nbsp;<font size="-2"><b>(If Applicable)</b></td>
+		</tr>
+		<tr>
+			<td align="right" valign="top"><b>Residence County:</b></td>
+			<td><input type="text" name="county" size="41" maxlength="50"></td>
+		</tr>
+		<tr>
+			<td align="right" valign="top"><b>Birth Date:</b></td>
+			<td><input type="text" name="birth_date" size="14" maxlength="20">&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="Female" checked>&nbsp;<b>Female</b>&nbsp;&nbsp;<input type="radio" name="gender" value="Male">&nbsp;<b>Male</b></td>
+		</tr>
+		<tr>
+			<td align="right" valign="top"><b>Social Security #:</b></td>
+			<td><input type="text" name="ssn" size="41" maxlength="50"><br><br></td>
+		</tr>
+		<tr>
+			<td align="right" valign="top"><b>Cause of Blindness:</b></td>
+			<td><input type="text" name="cause_of_blindness" size="41" maxlength="100"></td>
+		</tr>
+		<tr>
+			<td align="right" valign="top"><b>Cause of Deafness:</b></td>
+			<td><input type="text" name="cause_of_deafness" size="41" maxlength="100"></td>
+		</tr>
+		<tr>
+			<td align="right" valign="top"><b>Other Condition(s):</b></td>
+			<td><input type="text" name="other_condition" size="41" maxlength="100"></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td align="center"><br><input type="submit" value="Send Info">&nbsp;<input type="reset" value="Reset"></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td align="center"><br><a href="index.php"><b>HOME</b></a></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>
+
+</body>
+
+</html>

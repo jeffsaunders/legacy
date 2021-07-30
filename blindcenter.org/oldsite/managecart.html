@@ -1,0 +1,130 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+
+<!--
+Holiday Baskets
+
+Design Copyright 2001-2004 Network Resources
+Images Copyright 2001-2004 Blind Center of Nevada
+Authored by Jeff S. Saunders 10/16/2001
+Modified by Jeff S. Saunders 11/02/2004
+-->
+
+<html>
+
+<head>	<title>Blind Center of Nevada</title>
+
+	<!-- sets style for cart table -->
+	<style type="text/css">
+	.checkout {font-family: serif; font-size: 12px; color: #000000;}
+	.checkoutinput {font-family: serif; font-size: 12px; color: #000000;}   
+	.nopcart {background: #464444;border: 1px;font-family: serif; font-size: 12px; color: #ffffff;}
+	.nopheader {background: #CCCCCC;font-family: serif; font-size: 18px; color: #000000;}
+	.nopentry {background: #FFFFFF;font-family: serif; font-size: 16px; color: #000000;}
+	.noptotal {background: #FFFFFF;font-family: serif; font-size: 16px; color: #000000;}
+	.nopbutton {color: #000000;} 
+	</style>
+
+	<script src="language-en.js"></script>
+	<script src="nopcart.js">
+	//=====================================================================||
+	//               NOP Design JavaScript Shopping Cart                   ||
+	//                                                                     ||
+	// For more information on SmartSystems, or how NOPDesign can help you ||
+	// Please visit us on the WWW at http://www.nopdesign.com              ||
+	//                                                                     ||
+	// JavaScript Shop Module, V.4.4.0                                     ||
+	//=====================================================================||
+	</script>
+
+	<SCRIPT> 
+	<!-- 
+	function AddDelZone(formToUpdate){
+		selectedObj = formToUpdate.DELZONE[formToUpdate.DELZONE.selectedIndex]; 
+		nameVal = selectedObj.getAttribute("name"); 
+		if (nameVal == "Shipping Method") {
+			alert("Please Select a Shipping Method"); 
+			return false;
+		}
+		if (nameVal == "Delivery Within Las Vegas") {
+			alert("A $10.00 Delivery Charge Will Be Added To Your Order"); 
+		}
+		if (nameVal == "Ship Outside Las Vegas") {
+			alert("Please Call (702)642-6000 for Shipping Costs"); 
+		}
+		if (nameVal == "Pickup at Blind Center") {
+			alert("You will be contacted when your order is ready to be picked up."); 
+		}
+		formToUpdate.NAME.value = nameVal; 
+		costVal = selectedObj.getAttribute("cost"); 
+		formToUpdate.PRICE.value = costVal; 
+		id_numVal = selectedObj.getAttribute("id_num"); 
+		formToUpdate.ID_NUM.value = id_numVal; 
+		shippingVal = selectedObj.getAttribute("shipping"); 
+		formToUpdate.SHIPPING.value = shippingVal; 
+		switch( formToUpdate.DELZONE[formToUpdate.DELZONE.selectedIndex].value ) { 
+		} 
+		AddToCart(formToUpdate); 
+		window.location.href = "checkout.html";
+	} 
+	//--> 
+	</script> 
+
+</head>
+
+<body bgcolor="White" leftmargin=0 topmargin=0>
+
+<table width="600" border="0" cellpadding="0" cellspacing="0">
+<tr>
+	<td colspan="2"><img src="media/HolidayBasketsHeader2.gif" alt="" width="570" height="232" border="0"></td>
+</tr>
+</table>
+
+<NOSCRIPT>
+Whoops, we detected that your browser does not have JavaScript, or it is disabled.  Our product catalog requires that you
+have JavaScript enabled to order products.  <a href="http://www.netscape.com">Netscape</a> and <a href="http://www.microsoft.com/ie">Microsoft</a>
+offer free browsers which support JavaScript.  If you are using a JavaScript compliant browser and still have problems, make sure you
+have JavaScript enabled in your browser's preferences.
+</NOSCRIPT>
+
+<table width="600" border="0" cellpadding="0" cellspacing="0">
+<tr>
+	<td align="center"><br><strong>The items listed below are currently in your shopping cart:</strong><br><img src="images/spacer.gif" width="1" height="5" alt="" border="0"><br></td>
+</tr>
+</table>
+
+<!-- confirm.siml -->
+<!--<FORM ACTION="checkout.html" NAME="form" METHOD="GET" onsubmit="return ValidateCart(this)">-->
+
+<script>
+    ManageCart();
+</script>
+<BR>
+
+<table width="600" border="0" cellspacing="2">
+<tr>
+	<td align="center"><form name="DelCost" id="DelCost" onChange="return false;"> 
+			<input type="hidden" name="PRICE" value="" /> 
+			<input type="hidden" name="NAME" value="" /> 
+			<input type="hidden" name="ID_NUM" value="" /> 
+			<input type="hidden" name="SHIPPING" value="" /> 
+			<input name="QUANTITY" type="hidden" value="1" />
+			<select name="DELZONE" class="impbox"> 
+				<option name="Shipping Method" value="Blank" selected>Delivery Method</option> 
+				<option cost="10.00" id_num="DELIVERY" name="Delivery Within Las Vegas" shipping="0" value="Delivery Within Las Vegas">Delivery Within Las Vegas</option> 
+				<option cost="00.00" id_num="SHIPPING" name="Ship Outside Las Vegas" shipping="0" value="Ship Outside Las Vegas" >Ship Outside Las Vegas</option> 
+				<option cost="00.00" id_num="PICKUP  " name="Pickup at Blind Center" shipping="0" value="Pickup at Blind Center">Pickup at Blind Center</option> 
+			</select><br><img src="images/spacer.gif" width="1" height="10" alt="" border="0"><br>
+			<input type="button" value="&nbsp;Recalculate&nbsp;">
+			<input type="button" value="&nbsp;&nbsp;&nbsp;Checkout&nbsp;&nbsp;&nbsp;" onClick="AddDelZone(document.DelCost)"><br><img src="images/spacer.gif" width="1" height="5" alt="" border="0"><br>
+			<input type="button" value="Continue Shopping" onClick="Javascript:window.location.href = 'HolidayBasketsShop2004.html';">
+		</form> 
+	</td>
+</tr>
+<tr>
+	<td colspan="2" align="center"><a href="index.php"><b>HOME</b></a></td>
+</tr>
+</table>
+
+</body>
+</html>
+

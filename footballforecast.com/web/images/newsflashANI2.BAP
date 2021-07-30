@@ -1,0 +1,34 @@
+<BAP>
+BAP Version 1.00
+FileName=Z:\sites\cybermight.com\dev\ffc2\images\newsflashANI2.gif
+Height=37
+Width=199
+BackgroundColor=clWhite
+BackgroundImage=No Background
+<BORDER>
+BevelInner=0
+BevelOuter=0
+Border=0
+BevelWidth=4
+BorderWidth=0
+BorderHilightColor=clWhite
+BorderShadowColor=clGray
+</BORDER>
+<IMAGE>
+Filename=Z:\sites\cybermight.com\dev\ffc2\images\newsflash.gif
+Left=0
+Top=0
+Height=37
+Width=199
+Stretch=TRUE
+Autosize=FALSE
+GIFNumber=-99
+</IMAGE>
+<ANIMATION>
+AnimationType=Blinds
+AnimationSpeed=10
+AnimationStep=1
+AnimationLoop=0
+AnimationLastFrame=100
+</ANIMATION>
+</BAP>

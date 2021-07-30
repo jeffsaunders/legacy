@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    
+    <add key="SMTPHost" value="mail.wbsrecords.com"/>
+    <add key="SMTPPort" value="25"/>
+    <add key="SMTPUser" value="Wal-Mart@wbswireless.com"/>
+    <add key="SMTPPass" value="kua28n69"/>
+    <add key="SMTPSender" value="Wal-Mart Associate Discounts &lt;Wal-Mart@wbswireless.com&gt;" />
+<!--    <add key="SMTPRecipient" value="Brett Jackson &lt;bj6351@att.com&gt;" />-->
+    <add key="SMTPRecipient" value="Eric Standard &lt;ES7141@att.com&gt;" />
+<!--    <add key="SMTPRecipient" value="&lt;ew8662@att.com&gt;" />-->
+    <add key="SMTPCC" value="Rick Stapp &lt;wmreport@wbswireless.com&gt;" />
+    <add key="SMTPBCC" value="Jeff Saunders &lt;j.saunders@wbsrecords.com&gt;" />
+
+  </appSettings>
+  <connectionStrings>
+    <add name="SQLCnx" connectionString="Server=(local);Database=WBSRecords;uid=WBSWeb;pwd=00WBSODBC00;" />
+  </connectionStrings>
+</configuration>

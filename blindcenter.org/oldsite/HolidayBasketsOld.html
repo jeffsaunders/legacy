@@ -1,0 +1,187 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+
+<!--
+Holiday Baskets
+
+Design Copyright 2001 Network Resources
+Images Copyright 2001 ISIGHT Center for the Blind
+Authored by Jeff S. Saunders 10/16/2001
+Modified by Jeff S. Saunders 09/19/2002
+-->
+
+<html>
+
+<head>
+	<title>Blind Center of Nevada</title>
+
+	<script language="javascript">
+// Begin Loading Images for Balloons
+	if (document.images) {
+	// MouseClick Images (Balloons)
+		img1click = new Image();
+		img1click.src = "media/basket1.jpg";
+		img2click = new Image();
+		img2click.src = "media/basket2.jpg";
+		img3click = new Image();
+		img3click.src = "media/basket3.jpg";
+	}
+	</script>
+
+<!-- Spawns Child Window -->	
+	<script language="javascript">
+
+	// This function spawns a child window 
+
+	//   SpawnChild(URL including fully qualified URL's,
+	//				Width of the spawned window in pixels,
+	//				Height of the spawned window in pixels,
+	//				Centered (no/0 or 1/yes, which overrides the positioning values below),
+	//				Netscape distance from left in pixels (unless Centered = 1/yes),
+	//				Netscape distance from top in pixels (unless Centered = 1/yes),
+	//				Internet Explorer distance from left in pixels (unless Centered = 1/yes),
+	//				Internet Explorer distance from top in pixels (unless Centered = 1/yes),
+	//				Is window resizable? (no/0 or yes/1 - either works),
+	//				Display scrollbars? (no/0 or yes/1),
+	//				Display menubar? (no/0 or yes/1),
+	//				Display toolbar? (no/0 or yes/1),
+	//				Display statusbar? (no/0 or yes/1)
+	//				)
+
+	// Example - SpawnChild('http://192.168.0.1/ChildWindowContent.html','500','200','150','no','200','150','200','yes','yes','no','0','1')
+	// Creates a window that is 500x200 pels located 150 pels from the left and 200 pels from the top (NOT centered) which loads a page from a server at 192.168.0.1 named ChildWindowContent.html, resizable, with scrollbars & statusbar on.
+	
+	function SpawnChild(Content, ChildName, Width, Height, Centered, NSx, NSy, IEx, IEy, Resizable, ScrollBars, MenuBar, ToolBar, StatusBar){
+		if (window.child && !(window.child.closed))
+			window.child.close();
+		var URL=Content;
+		var Name=ChildName;
+ 		var WindowWidth=parseInt(Width);
+ 		var WindowHeight=parseInt(Height);
+		if ((Centered == "1")||(Centered == "yes")){
+			Left=(screen.width/2)-(Width/2);
+			Top=(screen.height/2)-(Height/2);
+			NSx=Left;
+			NSy=Top;
+			IEx=Left;
+			IEy=Top
+		}
+ 		var ScreenX=parseInt(NSx);
+ 		var ScreenY=parseInt(NSy);
+ 		var Left=parseInt(IEx);
+ 		var Top=parseInt(IEy);
+ 		var Resize=Resizable;
+ 		var SB=ScrollBars;
+		var MB=MenuBar;
+ 		var TB=ToolBar;
+ 		var Status=StatusBar;
+    	child=window.open(URL, Name, "width=" + WindowWidth + ",height=" + WindowHeight + ",screenX=" + ScreenX + ",screenY=" + ScreenY + ",left=" + Left + ",top=" + Top + ",resizable=" + Resize + ",scrollbars=" + SB + ",menubar=" + MB + ",toolbar=" + TB + ",status=" + Status);
+	}
+	</script>
+
+</head>
+	
+<body bgcolor="White" leftmargin=0 topmargin=0>
+
+<table width="600" border="0" cellpadding="0" cellspacing="0">
+<tr>
+	<td colspan="3" align="center"><img src="media/HolidayBasketsHeader2.gif" alt="" width="570" height="232" border="0"></td>
+</tr>
+<tr>
+	<td colspan="3" align="center" valign="middle"><br><font face="serif" size="4">When time is of the essence and you want to make the perfect<br>impression, give the gift of food with our</font><br><font face="serif" size="7" color="Red">GOURMET GIFT BASKETS</font><br></td>
+</tr>
+<!--<tr>
+	<td colspan="3" align="center"><img src="media/BasketsPlaceholder.gif" width="570" height="489" alt="" border="0"></td>
+</tr>-->
+<tr>
+	<td colspan="3" align="center" valign="middle">
+	<table border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td><IMG SRC="media/spacer.gif" WIDTH=13 HEIGHT=1></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=112 HEIGHT=1></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=42 HEIGHT=1></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=1 HEIGHT=1></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=173 HEIGHT=1></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=1 HEIGHT=1></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=79 HEIGHT=1></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=1 HEIGHT=1></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=141 HEIGHT=1></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=7 HEIGHT=1></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td colspan="10"><IMG SRC="media/slices/baskets_1.jpg" WIDTH=570 HEIGHT=8></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=1 HEIGHT=8></td>
+	</tr>
+	<tr>
+		<td colspan="5"><IMG SRC="media/slices/baskets_2.jpg" WIDTH=341 HEIGHT=96></td>
+		<td colspan="4" rowspan="3"><a href="javascript:SpawnChild('basket3.html','child','440','525','yes','40','40','40','40','0','0','0','0','0')"><IMG SRC="media/slices/baskets_3.jpg" WIDTH=222 HEIGHT=212 border=0 alt=""></a></td>
+		<td rowspan="11"><IMG SRC="media/slices/baskets_4.jpg" WIDTH=7 HEIGHT=481></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=1 HEIGHT=96></td>
+	</tr>
+	<tr>
+		<td rowspan="10"><IMG SRC="media/slices/baskets_5.jpg" WIDTH=13 HEIGHT=385></td>
+		<td colspan="2" rowspan="5"><a href="javascript:SpawnChild('basket1.html','child','320','525','yes','40','40','40','40','0','0','0','0','0')"><IMG SRC="media/slices/baskets_6.jpg" WIDTH=154 HEIGHT=245 border=0 alt=""></a></td>
+		<td colspan="2"><IMG SRC="media/slices/baskets_7.jpg" WIDTH=174 HEIGHT=115></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=1 HEIGHT=115></td>
+	</tr>
+	<tr>
+		<td rowspan="9"><IMG SRC="media/slices/baskets_8.jpg" WIDTH=1 HEIGHT=270></td>
+		<td rowspan="8"><a href="javascript:SpawnChild('basket2.html','child','593','525','yes','40','40','40','40','0','0','0','0','0')"><IMG SRC="media/slices/baskets_9.jpg" WIDTH=173 HEIGHT=247 border=0 alt=""></a></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=1 HEIGHT=1></td>
+	</tr>
+	<tr>
+		<td><IMG SRC="media/slices/baskets_10.jpg" WIDTH=1 HEIGHT=35></td>
+		<td colspan="2" rowspan="2"><a href="javascript:SpawnChild('basket2.html','child','593','525','yes','40','40','40','40','0','0','0','0','0')"><IMG SRC="media/slices/baskets_11.jpg" WIDTH=80 HEIGHT=36 border=0 alt=""></a></td>
+		<td><a href="javascript:SpawnChild('basket3.html','child','440','525','yes','40','40','40','40','0','0','0','0','0')"><IMG SRC="media/slices/baskets_12.jpg" WIDTH=141 HEIGHT=35 border=0 alt=""></a></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=1 HEIGHT=35></td>
+	</tr>
+	<tr>
+		<td><IMG SRC="media/slices/baskets_13.jpg" WIDTH=1 HEIGHT=1></td>
+		<td rowspan="7"><IMG SRC="media/slices/baskets_14.jpg" WIDTH=141 HEIGHT=234></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=1 HEIGHT=1></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="3"><a href="javascript:SpawnChild('basket2.html','child','593','525','yes','40','40','40','40','0','0','0','0','0')"><IMG SRC="media/slices/baskets_15.jpg" WIDTH=80 HEIGHT=207 border=0 alt=""></a></td>
+		<td rowspan="6"><IMG SRC="media/slices/baskets_16.jpg" WIDTH=1 HEIGHT=233></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=1 HEIGHT=93></td>
+	</tr>
+	<tr>
+		<td colspan="2"><IMG SRC="media/slices/baskets_17.jpg" WIDTH=154 HEIGHT=3></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=1 HEIGHT=3></td>
+	</tr>
+	<tr>
+		<td rowspan="4"><IMG SRC="media/slices/baskets_18.jpg" WIDTH=112 HEIGHT=137></td>
+		<td rowspan="2"><a href="javascript:SpawnChild('basket2.html','child','593','525','yes','40','40','40','40','0','0','0','0','0')"><IMG SRC="media/slices/baskets_19.jpg" WIDTH=42 HEIGHT=112 border=0 alt=""></a></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=1 HEIGHT=111></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="3"><IMG SRC="media/slices/baskets_20.jpg" WIDTH=80 HEIGHT=26></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=1 HEIGHT=1></td>
+	</tr>
+	<tr>
+		<td rowspan="2"><IMG SRC="media/slices/baskets_21.jpg" WIDTH=42 HEIGHT=25></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=1 HEIGHT=2></td>
+	</tr>
+	<tr>
+		<td><IMG SRC="media/slices/baskets_22.jpg" WIDTH=173 HEIGHT=23></td>
+		<td><IMG SRC="media/spacer.gif" WIDTH=1 HEIGHT=23></td>
+	</tr>
+	</table>
+	</td>
+</tr>
+<tr>
+	<td colspan="3" align="center" valign="middle"><font face="serif" size="4">With An Assortment Of Holiday Treats Uniquely Created With A Personal Touch.</font><br><br><font face="serif" size="5">Perfect for holiday shopping for clients, employees &amp; friends.</font><br><i>We ship locally and nationally UPS and Fed Ex <img src="media/dot.gif" width=5 height=5 alt="" border=0 align="texttop" vspace=8> Visa and MasterCard accepted<br><br></i></font></td>
+</tr>
+<tr>
+	<td width="175" align="right"><a href="HolidayBasketsOrder.html"><img src="media/3Ways.gif" width=100 height=99 alt="Order Now!" border=0></a></td>
+	<td width="400" align="center"><font face="serif" size="4">Regularly Priced at Only $75<sup><strong><u><font size="-1">00</u></strong></sup></font><br><font face="serif" size="4"><strong>Order By November 1 and </strong><font face="serif" size="4" color="Red"><strong><u>Save $10</u><sup><strong><u><font size="-1">00</u></strong></sup></font><font face="serif" size="4" color="Red">!</strong><br><br></font><font face="serif" size="5" color="Red">That's Only $65<sup><u>00</u></sup></font><font face="serif" size="5" color="Red"> For<br>A Beautiful Gift Basket Set!</font></td>
+	<td width="175" align="left"><a href="HolidayBasketsOrder.html"><img src="media/Order.gif" width=100 height=99 alt="Order Now!" border=0></a></td>
+</tr>
+<tr>
+	<td colspan="3" align="center"><br><a href="index.php"><b>HOME</b></a></td>
+</tr>
+</table>
+
+</body>
+
+</html>

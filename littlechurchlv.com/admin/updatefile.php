@@ -1,0 +1,21 @@
+<?
+// Assign passed value(s)
+$sort = $_REQUEST['sort'];
+$date = $_REQUEST['date'];
+$time = $_REQUEST['time'];
+$groom = $_REQUEST['groom'];
+$bride = $_REQUEST['bride'];
+$filename = $_REQUEST['filename'];
+$path = $_REQUEST['path'];
+// Build new filename
+$newname = $groom."-".$bride."@".strtotime($date." ".$time).".rm";
+// Rename it!
+$success = rename("/var/www/helix/Content/Archive/littlechurch/".stripslashes($filename), "/var/www/helix/Content/Archive/littlechurch/".stripslashes($newname));
+// tell 'em the outcome
+if ($success == 1){
+	echo'<script>alert("'.$filename.' Renamed As '.$newname.'");</script>';
+}else{
+	echo'<script>alert("'.$filename.' Rename Failed");</script>';
+}
+echo'<script>window.location="index.php?sort='.$sort.'";</script>';
+?>

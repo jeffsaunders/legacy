@@ -1,0 +1,50 @@
+body{ font:normal 11px Verdana, Arial, Helvetica, sans-serif; color:#403f3f;}
+*{margin:0; padding:0;}
+a,img,li{border:none; outline:0; text-decoration:none; list-style-type:none; color:#fff;}
+h2{ font:normal 18px Verdana, Arial, Helvetica, sans-serif; color:#133666; height:35px; border-bottom:1px solid #32517a}
+p{ line-height:16px}
+#container{ width:900px; height:auto; overflow:hidden; margin:0 auto;background:#fff url(../images/topbar_bg.gif) repeat-x 0 top; padding:0 20px;}
+.topbar{ width:auto; height:35px; float:right; line-height:35px }
+.topbar div {float:left; background:url(../images/cart.gif) no-repeat 16px 7px; padding:0 0 0 44px; height:35px;}
+.topbar div a{display:block; float:left;}
+.topbar img{ padding:5px 0 0 15px}
+.topbar label{ color:#fff; float:left; background:url(../images/headericon_bg.gif) no-repeat right 0; padding:0 16px 0 0}
+#header{ width:900px; height:92px; overflow:hidden;}
+#header h1{ float:left; padding:15px 0 0 0}
+#header div a{ float:right; width:auto; height:auto; padding:28px 0 0 0}
+.twit{ padding:0 9px}
+#nav{ width:900px; height:41px; background:url(../images/nav_bg.gif) repeat-x; overflow:hidden;}
+#nav_r{ width:900px; height:41px; background:url(../images/nav_r.gif) no-repeat right 0}
+#nav ul{ background:url(../images/nav_l.gif) no-repeat left 0; width:900px; height:41px; }
+#nav ul li{ float:left; background:url(../images/li_bg.gif) no-repeat right 0;font:normal 14px/41px Arial, Helvetica, sans-serif; padding:0 45px}
+#nav .last{ background:none}
+#banner{ width:900px; height:273px; overflow:hidden; margin:10px 0 0 0}
+#slide{background:url(../images/banner.gif) no-repeat; width:370px; height:273px; float:left}
+#slideshow {position:relative;width:362px; height:257px; float:left; margin-left:0; background:url(../images/banner.gif) no-repeat;}
+#slideshow IMG {position:absolute;top:0;left:0;z-index:8;opacity:0.0;}
+#slideshow IMG.active {z-index:10;opacity:1.0;}
+#slideshow IMG.last-active {z-index:9;}
+#banner #slide img{ margin:7px 0 0 0; width:362px; height:257px; }
+#banner img{ height:273px; float:left; margin-left:10px}
+#secondbar{ width:900px; height:83px; margin:10px 0;}
+#content{ width:900px; height:auto; overflow:hidden;}
+.row1,.row2,.row3{ width:270px; height:auto; float:left}
+.row1 span{ background:url(../images/blog.gif) no-repeat; padding:4px 0 0 40px; height:29px; display:block}
+.row1 div, .row2 div,.row3 div { width:270px; height:auto; border-bottom:1px solid #32517a; overflow:hidden; padding:0 0 12px 0}
+.row1 label,.row2 label, .row3 label { padding:12px 0 8px 0; display:block}
+.row1 div a, .row3 div a{ float:right; color:#403f3f; padding:8px 0 0 0}
+.row2, .row3{ margin:0 0 0 45px}
+.row2 span{ background:url(../images/twit.gif) no-repeat; padding:4px 0 0 40px; height:29px; display:block}
+.row2 label, .row3 label{color:#133666; font-style:italic}
+.row2 p, .row3 p{color:#133666;}
+.row2 div a{ float:left;color:#133666; padding:14px 0 0 0}
+.line{ border:none !important; background:none !important}
+.footer{ width:900px; height:86px; background:url(../images/footer.gif) repeat-x;}
+.footer div ul{ width:813px; height:43px; padding:0 0 0 83px}
+.footer div li { float:left; font: normal 12px/43px Verdana, Arial, Helvetica, sans-serif; background:url(../images/LINE.gif) no-repeat right 16px; padding:0 10px}
+.footer div li a{color:#fff}
+.footer p{color:#fff; text-align:center; line-height:43px;}
+
+
+
+

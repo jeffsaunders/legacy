@@ -1,0 +1,27 @@
+TECNT :: Total Eclipse Multifunction Counter 
+Installation Instructions
+--------- http://scripts.tedesign.net -- scripts@tedesign.net
+          
+1. Create an empty file, called count.txt, and then 
+   upload count.php and count.txt to your server.
+
+2. CHMOD 777 count.txt - In most FTP programs you can change 
+   properties (chmod) of a file by right clicking on it.
+
+3. Add ONE of the following lines to your page, where you want the counter
+   to apear, depending on the style you want to use.
+ 
+   Graphical: <? $type = "gfx"; $dir = "DIRECTORY"; include("count.php"); ?> 
+                             (replace DIRECTORY with the directory your images are stored in)
+   Text:      <? $type = "text"; include("count.php"); ?>
+
+   Invisible: <? $type = "q"; include("count.php"); ?>
+
+  Remember to save your file as .php, not .htm or .html
+
+By default, graphical uses .gif files. If you want to use a diffrent format, change 
+the following line in count.php:
+
+$format = ".gif";
+
+If you are using the invisible counter, you can view your hits by going to count.txt in your browser.

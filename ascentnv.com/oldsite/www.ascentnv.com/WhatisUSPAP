@@ -1,0 +1,160 @@
+
+<html>
+	<head>
+		<title>What is USPAP? - Ascent Appraisal, Inc. Las Vegas NV</title>
+		<META HTTP-EQUIV="Expires" CONTENT="-1">
+		<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+		<META NAME="keywords" CONTENT="appraiser, appraisal, home appraisal, house appraisal, real estate appraiser, real estate appraisal, NV appraiserproperty appraiser, property appraisal, residential appraisal, commercial appraisal, house appraisers, appraisal services, commercial real estate appraisal, appraisal services">
+		<META NAME="description" CONTENT="Real estate appraisal - USPAP.  Ascent Appraisal, Inc., Las Vegas, NV.">
+
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/themeScripts.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/flashobject.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/flashPopup.js"></SCRIPT>
+
+		<LINK rel="stylesheet" type="text/css" href="/Styles.css">
+		<LINK rel="stylesheet" type="text/css" href="/templates/themes/mountain/styleSheet.css">
+		
+	</head>
+
+	<body bgcolor="#FFFFFF" topmargin="0" leftmargin="0">
+			
+		<div id="flashPopupNavLeft" style="position:absolute; width:5px; height:5px; z-index:999; left: -200px; top: 200px; visibility: visible;" onMouseOver="stopTime();" onMouseOut="startTime();">
+			<!-- alt content goes here, renders when the user doesn't have the proper flash file -->
+		</div>
+			
+		<table id="flashNav" width="764" align="center" height="100%" border="0" cellpadding="0" cellspacing="10">
+			<tr> 
+				<td width="764" height="142" colspan="3" bgcolor="#FFFFFF">
+					<div id="topFlashNav"><!-- needs flash plugin --></div>
+				</td>
+			</tr>
+			<tr>
+				<td class="nav" width="160" valign="top" bgcolor="#FFFFFF">
+					<div id="leftFlashNav"><!-- needs flash plugin --></div>
+				</td>
+				
+				<script type="text/javascript">
+				
+					var dtDate = new Date();
+					var szPageGuid = dtDate.getUTCMilliseconds().toString();
+				
+					// <![CDATA[
+					var foTop = new FlashObject("/templates/themes/FamilyLight/TopNav.swf", "topNav", "764", "142", 7, "#FFFFFF", "/XSitesBasic/HTMLSite.aspx");
+					foTop.addVariable("host", "www.ascentnv.com");
+					foTop.addVariable("AWSAccountsID", "27120");
+					foTop.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foTop.addVariable("ChosenLanguage", "English");
+					foTop.addVariable("IsMaster", "True");
+					foTop.addVariable("lcGuid", szPageGuid);
+					foTop.addParam("wmode", "transparent");
+					foTop.addParam("scale", "noscale");
+					foTop.addParam("salign", "lt");
+					foTop.addParam("menu", "false");
+					foTop.write("topFlashNav");
+
+					var foSec = new FlashObject("/templates/themes/FamilyLight/LeftNav.swf", "leftNav", "160", "650", 7, "#FFFFFF");
+					foSec.addVariable("host", "www.ascentnv.com");
+					foSec.addVariable("AWSAccountsID", "27120");
+					foSec.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foSec.addVariable("ChosenLanguage", "English");
+					foSec.addVariable("lcGuid", szPageGuid);
+					foSec.addParam("scale", "noscale");
+					foSec.addParam("salign", "lt");
+					foSec.addParam("menu", "false");
+					foSec.write("leftFlashNav");
+					
+					var foDiv = new FlashObject("/templates/themes/nestedNav/style1.swf", "popupSwf", "200", "25", 7, "#FFFFFF");
+					foDiv.addVariable("host", "www.ascentnv.com");
+					foDiv.addVariable("AWSAccountsID", "27120");
+					foDiv.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foDiv.addVariable("ChosenLanguage", "English");
+					foDiv.addVariable("lcGuid", szPageGuid);
+					foDiv.addParam("scale", "noscale");
+					foDiv.addParam("salign", "lt");
+					foDiv.addParam("menu", "false");
+					foDiv.write("flashPopupNavLeft");
+					// ]]>
+				</script>
+				
+				<td width="604" valign="top" bgcolor="#FFFFFF">
+					<table border="0" cellpadding="0" cellspacing="0" width="100%">
+						<tr>
+							<td>
+<script language="JavaScript" type="text/JavaScript" src="/Admin/JS/WizardV1.js"></script>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+	<tr>
+		
+		
+		
+		<td>
+		</td>
+		
+	</tr>
+	<tr>
+		<td width="100%" valign=top colspan=7>
+			
+<SCRIPT TYPE="text/javascript" SRC="/scripts/flashobject_fp8.js"></SCRIPT>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+	<tr>
+		<td>
+			<!--<img src="/graphics/shim.gif" border="0" width="10" height="10">-->
+		</td>
+		<td width="100%" valign=top>
+			<P class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-layout-grid-align: none" align=center><B style="mso-bidi-font-weight: normal"><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-bidi-font-family: 'Courier New'"><IMG class=img_whs3 height=87 src="http://209.213.217.34/html/2005uspap.jpg" width=288 border=0 x-maintain-ratio="TRUE"></P>
+<P class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-layout-grid-align: none">&nbsp;&nbsp;&nbsp;</P>
+<P class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-layout-grid-align: none"></SPAN></B><B style="mso-bidi-font-weight: normal"><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-bidi-font-family: 'Courier New'">What is USPAP?</SPAN></B><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-bidi-font-family: 'Courier New'"><BR></P></SPAN>
+<P class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-layout-grid-align: none"><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-bidi-font-family: 'Courier New'">USPAP, which you might hear pronounced like "YOOS-pap," is the <STRONG>Uniform Standards of Professional Appraisal Practice.</STRONG><SPAN style="mso-spacerun: yes"> </SPAN>USPAP is published and maintained by the Appraisal Standards Board (ASB) of the Appraisal Foundation, a non-governmental entity charged by Congress with promulgating appraisal standards.<SPAN style="mso-spacerun: yes"> </SPAN><?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-layout-grid-align: none"><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-bidi-font-family: 'Courier New'"><o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-layout-grid-align: none"><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-bidi-font-family: 'Courier New'"></SPAN>&nbsp;</P>
+<P class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-layout-grid-align: none"><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-bidi-font-family: 'Courier New'">USPAP is revised annually.<SPAN style="mso-spacerun: yes">&nbsp;Revisions become effective January 1 of each year, so it is imperative that&nbsp;an appraiser be familiar with the changes that affect their performance.&nbsp;The USPAP covers all aspects of the appraisal development and communication process for real property, personal property and intangible asset appraisal.&nbsp;The USPAP has been adopted by state regulatory&nbsp;agencies and is referenced in&nbsp;several federal documents making&nbsp;it the LAW of the appraisal industry.</SPAN></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-layout-grid-align: none"><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-bidi-font-family: 'Courier New'"><SPAN style="mso-spacerun: yes"></SPAN></SPAN>&nbsp;</P>
+<P class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-layout-grid-align: none"><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-bidi-font-family: 'Courier New'"><o:p>The USPAP is summarized in the preamble, which states in part, "The purpose of the <FONT style="FONT-STYLE: italic">Uniform Standards of Professional Appraisal Practice </FONT>(USPAP) is to promote and maintain a high level of public trust in appraisal practice by establishing requirements for appraisers. It is essential that appraisers develop and communicate their analyses, opinions, and conclusions to intended users of their services in a manner that is meaningful and not misleading." </o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-layout-grid-align: none"><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-bidi-font-family: 'Courier New'"><o:p></o:p></SPAN>&nbsp;</P>
+<P class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-layout-grid-align: none"><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-bidi-font-family: 'Courier New'"><o:p>At Ascent Appraisal, Inc. we take&nbsp;USPAP seriously. Our chief appraiser, Michael Brunson,&nbsp;is an AQB Certified USPAP Instructor and is active in appraisal education and consulting.&nbsp;&nbsp;</o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-layout-grid-align: none"><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-bidi-font-family: 'Courier New'"><o:p></o:p></SPAN>&nbsp;</P>
+<P class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-layout-grid-align: none"><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-bidi-font-family: 'Courier New'"><o:p><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-bidi-font-family: 'Courier New'"><SPAN style="mso-spacerun: yes">A current version of the USPAP can be accessed here: <A href="http://209.213.217.34/html/USPAP2005/toc.htm">http://209.213.217.34/html/USPAP2005/toc.htm</A></SPAN></SPAN></o:p></SPAN></P>
+			
+		</td>
+		
+		<td>
+			<!--<img src="/graphics/shim.gif" border="0" width="10" height="10">-->
+		</td>
+		
+	</tr>
+</table>
+<!--<div id="FormsLayer" style="position:absolute; width:368px; height:178; z-index:2; left: 0; top: 0; visibility: visible;"></div>-->
+			
+		</td>
+	</tr>
+</table>
+<div align=center class=tableText>6120 Shelter Creek Avenue  Las Vegas, NV 89110<br><nobr>Phone: (702) 641-5657</nobr> <nobr>Fax: (702) 641-7944</nobr> <nobr><script language=javascript> var username = 'contact'; var hostname = 'ascentnv.com'; document.write('<nobr>E-mail: <a href=mail' + 'to:' + username + '@' + hostname + '>' + username + '@' + hostname + '</a>');</script><p><a href="/W-9/License/EO"><nobr>W-9 / License / E&O</nobr></a> | <a href="/CodeofEthics"><nobr>Code of Ethics</nobr></a> | <a href="/AppraisalReviews"><nobr>Appraisal Reviews</nobr></a> | <a href="/DateofDeathValuations"><nobr>Date of Death Valuations</nobr></a> | <a href="/Appraiserethics"><nobr>Appraiser ethics</nobr></a> | <a href="/Threeapproachestovalue"><nobr>Three approaches to value</nobr></a> | <a href="/WhatisUSPAP"><nobr>What is USPAP?</nobr></a> | <a href="/Pre-ListingAppraisals"><nobr>Pre-Listing Appraisals</nobr></a> | <a href="/RelocationAppraisal"><nobr>Relocation Appraisal</nobr></a> | <a href="/15vs30YearMtgCalc"><nobr>15 vs 30 Year Mtg Calc</nobr></a> | <a href="/RefiBreakevenCalc"><nobr>Refi Breakeven Calc</nobr></a> | <a href="/MortgageFraud"><nobr>Mortgage Fraud</nobr></a> | <a href="/ResidentialInvestment"><nobr>Residential Investment</nobr></a> | <a href="/OurTechnology"><nobr>Our Technology</nobr></a> | <a href="/OrderanAppraisal"><nobr>Order an Appraisal</nobr></a> | <a href="/ClientLogin"><nobr>Client Login</nobr></a> | <a href="/TellaFriend"><nobr>Tell a Friend</nobr></a> | <a href="/DownloadAdobeAcrobat"><nobr>Download Adobe Acrobat</nobr></a> | <a href="/Services"><nobr>Services</nobr></a> | <a href="/ContactUs"><nobr>Contact Us</nobr></a> | <a href="/WhatisanAppraisal"><nobr>What is an Appraisal</nobr></a> | <a href="/WhygetanAppraisal"><nobr>Why get an Appraisal</nobr></a> | <a href="/AboutPMI"><nobr>About PMI</nobr></a> | <a href="/FAQ"><nobr>FAQ</nobr></a> | <a href="/GlossaryofTerms"><nobr>Glossary of Terms</nobr></a> | <a href="/RealEstateNews"><nobr>Real Estate News</nobr></a> | <a href="/ExpertWitness"><nobr>Expert Witness</nobr></a> | <a href="/DivorceAppraisals"><nobr>Divorce Appraisals</nobr></a> | <a href="/EstateAppraisals"><nobr>Estate Appraisals</nobr></a> | <a href="/AppraisalMyths"><nobr>Appraisal Myths</nobr></a> | <a href="/ForBuyers"><nobr>For Buyers</nobr></a> | <a href="/HomeSellerServices"><nobr>Home Seller Services</nobr></a> | <a href="/ForHomeowners"><nobr>For Homeowners</nobr></a> | <a href="/HowtoPrepare"><nobr>How to Prepare</nobr></a> | <a href="/PressRelease"><nobr>Press Release</nobr></a><p>Copyright &copy; 2006&nbsp;Ascent Appraisal, Inc.<br>Portions Copyright &copy; 2006 a la mode, inc.<br>Another XSite by <a href='http://www.alamode.com/' target='_blank'>a la mode, inc.</a>&nbsp;|&nbsp;<a href='https://ascentnv.appraiserxsites.com/apps/alamodelogin/login.aspx' target='_new'>Admin Login</a>|&nbsp;<a href='/TermsOfUse'>Terms of Use</a></div>
+
+
+
+	</td>
+	</tr>
+	</table>
+	<table width="95%" border="0" cellspacing="1" cellpadding="10">
+		<tr>
+			<td><br></td>
+		</tr>
+		<tr> 
+			<td>
+				<div align="center" class="tableText"><br>
+					<table border="0" cellpadding="0" cellspacing="0" width="95%">
+						<tr>
+							<td>
+								
+							</td>
+						</tr>
+					</table>
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

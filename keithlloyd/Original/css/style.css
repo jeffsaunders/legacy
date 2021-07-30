@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+  height: 100%;
+  margin:0;  
+  padding: 0;
+  background-image:url(../images/001.jpg);
+  background-size:100%;
+  background-repeat:no-repeat;  
+}
+
+.logo
+{
+vertical-align:top;
+margin-top:10px;
+}
+
+
+
+.spring {
+	font-size: 22px;
+	color: #021e63;
+	font-style: italic;
+	font-weight: bold;
+	padding-top: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.c_table {
+	height: 270px;
+	background-color: #999999;
+	opacity: 0.90;
+	margin-top: 5px;
+}
+.sub_title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #00125a;
+	font-weight: bolder;
+	text-align: center;
+}
+.learn {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.youtube_link {
+	color: #666666;
+}

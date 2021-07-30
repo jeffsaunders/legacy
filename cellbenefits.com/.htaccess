@@ -1,0 +1,4 @@
+#<IfModule mod_php5.c>
+	php_value session.save_path /var/www/html/cellbenefits.com/tmp/
+	php_value zlib.output_compression 16386
+#</IfModule>

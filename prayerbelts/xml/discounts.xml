@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<discounts>
+	<discount>
+		<code>pbthx</code>
+		<variable>shipping</variable>
+		<value>0</value>
+	</discount>
+	<discount>
+		<code>dummy</code>
+		<variable>price</variable>
+		<value>.5</value>
+	</discount>
+</discounts>

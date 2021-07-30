@@ -1,0 +1,16 @@
+#!/bin/sh
+PHPRC="/etc/"
+export PHPRC
+PHP_DOCUMENT_ROOT="/var/www/clients/client3/web55"
+export PHP_DOCUMENT_ROOT
+# The variable PHP_FCGI_CHILDREN is onyl useful for lighty or nginx as apache 
+# mod_fcgi will control the number of childs themself and never use the additional processes.
+# PHP_FCGI_CHILDREN=8
+# export PHP_FCGI_CHILDREN
+PHP_FCGI_MAX_REQUESTS=5000
+export PHP_FCGI_MAX_REQUESTS
+exec /usr/bin/php-cgi \
+ -d open_basedir="/var/www/clients/client3/web55/web:/var/www/clients/client3/web55/tmp:/var/www/okmywebsitesucks.com/web:/srv/www/okmywebsitesucks.com/web:/usr/share/php5:/tmp:/usr/share/phpmyadmin:/etc/phpmyadmin:/var/lib/phpmyadmin" \
+-d upload_tmp_dir=/var/www/clients/client3/web55/tmp \
+-d session.save_path=/var/www/clients/client3/web55/tmp \
+ $1

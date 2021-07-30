@@ -1,0 +1,164 @@
+Prayer Belts Website Documentation
+The Prayer Belts website is located at http://www.prayerbelts.com.  It is hosted on a LAMP configured hosting environment, "LAMP" being an acronym for "Linux, Apache, MySQL, PHP", which make up the bulk of the services used by the site.  In addition, the site also makes heavy use of Javascript and the jQuery library.  The Primary code is HTML5 compliant but makes only minimal use of HTML5's advanced features for maximum browser compatibility.  Formatting is accomplished by way of an external stylesheet that is CSS3 compliant. 
+It is currently hosted on a Fedora 12 Linux Server running Apache version 2.2.15, PHP version 5.3.3, and MySQL version 5.1.47.  Site and email management is via the ISPConfig hosting control panel.  Content management is via Snippetmaster Pro.  FTP access is configured.  All credentials and links are supplied later in this document.
+The site consists of the following files, including a brief description of each file's/folder's purpose:
+*NOTE - Many of the image filenames are from the original mockup, so they may not fit my normal image naming scheme (LikeThis.jpg).
+
+/ (Root Directory)
+	fdgg.php	Initiates and facilitates communication with the First Data Global Gateway .
+	index.php	Primary Website Controlling Script - almost all pages are rendered through here.
+	robots.txt	File containing instructions for Search Engine crawlers (Google, etc.)
+	sendform.php	A relatively generic script for sending form content as an email.
+	updatecart.php	The script for managing changes (updates) to the shopping cart.
+	updatelist.php	The script for adding subscribers to the mailing list.
+/admin/
+	(Too many to list)	This folder contains the Snippetmaster Administration Tool.
+/classes/
+	MyCSV.class.php	This script provides SQL like management of CSV files - used for order processing
+/css/
+	prayerbelts.css	The style sheet for the entire site.
+/csv/
+	FailedOrders.csv	CSV file containing information on all the failed orders
+	MailingList.csv		CSV file containing the mailing list.
+	SuccessfulOrders.csv	CSV file containing all successful orders.
+/csv/packingslips/
+	(Added on-the-fly)	As each order is processed, the corresponding packing slip is stored here.
+/error/
+	400.html	These are generic error pages that are returned when an error occurs.
+	401.html
+	403.html
+	404.html
+	405.html
+	500.html
+	503.html
+/fpdf/
+	(Too many to list)	This folder contains the PHP PDF creation library used for the packing slips.
+/images/
+AboutUsImage2.jpg	Image currently used on the "About Us" page.
+AboutUsImage.jpg	Image previously used on the "About Us" page.
+ad1.gif			Image used for the middle box of the promotion banner.
+ad2.gif			Image used for the right box of the promotion banner.
+add-cart.jpg		"Add To Cart" button used on the Products page.
+banner.gif		Background image used behind animated belt images.
+blog.gif		Blog Symbol (Actually, the RSS Symbol, but whatever...)
+cart.gif		Shopping Cart symbol used at the top of every page.
+checkout.gif		"Checkout" button used at the top of every page.
+ContactUsImage2.jpg	Image currently used on the "Contact Us" page.
+ContactUsImage.jpg	Image previously used on the "Contact Us" page.
+ContinueShopping.jpg	"Continue Shopping" button used on the Shopping Cart page.
+EmptyShoppingCart.jpg	"Empty Shopping Cart" button used on the Shopping Cart page.
+facebook.gif		Facebook button used on every page (above menu).
+FAQImage.jpg		Image used at the bottom of the FAG page.
+favicon.gif		FAVIcon.
+footer.gif		Footer Background.
+friend.gif		"Share With A Friend" button used on every page (above menu).
+headericon_bg.gif	Vertical bar separating the "Join Our Mailing List" and Shopping Cart links.
+image1.jpg		Original animated belts images.
+image2.jpg		"
+image3.jpg		"
+JoinImage.jpg		Join form page image.
+LearnMoreButton.jpg	"Learn More" button.
+li_bg.gif		Vertical bar separating the menu (Nav Bar) items.
+LINE.gif		Vertical bar separating the footer text links.
+logo.gif		Logo image used in the website header.
+logo.jpg		300ppi logo image used in PDF documents.
+Main-Page-Photo1.jpg	Current animated belts images.
+Main-Page-Photo2.jpg	"
+Main-Page-Photo3.jpg	"
+nav_bg.gif		Menu (Nav Bar) background.
+nav_l.gif		Menu (Nav Bar) left-side rounded background.
+nav_r.gif		Menu (Nav Bar) right-side rounded background.
+new-photo-1.jpg		Second set of animated belts images.
+new-photo-2.jpg		"
+new-photo-3.jpg		"
+OurMissionImage.jpg	"Our Mission" page image.
+ProceedToCheckout.jpg	"Proceed to Checkout" button.
+QuestionMark.gif	Question mark icon - indicates context sensitive help on forms.
+secondbar1.gif		Current bar below the promotion boxes and animated belts.
+secondbar.gif		Original bar below the promotion boxes and animated belts.
+share.jpg		"Share" button bar used on the Products page.	
+topbar_bg.gif		Background of bar along the very top - with the cart icon and checkout button.
+twit.gif		Twitter Bluebird symbol used on the home page.
+twitter.gif		Twitter button used on every page (above menu).
+/images/products/
+InJesusBack2HiRes.jpg	Second section of back side of the "In Jesus" belt  (hi-res for magnification).
+InJesusBack2.jpg	Second section of back side of the "In Jesus" belt  (enlarged image).
+InJesusBack2Thumb.jpg	Second section of back side of the "In Jesus" belt  (thumbnail image).
+InJesusBackHiRes.jpg	First section of back side of the "In Jesus" belt  (hi-res for magnification).
+InJesusBack.jpg		First section of back side of the "In Jesus" belt  (enlarged image).
+InJesusBackThumb.jpg	First section of back side of the "In Jesus" belt  (thumbnail image).
+InJesusListThumb.jpg	"In Jesus" thumbnail image for shopping cart and receipt listings.
+In-JESUS-Name-We-Pray.jpg	"In Jesus" product name image - used on Products page.
+JesusIsBack2HiRes.jpg	Second section of back side of the "Jesus Is" belt  (hi-res for magnification).
+JesusIsBack2.jpg	Second section of back side of the " Jesus Is " belt  (enlarged image).
+JesusIsBack2Thumb.jpg	Second section of back side of the " Jesus Is " belt  (thumbnail image).
+JesusIsBackHiRes.jpg	First section of back side of the " Jesus Is " belt  (hi-res for magnification).
+JesusIsBack.jpg		First section of back side of the " Jesus Is " belt  (enlarged image).
+JesusIsBackThumb.jpg	First section of back side of the " Jesus Is " belt  (thumbnail image).
+JesusIsListThumb.jpg	" Jesus Is " thumbnail image for shopping cart and receipt listings.
+JESUS-Is-My-LORD-and-Savior.jpg	" Jesus Is " product name image - used on Products page.
+UniversalFrontHiRes.jpg	Universal belt front (hi-res for magnification).
+UniversalFront.jpg	Universal belt front (enlarged image).
+UniversalFrontThumb.jpg	Universal belt front (thumbnail image).
+UniversalSideHiRes.jpg	Universal belt front side (hi-res for magnification).
+UniversalSide.jpg	Universal belt front side (enlarged image).
+UniversalSideThumb.jpg	Universal belt front side (thumbnail image).
+/includes/
+about.php		"About Us" page content (wrapped inside /index.php).
+cart.php		"Shopping Cart" page content.
+checkout.php		"Checkout" page content.
+contact.php		"Contact Us" page content.
+declined.php		Payment Declined page content.
+faq.php			"FAQ" page content.
+fdgg-util_sha2.php	Special script to calculate the encryption hash string for payment transactions.
+home.php		"Home" page content.
+join.php		"Join Mailing List" page content/form.
+mission.php		"Our Mission" page content.
+privacy.php		"Privacy Policy" page content.
+products.php		"Products" page content.
+returns.php		"Shipping & Returns Policy" page content.
+terms.php		"Website Terms of Use" page content.
+testimonials.php	"Testimonials" page content - full list.
+thankyou.php		"Thank You" page.  Orders are processed here too.
+/js/
+ddpowerzoomer.js	Javascript code for magnification feature on Products page.
+FormValidation.js	Javascript forms validation functions.
+jquery-1.2.6.min.js	jQuery library.
+/stats/
+	(Updates automatically)	Site Statistics - updated automatically (DO NOT EDIT)
+/xml/
+config.xml		Site configuration XML file.
+faq.xml			Frequently Asked Questions and Answers for FAQ page.
+products.xml		Product information XML file.
+testimonials.xml	Testimonials for Testimonials and Home pages.
+
+Configuring the site is done by means of an XML file located at /xml/config.xml.   The format of the file is relatively simple.  The third level identifies the element whose configuration values are located in the fourth, and occasionally fifth levels.  I have labeled them clearly so it should be obvious what each setting is for.  Think of each as a database column name and it will start to make sense.
+For example, the following "record" defines the values for Texas Sales Tax:
+
+	<salesTax>
+		<state>TX</state>
+		<rate>8.25</rate>
+		<taxShipping>Y</taxShipping>
+	</salesTax>
+
+Those elements that consist of an undetermined number of items are listed redundantly, and are therefore read in as an array of values.  Unfortunately, XML only recognizes those if there is more than one in existence.  For that reason, any settings that will eventually need more values defined must contain at least 2 items.  You will notice that under the Sales Tax settings there is an extra "state" defined.  This is a placeholder used to force XML into reading the Sales Tax values into an array and it should be used for the next state added and cannot be removed.
+Other information that would usually be stored in a database is also stored in XML files.  The Frequently Asked Questions are stored in /xml/faq.xml, Testimonials are in /xml/testimonials.xml, and products are in /xml/products.xml and each follows the same convention as the config.xml file.  
+
+As previously mentioned, the site is written in HTML5 and uses CSS3 extensively.  Aside from the occasional in-line style, all formatting is defined in /css/prayerbelts.css.  The file is laid out in sections that mostly correspond to individual pages on the site.  You may find many of the settings to be redundant, but I have laid it out this way for maximum flexibility and granularity so that each page can be adjusted specifically to whatever degree necessary, without a negative impact on any other page.
+If you look at the code for each page you will find a very similar layout for each, with elements contained within clearly defined <DIV> tags, each with a corresponding set of values contained in the prayerbelts.css stylesheet.
+The design takes advantage of PHP's powerful "include" mechanism to build each page dynamically based on values passed to the controlling index.php file via querystrings and/or POSTs.  Essentially, EVERY page is "index.php", with its content varying based on those passed values.  Starting at around line 180 of index.php you will see the routine that calls into play the individual content script that is defined by the "sec" value passed to it.  With rare exception you will find all of these included code snippets in the /includes/ folder.  Everything above that (header, menu, promotion boxes) and everything below that (footer) is present on EVERY page, with the included code making up the content between them.  With the exception of the checkout routine all content is displayed this way.
+Actually, the checkout code is also included this way, but within THAT code you will find that that an iFrame is used, primarily so that content from the merchant services provider can be displayed within the site framework.  In order for that to work properly, I also display the site's portion of the checkout process inside the same iFrame.
+All form validation is done via Javascript and/or jQuery.  Thos scripts can be found in the /js folder.
+There are some purely back-end processes - scripts that do not result in the creation of a displayable page, but perform some hidden process.  Those are located in the site's root.  They include such tasks as writing an order to the "database" (more on that below), creating and sending the receipt & order emails, and saving subscriber information for the mailing list.
+Information that is collected is stored in CSV files for maximum site portability.  These files are located in the /csv folder and are named appropriately "SuccessfulOrders.csv", "FailedOrders.csv", and "MailingList.csv".  Each is laid out like a database, with a header row located at row 1 which defines the contents of that individual column.  If you open one inside of a spreadsheet program, Excel for example, the information will be clearly understandable.  Contained within the /csv folder is a subfolder called /packingslips.  This folder contains the individual packing slip PDF files that were created with each order and serve as a sort of backup or check against the CSV file to assure that every order is accounted for.
+There are a couple more folders that contain additional code/libraries that are used by the system, but those are primarily included as-is and do not contain any custom code produced by me, therefore should ordinarily not be edited.  These include a class library for handling CSV file manipulation, a PDF generation library used to create the packing slips, and statistical information for site activity reports.
+
+Site content can be managed without the use of FTP and an HTML editor.  I have included the professional (paid) version of Snippetmaster for this purpose.  Snippetmaster allows for the editing of the site's files using a browser.  Changes made this way are immediate, so bear that in mind.
+To access Snippetmaster, point your browser at www.prayerbelts.com/admin.  You will be presented with a login screen.  The username is "admin" and the password is "01850185".  Once logged in you will see two list boxes at the top of the edit screen, in the middle of the page.  The one on the left allows you to change to the folder containing the file you wish to edit.  In order for it to work, once you have selected the folder you need to click the "open" button next to it.  This will populate the list on the right with all the editable files in that folder.  Select the file you want from this list and click the "open" button next to it to load the file into the editor.
+You can upload images within Snippetmaster by clicking on the "upload" link in the main menu in the upper-right of the page.  Here you will also find online help, Snippetmaster's own setup pages, and the link to log out.
+The site also includes a control panel where you can manage DNS, Email, etc.  It is located at http://admin.prayerbelts.com or http://admin.nr.net.  Your username is "rstapp" and your password is "01850185".  Once logged in everything is fairly self-explanitory.
+FTP is also available.  The URL is ftp.prayerbelts.com or ftp.nr.net.  Your username is "rstapp.prayerbelts" and your password is "01850185".  The website root is located in the /web folder.
+That about covers it.  If you have any additional questions or need something explained more clearly, ask.
+
+
+

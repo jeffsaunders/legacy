@@ -1,0 +1,164 @@
+King Controls Hosting
+
+Hosted with Media Temple
+http://mediatemple.net
+Primary Domain: kingcontrols.com
+Primary Email: sam.shuster@kingcontrols.com
+Password: king2014
+
+
+Database Setup (MySQL)
+Hostname: internal-db.s196738.gridserver.com
+Database Name: db196738_mobiledishmall
+Username: db196738
+Password: King2014!! (uppercase K)
+
+
+
+
+
+
+
+
+Overview
+
+Your Server Guide provides access to useful information about the features of your (gs). The information in this guide is specific to your server only; meaning that details such as domains, usernames, and path names only pertain to your server.
+
+* This example uses your primary domain. Simply replace with any domain attached to your server.
+Domains
+
+Primary Domain:
+    mobiledishmall.com
+Access Domain:
+    s196738.gridserver.com
+* Site Preview:
+    mobiledishmall.com.s196738.gridserver.com
+Last Disaster Recovery Backup:
+    September 24, 2014 7:18 pm
+
+FTP
+
+Hostname:
+    s196738.gridserver.com
+* HTML Directory:
+    /home/196738/domains/mobiledishmall.com/html
+* FTP path to HTML directory:
+    domains/mobiledishmall.com/html
+Server Administrator Username:
+    mobiledishmall.com
+Server Administrator Password: King2014!! (uppercase K)
+
+DNS
+
+Primary DNS nameserver:
+    ns1.mediatemple.net (64.207.128.246)
+Secondary DNS nameserver:
+    ns2.mediatemple.net (70.32.65.137)
+IP Address:
+    72.47.244.84 (use this for your DNS Zones)
+
+Database
+
+Internal Hostname:
+    internal-db.s196738.gridserver.com
+External Hostname:
+    external-db.s196738.gridserver.com (IP-restricted)
+Database Username:
+    db196738
+Database Password:
+Add/Remove Databases:
+
+Email
+
+Incoming (POP/IMAP):
+    s196738.gridserver.com
+Outgoing (SMTP):
+    s196738.gridserver.com
+Webmail Access:
+    https://s196738.gridserver.com/.tools/webmail
+Add/Remove Email Addresses:
+
+Cluster
+
+Site Number:
+    196738
+Grid Cluster:
+    11
+Storage Segment:
+    01
+
+Billing
+
+Status:
+    OPEN
+Service Type:
+    (gs) Grid-Service
+Cost:
+    $200.00 (yearly)
+
+ System Paths
+
+The following is a list of paths to commonly used directories and applications. These are helpful when writing scripts and uploading web sites. The domain paths shown below refer to your primary domain.
+
+Site Root:
+    /home/196738
+HTML Root:
+    /home/196738/domains/mobiledishmall.com/html
+CGI-BIN path:
+    /home/196738/domains/mobiledishmall.com/cgi-bin
+Sendmail:
+    /usr/sbin/sendmail
+Perl:
+    /usr/bin/perl
+PHP (default on site):
+    /usr/bin/php
+PHP4:
+    /usr/bin/php4
+PHP5:
+    /usr/bin/php5
+Python:
+    /usr/bin/python
+ImageMagick:
+    /usr/bin/convert
+php.ini:
+    /home/196738/etc/php.ini
+MySQL:
+    /usr/bin/mysql
+MySQL backups:
+    /usr/bin/mysqldump
+
+The following is a list of common environment variables for your web scripts.
+
+Site Root:
+    $ENV{'SITE_ROOT'}
+HTML Root:
+    $ENV{'SITE_HTMLROOT'}
+CGI-BIN:
+    $ENV{'SITE_CGIROOT'}
+Database Host:
+    $ENV{'DATABASE_SERVER'}
+
+
+GoDaddy
+
+www.godaddy.com
+
+user: 8989706
+
+Pass: King11200
+
+
+Hostmonster
+
+UN: mobiledishmall.com
+Pass: King_2014
+
+
+SSL Certs
+https://cheapsslsecurity.com
+rick.stapp@kingcontrols.com/promo8538
+
+
+
+u: tanyathole
+[10:16:10 AM] Rick James Stapp: p: tanya12

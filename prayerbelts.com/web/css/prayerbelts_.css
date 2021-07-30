@@ -1,0 +1,191 @@
+/* Global */
+body {font:normal 11px Verdana, Arial, Helvetica, sans-serif; color:#403f3f; margin:0px; padding:0px;}
+a,li {border:none; outline:0; text-decoration:none; list-style-type:none; color:#ffffff;}
+
+/* SHAPES */
+/*.roundedCorners {border-radius:15px; -moz-border-radius:15px;}*/
+.roundedCorners {border-radius:5px 5px 5px 5px; -moz-border-radius:5px 5px 5px 5px;}
+.roundedTops {border-radius:5px 5px 0px 0px; -moz-border-radius:5px 5px 0px 0px;}
+.roundedTopLeft {border-radius:5px 0px 0px 0px; -moz-border-radius:5px 0px 0px 0px;}
+.roundedTopRight {border-radius:0px 5px 0px 0px; -moz-border-radius:0px 5px 0px 0px;}
+.roundedBottoms {border-radius:0px 0px 5px 5px; -moz-border-radius:0px 0px 5px 5px;}
+.roundedBottomLeft {border-radius:0px 0px 5px 0px; -moz-border-radius:0px 0px 5px 0px;}
+.roundedBottomRight {border-radius:0px 0px 0px 5px; -moz-border-radius:0px 0px 0px 5px;}
+.roundedPolygon {border-radius:0px 5px 0px 5px; -moz-border-radius:0px 5px 0px 5px;} /*upper-right & lower-left rounded*/
+.roundedPolygon2 {border-radius:5px 0px 5px 0px; -moz-border-radius:5px 0px 5px 0px;} /*upper-left & lower-right rounded*/
+
+/* Page Frame */
+#topBar {position:relative; top:0px; left:50%; margin-left:-470px; width:940px; height:35px; line-height:35px; background:url(../images/topbar_bg.gif) repeat-x left top;}
+#topBarContent {float:right;}
+#topBarJoin {float:left; background:url(../images/headericon_bg.gif) no-repeat right top; padding:0px 16px 0px 0px; height:35px;}
+#topBarCart {float:left; background:url(../images/cart.gif) no-repeat 16px 7px; padding:0px 0px 0px 44px; height:35px;}
+#topBarCheckout {float:left; padding:5px 20px 0px 15px; height:35px;}
+
+#header {position:relative; left:50%; margin-left:-450px; width:900px; height:92px;}
+#headerLogo {float:left; padding:15px 0px 0px 0px;}
+#headerSocial {float:right;}
+#headerFacebook {float:left; width:auto; height:auto; padding:25px 10px 0px 0px;}
+#headerTwitter {float:left; width:auto; height:auto; padding:25px 10px 0px 0px;}
+#headerEmail {float:left; width:auto; height:auto; padding:25px 0px 0px 0px;}
+
+#navBar {position:relative; left:50%; margin-left:-450px; width:900px; height:41px; background:url(../images/nav_bg.gif) repeat-x;}
+.navBar {font:normal 14px Arial, Helvetica, sans-serif; text-align:center; background:url(../images/li_bg.gif) no-repeat right top; padding:0px 0px 2px 0px;}
+
+#banner {position:relative; left:50%; margin-left:-450px; width:900px; height:273px; padding:10px 0px 0px 0px; overflow:hidden;}
+#banner img{ height:273px; float:left; margin-left:10px}
+#slideContainer {background:url(../images/banner.gif) no-repeat; width:370px; height:273px; float:left}
+#slideshow {position:relative; top:15; left:0; width:370px; height:273px; float:left; overflow:hidden; background:url(../images/banner.gif) no-repeat;}
+#slideshow img {position:absolute; top:0; left:0; z-index:8; opacity:0.0;}
+#slideshow img.active {z-index:10; opacity:1.0;}
+#slideshow img.last-active {z-index:9;}
+#banner #slideContainer img {padding:10px 10px 0px 0px; width:362px; height:257px;}
+
+#footer {position:relative; left:50%; margin-left:-470px; width:940px; height:86px; background:url(../images/footer.gif) repeat-x;}
+#footerContent {position:relative; left:0px; top:15px; width:940px; height:86px;}
+.footerCell {font:normal 12px Verdana, Arial, Helvetica, sans-serif; color:#FFFFFF; background:url(../images/LINE.gif) no-repeat right; padding:0px 10px;}
+.footerCopyright {color:#FFFFFF; padding:25px 0px 0px 0px; text-align:center;}
+.noBG {border:none !important; background:none !important;}
+
+/* Dynamic Content */
+#contentContainer {position:relative; left:50%; margin-left:-450px; width:900px; min-height:200px;}
+
+#aboutBar {position:relative; left:50%; margin-left:-450px; margin-top:10px; width:900px; height:83px;}
+
+/* Home Page */
+#socialPostings {position:relative; left:50%; margin-left:-450px; margin-bottom:15px; width:900px; height:auto; overflow:hidden;}
+
+#blogContainer {position:absolute; left:0px; top:0px; width:270px;}
+#ourBlog {position:relative; left:0px; top:10px; height:35px; width:270px; background:url(../images/blog.gif) no-repeat; cursor:pointer; display:block;}
+#ourBlogText {position:relative; left:40px; top:4px; font:normal 18px Verdana, Arial, Helvetica, sans-serif; color:#133666; width:270px; display:block;}
+#blogPosts {width:270px; height:auto; margin-top:12px; margin-bottom:12px;}
+.blogPost {width:270px; height:auto; line-height:15px; border-top:1px solid #32517A; overflow:hidden; color:#133666; padding:0px 0px 0px 0px;}
+.blogTimestamp {color:#403f3f; padding:12px 0px 0px 0px; display:block;}
+.blogTitle {padding:8px 0px 8px 0px; font-weight:bold; display:block;}
+.blogLink {float:right; color:#403f3f; padding:5px 0px 7px 0px; display:block;}
+
+#twitterContainer {position:absolute; left:315px; top:0px; width:270px;}
+#twitter {position:relative; left:0px; top:10px; height:35px; width:270px; background:url(../images/twit.gif) no-repeat; cursor:pointer; display:block;}
+#twitterText {position:relative; left:40px; top:4px; font:normal 18px Verdana, Arial, Helvetica, sans-serif; color:#133666; width:270px; display:block;}
+#twitterFeed {width:270px; height:auto; margin-top:12px; margin-bottom:12px;}
+.twitterPost {width:270px; height:auto; line-height:15px; border-top:1px solid #32517A; overflow:hidden; color:#133666; padding:0px 0px 12px 0px;}
+.twitterLabel {font-style:oblique; padding:12px 0px 8px 0px; display:block;}
+.twitterTimestamp {color:#403f3f; padding:7px 0px 0px 0px; display:block;}
+
+#testimonialsContainer {position:relative; left:630px; top:0px; width:270px;}
+#testimonials {position:relative; left:0px; top:10px; height:35px; width:270px; display:block;}
+#testimonialsText {position:relative; left:0px; top:4px; font:normal 18px Verdana, Arial, Helvetica, sans-serif; color:#133666; width:270px; display:block;}
+#testimonialsText a {font:normal 18px Verdana, Arial, Helvetica, sans-serif; color:#133666;}
+#testimonialsFeed {width:270px; height:auto; margin-top:12px; margin-bottom:12px;}
+.testimonialPost {width:270px; height:auto; line-height:15px; border-top:1px solid #32517A; overflow:hidden; color:#133666; padding:12px 0px 8px 0px;}
+.testimonialLabel {font-style:oblique; padding:12px 0px 0px 0px; display:block;}
+.testimonialLink {float:right; color:#403f3f; line-height:15px; display:block;}
+
+/* About Us Page */
+#aboutUs {position:relative; left:50%; height:auto; width:850px; display:block; margin:0px 25px 50px -425px;}
+#aboutHeadline {position:relative; text-align:center; top:15px; font:bold 24px Verdana, Arial, Helvetica, sans-serif; color:#133666; display:block;}
+#aboutTagline {position:relative; text-align:center; top:15px; font:bold 18px Verdana, Arial, Helvetica, sans-serif; color:#133666; display:block;}
+#aboutText {position:relative; top:25px; font:normal 12px Verdana, Arial, Helvetica, sans-serif; color:#133666;}
+#aboutText li {list-style-type:disc; font:normal 14px Verdana, Arial, Helvetica, sans-serif; color:#133666; padding:2px 0px 3px 0px;}
+#aboutImage {float:right; padding:30px 0px 0px 0px;}
+
+/* Our Products Page */
+#overview {position:relative; top:10px; left:25px; width:850px; font:bold 14px Verdana, Arial, Helvetica, sans-serif; color:#133666; display:block;}
+#detail {position:relative; left:0px; width:900px; display:block; margin:10px 0px 10px 0px;}
+#detailHeadline {position:relative; top:15px; width:900px; font:bold 18px Verdana, Arial, Helvetica, sans-serif; color:#133666; border-bottom:1px solid #32517A; display:block;}
+#details {position:relative; top:15px; left:0px; width:900px; font:bold 14px Verdana, Arial, Helvetica, sans-serif; text-align:left; color:#133666; display:block;}
+#details a {font:bold 14px Verdana, Arial, Helvetica, sans-serif; color:#133666; display:block; text-decoration:underline;}
+#details li {list-style-type:disc; font:normal 14px Verdana, Arial, Helvetica, sans-serif; text-align:left; color:#133666; padding:2px 0px 3px 0px;}
+#detailsSeperator {position:relative; left:0px; width:900px; height:10px; background-color:#133666;}
+.detailImage {border:thin solid #C0C0C0;}
+.detailFootnote {position:relative; top:-10px; font:bold 10px Verdana, Arial, Helvetica, sans-serif; color:#133666;}
+a.detailFootnote {position:relative; font:bold 10px Verdana, Arial, Helvetica, sans-serif; color:#133666; text-decoration:underline;}
+.detailInfoTable {border:thin solid #133666;}
+.detailInfoTableHeader {font:bold 14px Verdana, Arial, Helvetica, sans-serif; color:#FFFFFF; background-color:#133666;}
+.detailInfoTableContent {background-color:#F0F0F0;}
+
+/* Shopping Cart Page */
+#cart {position:relative; left:0px; width:900px; display:block; margin:10px 0px 10px 0px;}
+#cartHeadline {position:relative; top:0px; width:900px; font:bold 18px Verdana, Arial, Helvetica, sans-serif; color:#133666; border-bottom:1px solid #32517A; display:block;}
+#cartContents {position:relative; top:0px; left:0px; width:900px; font:normal 14px Verdana, Arial, Helvetica, sans-serif; color:#133666; display:block;}
+.cartDetailHeader {font:bold 14px Verdana, Arial, Helvetica, sans-serif; color:#FFFFFF; text-align:center; background-color:#133666; padding:5px 0px 5px 0px;}
+.cartFootnote {position:relative; top:-10px; font:bold 10px Verdana, Arial, Helvetica, sans-serif; color:#133666;}
+a.cartFootnote {position:relative; font:bold 10px Verdana, Arial, Helvetica, sans-serif; color:#133666; text-decoration:underline;}
+
+/* Checkout Page */
+#checkout {position:relative; left:0px; height:auto; width:900px; display:block;}
+#checkoutHeadline {position:relative; text-align:center; top:15px; font:bold 24px Verdana, Arial, Helvetica, sans-serif; color:#133666; display:block; z-index:2;}
+#checkoutTagline {position:relative; text-align:center; top:15px; font:bold 14px Verdana, Arial, Helvetica, sans-serif; color:#133666; display:block; z-index:2;}
+#checkoutText {position:relative; top:25px; height:auto; font:normal 12px Verdana, Arial, Helvetica, sans-serif; color:#133666; margin:0px 0px 50px 0px;}
+#checkoutText a {font:normal 10px Verdana, Arial, Helvetica, sans-serif; color:#133666; text-decoration:underline;}
+#checkoutIFrame {position:relative; top:-45px; height:610px; width:820px; display:block; margin:0px 0px 0px 40px;}
+
+/* Order Thank You Page */
+#thankYou {position:relative; left:0px; height:auto; width:900px; display:block; margin:10px 0px 10px 0px;}
+#thankYouHeadline {position:relative; text-align:center; top:15px; font:bold 24px Verdana, Arial, Helvetica, sans-serif; color:#133666; display:block;}
+#thankYouText {position:relative; top:25px; font:normal 12px Verdana, Arial, Helvetica, sans-serif; color:#133666;}
+
+/* Declined Page */
+#declined {position:relative; left:50%; height:auto; width:850px; display:block; margin:0px 25px 50px -425px;}
+#declinedHeadline {position:relative; text-align:center; top:15px; font:bold 24px Verdana, Arial, Helvetica, sans-serif; color:#133666; display:block;}
+#declinedText {position:relative; top:25px; font:normal 12px Verdana, Arial, Helvetica, sans-serif; color:#133666;}
+#declinedText a {font:normal 12px Verdana, Arial, Helvetica, sans-serif; color:#133666; text-decoration:underline;}
+
+/* Our Mission Page */
+#ourMission {position:relative; left:50%; height:auto; width:850px; display:block; margin:0px 25px 15px -425px;}
+#missionImage {position:relative; width:340px; display:block; padding:20px 0px 0px 0px;}
+#missionContainer {position:absolute; top:0px; left:340px; height:auto; width:510px; display:block;}
+#missionHeadline {position:relative; text-align:center; top:15px; font:bold 24px Verdana, Arial, Helvetica, sans-serif; color:#133666; display:block;}
+#missionText {position:relative; top:15px; font:oblique 16px Verdana, Arial, Helvetica, sans-serif; color:#133666;}
+
+/* FAQ Page */
+#frequentlyAskedQuestions {position:relative; left:50%; height:auto; width:850px; display:block; margin:0px 25px 50px -425px;}
+#faqHeadline {position:relative; text-align:center; top:15px; font:bold 24px Verdana, Arial, Helvetica, sans-serif; color:#133666; display:block;}
+#faqText {position:relative; top:25px; font:normal 12px Verdana, Arial, Helvetica, sans-serif; color:#133666;}
+#faqText li {list-style-type:disc; font:normal 12px Verdana, Arial, Helvetica, sans-serif; color:#133666; padding:2px 0px 3px 0px;}
+#faqText a {font:normal 12px Verdana, Arial, Helvetica, sans-serif; color:#133666; text-decoration:underline;}
+#faqImage {position:absolute; right:-10px; bottom:-25px; height:120px; width:320px; background:url(../images/FAQImage.jpg) no-repeat; display:block; z-index:-1;}
+
+/* Testimonials Page */
+#testimonialsPage {position:relative; left:50%; top:15px; height:auto; width:850px; display:block; margin:0px 25px 50px -425px;}
+#testimonialsPageHeadline {position:relative; text-align:center; top:10px; font:bold 24px Verdana, Arial, Helvetica, sans-serif; color:#133666; display:block;}
+#testimonialsPageText {position:relative; left:0px; top:25px; font:oblique 12px Verdana, Arial, Helvetica, sans-serif; color:#133666; width:850px; display:block;}
+.testimonialPageLabel {font-style:normal; padding:2px 0px 20px 0px; display:block; text-align:right;}
+
+/* Contact Us Page */
+#contactUs {position:relative; left:50%; height:auto; width:750px; display:block; margin:0px 25px 50px -375px;}
+#contactHeadline {position:relative; text-align:center; top:15px; font:bold 24px Verdana, Arial, Helvetica, sans-serif; color:#133666; display:block;}
+#contactText {position:relative; top:25px; font:normal 12px Verdana, Arial, Helvetica, sans-serif; color:#133666;}
+#orig_contactImage {position:absolute; right:-20px; bottom:-5px; height:400px; width:400px; background:url(../images/ContactUsImage.jpg) bottom right no-repeat; display:block; z-index:-1;}
+#second_contactImage {position:absolute; right:30px; bottom:-5px; height:400px; width:250px; background:url(../images/ContactUsImage2.jpg) bottom right no-repeat; display:block; z-index:-1;}
+#contactImage {position:absolute; right:50px; bottom:-50px; height:400px; width:196px; background:url(../images/ContactUsImage3.jpg) no-repeat; display:block; z-index:-1;}
+
+/* Join Page */
+#join {position:relative; left:50%; height:auto; width:750px; display:block; margin:0px 25px 50px -375px;}
+#joinHeadline {position:relative; text-align:center; top:15px; font:bold 24px Verdana, Arial, Helvetica, sans-serif; color:#133666; display:block;}
+#joinText {position:relative; top:25px; font:normal 12px Verdana, Arial, Helvetica, sans-serif; color:#133666;}
+#joinImage {position:absolute; right:50px; bottom:-40px; height:300px; width:226px; background:url(../images/JoinImage.jpg) bottom right no-repeat; display:block; z-index:-1;}
+
+/* Terms Of Use Page */
+#termsOfUse {position:relative; left:50%; height:auto; width:850px; display:block; margin:0px 25px 50px -425px;}
+#termsHeadline {position:relative; text-align:center; top:15px; font:bold 24px Verdana, Arial, Helvetica, sans-serif; color:#133666; display:block;}
+#termsTagline {position:relative; text-align:center; top:15px; font:bold 18px Verdana, Arial, Helvetica, sans-serif; color:#133666; display:block;}
+#termsText {position:relative; top:25px; font:normal 11px Verdana, Arial, Helvetica, sans-serif; color:#133666;}
+#termsText a {font:normal 11px Verdana, Arial, Helvetica, sans-serif; color:#133666; text-decoration:underline;}
+.termsHeader {font:bold 12px Verdana, Arial, Helvetica, sans-serif; color:#133666; text-decoration:underline;}
+
+/* Shipping & Returns Policy Page */
+#returnsPolicy {position:relative; left:50%; height:auto; width:850px; display:block; margin:0px 25px 50px -425px;}
+#returnsHeadline {position:relative; text-align:center; top:15px; font:bold 24px Verdana, Arial, Helvetica, sans-serif; color:#133666; display:block;}
+#returnsTagline {position:relative; text-align:center; top:15px; font:bold 18px Verdana, Arial, Helvetica, sans-serif; color:#133666; display:block;}
+#returnsText {position:relative; top:25px; font:normal 11px Verdana, Arial, Helvetica, sans-serif; color:#133666;}
+#returnsText a {font:normal 11px Verdana, Arial, Helvetica, sans-serif; color:#133666; text-decoration:underline;}
+.returnsHeader {font:bold 12px Verdana, Arial, Helvetica, sans-serif; color:#133666; text-decoration:underline;}
+
+/* Privacy Policy Page */
+#privacyPolicy {position:relative; left:50%; height:auto; width:850px; display:block; margin:0px 25px 50px -425px;}
+#privacyHeadline {position:relative; text-align:center; top:15px; font:bold 24px Verdana, Arial, Helvetica, sans-serif; color:#133666; display:block;}
+#privacyTagline {position:relative; text-align:center; top:15px; font:bold 18px Verdana, Arial, Helvetica, sans-serif; color:#133666; display:block;}
+#privacyText {position:relative; top:25px; font:normal 11px Verdana, Arial, Helvetica, sans-serif; color:#133666;}
+#privacyText a {font:normal 11px Verdana, Arial, Helvetica, sans-serif; color:#133666; text-decoration:underline;}
+.privacyHeader {font:bold 12px Verdana, Arial, Helvetica, sans-serif; color:#133666; text-decoration:underline;}
+

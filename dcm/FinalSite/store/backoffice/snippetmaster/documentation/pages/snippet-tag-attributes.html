@@ -1,0 +1,226 @@
+<html><!-- InstanceBegin template="/Templates/manual - main page.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title></title>
+<!-- InstanceEndEditable -->
+<link href="includes/styles.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+<body bgcolor="#E1E1E1">
+<table width=75% border=0 cellpadding=0 cellspacing=0>
+  <tr>
+    <td><!-- InstanceBeginEditable name="Main Content" --> 
+      <h1>Snippet Tag Attributes<br>
+        &nbsp; </h1>
+      <ul>
+        <li><a href="#attribute_list">Click here to go to the List of Snippet 
+          Tag Attributes</a><br>
+          &nbsp; </li>
+      </ul>
+      <h3>Introduction</h3>
+      <p>Configuration of each Snippet is accomplished by adding the desired <strong>attribute</strong> 
+        (and the value for that attribute) to the snippet tag. </p>
+      <p>An attribute is <strong><em>always</em></strong> followed by its value, 
+        and uses the following pattern:</p>
+      <p align="center"><strong><font color="#009900">attribute=&quot;value goes 
+        here&quot;</font><font color="#FF0000"> <br>
+        </font></strong>or <font color="#FF0000"><strong><br>
+        <font color="#009900">attribute='value goes here' </font></strong></font></p>
+      <h3><br>
+        A Word About Using Single And Double Quotes</h3>
+      <p>You can use either 'single' or &quot;double&quot; quotes to specify the 
+        attribute value, as long as they match. (ie: If you start with a single 
+        quote then you must end with a single quote. You can't mix them up, otherwise 
+        the system will get confused as to where your value starts and stops.)</p>
+      <blockquote> 
+        <p><strong>Note: </strong>You must be careful that your attribute <em>value</em> 
+          does not use the same type of quote character being used to specify 
+          the value. ie: If you use single quotes to specify your attribute value, 
+          then the value can not<em> </em>use the single quote character. So you 
+          must NOT do something like this:</p>
+        <p align="center"><font color="#009900">attribute=<font color="#FF0000"><strong>'</strong></font>value 
+          <font color="#FF0000"><strong>'</strong></font>goes<font color="#FF0000"><strong>'</strong></font> 
+          here<font color="#FF0000"><strong>'</strong><br>
+          </font></font>or <font color="#009900"><font color="#FF0000"><br>
+          </font>attribute=<font color="#FF0000"><strong>&quot;</strong></font>value 
+          <font color="#FF0000"><strong>&quot;</strong></font>goes<font color="#FF0000"><strong>&quot;</strong></font> 
+          her</font><font color="#009900">e<font color="#FF0000"><strong>&quot;</strong></font></font></p>
+        <p>If you wanted to include quotes in your attribute value, then you could 
+          do something like this:</p>
+        <p align="center"><font color="#009900">attribute=<font color="#FF0000"><strong>'</strong></font>value 
+          <font color="#FF0000"><strong>&quot;</strong></font>goes<font color="#FF0000"><strong>&quot;</strong></font> 
+          here<font color="#FF0000"><strong>'</strong><br>
+          </font></font>or <font color="#009900"><font color="#FF0000"><br>
+          </font>attribute=<font color="#FF0000"><strong>&quot;</strong></font>value 
+          <font color="#FF0000"><strong>'</strong></font>goes<font color="#FF0000"><strong>'</strong></font> 
+          her</font><font color="#009900">e<font color="#FF0000"><strong>&quot;</strong></font></font></p>
+      </blockquote>
+      <h3><br>
+        Specifying Multiple Attribute Values</h3>
+      <p>If an attribute has more then one value, then the list of values MUST 
+        be comma-seperated. (It doesn't matter if you have a space after the comma, 
+        but I think it's easier to read if you do.)</p>
+      <p align="center"><strong><font color="#009900">attribute=&quot;value1<font color="#009999">,value2</font>,value3&quot;</font><font color="#FF0000"><br>
+        </font></strong>or <font color="#FF0000"><strong><br>
+        <font color="#009900">attribute='value1<font color="#009999">, value2</font>, 
+        value3'</font> </strong></font></p>
+      <h3><br>
+        Some Examples To Show How It All Works</h3>
+      <p>Here is an example of a basic snippet tag that has one attribute.</p>
+      <p> <strong>&lt;!-- #BeginSnippet <font color="#009900">attribute=&quot;value&quot;</font> 
+        --&gt;</strong></p>
+      <p>Here's an example of one attribute that has three values:</p>
+      <p><strong>&lt;!-- #Beginsnippet <font color="#009900">attribute='value1, 
+        value2, value3'</font> --&gt;</strong></p>
+      <p>Here's an example of two attributes:</p>
+      <p><strong>&lt;!-- #beginSnippet <font color="#009900">attribute1=&quot;value&quot; 
+        <font color="#CC6600">attribute2='value'</font></font> --&gt;</strong></p>
+      <h3><br>
+        The Full List Of Snippet Tag Attributes </h3>
+      <p>Here is an example of how to specify a snippet that has a name of &quot;My 
+        Snippet&quot;, is editable only by &quot;user1&quot; and &quot;user2&quot;, 
+        has a width of 100%, and a height of &quot;350 pixels&quot;.</p>
+      <p><font size="1" face="Verdana, Arial, Helvetica, sans-serif">&lt;!-- #beginSnippet 
+        name=&quot;My Snippet&quot; users='user1,user2' width=&quot;100%&quot; 
+      height=&quot;350&quot; --&gt;</font></p>
+      <h3><br>
+        <a name="attribute_list"></a>The Full List Of Snippet Tag Attributes </h3>
+      <p>Here is the full list of all attributes you can use, including usage 
+        instructions.</p>
+      <table width="100%" border="0" cellpadding="3" cellspacing="1">
+        <tr bgcolor="#9FEAFF"> 
+          <td width="27%" height="25"><div align="center"><strong>Attribute Name</strong></div></td>
+          <td width="73%"><strong>Description</strong></td>
+        </tr>
+        <tr bgcolor="#E1F8FF"> 
+          <td bgcolor="#E1F8FF"><div align="center">name</div></td>
+          <td><p><strong>Summary:</strong></p>
+            <p>Give your snippet a nice name to make it easier for your client 
+              to identify it.</p>
+            <p><strong>Usage:</strong></p>
+            <p>name=&quot;Name for snippet goes here&quot;</p></td>
+        </tr>
+        <tr> 
+          <td colspan="2"><div align="center"><img src="includes/blank.gif" width="50" height="10"></div></td>
+        </tr>
+        <tr bgcolor="#E1F8FF"> 
+          <td><div align="center">users</div></td>
+          <td bgcolor="#E1F8FF"><p><strong><a name="users"></a>Summary:</strong></p>
+            <p>An &quot;Access Control List&quot; (ACL) of users who have the 
+              ability to edit this snippet. If this attribute is <em>not</em> 
+              specified, then <em>ALL</em> users will be able to edit the snippet. 
+              If this attribute is specified then access to the snippet will be 
+              limited to only Admin Users, Power Users, Super Users, and the users 
+              that are included in this list.</p>
+            <p><strong>Usage:</strong></p>
+            <p>users=&quot;user1, user2&quot;</p></td>
+        </tr>
+        <tr> 
+          <td><div align="center"></div></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr bgcolor="#E1F8FF"> 
+          <td><div align="center">wysiwyg</div></td>
+          <td><p><strong>Summary:</strong></p>
+            <p>Should this snippet use the WYSIWYG visual editor? The value you 
+              specify for this attribute will <em>override</em> the value from 
+              the Editor Group.</p>
+            <p>For example, if you do NEVER want a particular snippet to use the 
+              visual editor then you can use this attribute to disable the editor 
+              for that snippet. (ie: The snippet text will <em>always</em> be 
+              displayed for editing in a regular textbox.)</p>
+            <p><strong>Usage:</strong></p>
+            <p>wysiwyg=&quot;no&quot;<br>
+              wysiwyg=&quot;yes&quot;</p>
+            <p><font color="#FF0000">Note: </font>This feature is not available 
+              in the free LITE version. Please consider supporting the SnippetMaster 
+              software by purchasing the PRO version if you would like to use 
+              this feature. Thanks! (A free trial is available if you want to 
+              test it out.)</p></td>
+        </tr>
+        <tr> 
+          <td><div align="center"></div></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr bgcolor="#E1F8FF"> 
+          <td><div align="center">width</div></td>
+          <td><p><strong>Summary:</strong></p>
+            <p>What width should the editor be for this snippet? The value you 
+              specify for this attribute will <em>override</em> the value from 
+              the Editor Group.</p>
+            <p>For example, if you know the user will be editing a really wide 
+              page, then you can set the width to 100% and the editor will use 
+              the entire browser width.</p>
+            <p>You can specify either pixels or percent.</p>
+            <p><strong>Usage:</strong></p>
+            <p>width=&quot;400&quot;<br>
+            width=&quot;100%&quot;</p>
+            <p><font color="#FF0000">Note: </font>This feature is not available 
+              in the free LITE version. Please consider supporting the SnippetMaster 
+              software by purchasing the PRO version if you would like to use 
+              this feature. Thanks! (A free trial is available if you want to 
+              test it out.)</p></td>
+        </tr>
+        <tr> 
+          <td><div align="center"></div></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr bgcolor="#E1F8FF"> 
+          <td><div align="center">height</div></td>
+          <td><p><strong>Summary:</strong></p>
+            <p>What height should the editor be for this snippet? The value you 
+              specify for this attribute will <em>override</em> the value from 
+              the Editor Group.</p>
+            <p>For example, if you know the user will only need to enter one or 
+              two lines of text, then you can limit the height to perhaps 100 
+              pixels.</p>
+            <p>You can specify either pixels or percent.</p>
+            <p><strong>Usage:</strong></p>
+            <p>height=&quot;400&quot;<br>
+              height=&quot;50%&quot;</p>
+            <p><font color="#FF0000">Note: </font>This feature is not available 
+              in the free LITE version. Please consider supporting the SnippetMaster 
+              software by purchasing the PRO version if you would like to use 
+              this feature. Thanks! (A free trial is available if you want to 
+              test it out.)</p></td>
+        </tr>
+        <tr> 
+          <td><div align="center"></div></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr bgcolor="#E1F8FF"> 
+          <td><div align="center">lastsavedts</div></td>
+          <td><p><strong>Summary:</strong></p>
+            <p>This is a<em> read-only</em> tag that indicates the date and time 
+              (the &quot;timestamp&quot;) when this snippet was last saved. If 
+              you manually change the value, then it will automatically be updated 
+              the next time the snippet is edited and saved.</p>
+            <p><strong>Usage:</strong></p>
+            <p>Not applicable. This tag is set automatically by the program.</p></td>
+        </tr>
+        <tr> 
+          <td><div align="center"></div></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr bgcolor="#E1F8FF"> 
+          <td><div align="center">lastsavedby</div></td>
+          <td><p><strong>Summary:</strong></p>
+            <p>This is a<em> read-only</em> tag that indicates the username who 
+              last saved this snippet. If you manually change the value, then 
+              it will automatically be updated the next time the snippet is edited 
+              and saved.</p>
+            <p><strong>Usage:</strong></p>
+            <p>Not applicable. This tag is set automatically by the program.</p></td>
+        </tr>
+        <tr> 
+          <td><div align="center"></div></td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+      <!-- InstanceEndEditable --> 
+      <p>&nbsp;</p>
+    </td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

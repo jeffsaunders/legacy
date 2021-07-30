@@ -1,0 +1,127 @@
+
+    <!-- WordPress Configuration -->
+    <ul class="tabs">
+        <li><a href="<?php echo $blog_url;?>&detail=updatedetails">NuCaptcha Account Details</a></li>
+        <li class="active">WordPress Configuration</li>
+    </ul>
+    <div class="tab_panel">
+        <form class="adminform" method="post" action="">
+            <?php nucaptcha_nonce_field('wpconfig');?>
+            <table>
+                <tr>
+                    <th colspan=2>NuCaptcha WordPress Configuration</th>
+					<td class="controls"><div id="nucaptcha_advanced"></div></td>
+                </tr>
+
+                <tr class="title">
+                    <td class="c1">Enable NuCaptcha:</td>
+                    <td class="c2"><input type="checkbox" name="protect_comments" value="protect_comments" <?php if (NuCaptchaData::Get('protect_comments')) echo 'checked'; ?> >Comments</input></td>
+                    <td class="c3">Show NuCaptcha when users post comments.</td>
+                </tr>
+                
+                <tr>
+                    <td class="c1"></td>
+                    <td class="c2"><input type="checkbox" name="protect_signup" value="protect_signup" <?php if (NuCaptchaData::Get('protect_signup')) echo 'checked'; ?>>New User Signup</input></td>
+                    <td class="c3">Show NuCaptcha when a new user registers.</td>
+                </tr>
+                
+                <tr>
+                    <td class="c1"></td>
+                    <td class="c2"><input type="checkbox" name="protect_resetpwd" value="protect_resetpwd" <?php if (NuCaptchaData::Get('protect_resetpwd')) echo 'checked'; ?>>Password Reset</input></td>
+                    <td class="c3">Show NuCaptcha when a user resets password.</td>
+                </tr>
+                
+                <tr>
+                    <td class="c1"></td>
+                    <td class="c2"><input type="checkbox" name="protect_login" value="protect_login" <?php if (NuCaptchaData::Get('protect_login')) echo 'checked'; ?> >Login</input></td>
+                    <td class="c3">Show NuCaptcha when a user logs in.  The NuCaptcha validation is ignored for admin users (see below).</td>
+                </tr>
+
+				<tr class="spacer"><td colspan="3">&nbsp;</td></tr>
+
+				<tr class="title">
+                    <td class="c1">Show NuCaptcha To:</td>
+                    <td class="c2"><input type="radio" name="show_to" value="everyone" <?php if ('everyone' == NuCaptchaData::Get('show_to')) echo 'checked'; ?> >Everyone</input></td>
+                    <td class="c3">Shows a NuCaptcha to everyone, including registered users.</td>
+                </tr>
+
+                <tr>
+                    <td class="c1"></td>
+                    <td class="c2"><input type="radio" name="show_to" value="unregistered" <?php if ('unregistered' == NuCaptchaData::Get('show_to')) echo 'checked'; ?> >Unregistered Users</input></td>
+                    <td class="c3">Shows a NuCaptcha to unregistered users only.</td>
+                </tr>
+
+				<tr class="spacer"><td colspan="3">&nbsp;</td></tr>
+
+				<tr class="title">
+                    <td class="c1">Position:</td>
+                    <td class="c2">
+                        <select name="player_position" style="width: 142px;" >
+                            <option value="left"<?php if ('left' == NuCaptchaData::Get('player_position')) echo 'selected'; ?> >Left</option>
+                            <option value="center"<?php if ('center' == NuCaptchaData::Get('player_position')) echo 'selected'; ?> >Center</option>
+                            <option value="right" <?php if ('right' == NuCaptchaData::Get('player_position')) echo 'selected'; ?> >Right</option>
+                        </select>
+                    </td>
+                    <td class="c3">Determines the horizontal alignment of the NuCaptcha player within the enabled forms.</td>
+                </tr>
+
+				<!-- ADVANCED OPTIONS -->
+				<tr class="nc_advanced spacer"><td colspan="3">&nbsp;</td></tr>
+
+				<tr class="nc_advanced title">
+                    <td class="c1">CSS Error Class:</td>
+                    <td class="c2"><input type="text" name="css_error" size=16 maxlength=64 value="<?php echo NuCaptchaData::Get('css_error'); ?>"></input></td>
+                    <td class="c3">When the user gets a NuCaptcha incorrect.</td>
+                </tr>
+
+                <tr class="nc_advanced title">
+                    <td class="c1">CSS Message Class:</td>
+                    <td class="c2"><input type="text" name="css_message" size=16 maxlength=64 value="<?php echo NuCaptchaData::Get('css_message'); ?>"></input></td>
+                    <td class="c3">When a message is reported to the user.</td>
+                </tr>
+
+				<tr class="nc_advanced spacer"><td colspan="3">&nbsp;</td></tr>
+
+                <tr class="nc_advanced title">
+                    <td class="c1">Security:</td>
+                    <td class="c2"><input type="checkbox" name="ssl_verify" value="ssl_verify" title="This option does this and that..." <?php if (NuCaptchaData::Get('ssl_verify')) echo 'checked'; ?> >Enable SSL Verify</input></td>
+                    <td class="c3">Verifies the identity of NuCaptcha servers preventing man in the middle attacks.  This should only ever be turned off on development servers that don't have SSL certificates configured correctly.</td>
+                </tr>
+
+				<tr class="nc_advanced title">
+                    <td class="c1"></td>
+                    <td class="c2"><input type="checkbox" name="validate_on_error" value="validate_on_error" <?php if (NuCaptchaData::Get('validate_on_error')) echo 'checked'; ?>>Validate On Error</input></td>
+                    <td class="c3">NuCaptcha validation will succeed in the rare case that an error occurs. Turn this off for added security.</td>
+                </tr>
+
+				<tr class="nc_advanced title">
+                    <td class="c1"></td>
+                    <td class="c2"><input type="checkbox" name="ignore_admin_login" value="ignore_admin_login" <?php if (NuCaptchaData::Get('ignore_admin_login')) echo 'checked'; ?>>Validate On Admin Login</input></td>
+                    <td class="c3">NuCaptcha validation will always succeed for login of admin users with the ability to manage plugins. Turn this off for added security.</td>
+                </tr>
+
+				<tr class="nc_advanced spacer"><td colspan="3">&nbsp;</td></tr>
+
+				<tr class="nc_advanced title">
+                    <td class="c1">Custom Skin HTML:</td>
+                    <td colspan="2">
+						<textarea name="custom_skin_html" cols="50" rows="6"><?php echo nucaptcha_deslashit(NuCaptchaData::Get('custom_skin_html')); ?></textarea>
+						<br><span class="c3">See <a href="http://docs.nucaptcha.com/misc/customskin" target="_blank">NuCaptcha Custom Skins</a> for more info.</span>
+					</td>
+                </tr>
+				
+                <tr>
+                    <td class="cl"></td>
+                    <td class="cr">
+						<input type="hidden" name="show_advanced" id="input_show_advanced" value="<?php echo NuCaptchaData::Get('show_advanced') ? 1 : 0; ?>">
+						<input name="submit_wpconfig" id="input_submit" type="submit" value="Update Configuration">
+					</td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+
+<script type="text/JavaScript">
+    SetupAdminForm_WPConfig();
+</script>

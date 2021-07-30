@@ -1,0 +1,50 @@
+Nov-07-2011 04:25:07
+=================================
+
+Sent to Authorizenet: Array
+(
+    [x_login] => *******
+    [x_amount] => 259.62
+    [x_version] => 3.1
+    [x_method] => CC
+    [x_type] => AUTH_CAPTURE
+    [x_cust_ID] => 9
+    [x_email_customer] => FALSE
+    [x_company] => NAWCWD
+    [x_first_name] => Mary
+    [x_last_name] => Valentine
+    [x_address] => Code 476400D
+    [x_city] => China Lake
+    [x_state] => California
+    [x_zip] => 93555
+    [x_country] => United States
+    [x_phone] => 760-939-6234
+    [x_fax] => 
+    [x_email] => mary.valentine@navy.mil
+    [x_ship_to_company] => NAWCWD
+    [x_ship_to_first_name] => Josh
+    [x_ship_to_last_name] => Bates
+    [x_ship_to_address] => Code 476400D
+    [x_ship_to_city] => China Lake
+    [x_ship_to_state] => California
+    [x_ship_to_zip] => 93555
+    [x_ship_to_country] => United States
+    [x_Customer_IP] => 138.163.106.71
+    [x_relay_response] => TRUE
+    [x_relay_URL] => http://www.dcmsanding.com/store/index.php?main_page=checkout_process&amp;action=confirm
+    [x_invoice_num] => 
+    [x_duplicate_window] => 120
+    [x_allow_partial_Auth] => FALSE
+    [x_description] => Website Purchase from DCM Clean Air Store
+    [x_fp_sequence] => 452
+    [x_fp_timestamp] => 1320704707
+    [x_fp_hash] => a611842780411236bb95cc9374fe01a0
+    [x_card_num] => XXXXXXXXXXXX4559
+    [x_exp_date] => 0913
+    [x_card_code] => 632
+    [x_Test_Request] => TRUE
+    [zenid] => c327d6ced68d1a189c23ece66357fcd4
+    [url] => https://secure.authorize.net/gateway/transact.dll
+)
+
+

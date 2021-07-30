@@ -1,0 +1,25 @@
+# Everyone
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: standard.css
+
+# Alltheweb
+#User-Agent: FAST-WebCrawler/
+#Disallow: foo.html
+
+# Altavista
+#User-Agent: Scooter
+
+# Excite
+#User-Agent: ArchitextSpider
+
+# Google
+#User-Agent: Googlebot
+
+# Inktomi
+#User-Agent: Slurp
+
+# Lycos
+#User-Agent: Lycos_Spider_(T-Rex) 
+
+

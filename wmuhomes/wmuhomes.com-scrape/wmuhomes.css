@@ -1,0 +1,75 @@
+<STYLE TYPE="text/css">
+
+P {font-family: "ms sans serif", Arial, Geneva, Verdana; font-size: 14px; line-height: 18px; color: #333333;}
+TD {font-family: "ms sans serif", Arial, Geneva, Verdana; font-size: 14px; line-height: 18px; color: #333333;}
+
+.street:link {color: 545454; font-size:12px; text-decoration:underline; font-weight:bold; font-family: Geneva, Verdana, Helvetica, Arial;}
+.street:hover {color: 009F3C; font-size:12px; text-decoration:underline; font-weight:bold; font-family: Geneva, Verdana, Helvetica, Arial;}
+.street:visited {color: 9B9B9B; font-size:12px; text-decoration:underline; font-weight:bold; font-family: Geneva, Verdana, Helvetica, Arial;}
+
+.description {color: 333333; font-size:12px; font-family: Geneva, Verdana, Helvetica, Arial;}
+.descriptionsm {color: 333333; font-size:10px; font-family: Geneva, Verdana, Helvetica, Arial;}
+
+
+.sidebarlink:link {color: FFFFFF; font-size:12px; text-decoration:underline; font-weight:bold; font-family: Geneva, Verdana, Helvetica, Arial;}
+.sidebarlink:hover {color: 009F3C; font-size:12px; text-decoration:underline; font-weight:bold; font-family: Geneva, Verdana, Helvetica, Arial;}
+.sidebarlink:visited {color: FFFFFF; font-size:12px; text-decoration:underline; font-weight:bold; font-family: Geneva, Verdana, Helvetica, Arial;}
+
+.column:link {color: 545454; font-size:10px; text-decoration:none; font-weight:bold; font-family: Geneva, Verdana, Helvetica, Arial;}
+.column:hover {color: 009F3C; font-size:10px; text-decoration:none; font-weight:bold; font-family: Geneva, Verdana, Helvetica, Arial;}
+.column:visited {color: 545454; font-size:10px; text-decoration:none; font-weight:bold; font-family: Geneva, Verdana, Helvetica, Arial;}
+
+.green {color: 009F3C; font-size: 14px; font-family: Geneva, Verdana, Helvetica, Arial;}
+.white {color: ffffff; font-size:12px; text-decoration:none; font-family: Geneva, Verdana, Helvetica, Arial;}
+.whitestrong {color: ffffff; font-weight:bold; font-size:12px; text-decoration:none; font-family: Geneva, Verdana, Helvetica, Arial;}
+.blackstrong {color: 000000; font-weight:bold; font-size:15px; font-family: Geneva, Verdana, Helvetica, Arial;}
+.whitestrongbig {color: ffffff; font-weight:bold; font-size:16px; text-decoration:none; font-family: Geneva, Verdana, Helvetica, Arial;}
+
+A.prevnext:link, A.prevNext:visited{ font-family: verdana, helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #ffffff; text-decoration: none; line-height:2;}
+A.prevnext:hover{ font-family: verdana, helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #ffffff; text-decoration: underline; line-height:2;}
+
+#search {
+	border: solid 1px #cccccc;
+	margin: 10px 0px 10px 0px;
+	padding: 3px 0px 0px 3px;
+}
+
+#tip {
+	background-color: #FEFFD6;
+	border: solid 1px #cccccc;
+	margin: 10px 0px 10px 0px;
+	padding: 5px 5px 5px 5px;
+}
+
+#addlisting {
+	background-color: #eeeeee;
+	border: solid 1px #cccccc;
+	margin: 10px 0px 10px 0px;
+	padding: 5px 5px 5px 5px;
+}
+
+#home {
+	display: block;
+	border: solid 1px #000000;
+}
+
+#thumbbox {
+	width: 85px;
+	height: 64px;
+	border: solid 1px #000000;
+	margin: 10px 10px 10px 10px;
+	padding: 6px 6px 6px 6px;
+}
+
+
+.blackborder {
+	border: solid 1px #000000;
+}
+
+#indent {
+	margin: 3px 0px 0px 15px;
+}
+
+input.form {margin: 0px 0px 0px 0px; padding: 3px; background: #fffff; font: 10px Verdana; border:1px solid #333; color: #00000}
+
+</STYLE>

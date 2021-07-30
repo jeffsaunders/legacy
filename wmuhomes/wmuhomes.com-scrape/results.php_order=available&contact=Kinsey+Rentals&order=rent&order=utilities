@@ -1,0 +1,218 @@
+ 
+
+<html>
+ <title>wmuhomes.com - 5 homes found</title>
+ <body bgcolor="#ffffff">
+ 
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-158337-3");
+pageTracker._trackPageview();
+} catch(err) {}</script> 
+ 
+<link rel="stylesheet" href="wmuhomes.css" type="text/css">
+<center>
+<table border="0" cellpadding="0" cellspacing="0" width="85%">
+ <tr>
+	<td width="100%">
+	 <a href="/"><img src="images/logo.gif" height="62" width="233" border="0"></a>
+    </td>
+
+    <td width=15>
+     <img src="images/blank.gif" width="15">
+    </td>
+    
+    <td valign="bottom">
+     <!--- <img src="images/toolbar.gif" width="281" height="15" border="0"> --->
+    </td>
+ </tr>
+ 
+ <tr>
+ 	<td height='15' colspan='3'>
+     <img src="blank.gif" height="15">
+ 	</td>
+ </tr>
+ 
+ <tr>
+  	<td colspan='3'>
+  	
+  		<!--- Being Results --->						
+				<a href="/"><IMG SRC="http://www.macupdate.com/images/back_arrow.gif" WIDTH="7" HEIGHT="9" BORDER="0"></a>&nbsp;
+				<a href="/" class="column">Search Again</a> &nbsp;
+
+
+  			<table border='0' cellpadding='3' cellspacing='0' width='100%'>
+  			 <tr>
+  			  <td bgcolor='cccccc' colspan='7'>
+  			  	Search Results: 5 listings found
+  			  </td>
+  			 </tr>
+ 
+ <tr align='left' bgcolor='ffffff'>
+  			  <td>
+  			   &nbsp;
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=Kinsey+Rentals&order=rent&order=utilities&order=street' class='column'><b>Street</b></a>
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=Kinsey+Rentals&order=rent&order=utilities&order=rent' class='column'><b>Rent</b></a>
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=Kinsey+Rentals&order=rent&order=utilities&order=bedrooms' class='column'><b>Bedrooms</b></a>
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=Kinsey+Rentals&order=rent&order=utilities&order=utilities' class='column'><b>Util Incl.</b></a>
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=Kinsey+Rentals&order=rent&order=utilities&order=available' class='column'><b>Available</b></a>
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=Kinsey+Rentals&order=rent&order=utilities&order=contact' class='column'><b>Contact</b></a>
+  			  </td>
+  			 </tr>
+			 <tr align='left' bgcolor='#eeeeee'>
+			  <td>
+				 <a href='info.php?id=6031'><img src='images/uploads/6031_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=6031' class='street'>310 W Vine St Apt 3</a><br>
+				<span class=description>Near Bronson, utilities except electric included, formal dining </span>
+			  </td>
+			  <td>
+				<span class=description>$950</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;Yes</span>
+			  </td>			  
+			  <td>
+				<span class=description>2010-03-11</span>
+			  </td>
+				  <td>
+				<span class=description>Kinsey Rentals</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#ffffff'>
+			  <td>
+				 <a href='info.php?id=1676'><img src='images/uploads/1676_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1676' class='street'>822 Village Ct  </a><br>
+				<span class=description>Efficient remodeling updates, washer/dryer, end of a quiet court</span>
+			  </td>
+			  <td>
+				<span class=description>$900</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;No</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Kinsey Rentals</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#eeeeee'>
+			  <td>
+				 <a href='info.php?id=1677'><img src='images/uploads/1677_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1677' class='street'>742 Village St  </a><br>
+				<span class=description>Refinished wood and ceramic flooring, deep lot w/parking.</span>
+			  </td>
+			  <td>
+				<span class=description>$900</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;No</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Kinsey Rentals</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#ffffff'>
+			  <td>
+				 <a href='info.php?id=1678'><img src='images/uploads/1678_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1678' class='street'>824 Village Ct  </a><br>
+				<span class=description>Thick attic insulation, washer/dryer, refinished floors.</span>
+			  </td>
+			  <td>
+				<span class=description>$900</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;No</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Kinsey Rentals</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#eeeeee'>
+			  <td>
+				 <a href='info.php?id=1679'><img src='images/uploads/1679_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1679' class='street'>621 Axtell St  </a><br>
+				<span class=description>Rich wood floors, private back deck, car ports.</span>
+			  </td>
+			  <td>
+				<span class=description>$600</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;No</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Kinsey Rentals</span>
+			  </td>
+			 </tr>
+			 	 
+     		 <tr align='left' bgcolor='cccccc'>
+  			  <td colspan='7' align='center'>
+ 1  			  </td>
+  			 </tr>			 
+  			</table><br>
+  			<a href="/add2.php" class="street">Add a Listing</a>		
+  		<!--- End Results --->
+  	
+  	</td>
+ </tr>
+ 
+</table>
+</center>
+
+</body>
+</html>

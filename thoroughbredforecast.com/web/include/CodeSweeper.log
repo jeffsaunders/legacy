@@ -1,0 +1,19 @@
+Invalid character (}) encountered while parsing (tag "?PHP" with attributes). 
+Invalid quoted string 'includes/connect.php' encountered while parsing (tag "?" with attributes require_once=). 
+Invalid quoted string 'includes/connect.php' encountered while parsing (tag "?" with attributes require_once=). 
+Invalid character ($) encountered while parsing (tag "?" with attributes). 
+Invalid character ({) encountered while parsing (tag "?PHP" with attributes if(1==2)). 
+Invalid slash (/) encountered while parsing (tag "?PHP" with attributes). 
+Invalid slash (/) encountered while parsing (tag "?PHP" with attributes). 
+Invalid slash (/) encountered while parsing (tag "?PHP" with attributes). 
+Invalid slash (/) encountered while parsing (tag "?PHP" with attributes). 
+Invalid slash (/) encountered while parsing (tag "?PHP" with attributes). 
+Invalid slash (/) encountered while parsing (tag "?PHP" with attributes). 
+Invalid character ($) encountered while parsing (tag "?PHP" with attributes). 
+Invalid character ($) encountered while parsing (tag "?PHP" with attributes). 
+Invalid character ($) encountered while parsing (tag "?PHP" with attributes). 
+Invalid character ($) encountered while parsing (tag "?PHP" with attributes). 
+Invalid character ($) encountered while parsing (tag "?PHP" with attributes). 
+Invalid character ($) encountered while parsing (tag "?PHP" with attributes). 
+Invalid character ($) encountered while parsing (tag "?PHP" with attributes). 
+Invalid character ($) encountered while parsing (tag "?PHP" with attributes while=). 

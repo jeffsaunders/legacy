@@ -1,0 +1,174 @@
+# Webalizer V2.01-10 Incremental Data - 06/17/2005 11:18:48
+2005 6 17 11 18 48
+17 9 10 2 4 6 19847 17 14 0
+2 2 4 6 17
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 0 523 1 1 1
+5 2 3158 4 5 4
+0 0 0 0 0 0
+1 1 523 1 1 1
+0 0 0 0 0 0
+1 1 523 1 1 1
+0 0 0 0 0 0
+3 1 2227 2 3 2
+1 1 523 1 1 1
+2 0 1056 2 2 2
+0 0 0 0 0 0
+3 3 11314 2 3 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+3 0 2227 3
+1 1 523 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+5 3 12370 5
+1 1 523 1
+1 1 523 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 1 523 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 1 523 1
+4 1 2635 4
+0
+0
+0
+9
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/
+0 12 0 5230 10 4
+/PurplePeak.jpg
+0 1 0 10268 0 0
+# End Of Table - urls
+# -sites- (monthly)
+66-194-6-84.gen.twtelecom.net
+0 1 1 523 1 1118684777
+/
+lj2532.inktomisearch.com
+0 1 0 1056 1 1118186427
+-
+dex-252-16.dxi.net
+0 1 1 523 1 1118787716
+/
+66-194-6-78.gen.twtelecom.net
+0 3 3 1569 3 1118498178
+/
+lj2533.inktomisearch.com
+0 1 0 1056 1 1118834428
+-
+copilot.thunderstone.com
+0 2 1 1579 1 1118188797
+/
+nv-208-13-132-188.sta.sprint-hsd.net
+0 2 2 10791 1 1119007128
+/PurplePeak.jpg
+lj2545.inktomisearch.com
+0 2 0 0 2 1118834429
+/
+geosign-v47.fibrewired.on.ca
+0 1 1 523 1 1118989184
+/
+www.whois.sc
+0 3 2 2227 2 1118640787
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+nv-208-13-132-188.sta.sprint-hsd.net
+0 2 2 10791 1 1119007128
+/PurplePeak.jpg
+geosign-v47.fibrewired.on.ca
+0 1 1 523 1 1118989184
+/
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 13
+http://www.whois.sc/purplepeak.com
+0 2
+http://www.purplepeak.com/
+0 1
+http://www.whois.sc/
+0 1
+# End Of Table - referrers
+# -agents- 
+MSIE 5.0
+0 1
+T-H-U-N-D-E-R-S-T-O-N-E)"
+0 2
+Konqueror/3.0
+0 1
+SurveyBot/2.3 (Whois Source)
+0 3
+MSIE 6.0
+0 6
+Yahoo! Slurp
+0 4
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

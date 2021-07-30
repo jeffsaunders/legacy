@@ -1,0 +1,57 @@
+Sep-29-2011 12:44:17
+=================================
+
+Response Code: 1.
+Response Text: (TESTMODE) This transaction has been approved.
+
+Results Received back from Authorizenet: Array
+(
+    [x_response_code] => 1
+    [x_response_reason_code] => 1
+    [x_response_reason_text] => (TESTMODE) This transaction has been approved.
+    [x_avs_code] => P
+    [x_auth_code] => 000000
+    [x_trans_id] => 0
+    [x_method] => CC
+    [x_card_type] => Visa
+    [x_account_number] => XXXX0027
+    [x_first_name] => Jeff
+    [x_last_name] => Saunders
+    [x_company] => Test2
+    [x_address] => 217 Creekside Drive
+    [x_city] => Murphy
+    [x_state] => Texas
+    [x_zip] => 75094
+    [x_country] => United States
+    [x_phone] => 972-805-4311
+    [x_fax] => 
+    [x_email] => jeff@nrnet.com
+    [x_invoice_num] => 
+    [x_description] => Website Purchase from DCM Clean Air Store
+    [x_type] => auth_capture
+    [x_cust_id] => 4
+    [x_ship_to_first_name] => Jeff
+    [x_ship_to_last_name] => Saunders
+    [x_ship_to_company] => Test2
+    [x_ship_to_address] => 217 Creekside Drive
+    [x_ship_to_city] => Murphy
+    [x_ship_to_state] => Texas
+    [x_ship_to_zip] => 75094
+    [x_ship_to_country] => United States
+    [x_amount] => 923.99
+    [x_tax] => 0.00
+    [x_duty] => 0.00
+    [x_freight] => 0.00
+    [x_tax_exempt] => FALSE
+    [x_po_num] => 
+    [x_MD5_Hash] => 44A5BCBA853C8137C42E819DF0736479
+    [x_cvv2_resp_code] => 
+    [x_cavv_response] => 
+    [x_test_request] => true
+    [zenid] => 2bd07aa2d2e47a113e124370b63f8010
+    [HashValidationValue] => 44A5BCBA853C8137C42E819DF0736479
+    [HashMatchStatus] => PASS
+    [url] => https://secure.authorize.net/gateway/transact.dll
+)
+
+

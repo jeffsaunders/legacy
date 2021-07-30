@@ -1,0 +1,22 @@
+Robots.txt is a file in the main directory of a website. It tells the search engine spiders where they are allowed to go. This can be very useful if you have some content that is for paid subscribers only.
+
+A basic, spider can go anywhere a file is:
+
+[code]
+
+User-agent: *
+
+[/code]
+
+Disallow:
+
+You can disallow folders or files by putting this into the file:
+
+[code]
+
+User-agent: *
+
+Disallow: /foldername/
+
+[/code]
+

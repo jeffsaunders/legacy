@@ -1,0 +1,1 @@
+[11-Aug-2011 23:57:33] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/dcmclean/public_html/store/backoffice/includes/functions/general.php on line 1301

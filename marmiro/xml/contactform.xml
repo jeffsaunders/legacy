@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form url="contactform.php"
+ window="_self"
+ method="POST"
+ fontname="Arial,Helvetica,sans-serif"
+ width="560"
+ height="496"
+ bkcolor="0x282828"
+ transparent="t"
+ fontcolor="0x000000"
+ themecolor="0xFFFF99"
+ fontcolor2="#000000"
+ bkcolor2="#FFFFFF"
+ includeresults="false"
+ emailuser="false"
+ verifymessage="The e-mail address you entered does not match!"
+ reqmessage="One or more fields are required."
+ invalidemailmsg="does not appear to be a valid e-mail address. Would you like to change it?"
+ transition="0"
+ autoresponseincluderesults="f"
+ autoresponseaddtotop="f"
+ usephp="true"
+ disableclicktoactiveprompt="true"
+ extensions="*.txt;*.gif;*.jpg;*.jpeg;*.zip;*.doc;*.png;*.pdf;*.rtf;*.html;*.docx;*.xslx"
+>
+
+<label
+ name="Name Label"
+ x="80"
+ y="25"
+ w="150"
+ h="22"
+ text="Name:"
+ fontname="Arial,Helvetica,sans-serif"
+ fontcolor="0xDADADA"
+ fontsize="13"
+></label>
+
+<textinput
+ name="Name"
+ x="200"
+ y="25"
+ w="250"
+ h="22"
+ initvalue=""
+ maxchars="50"
+ bkcolor="0xFFFFFF"
+ fontname="Arial,Helvetica,sans-serif"
+ fontcolor="0x000000"
+ required="true"
+ editable="true"
+></textinput>
+
+<label
+ name="Email Label"
+ x="80"
+ y="55"
+ w="150"
+ h="22"
+ text="Email:"
+ fontname="Arial,Helvetica,sans-serif"
+ fontcolor="0xDADADA"
+ fontsize="13"
+></label>
+
+<textinput
+ name="Email"
+ x="200"
+ y="55"
+ w="250"
+ h="22"
+ initvalue=""
+ maxchars="50"
+ bkcolor="0xFFFFFF"
+ fontname="Arial,Helvetica,sans-serif"
+ fontcolor="0x000000"
+ required="true"
+ emailbox="true"
+ editable="true"
+ restrict="email"
+></textinput>
+
+<label
+ name="Phone Label"
+ x="80"
+ y="85"
+ w="150"
+ h="22"
+ text="Phone:"
+ fontname="Arial,Helvetica,sans-serif"
+ fontcolor="0xDADADA"
+ fontsize="13"
+></label>
+
+<textinput
+ name="Phone"
+ x="200"
+ y="85"
+ w="250"
+ h="22"
+ initvalue=""
+ maxchars="50"
+ bkcolor="0xFFFFFF"
+ fontname="Arial,Helvetica,sans-serif"
+ fontcolor="0x000000"
+ required="true"
+ editable="true"
+></textinput>
+
+<label
+ name="Send To Label"
+ x="80"
+ y="115"
+ w="150"
+ h="22"
+ text="Send To:"
+ fontname="Arial,Helvetica,sans-serif"
+ fontcolor="0xDADADA"
+ fontsize="13"
+></label>
+
+<combobox
+ name="Send_To"
+ x="200"
+ y="115"
+ w="250"
+ h="22"
+ bkcolor="0xFFFFFF"
+ fontcolor="0x000000"
+ isemail="false">
+ <item name="USA Headquarters - Carlstadt, NJ"></item>
+ <item name="Southeast Branch - Ft. Lauderdale, FL"></item>
+ <item name="Factory - Ankara, Turkey"></item>
+ <item name="Caribbean - St. Maarten N.A."></item>
+</combobox>
+
+<label
+ name="Comments Label"
+ x="80"
+ y="145"
+ w="150"
+ h="22"
+ text="Comments:"
+ fontname="Arial,Helvetica,sans-serif"
+ fontcolor="0xDADADA"
+ fontsize="13"
+></label>
+
+<textarea
+ name="Comments"
+ x="80"
+ y="175"
+ w="375"
+ h="130"
+ initvalue=""
+ maxchars="40000"
+ wordwrap="true"
+ editable="true"
+ bkcolor="0xFFFFFF"
+ fontsize="13"
+ fontname="Arial,Helvetica,sans-serif"
+ fontcolor="0x000000"
+></textarea>
+
+<captcha
+ name="Captcha"
+ x="200"
+ y="325"
+ w="150"
+ h="100"
+ text="Enter Key Here:"
+ fnt="Arial,Helvetica,sans-serif"
+ fntclr="0x000000"
+ fntsize="12"
+ bkbdrcolor="0x000000"
+ bkfillclr="0xFFFFFF"
+ bkdobdr="t"
+ bkbdrsolid="t"
+ bkdobk="t"
+ bkfillalpha="100"
+ message="Incorrect key!"
+></captcha>
+
+<submitbutton
+ name="Submit Button"
+ x="155"
+ y="450"
+ w="100"
+ h="20"
+ label="Submit"
+ fontname="Arial,Helvetica,sans-serif"
+ fontcolor="0x000000"
+ fontsize="12"
+></submitbutton>
+
+<resetbutton
+ name="Reset Button"
+ x="295"
+ y="450"
+ w="100"
+ h="20"
+ label="Reset"
+ fontname="Arial,Helvetica,sans-serif"
+ fontcolor="0x000000"
+ fontsize="12"
+></resetbutton>
+
+</form>

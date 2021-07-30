@@ -1,0 +1,4 @@
+<?php
+echo "Hello world!";
+echo "<p>If you can read this text -- it works!";
+?>

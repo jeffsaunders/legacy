@@ -1,0 +1,131 @@
+
+#slide-nav{
+	position: relative;
+	z-index:1000;
+	left:-10px;
+	
+}
+
+#homeSlide img, #portfoliosSlide img{
+	display:none;
+}
+
+
+
+#main{
+	padding-top:80px;
+}
+
+.home #attachment-title{
+	left:-40px;
+}
+
+.portfolios #slide-nav, .single-portfolios #slide-nav{   
+    margin-left:5px;;
+}
+
+
+.blog #main h1, .single #main h1, .archive .entry-title, .search .entry-title {
+	padding-bottom:30px;
+	clear: both;
+	display:block;	
+}
+
+#nav-single{
+	margin-top:20px !important;
+	display: block;
+}
+
+.wpcf7-form p{
+	position: relative;
+}
+
+.wpcf7-form textarea{
+	float:left;
+}
+
+.wpcf7-form label{
+	position: static;
+	display: inline !important;
+}
+
+.wpcf7-form .required{
+	left:280px;
+	top:20px;
+}
+
+.wpcf7-form{
+	margin:20px 0 0;
+}
+
+.wpcf7-form input.wpcf7-text, .wpcf7-form textarea {
+	padding:0 0 0 2px;
+	text-indent:0px;
+}
+
+body span.wpcf7-not-valid-tip{
+	left:0;
+	width:228px;
+}
+
+
+.your-message span.wpcf7-not-valid-tip{
+	left:-269px;
+}
+span.wpcf7-form-control-wrap{
+	left:0;
+}
+
+
+.wpcf7-form .wpcf7-submit{
+	margin-top:15px;
+}
+
+
+body div.wpcf7-response-output{
+	top:5px;
+}
+
+/* COMMENTS */
+#respond .comment-form-author label, #respond .comment-form-email label, #respond .comment-form-url label, #respond .comment-form-comment label{
+	display:block;
+	position:relative;
+	top:4px;
+	left:1px;
+	padding:7px 0 0;
+	clear: both;
+	height: 20px;
+}
+
+#respond input{
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0 1px 3px rgba(204, 204, 204, 0.95) inset;
+    padding: 4px;
+    position: relative;
+    text-indent: 0px;
+     display: block;
+    height: 24px;
+    padding-right: 25px;
+    width: 72%;
+    clear:both;
+    margin-bottom:20px;
+    
+}
+
+.comment-notes{
+	padding:0 0 15px 0 !important;
+}
+
+#respond input#submit{
+	padding:5px;
+	width:150px;
+	display: block;
+}
+
+
+
+#reply-title{
+	padding-top:15px;
+}
+

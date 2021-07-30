@@ -1,0 +1,126 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+
+<!--
+Corporate Partnership Program - Page 3 (form)
+
+Design Copyright 2001 Network Resources
+Images Copyright 2002 ISIGHT Center for the Blind
+Authored by Jeff S. Saunders 05/30/2002
+Modified by Jeff S. Saunders 05/30/2002
+-->
+
+<html>
+
+<head>
+	<title>Blind Center of Nevada</title>
+
+	<script language="Javascript">
+	// This function restricts keypresses for a given field to numbers only
+	function keyCheck(eventObj, obj)
+	{
+		var keyCode
+		// Check For Browser Type
+		if (document.all){ 
+			keyCode=eventObj.keyCode
+		}
+		else{
+			keyCode=eventObj.which
+		}
+		var str=obj.value
+		if(keyCode==46){ // Allow only 1 decimal in a number
+			if (str.indexOf(".")>0){
+				return false
+			}
+		}
+		// Allow only integers, dollar signs, forward slashes, hyphens, commas & decimal points
+		if((keyCode<44 || keyCode >58) && (keyCode != 46) && (keyCode != 36)){
+			return false
+		}
+		return true
+	}
+	</script>
+
+</head>
+	
+<body bgcolor="white">
+
+<table width="560" border="0" cellspacing="0" cellpadding="0">
+<tr>
+	<td width="190" height="180" rowspan="5" align="left" valign="top"><img src="media/reflections.jpg" alt="" width="180" height="148" border="0"><div align="center"><br><font color="#696969"><b>Corporate Partnership Program</b></font><br><img src="media/spacer.gif" width="1" height="15" alt="" border="0"><br><img src="media/braille.jpg" alt="" width="175" height="15" border="0"><br><br><a href="index.php"><b>HOME</b></a></div></td>
+	<td align="center" valign="top"><br><br><br><font face="Times New Roman,Georgia,Times" size="+1" color="#696969"><i><b>&quot;When we do the best we can, we never know what miracle is wrought in our life, or in the life of another&quot;</b></i></font><br><div align="right"><b>- Helen Keller</b></div><br></td>
+</tr>
+<tr>
+	<td valign="middle">
+		<table>
+		<tr>
+			<td><img src="media/tiranglebullet.jpg" width="40" height="45" alt="" border="0"></td>
+			<td><font size="+2"><em><strong>Yes, I want to make a difference</strong></em></td>
+		</tr>
+		</table>
+		<br>
+	</td>
+</tr>
+<tr>
+	<td align="center"><font size="-1"><strong>Please complete the following form to join The Blind Center's "Reflections of Light" Corporate Partnership Program.</strong></font><br><hr><br></td>
+</tr>
+<tr>
+	<td align="left">
+		<form action="partnershipform.php" method="POST">
+		<input type="hidden" name="recipient" value="contact@blindcenter.org">
+		<input type="hidden" name="subject" value="Corporate Partnership Registration Form">
+		<input type="hidden" name="required" value="firm,contact,address1,city,state,zip,phone,donation">
+		<input type="hidden" name="print_blank_fields" value="1">
+		<input type="hidden" name="redirect" value="partnershipthanks.html">
+		<table border="0" cellspacing="2" cellpadding="0">
+		<tr>
+			<td align="right" valign="top"><b>Firm:</b></td>
+			<td align="left"><input type="text" name="firm" size="41" maxlength="50"></td>
+			<td width="125" rowspan="14">&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="right" valign="top"><b>Contact:</b></td>
+			<td align="left"><input type="text" name="contact" size="41" maxlength="50"></td>
+			<td width="125" rowspan="14">&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="right" valign="top"><b>Address:</b></td>
+			<td><input type="text" name="address1" size="41" maxlength="50"><br><input type="text" name="address2" size="41" maxlength="50"></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>
+			<table cellspacing="0" cellpadding="0">
+			<tr>
+				<td><input type="text" name="city" size="16" maxlength="20">&nbsp;<br><font size="-2"><b>&nbsp;City</b></td>
+				<td><input type="text" name="state" size="4" maxlength="20">&nbsp;<br><font size="-2"><b>&nbsp;State</b></td>
+				<td><input type="text" name="zip" size="12" maxlength="20"><br><font size="-2"><b>&nbsp;Zip</b></td>
+			</tr>
+			</table>
+		</tr>
+		<tr>
+			<td align="right" valign="top"><b>Phone:</b></td>
+			<td><input type="text" name="phone" size="41" maxlength="50"></td>
+		</tr>
+		<tr>
+			<td align="right" valign="top"><b>Fax:</b></td>
+			<td><input type="text" name="fax" size="41" maxlength="50"></td>
+		</tr>
+		<tr>
+			<td align="right" valign="top"><b>Email:</b></td>
+			<td><input type="text" name="email" size="41" maxlength="50"></td>
+		</tr>
+		<tr>
+			<td align="right" valign="top"><b>Donation:</b></td>
+			<td><input type="text" name="donation" value="$" size="41" maxlength="50" onKeyPress="return keyCheck(event, this)"></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td align="center"><br><input type="submit" value="Send Info">&nbsp;<input type="reset" value="Reset"></td>
+		</tr>
+	</td>
+</tr>
+</table>
+
+</body>
+
+</html>

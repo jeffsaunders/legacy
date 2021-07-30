@@ -1,0 +1,57 @@
+Nov-15-2011 09:35:37
+=================================
+
+Response Code: 2.
+Response Text: This transaction has been declined.
+
+Results Received back from Authorizenet: Array
+(
+    [x_response_code] => 2
+    [x_response_reason_code] => 2
+    [x_response_reason_text] => This transaction has been declined.
+    [x_avs_code] => Y
+    [x_auth_code] => 
+    [x_trans_id] => 3980991220
+    [x_method] => CC
+    [x_card_type] => MasterCard
+    [x_account_number] => XXXX3559
+    [x_first_name] => Jessie
+    [x_last_name] => Mondeau
+    [x_company] => JDSU
+    [x_address] => 2789 Northpoint Parkway
+    [x_city] => Santa Rosa
+    [x_state] => California
+    [x_zip] => 95407
+    [x_country] => United States
+    [x_phone] => 707-525-6849
+    [x_fax] => 
+    [x_email] => jessie.mondeau@jdsu.com
+    [x_invoice_num] => 
+    [x_description] => Website Purchase from DCM Clean Air Store
+    [x_type] => auth_capture
+    [x_cust_id] => 11
+    [x_ship_to_first_name] => Jessie
+    [x_ship_to_last_name] => Mondeau
+    [x_ship_to_company] => JDSU
+    [x_ship_to_address] => 2789 Northpoint Parkway
+    [x_ship_to_city] => Santa Rosa
+    [x_ship_to_state] => California
+    [x_ship_to_zip] => 95407
+    [x_ship_to_country] => United States
+    [x_amount] => 436.16
+    [x_tax] => 0.00
+    [x_duty] => 0.00
+    [x_freight] => 0.00
+    [x_tax_exempt] => FALSE
+    [x_po_num] => 
+    [x_MD5_Hash] => 7057FDF465C2A8546830EDA30599CD7D
+    [x_cvv2_resp_code] => M
+    [x_cavv_response] => 
+    [x_test_request] => false
+    [zenid] => eb63960a6dca8572889d24a5745ff243
+    [HashValidationValue] => 7057FDF465C2A8546830EDA30599CD7D
+    [HashMatchStatus] => PASS
+    [url] => https://secure.authorize.net/gateway/transact.dll
+)
+
+

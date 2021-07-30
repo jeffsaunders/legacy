@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+div#menu {
+	width: 300px;
+	top: 143px;
+	left: 235px;
+}
+
+#lastMenu ul {
+	margin-left: 180px;
+}
+
+#lastMenu {
+	height: 25px;
+}

@@ -1,0 +1,75 @@
+<VirtualHost *:80>
+	ServerName cellbenefits.com:80
+	ServerAlias www.cellbenefits.com
+
+        ServerAlias agilent.cellbenefits.com
+        ServerAlias altera.cellbenefits.com
+        ServerAlias apple.cellbenefits.com
+        ServerAlias autodesk.cellbenefits.com
+        ServerAlias bankofthewest.cellbenefits.com
+        ServerAlias bayalarm.cellbenefits.com
+        ServerAlias bea.cellbenefits.com
+        ServerAlias bellmicro.cellbenefits.com      
+        ServerAlias borgata.cellbenefits.com                    
+        ServerAlias bow.cellbenefits.com      
+        ServerAlias central.cellbenefits.com
+        ServerAlias convergence.cellbenefits.com
+        ServerAlias demo.cellbenefits.com
+        ServerAlias flextronics.cellbenefits.com
+        ServerAlias fosterfarms.cellbenefits.com      
+        ServerAlias fujitsu.cellbenefits.com
+        ServerAlias gensler.cellbenefits.com
+        ServerAlias girling.cellbenefits.com      
+        ServerAlias google.cellbenefits.com      
+        ServerAlias kellymoore.cellbenefits.com      
+        ServerAlias levis.cellbenefits.com
+        ServerAlias longs.cellbenefits.com
+        ServerAlias maxim.cellbenefits.com      
+        ServerAlias mckesson.cellbenefits.com      
+        ServerAlias nevada.cellbenefits.com      
+        ServerAlias openwave.cellbenefits.com
+        ServerAlias orrick.cellbenefits.com                    
+        ServerAlias pacer.cellbenefits.com      
+        ServerAlias palm.cellbenefits.com                          
+        ServerAlias ross.cellbenefits.com      
+        ServerAlias sandsexpo.cellbenefits.com                    
+        ServerAlias solectron.cellbenefits.com
+        ServerAlias symantec.cellbenefits.com      
+        ServerAlias tao.cellbenefits.com
+        ServerAlias test.cellbenefits.com      
+        ServerAlias venetian.cellbenefits.com                    
+        ServerAlias virgin.cellbenefits.com
+        ServerAlias westaff.cellbenefits.com      
+        ServerAlias yahoo.cellbenefits.com      
+
+	DocumentRoot /var/www/html//cellbenefits.com/httpdocs
+#	CustomLog /var/www/html//cellbenefits.com/var/log/access_log combined
+        CustomLog /var/www/html//cellbenefits.com/var/log/access_log vhost
+	ErrorLog /var/www/html//cellbenefits.com/var/log/error_log
+	<IfModule mod_userdir.c>
+	UserDir /var/www/html//cellbenefits.com/web_users
+	</IfModule>
+	ScriptAlias /cgi-bin/ /var/www/html//cellbenefits.com/cgi-bin/
+	<IfModule mod_ssl.c>
+		SSLEngine off
+	</IfModule>
+	<Directory /var/www/html//cellbenefits.com/httpdocs>
+	Options -Indexes
+	<IfModule sapi_apache2.c>
+		php_admin_flag engine on
+		php_admin_value open_basedir "/var/www/html//cellbenefits.com
+		php_admin_value upload_tmp_dir "/var/www/html//cellbenefits.com/tmp"
+		php_admin_value session.save_path "/var/www/html//cellbenefits.com/tmp"
+	</IfModule>
+		Options +Includes +ExecCGI
+	<IfModule mod_perl.c>
+	<Files ~ (\.pl)>
+		SetHandler perl-script
+		PerlHandler ModPerl::Registry
+		allow from all
+		PerlSendHeader On
+	</Files>
+	</IfModule>
+	</Directory>
+</VirtualHost>
+

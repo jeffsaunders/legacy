@@ -1,0 +1,145 @@
+<html><!-- InstanceBegin template="/Templates/manual - main page.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title></title>
+<!-- InstanceEndEditable -->
+<link href="includes/styles.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+<body bgcolor="#E1E1E1">
+<table width=75% border=0 cellpadding=0 cellspacing=0>
+  <tr>
+    <td><!-- InstanceBeginEditable name="Main Content" --> 
+      <h1>Users </h1>
+      <p>SnippetMaster is designed to be a flexible content management system 
+        that works with multiple users. Each user is assigned certain &quot;privileges&quot; 
+        which define what access that user has to the program, what files or Snippets 
+        they can edit, etc.</p>
+      <h3>User Privileges</h3>
+      <ul>
+        <li> <strong>Admin</strong> - Access to the Admin Area. Allowed to edit 
+          all files and all snippets.</li>
+        <li><strong>Super User </strong> - Allowed to edit all files and all snippets. 
+        </li>
+        <li> <strong>Power User</strong> - Allowed to edit all snippets. </li>
+        <li><strong>Regular User </strong>- The program Administrator can choose 
+          between TWO possible privilege schemes for the Regular User. The privilege 
+          scheme that is used is specified by the &quot;<em>Regular User Privileges 
+          (When Can Regular Users Edit Snippets?)</em>&quot; setting in the <a href="admin-general-settings.html">General</a> 
+          tab of the Admin Area. <br />&nbsp;
+          <ul>
+            <li>If <em><strong>option 1 </strong></em>is selected, then the user 
+              can edit a snippet <strong>only</strong> if their username is specifically 
+              listed in <a href="snippet-tag-attributes.html#users">access control 
+              list</a> (ACL) for the snippet. (ie: Their username is listed in 
+              the <em>Users</em> list of the Snippet Tag.)</li>
+            <li>If <em><strong>option 2</strong></em> is selected, then the user 
+              can edit a snippet if they are listed in the <a href="snippet-tag-attributes.html#users">access 
+              control list</a> (ACL) for the snippet <strong>-or-</strong> if 
+              no ACL exists for the snippet. (ie: Their username is listed in 
+              the <em>Users</em> list of the Snippet Tag <strong>-or-</strong> 
+              if there is no Users list specified.</li>
+          </ul>
+        </li>
+      </ul>
+      <p>Here is a handy chart to illustrate the different user privileges:</p>
+      <table width="100%" border="0" cellspacing="3" cellpadding="1">
+        <tr align="center" bgcolor="#E1C4C4"> 
+          <td width="15%"><strong>Privilege</strong></td>
+          <td width="15%"><strong>Admin Area</strong></td>
+          <td width="15%"><strong>Edit whole files</strong></td>
+          <td width="15%"><strong>Edit All Snipets</strong></td>
+          <td width="15%"><strong><a href="snippet-tag-attributes.html#users">Edit 
+            only snippets where user is listed in ACL</a></strong></td>
+          <td width="15%"><strong><a href="snippet-tag-attributes.html#users">Edit 
+            only snippets where user is listed in ACL -or- if there is no ACL 
+            defined for the snippet</a></strong></td>
+        </tr>
+        <tr bgcolor="#E1C4C4"> 
+          <td width="15%"><strong>Admin</strong></td>
+          <td width="15%"> 
+            <div align="center">x</div></td>
+          <td width="15%"> 
+            <div align="center">x</div></td>
+          <td width="15%"> 
+            <div align="center">x</div></td>
+          <td width="15%"> 
+            <div align="center"></div></td>
+          <td width="15%"> 
+            <div align="center"></div></td>
+        </tr>
+        <tr bgcolor="#E1C4C4"> 
+          <td width="15%"><strong>Super User</strong></td>
+          <td width="15%"> 
+            <div align="center"></div></td>
+          <td width="15%"> 
+            <div align="center">x</div></td>
+          <td width="15%"> 
+            <div align="center">x</div></td>
+          <td width="15%"> 
+            <div align="center"></div></td>
+          <td width="15%"> 
+            <div align="center"></div></td>
+        </tr>
+        <tr bgcolor="#E1C4C4"> 
+          <td width="15%"><strong>Power User</strong> </td>
+          <td width="15%"> 
+            <div align="center"></div></td>
+          <td width="15%"> 
+            <div align="center"></div></td>
+          <td width="15%"> 
+            <div align="center">x</div></td>
+          <td width="15%"> 
+            <div align="center"></div></td>
+          <td width="15%"> 
+            <div align="center"></div></td>
+        </tr>
+        <tr bgcolor="#E1C4C4"> 
+          <td width="15%"><strong>Regular User</strong></td>
+          <td width="15%"> 
+            <div align="center"></div></td>
+          <td width="15%"> 
+            <div align="center"></div></td>
+          <td width="15%"> 
+            <div align="center"></div></td>
+          <td width="15%"> 
+            <div align="center">if option 1</div></td>
+          <td width="15%"> 
+            <div align="center">if option 2</div></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <h3>Adding users to SnippetMaster is easy.</h3>
+      <ol>
+        <li>Log into SnippetMaster with a user that has admin privileges.</li>
+        <li>Click the <strong>admin</strong> link. (Located at the top right area 
+          of the page.)</li>
+        <li>Click the <strong>Users</strong> tab.</li>
+      </ol>
+      <p>Each user can be assigned unique privileges and options. For example, 
+        it is possible to:</p>
+      <ul>
+        <li>Allow only certain users to have access to certain snippets. (See 
+          details about restricting Snippets by using the &quot;<a href="snippet-tag-attributes.html#attribute_list">Users 
+          snippet tag attribute</a>&quot;.)</li>
+        <li>Assign a user to any <a href="admin-list-groups.html">List Group</a> 
+          so you can restrict what folders they can or can not &quot;see&quot; 
+          when browsing for Snippets, images, and links. </li>
+        <li>Assign a user to any <a href="admin-upload-groups.html">Upload Group</a> 
+          so you can specify exactly what folder(s) they can upload files into.</li>
+        <li>Assign a user to any <a href="admin-editor-groups.html">Editor Group</a> 
+          so you can hide certain features of the WYSIWYG editor or set editor 
+          defaults like height/width.</li>
+        <li>Enable or disable the ability to use the File Upload Utility.</li>
+        <li>Give a user the ability to edit -all- snippets in any file, no matter 
+          if they are listed in the &quot;<a href="snippet-tag-attributes.html#attribute_list">users 
+          attribute</a>&quot; for that snippet or not. (Power User privilege)</li>
+        <li>Set the language for each user, individually.</li>
+      </ul>
+      <!-- InstanceEndEditable --> 
+      <p>&nbsp;</p>
+    </td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

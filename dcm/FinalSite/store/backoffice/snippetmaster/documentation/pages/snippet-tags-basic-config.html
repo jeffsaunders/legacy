@@ -1,0 +1,81 @@
+<html><!-- InstanceBegin template="/Templates/manual - main page.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title></title>
+<!-- InstanceEndEditable -->
+<link href="includes/styles.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+<body bgcolor="#E1E1E1">
+<table width=75% border=0 cellpadding=0 cellspacing=0>
+  <tr>
+    <td><!-- InstanceBeginEditable name="Main Content" --> 
+      <h1>Basic Snippet Tag Configuration</h1>
+      <h3><br>
+        How To Configure Snippets (Editable Portions Of Text) On Your Web Page</h3>
+      <ol>
+        <li>Using your web or file editing tool of choice (Dreamweaver, Frontpage, 
+          Notepad), open the file that you want your client to be able to edit. 
+        </li>
+        <li>Insert the following tags before and after each &quot;snippet&quot; 
+          of html code or text that you want your client to be able to edit:<br>
+          <br>
+          <strong><font color="#009900">&lt;!-- #BeginSnippet name=&quot;Name 
+          the snippet here&quot; --&gt;</font></strong><font color="#009900"> 
+          </font> 
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Editable HTML goes 
+            between the snippet tags ... <br>
+            <font color="#009900"><br>
+            <strong>&lt;!-- #EndSnippet --&gt;<br>
+            </strong></font><strong> </strong><br>
+            <strong>Note: </strong>It is possible to configure many different 
+            options for your snippet. You can restrict access to only some users, 
+            specify the size of the editor window, disable the wysiwyg editor, 
+            etc.. Click here for a complete list of <a href="snippet-tag-attributes.html#attribute_list">snippet 
+            tag attributes</a>.</p>
+        </li>
+        <li>Using your FTP program, upload the file to the server. (ASCII format) 
+        </li>
+        <li>Change permissions of the file so that the SnippetMaster program can 
+          write to the file. This usually means setting permissions for the file 
+          to at least 666 or 777. (File permissions can easily be set by using 
+          the CHMOD command feature within your FTP program. <a href="popups/file-permissions.html" target="_blank" onClick="PopUp('popups/file-permissions.html'); return false;">More 
+          information on changing file permissions.</a> 
+          <script>
+<!--
+var counter = 0;
+function PopUp(page) {
+	window.open(page,"popuphelp","top=150px,left=100px,width=500px,height=450px," +
+	"toolbar=no,menubar=no,location=no,status=no,directories=no,scrollbars=yes,resizable=yes");
+	return true;
+}
+// -->
+</script>
+          <br>
+          <br>
+          <strong>Note:</strong> The SnippetMaster program runs with the same 
+          &quot;user permissions&quot; as the web server software. Since most 
+          hosting companies run their web servers using the &quot;nobody&quot; 
+          user, SnippetMaster will not be able to modify your web pages unless 
+          you first change their file permissions. (Because your web pages are 
+          owned by whatever user you use to log into FTP.) </li>
+        <li>Test the page to make sure everything is working correctly and that's 
+          all there is to it. Your page is is now ready to deliver to your client! 
+        </li>
+      </ol>
+      <p align="left"><strong>Note:</strong> There are several <em>example files</em> 
+        to help you understand how the Snippet Tags work. </p>
+      <p align="left">The example files are located inside the program folder 
+        where SnippetMaster is installed:</p>
+      <ul>
+        <li><a href="http://www.snippetmaster.com/snippetmaster/example1-single_snippet.html" target="_blank">example1-single_snippet.html</a></li>
+        <li><a href="http://www.snippetmaster.com/snippetmaster/example2-multiple_snippets.html" target="_blank">example2-multiple_snippets.html</a></li>
+        <li><a href="http://www.snippetmaster.com/snippetmaster/example3-multiple_users.html" target="_blank">example3-multiple_users.html</a></li>
+      </ul>
+      <!-- InstanceEndEditable --> 
+      <p>&nbsp;</p>
+    </td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,3 @@
+This is a collection of old website projects from years gone past.  It is by no means a complete collection, just some whose code I found in backups.  If I find more, I'll add 'em.
+
+Some of it is a little embarrassing, some is actually pretty damn cool...

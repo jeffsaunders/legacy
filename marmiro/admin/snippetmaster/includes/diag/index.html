@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Diagnostics</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css"><!--
+body {background-color: #ffffff; color: #000000;}
+body, td, th, h1, h2 {font-family: arial; font-size: 13px;}
+h1 {font-size: 150%;}
+h2 {font-size: 125%;}
+--></style>
+</head>
+
+<body>
+<h1>Program Diagnostics</h1>
+<p><strong>Program Installation </strong></p>
+<ul>
+  <li><a href="#ioncube">Ioncube decoding system</a></li>
+  <li><a href="#zend">Zend decoding system</a></li>
+</ul>
+<hr width="90%" size="1">
+<h2><a name="ioncube"></a></h2>
+<h2>Test if the &quot;Ioncube&quot; decoding system is working.</h2>
+<p>Click <a href="decoder-ioncube.php" target="_blank">this link</a> to run the 
+  test file in a new browser window. If the ioncube decoding system is working 
+  properly on your web server, then you should see a &quot;<strong>Hello world!</strong>&quot; 
+  message displayed. </p>
+<p>If you see anything else, here are some possible problems:</p>
+<table width="100%" border="0" cellspacing="2" cellpadding="5">
+  <tr bgcolor="#CCFFE0"> 
+    <td width="14%" valign="top"><strong>If you see this: </strong></td>
+    <td width="86%"> <font face="Courier New, Courier, mono">The file /path/to/program/includes/diag/decoder-ioncube.php 
+      is corrupted.</font></td>
+  </tr>
+  <tr bgcolor="#CCFFE0"> 
+    <td valign="top"><strong>This might be the problem:</strong></td>
+    <td><p>The Ioncube loader files that are being used by your web server are 
+        too old and you need to ask your web host to update them to the <a href="http://www.ioncube.com/loaders.php" target="_blank">latest 
+        version provided by the ioncube vendor</a>.</p>
+      <p>(In most web servers, the ioncube loader files that are included with 
+        the program will be used during &quot;runtime&quot;. However, your web 
+        server is likely configured to use only the ioncube loader files that 
+        are provided by your web host. That's why you need to ask them to upgrade 
+        them for you.)</p>
+      <p>You can confirm if your web server is using an old version of the ioncube 
+        loader files by:</p>
+      <ol>
+        <li> Clicking this <a href="phpinfo.php">phpinfo file</a> to display the 
+          PHP information for your server.<em> (It will open into a new window)</em></li>
+        <li>Scroll down a little bit and you should see the &quot;Powered by Zend&quot; 
+          icon and a gray box that looks something like this:<br>
+          &nbsp; 
+          <table border="0" cellpadding="3" width="600" style="border-collapse: collapse; border: 1px solid #000000;">
+            <tr style="background-color: #cccccc; color: #000000;"> 
+              <td> <a href="http://www.zend.com/"><img border="0" src="phpinfo.php?=PHPE9568F35-D428-11d2-A769-00AA001ACF42" alt="Zend logo" style="float: right; border: 0px;" /></a> 
+                This program makes use of the Zend Scripting Language Engine:<br />
+                Zend Engine v1.3.0, Copyright (c) 1998-2004 Zend Technologies 
+                <strong>with the ionCube PHP Loader <font color="#FF0000">v2.5</font>, 
+                Copyright (c) 2002-2004, by ionCube Ltd. </strong></td>
+            </tr>
+          </table>
+          <br>
+          &nbsp; </li>
+        <li>I have highlighted in <strong><font color="#FF0000">bold red </font></strong>the 
+          part that is of interest here. This shows the version of the ioncube 
+          loader files that are installed on your web server.</li>
+      </ol></td>
+  </tr>
+</table>
+<p>&nbsp;</p><hr width="90%" size="1">
+<p><a name="zend" id="zend"></a></p>
+<h2>Test if the &quot;Zend&quot; decoding system is working.</h2>
+<p>Click <a href="decoder-zend.php" target="_blank">this link</a> to run the test 
+  file in a new browser window. If the zend decoding system is working properly 
+  on your web server, then you should see a &quot;<strong>Hello world!</strong>&quot; 
+  message displayed. </p>
+<p>If you see anything else, here are some possible problems:</p>
+<table width="100%" border="0" cellspacing="2" cellpadding="5">
+  <tr bgcolor="#CCFFE0"> 
+    <td width="14%" valign="top"><strong>If you see this: </strong></td>
+    <td width="86%"> <p><font face="Courier New, Courier, mono">Fatal error: Unable 
+        to read 7917 bytes in /path/to/program/includes/diag/decoder-zend.php 
+        on line 0.</font></p>
+      </td>
+  </tr>
+  <tr bgcolor="#CCFFE0"> 
+    <td valign="top"><strong>This might be the problem:</strong></td>
+    <td><p>The files that are encoded with the &quot;Zend&quot; encryption system 
+        must be uploaded to your web server in BINARY mode. The solution (usually) 
+        to this problem is to re-upload the files and make sure the &quot;transfer 
+        mode&quot; in your ftp client software is set to BINARY.</p>
+      </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp; </p>
+<p>&nbsp;</p>
+<table width="100%" border="0" cellspacing="2" cellpadding="5">
+  <tr valign="middle" bgcolor="#CCFFE0"> 
+    <td> 
+      <div align="center"><strong>Encoding Version</strong></div></td>
+    <td> 
+      <div align="center"><strong>Error Message</strong></div></td>
+    <td> 
+      <div align="center"><strong>Possible Solution</strong></div></td>
+  </tr>
+  <tr bgcolor="#CCFFE0"> 
+    <td width="9%" valign="top">Ioncube</td>
+    <td width="66%" valign="top"><font face="Courier New, Courier, mono">Fatal 
+      error: Unable to read 7917 bytes in /path/to/program/includes/diag/decoder-zend.php 
+      on line 0.</font></td>
+    <td width="25%"> <p>Encoded files not uploaded in BINARY mode. Click here 
+        details.</p></td>
+  </tr>
+  <tr bgcolor="#CCFFE0"> 
+    <td valign="top">&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,159 @@
+
+<html>
+	<head>
+		<title>Real Estate Appraisal, common misconceptions - Ascent Appraisal, Inc. - Myths</title>
+		<META HTTP-EQUIV="Expires" CONTENT="-1">
+		<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+		<META NAME="keywords" CONTENT="appraiser, appraisal, home appraisal, house appraisal, real estate appraiser, real estate appraisal, NV appraiserproperty appraiser, property appraisal, residential appraisal, commercial appraisal, house appraisers, appraisal services, commercial real estate appraisal, appraisal services">
+		<META NAME="description" CONTENT="Just what is a Real Estate Appraisal, how is it performed, and how do I benefit from it?  Ascent Appraisal, Inc., Las Vegas, NV.">
+
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/themeScripts.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/flashobject.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/flashPopup.js"></SCRIPT>
+
+		<LINK rel="stylesheet" type="text/css" href="/Styles.css">
+		<LINK rel="stylesheet" type="text/css" href="/templates/themes/mountain/styleSheet.css">
+		
+	</head>
+
+	<body bgcolor="#FFFFFF" topmargin="0" leftmargin="0">
+			
+		<div id="flashPopupNavLeft" style="position:absolute; width:5px; height:5px; z-index:999; left: -200px; top: 200px; visibility: visible;" onMouseOver="stopTime();" onMouseOut="startTime();">
+			<!-- alt content goes here, renders when the user doesn't have the proper flash file -->
+		</div>
+			
+		<table id="flashNav" width="764" align="center" height="100%" border="0" cellpadding="0" cellspacing="10">
+			<tr> 
+				<td width="764" height="142" colspan="3" bgcolor="#FFFFFF">
+					<div id="topFlashNav"><!-- needs flash plugin --></div>
+				</td>
+			</tr>
+			<tr>
+				<td class="nav" width="160" valign="top" bgcolor="#FFFFFF">
+					<div id="leftFlashNav"><!-- needs flash plugin --></div>
+				</td>
+				
+				<script type="text/javascript">
+				
+					var dtDate = new Date();
+					var szPageGuid = dtDate.getUTCMilliseconds().toString();
+				
+					// <![CDATA[
+					var foTop = new FlashObject("/templates/themes/FamilyLight/TopNav.swf", "topNav", "764", "142", 7, "#FFFFFF", "/XSitesBasic/HTMLSite.aspx");
+					foTop.addVariable("host", "www.ascentnv.com");
+					foTop.addVariable("AWSAccountsID", "27120");
+					foTop.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foTop.addVariable("ChosenLanguage", "English");
+					foTop.addVariable("IsMaster", "True");
+					foTop.addVariable("lcGuid", szPageGuid);
+					foTop.addParam("wmode", "transparent");
+					foTop.addParam("scale", "noscale");
+					foTop.addParam("salign", "lt");
+					foTop.addParam("menu", "false");
+					foTop.write("topFlashNav");
+
+					var foSec = new FlashObject("/templates/themes/FamilyLight/LeftNav.swf", "leftNav", "160", "650", 7, "#FFFFFF");
+					foSec.addVariable("host", "www.ascentnv.com");
+					foSec.addVariable("AWSAccountsID", "27120");
+					foSec.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foSec.addVariable("ChosenLanguage", "English");
+					foSec.addVariable("lcGuid", szPageGuid);
+					foSec.addParam("scale", "noscale");
+					foSec.addParam("salign", "lt");
+					foSec.addParam("menu", "false");
+					foSec.write("leftFlashNav");
+					
+					var foDiv = new FlashObject("/templates/themes/nestedNav/style1.swf", "popupSwf", "200", "25", 7, "#FFFFFF");
+					foDiv.addVariable("host", "www.ascentnv.com");
+					foDiv.addVariable("AWSAccountsID", "27120");
+					foDiv.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foDiv.addVariable("ChosenLanguage", "English");
+					foDiv.addVariable("lcGuid", szPageGuid);
+					foDiv.addParam("scale", "noscale");
+					foDiv.addParam("salign", "lt");
+					foDiv.addParam("menu", "false");
+					foDiv.write("flashPopupNavLeft");
+					// ]]>
+				</script>
+				
+				<td width="604" valign="top" bgcolor="#FFFFFF">
+					<table border="0" cellpadding="0" cellspacing="0" width="100%">
+						<tr>
+							<td>
+<script language="JavaScript" type="text/JavaScript" src="/Admin/JS/WizardV1.js"></script>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+	<tr>
+		
+		
+		
+		<td>
+		</td>
+		
+	</tr>
+	<tr>
+		<td width="100%" valign=top colspan=7>
+			
+<SCRIPT TYPE="text/javascript" SRC="/scripts/flashobject_fp8.js"></SCRIPT>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+	<tr>
+		<td>
+			<!--<img src="/graphics/shim.gif" border="0" width="10" height="10">-->
+		</td>
+		<td width="100%" valign=top>
+			<FONT face=Verdana size=-1>
+<P align=center><B>Some Myths and Realities About<BR>Real Estate Appraisals and Appraisers</B></P>
+<P><B>Myth:</B> Assessed value should equate to market value.<BR><B>Reality:</B> While most states support the concept that assessed value approximate estimated market value, this often is not the case. Examples include when interior remodeling has occurred and the assessor is unaware of the improvements, or when properties in the vicinity have not been reassessed for an extended period.</P>
+<P><B>Myth:</B> The appraised value of a property will vary, depending upon whether the appraisal is conducted for the buyer or the seller.<BR><B>Reality:</B> The appraiser has no vested interest in the outcome of the appraisal and should render services with independence, objectivity and impartiality - no matter for whom the appraisal is conducted.</P>
+<P><B>Myth:</B> Market value should approximate replacement cost.<BR><B>Reality:</B> Market value is based on what a willing buyer likely would pay a willing seller for a particular property, with neither being under pressure to buy or sell. Replacement cost is the dollar amount required to reconstruct a property in-kind.</P>
+<P><B>Myth:</B> Appraisers use a formula, such as a specific price per square foot, to figure out the value of a home.<BR><B>Reality:</B> Appraisers make a detailed analysis of all factors pertaining to the value of a home including its location, condition, size, proximity to facilities and recent sale prices of comparable properties.</P>
+<P><B>Myth:</B> In a robust economy - when the sales prices of homes in a given area are reported to be rising by a particular percentage - the value of individual properties in the area can be expected to appreciate by that same percentage.<BR><B>Reality:</B> Value appreciation of a specific property must be determined on an individualized basis, factoring in data on comparable properties and other relevant considerations. This is true in good times as well as bad.</P>
+<P><B>Myth:</B> You generally can tell what a property is worth simply by looking at the outside.<BR><B>Reality:</B> Property value is determined by a number of factors, including location, condition, improvements, amenities, and market trends.</P>
+<P><B>Myth:</B> Because consumers pay for appraisals when applying for loans to purchase or refinance real estate, they own their appraisal.<BR><B>Reality:</B> The appraisal is, in fact, legally owned by the lender - unless the lender "releases its interest" in the document. However, consumers must be given a copy of the appraisal report, upon written request, under the Equal Credit Opportunity Act.</P>
+<P><B>Myth:</B> Consumers need not be concerned with what is in the appraisal document so long as it satisfies the needs of their lending institution.<BR><B>Reality:</B> Only if consumers read a copy of their appraisal can they double-check its accuracy and question the result. Also, it makes a valuable record for future reference, containing useful and often-revealing information - including the legal and physical description of the property, square footage measurements, list of comparable properties in the neighborhood, neighborhood description and a narrative of current real-estate activity and/or market trends in the vicinity.</P>
+<P><B>Myth:</B> Appraisers are hired only to estimate real estate property values in property sales involving mortgage-lending transactions.<BR><B>Reality:</B> Depending upon their qualifications and designations, appraisers can and do provide a variety of services, including advice for estate planning, dispute resolution, zoning and tax assessment review and cost/benefit analysis.</P>
+<P><B>Myth:</B> An Appraisal is the same as a home inspection.<BR><B>Reality:</B> An Appraisal does not serve the same purpose as an inspection. The Appraiser forms an opinion of value in the Appraisal process and resulting report. A home inspector determines the condition of the home and its major components and reports these findings.</P></FONT>
+			
+		</td>
+		
+		<td>
+			<!--<img src="/graphics/shim.gif" border="0" width="10" height="10">-->
+		</td>
+		
+	</tr>
+</table>
+<!--<div id="FormsLayer" style="position:absolute; width:368px; height:178; z-index:2; left: 0; top: 0; visibility: visible;"></div>-->
+			
+		</td>
+	</tr>
+</table>
+<div align=center class=tableText>6120 Shelter Creek Avenue  Las Vegas, NV 89110<br><nobr>Phone: (702) 641-5657</nobr> <nobr>Fax: (702) 641-7944</nobr> <nobr><script language=javascript> var username = 'contact'; var hostname = 'ascentnv.com'; document.write('<nobr>E-mail: <a href=mail' + 'to:' + username + '@' + hostname + '>' + username + '@' + hostname + '</a>');</script><p><a href="/W-9/License/EO"><nobr>W-9 / License / E&O</nobr></a> | <a href="/CodeofEthics"><nobr>Code of Ethics</nobr></a> | <a href="/AppraisalReviews"><nobr>Appraisal Reviews</nobr></a> | <a href="/DateofDeathValuations"><nobr>Date of Death Valuations</nobr></a> | <a href="/Appraiserethics"><nobr>Appraiser ethics</nobr></a> | <a href="/Threeapproachestovalue"><nobr>Three approaches to value</nobr></a> | <a href="/WhatisUSPAP"><nobr>What is USPAP?</nobr></a> | <a href="/Pre-ListingAppraisals"><nobr>Pre-Listing Appraisals</nobr></a> | <a href="/RelocationAppraisal"><nobr>Relocation Appraisal</nobr></a> | <a href="/15vs30YearMtgCalc"><nobr>15 vs 30 Year Mtg Calc</nobr></a> | <a href="/RefiBreakevenCalc"><nobr>Refi Breakeven Calc</nobr></a> | <a href="/MortgageFraud"><nobr>Mortgage Fraud</nobr></a> | <a href="/ResidentialInvestment"><nobr>Residential Investment</nobr></a> | <a href="/OurTechnology"><nobr>Our Technology</nobr></a> | <a href="/OrderanAppraisal"><nobr>Order an Appraisal</nobr></a> | <a href="/ClientLogin"><nobr>Client Login</nobr></a> | <a href="/TellaFriend"><nobr>Tell a Friend</nobr></a> | <a href="/DownloadAdobeAcrobat"><nobr>Download Adobe Acrobat</nobr></a> | <a href="/Services"><nobr>Services</nobr></a> | <a href="/ContactUs"><nobr>Contact Us</nobr></a> | <a href="/WhatisanAppraisal"><nobr>What is an Appraisal</nobr></a> | <a href="/WhygetanAppraisal"><nobr>Why get an Appraisal</nobr></a> | <a href="/AboutPMI"><nobr>About PMI</nobr></a> | <a href="/FAQ"><nobr>FAQ</nobr></a> | <a href="/GlossaryofTerms"><nobr>Glossary of Terms</nobr></a> | <a href="/RealEstateNews"><nobr>Real Estate News</nobr></a> | <a href="/ExpertWitness"><nobr>Expert Witness</nobr></a> | <a href="/DivorceAppraisals"><nobr>Divorce Appraisals</nobr></a> | <a href="/EstateAppraisals"><nobr>Estate Appraisals</nobr></a> | <a href="/AppraisalMyths"><nobr>Appraisal Myths</nobr></a> | <a href="/ForBuyers"><nobr>For Buyers</nobr></a> | <a href="/HomeSellerServices"><nobr>Home Seller Services</nobr></a> | <a href="/ForHomeowners"><nobr>For Homeowners</nobr></a> | <a href="/HowtoPrepare"><nobr>How to Prepare</nobr></a> | <a href="/PressRelease"><nobr>Press Release</nobr></a><p>Copyright &copy; 2006&nbsp;Ascent Appraisal, Inc.<br>Portions Copyright &copy; 2006 a la mode, inc.<br>Another XSite by <a href='http://www.alamode.com/' target='_blank'>a la mode, inc.</a>&nbsp;|&nbsp;<a href='https://ascentnv.appraiserxsites.com/apps/alamodelogin/login.aspx' target='_new'>Admin Login</a>|&nbsp;<a href='/TermsOfUse'>Terms of Use</a></div>
+
+
+
+	</td>
+	</tr>
+	</table>
+	<table width="95%" border="0" cellspacing="1" cellpadding="10">
+		<tr>
+			<td><br></td>
+		</tr>
+		<tr> 
+			<td>
+				<div align="center" class="tableText"><br>
+					<table border="0" cellpadding="0" cellspacing="0" width="95%">
+						<tr>
+							<td>
+								
+							</td>
+						</tr>
+					</table>
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

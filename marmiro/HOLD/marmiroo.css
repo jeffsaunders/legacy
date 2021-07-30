@@ -1,0 +1,81 @@
+/* CSS Document */
+
+/* GLOBAL */
+body {font-family:Arial,Helvetica,sans-serif; font-size:11px; color:#DADADA; text-align:justify; background-color:#252525; margin:0px;}
+.imageBorder {border:solid 5px #252525;}
+.bodyText {font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#DADADA;}
+
+/* HEADER */
+div#headerContainer {position:relative; top:0px; left:0px; width:960px; height:84px; z-index:1;}
+div#soundModule {position:absolute; bottom:0px; right:0px; width:60px; height:30px; z-index:2}
+
+/* MENU */
+div#menuContainer {position:relative; top:0px; left:0px; width:960px; height:35px; background-color:#252525;}
+
+ul#menuLevel1 {position:relative; left:-35px; font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#FFFFFF; list-style:none; margin:0px; z-index:99;}
+ul#menuLevel1 li {position:relative; top:4px; left:0px; padding:0px 5px 0px 0px; display:block; float:left; background:#252525;}
+ul#menuLevel1 li a {font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#DADADA; display:block; padding:7px; text-decoration:none;} 
+ul#menuLevel1 li a:hover {color:#FF0000; background-color:#686868; display:block; text-decoration:none;} 
+ul#menuLevel1 li a:active {color:#FF0000; background-color:#686868; display:block; text-decoration:none;} 
+ul#menuLevel1 li a:visited {color:#DADADA; display:block; text-decoration:none;} 
+ul#menuLevel1 li a:visited:hover {color:#FF0000; background-color:#686868; display:block; text-decoration:none;} 
+
+ul#menuLevel1 li ul.menuLevel2 {position:absolute; top:21px; left:0px; width:175px; padding:1px 1px 5px 1px; list-style:none; display:block; background-color:#686868; z-index:99;}
+ul#menuLevel1 li ul.menuLevel2 li {position:relative; left:0px; width:175px; padding:0px 0px 0px 0px; display:block; float:left; border-right:none; border-top:1px solid #252525; background:#686868;}
+ul#menuLevel1 li ul.menuLevel2 li a {font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#DADADA; display:block; padding:7px; text-align:left; text-decoration:none;} 
+ul#menuLevel1 li ul.menuLevel2 li a:hover {color:#FF0000; background:#252525; display:block; text-decoration:none;} 
+ul#menuLevel1 li ul.menuLevel2 li a:active {color:#FF0000; background:#252525; display:block; text-decoration:none;} 
+ul#menuLevel1 li ul.menuLevel2 li a:visited {color:#DADADA; display:block; text-decoration:none;} 
+ul#menuLevel1 li ul.menuLevel2 li a:visited:hover {color:#FF0000; background:#252525; display:block; text-decoration:none;}
+
+/* BODY */
+div#bodyContainer {position:relative; top:0px; left:0px; width:960px; padding:7px 7px 0px 7px; background-color:#181818; z-index:1;}
+div#contentContainer {position:relative; top:-7px; left:0px; width:960px; background-color:#181818; z-index:1;}
+.sectionLabel {position:relative; top:2px; font-family:Arial,Helvetica,sans-serif; font-size:14px; color:#EAEAEA; text-decoration:none; padding:7px 0px 7px 7px;}
+
+/* HOME PAGE */
+div#fadeShow1 {position:relative; top:0px; left:0px; width:960px; display:inline-block; background-color:transparent; z-index:1;}
+
+/* CONTENT PAGES */
+div#productTabsContainer {position:relative; top:0px; left:0px; width:946px; display:inline-block; padding:7px 7px 0px 7px; background-color:#252525; z-index:1;}
+
+div#tabsContainer {position:relative; top:0px; left:-3px; width:946px; height:35px; background-color:transparent; z-index:1;}
+.tabContainer {position:relative; top:7px; left:0px; font-family:Arial,Helvetica,sans-serif; font-size:11px; font-weight:bold; color:#DADADA; display:inline-block; padding:7px; background-color:#383838; cursor:pointer; text-decoration:none; border-radius:10px 10px 0px 0px; -moz-border-radius:10px 10px 0px 0px; z-index:1;}
+.tabHover {position:relative; top:7px; left:0px; font-family:Arial,Helvetica,sans-serif; font-size:11px; font-weight:bold; color:#FF0000; display:inline-block; padding:7px; background-color:#484848; cursor:pointer; text-decoration:none; border-radius:10px 10px 0px 0px; -moz-border-radius:10px 10px 0px 0px; z-index:1;}
+
+div#productInfoContainer {position:relative; top:0px; left:0px; width:960px; padding:0px 0px 7px 0px; background-color:#252525; z-index:1;}
+
+.infoContainer {position:relative; top:0px; left:7px; width:946px; display:inline-block; background-color:#484848; border-radius:0px 10px 0px 0px; -moz-border-radius:0px 10px 0px 0px; z-index:1; visibility:hidden;}
+.infoLabel {font-family:Arial,Helvetica,sans-serif; font-size:15px; font-weight:bold; color:#DADADA; text-decoration:none;}
+.detailsContainer {position:relative; top:0px; left:0px; width:875px; display:inline-block; background-color:#484848; z-index:1; visibility:hidden;}
+
+.detailsButton {position:relative; top:0px; left:0px; width:90px; display:inline-block; padding:1px; background-color:#383838; cursor:pointer; text-align:center; text-decoration:none; border:solid 5px #252525; border-radius:10px 10px 10px 10px; -moz-border-radius:10px 10px 10px 10px; z-index:1;}
+A.detailsButton {font-family:Arial,Helvetica,sans-serif; font-size:12px; font-weight:bold; color:#DADADA; display:block; padding:7px; text-decoration:none;} 
+A.detailsButton:hover {color:#FF0000; display:block; text-decoration:none;} 
+A.detailsButton:active {color:#FF0000; display:block; text-decoration:none;} 
+A.detailsButton:visited {color:#DADADA; display:block; text-decoration:none;} 
+A.detailsButton:visited:hover {color:#FF0000; display:block; text-decoration:none;} 
+
+A.detailsThumbnail:hover {cursor:pointer;}
+
+.detailsColumnHeader {background-color:#DADADA; color:#383838; text-align:center;}
+.detailsColumn {padding:0px 0px 0px 5px;}
+
+.galleryContainer {background-color:#383838; border:solid 1px #646464;}
+.galleryThumbnail {border:solid 2px #C0C0C0}
+A.galleryThumbnail:hover {cursor:pointer;}
+
+.productSeperator {background-color:#181818;}
+.packageSeperator {background-color:#AAAAAA;}
+
+/* FOOTER */
+div#footerContainer {position:relative; top:0px; left:0px; width:975px; height:25px; z-index:0;}
+div#footerContact {position:absolute; bottom:0px; left:0px; font-family:Arial,Helvetica,sans-serif; font-size:11px; color:#DB1E1E; z-index:0;}
+div#footerCopyright {position:absolute; bottom:0px; right:0px; font-family:Arial,Helvetica,sans-serif; font-size:11px; color:#646464; z-index:0;}
+div#footerCopyright a {font-family:Arial,Helvetica,sans-serif; font-size:11px; color:#646464; text-decoration:none;} 
+div#footerCopyright a:hover {color:#FF0000; text-decoration:none;} 
+div#footerCopyright a:active {color:#FF0000; text-decoration:none;} 
+div#footerCopyright a:visited {color:#646464; text-decoration:none;} 
+div#footerCopyright a:visited:hover {color:#FF0000; text-decoration:none;}
+
+

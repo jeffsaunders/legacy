@@ -1,0 +1,56 @@
+<!-- Created using vQmod XML Generator by UKSB - http://uksb.github.com/vqgen/ //-->
+<modification>
+	<id><![CDATA[Custom Shipping Individual Item Shipping]]></id>
+	<version><![CDATA[1]]></version>
+	<vqmver><![CDATA[2.4]]></vqmver>
+	<author><![CDATA[Muhammad Akram]]></author>
+	<file name="admin/language/english/catalog/product.php">
+		<operation>
+			<search position="replace" error="log"><![CDATA['JAN:<br/><span class="help">Japanese Article Number</span>';]]></search>
+			<add><![CDATA['Domestic Shipping:<br/><span class="help"><span class="help">(Base Shipping + Additional)</span>';]]></add>
+		</operation>
+				<operation>
+			<search position="replace" error="log"><![CDATA['Dimensions (L x W x H):';]]></search>
+			<add><![CDATA['International Shipping:<br/><span class="help"><span class="help">(Base Shipping + Additional)</span>';]]></add>
+		</operation>
+	</file>
+	<file name="admin/view/template/catalog/product_form.tpl">
+		<operation>
+			<search position="replace" offset="9" error="log"><![CDATA[<td><input type="text" name="ean" value="<?php echo $ean; ?>" /></td>]]></search>
+			<add><![CDATA[
+			<td><input type="text" name="ean" value="<?php echo $ean; ?>" /></td>
+			  </tr>         
+			]]></add>
+		</operation>
+		<operation>
+			<search position="after" error="log"><![CDATA[<td><input type="text" name="price" value="<?php echo $price; ?>" /></td>]]></search>
+			<add><![CDATA[
+			            </tr>
+            <tr>
+              <td><?php echo $entry_jan; ?></td>
+              <td><input type="text" name="jan" value="<?php echo $jan; ?>" size="10" /> <input type="text" name="isbn" value="<?php echo $isbn; ?>" size="10"/> </td>
+            </tr>
+            <tr>
+              <td><?php echo $entry_dimension; ?></td>
+              <td><input type="text" name="length" value="<?php echo $length; ?>" size="10" />
+                <input type="text" name="width" value="<?php echo $width; ?>" size="10" /></td>
+            
+			]]></add>
+		</operation>
+			<operation>
+			<search position="replace" index="2" offset="4" error="log"><![CDATA[<td><?php echo $entry_dimension; ?></td>]]></search>
+			<add><![CDATA[
+			           <input type="hidden" name="height" value="<?php echo $height; ?>" />
+			]]></add>
+		</operation>
+	</file>
+	<file name="system/library/cart.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[=> $product_query->row['shipping'],]]></search>
+			<add><![CDATA[
+			'jan'						=> $product_query->row['jan'],
+			'isbn'						=> $product_query->row['isbn'],
+			]]></add>
+		</operation>
+	</file>	
+</modification>

@@ -1,0 +1,468 @@
+ 
+
+<html>
+ <title>wmuhomes.com - 15 homes found</title>
+ <body bgcolor="#ffffff">
+ 
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-158337-3");
+pageTracker._trackPageview();
+} catch(err) {}</script> 
+ 
+<link rel="stylesheet" href="wmuhomes.css" type="text/css">
+<center>
+<table border="0" cellpadding="0" cellspacing="0" width="85%">
+ <tr>
+	<td width="100%">
+	 <a href="/"><img src="images/logo.gif" height="62" width="233" border="0"></a>
+    </td>
+
+    <td width=15>
+     <img src="images/blank.gif" width="15">
+    </td>
+    
+    <td valign="bottom">
+     <!--- <img src="images/toolbar.gif" width="281" height="15" border="0"> --->
+    </td>
+ </tr>
+ 
+ <tr>
+ 	<td height='15' colspan='3'>
+     <img src="blank.gif" height="15">
+ 	</td>
+ </tr>
+ 
+ <tr>
+  	<td colspan='3'>
+  	
+  		<!--- Being Results --->						
+				<a href="/"><IMG SRC="http://www.macupdate.com/images/back_arrow.gif" WIDTH="7" HEIGHT="9" BORDER="0"></a>&nbsp;
+				<a href="/" class="column">Search Again</a> &nbsp;
+
+
+  			<table border='0' cellpadding='3' cellspacing='0' width='100%'>
+  			 <tr>
+  			  <td bgcolor='cccccc' colspan='7'>
+  			  	Search Results: 15 listings found
+  			  </td>
+  			 </tr>
+ 
+ <tr align='left' bgcolor='ffffff'>
+  			  <td>
+  			   &nbsp;
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=Joe+Lukeman&order=contact&order=bedrooms&order=street' class='column'><b>Street</b></a>
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=Joe+Lukeman&order=contact&order=bedrooms&order=rent' class='column'><b>Rent</b></a>
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=Joe+Lukeman&order=contact&order=bedrooms&order=bedrooms' class='column'><b>Bedrooms</b></a>
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=Joe+Lukeman&order=contact&order=bedrooms&order=utilities' class='column'><b>Util Incl.</b></a>
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=Joe+Lukeman&order=contact&order=bedrooms&order=available' class='column'><b>Available</b></a>
+  			  </td>
+  			  <td>
+  			   <a href='/results.php?order=available&contact=Joe+Lukeman&order=contact&order=bedrooms&order=contact' class='column'><b>Contact</b></a>
+  			  </td>
+  			 </tr>
+			 <tr align='left' bgcolor='#eeeeee'>
+			  <td>
+				 <a href='info.php?id=1717'><img src='images/uploads/1717_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1717' class='street'>407 Oak St  </a><br>
+				<span class=description>Roof deck, washer/dryer, extra 7th room for office.</span>
+			  </td>
+			  <td>
+				<span class=description>$1500</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;No</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Joe Lukeman</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#ffffff'>
+			  <td>
+				 <a href='info.php?id=1714'><img src='images/uploads/1714_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1714' class='street'>414 Davis St  </a><br>
+				<span class=description>3rd floor extra room, bar in basement.</span>
+			  </td>
+			  <td>
+				<span class=description>$1350</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;No</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Joe Lukeman</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#eeeeee'>
+			  <td>
+				 <a href='info.php?id=1712'><img src='images/uploads/1712_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1712' class='street'>523 Village St  </a><br>
+				<span class=description>Dishwasher, washer/dryer, bar in the basement.</span>
+			  </td>
+			  <td>
+				<span class=description>$1350</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;No</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Joe Lukeman</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#ffffff'>
+			  <td>
+				 <a href='info.php?id=1711'><img src='images/uploads/1711_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1711' class='street'>625 Wheaton Ave  </a><br>
+				<span class=description>Central air, remodeled kitchen & baths, rich hardwood floors.</span>
+			  </td>
+			  <td>
+				<span class=description>$1500</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;No</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Joe Lukeman</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#eeeeee'>
+			  <td>
+				 <a href='info.php?id=1709'><img src='images/uploads/1709_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1709' class='street'>611 Minor Ave  </a><br>
+				<span class=description>Large home w/plenty of parking, dishwasher, washer/dryer.</span>
+			  </td>
+			  <td>
+				<span class=description>$1410</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;No</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Joe Lukeman</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#ffffff'>
+			  <td>
+				 <a href='info.php?id=1716'><img src='images/uploads/1716_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1716' class='street'>513 Oak St  </a><br>
+				<span class=description>Remodeled kitchen, dishwasher, 3rd floor loft room.</span>
+			  </td>
+			  <td>
+				<span class=description>$1250</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;No</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Joe Lukeman</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#eeeeee'>
+			  <td>
+				 <a href='info.php?id=1715'><img src='images/uploads/1715_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1715' class='street'>612 Oak St  </a><br>
+				<span class=description>Updated kitchen cabinets, large tile dining room, washer/dryer.</span>
+			  </td>
+			  <td>
+				<span class=description>$1175</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;No</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Joe Lukeman</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#ffffff'>
+			  <td>
+				 <a href='info.php?id=1713'><img src='images/uploads/1713_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1713' class='street'>416 Oak St  </a><br>
+				<span class=description>Washer/dryer, partial utilities paid, bedroom w/kitchenette.</span>
+			  </td>
+			  <td>
+				<span class=description>$1150</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;No</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Joe Lukeman</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#eeeeee'>
+			  <td>
+				 <a href='info.php?id=1710'><img src='images/uploads/1710_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1710' class='street'>430 W Dutton St  </a><br>
+				<span class=description>3rd floor loft, dishwasher, hardwood floors.</span>
+			  </td>
+			  <td>
+				<span class=description>$1250</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;No</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Joe Lukeman</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#ffffff'>
+			  <td>
+				 <a href='info.php?id=1719'><img src='images/uploads/1719_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1719' class='street'>610 W Kalamazoo Ave Apt 4</a><br>
+				<span class=description>Washer/dryer, 1 parking space, hardwood floors.</span>
+			  </td>
+			  <td>
+				<span class=description>$620</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;Yes</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-12-01</span>
+			  </td>
+				  <td>
+				<span class=description>Joe Lukeman</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#eeeeee'>
+			  <td>
+				 <a href='info.php?id=1718'><img src='images/uploads/1718_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1718' class='street'>610 W Kalamazoo Ave Apt 5</a><br>
+				<span class=description>2nd bedroom has walk-in closet, laminate flooring.</span>
+			  </td>
+			  <td>
+				<span class=description>$600</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;Yes</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Joe Lukeman</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#ffffff'>
+			  <td>
+				 <a href='info.php?id=1723'><img src='images/uploads/1723_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1723' class='street'>411 Oak St Apt 2</a><br>
+				<span class=description>2nd floor apt, washer/dryer, hardwood floors.</span>
+			  </td>
+			  <td>
+				<span class=description>$600</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;Yes</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Joe Lukeman</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#eeeeee'>
+			  <td>
+				 <a href='info.php?id=1722'><img src='images/uploads/1722_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1722' class='street'>411 Oak St Apt 1</a><br>
+				<span class=description>French doors, decorative fireplace, off-street parking.</span>
+			  </td>
+			  <td>
+				<span class=description>$630</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;Yes</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-07-29</span>
+			  </td>
+				  <td>
+				<span class=description>Joe Lukeman</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#ffffff'>
+			  <td>
+				 <a href='info.php?id=1721'><img src='images/uploads/1721_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1721' class='street'>610 W Kalamazoo Ave Apt 1</a><br>
+				<span class=description>First floor apt, washer/dryer, decorative fireplace.</span>
+			  </td>
+			  <td>
+				<span class=description>$600</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;Yes</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-08-01</span>
+			  </td>
+				  <td>
+				<span class=description>Joe Lukeman</span>
+			  </td>
+			 </tr>
+			 
+			 <tr align='left' bgcolor='#eeeeee'>
+			  <td>
+				 <a href='info.php?id=1720'><img src='images/uploads/1720_0_mini.jpg' border='0' width='48' height='32'></a>
+			  </td>
+			  <td>
+				<a href='info.php?id=1720' class='street'>610 W Kalamazoo Ave Apt 3</a><br>
+				<span class=description>3rd floor, walk-in closet, over 1,000sq ft.</span>
+			  </td>
+			  <td>
+				<span class=description>$620</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2</span>
+			  </td>
+			  <td>
+				<span class=description>&nbsp;&nbsp;&nbsp;Yes</span>
+			  </td>			  
+			  <td>
+				<span class=description>2011-09-01</span>
+			  </td>
+				  <td>
+				<span class=description>Joe Lukeman</span>
+			  </td>
+			 </tr>
+			 	 
+     		 <tr align='left' bgcolor='cccccc'>
+  			  <td colspan='7' align='center'>
+ 1  			  </td>
+  			 </tr>			 
+  			</table><br>
+  			<a href="/add2.php" class="street">Add a Listing</a>		
+  		<!--- End Results --->
+  	
+  	</td>
+ </tr>
+ 
+</table>
+</center>
+
+</body>
+</html>

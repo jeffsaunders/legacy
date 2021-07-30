@@ -1,0 +1,169 @@
+
+<html>
+	<head>
+		<title>On the front lines against mortgage fraud.</title>
+		<META HTTP-EQUIV="Expires" CONTENT="-1">
+		<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+		<META NAME="keywords" CONTENT="Las Vegas appraiser, appraisal, home appraisal, house appraisal, real estate appraiser, real estate appraisal, NV appraiserproperty appraiser, property appraisal, residential appraisal, commercial appraisal, house appraisers, appraisal services, commercial real estate appraisal, appraisal services">
+		<META NAME="description" CONTENT="How appraisers are on the front lines of fighting mortgage fraud.">
+
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/themeScripts.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/flashobject.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/flashPopup.js"></SCRIPT>
+
+		<LINK rel="stylesheet" type="text/css" href="/Styles.css">
+		<LINK rel="stylesheet" type="text/css" href="/templates/themes/mountain/styleSheet.css">
+		
+	</head>
+
+	<body bgcolor="#FFFFFF" topmargin="0" leftmargin="0">
+			
+		<div id="flashPopupNavLeft" style="position:absolute; width:5px; height:5px; z-index:999; left: -200px; top: 200px; visibility: visible;" onMouseOver="stopTime();" onMouseOut="startTime();">
+			<!-- alt content goes here, renders when the user doesn't have the proper flash file -->
+		</div>
+			
+		<table id="flashNav" width="764" align="center" height="100%" border="0" cellpadding="0" cellspacing="10">
+			<tr> 
+				<td width="764" height="142" colspan="3" bgcolor="#FFFFFF">
+					<div id="topFlashNav"><!-- needs flash plugin --></div>
+				</td>
+			</tr>
+			<tr>
+				<td class="nav" width="160" valign="top" bgcolor="#FFFFFF">
+					<div id="leftFlashNav"><!-- needs flash plugin --></div>
+				</td>
+				
+				<script type="text/javascript">
+				
+					var dtDate = new Date();
+					var szPageGuid = dtDate.getUTCMilliseconds().toString();
+				
+					// <![CDATA[
+					var foTop = new FlashObject("/templates/themes/FamilyLight/TopNav.swf", "topNav", "764", "142", 7, "#FFFFFF", "/XSitesBasic/HTMLSite.aspx");
+					foTop.addVariable("host", "www.ascentnv.com");
+					foTop.addVariable("AWSAccountsID", "27120");
+					foTop.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foTop.addVariable("ChosenLanguage", "English");
+					foTop.addVariable("IsMaster", "True");
+					foTop.addVariable("lcGuid", szPageGuid);
+					foTop.addParam("wmode", "transparent");
+					foTop.addParam("scale", "noscale");
+					foTop.addParam("salign", "lt");
+					foTop.addParam("menu", "false");
+					foTop.write("topFlashNav");
+
+					var foSec = new FlashObject("/templates/themes/FamilyLight/LeftNav.swf", "leftNav", "160", "650", 7, "#FFFFFF");
+					foSec.addVariable("host", "www.ascentnv.com");
+					foSec.addVariable("AWSAccountsID", "27120");
+					foSec.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foSec.addVariable("ChosenLanguage", "English");
+					foSec.addVariable("lcGuid", szPageGuid);
+					foSec.addParam("scale", "noscale");
+					foSec.addParam("salign", "lt");
+					foSec.addParam("menu", "false");
+					foSec.write("leftFlashNav");
+					
+					var foDiv = new FlashObject("/templates/themes/nestedNav/style1.swf", "popupSwf", "200", "25", 7, "#FFFFFF");
+					foDiv.addVariable("host", "www.ascentnv.com");
+					foDiv.addVariable("AWSAccountsID", "27120");
+					foDiv.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foDiv.addVariable("ChosenLanguage", "English");
+					foDiv.addVariable("lcGuid", szPageGuid);
+					foDiv.addParam("scale", "noscale");
+					foDiv.addParam("salign", "lt");
+					foDiv.addParam("menu", "false");
+					foDiv.write("flashPopupNavLeft");
+					// ]]>
+				</script>
+				
+				<td width="604" valign="top" bgcolor="#FFFFFF">
+					<table border="0" cellpadding="0" cellspacing="0" width="100%">
+						<tr>
+							<td>
+<script language="JavaScript" type="text/JavaScript" src="/Admin/JS/WizardV1.js"></script>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+	<tr>
+		
+		
+		
+		<td>
+		</td>
+		
+	</tr>
+	<tr>
+		<td width="100%" valign=top colspan=7>
+			
+<SCRIPT TYPE="text/javascript" SRC="/scripts/flashobject_fp8.js"></SCRIPT>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+	<tr>
+		<td>
+			<!--<img src="/graphics/shim.gif" border="0" width="10" height="10">-->
+		</td>
+		<td width="100%" valign=top>
+			<P class="ContentText"><STRONG>On the front lines against mortgage fraud</STRONG></P><P class="ContentText">
+
+Mortgage fraud has made headlines locally and nationally.  Most of the time, mortgage fraud involves identity theft or fraud &mdash; making a borrower appear to be somebody else, with a better job, more income or fewer debts.  Somebody more creditworthy.
+</P><P class="ContentText">
+
+But some mortgage fraud involves a broker or loan officer telling the mortgagee &mdash; the lender &mdash; and the borrower that the house is worth more than it is.  This way, they can close a larger loan and make a bigger commission.  Since real estate agents also usually make a percentage of the sale as commission, sometimes they can be involved.  In reality, most loan officers, mortgage brokers and real estate salespeople are ethical and would never think of engaging in mortgage fraud.  But mortgage fraud of this type <i>always</i> originates with one of the parties who makes a commission on a closed sale.
+</P><P class="ContentText">
+
+Sometimes, fraud like this can be accomplished without an appraiser involved.  Honest, professional appraisal reports are simply altered, or honest, professional appraisers' signatures forged.  But in reality, a complicitous appraiser often makes it easier to perpetrate mortgage fraud.  At the same time, appraisers are also homeowners', lenders' and the economy's best defense against mortgage fraud.
+</P><P class="ContentText">
+
+Appraisers are paid a set fee for their work whether a deal is closed or not.  Appraisers are hired by and work for the lender that is considering loaning the money to buy a house. That lender is interested in an objective, third party, professional opinion of the true value of the home.  The lender needs to know that if the borrower defaults, the collateral used to secure the loan &mdash; the house &mdash; is valuable enough to cover their loss.
+</P><P class="ContentText">
+
+Appraisers do not work for individual, commissioned loan officers, mortgage brokers or real estate agents.  If they did, there would be too much pressure to "make the deal work," rather than arrive at a professional, considered opinion of the market value of the property.  Appraisers also do not work for borrowers, at least in the context of a mortgage loan.  But borrowers work closely with mortgage brokers, loan officers and real estate agents, and benefit the most from a third party, objective valuation of the home they want to buy.
+</P><P class="ContentText">
+
+If something catastrophic happens, such as a job loss, illness, divorce or death, and a borrower can no longer make payments on the home they've mortgaged, they will need to be able to sell the home for enough money to cover the balance of their mortgage.  So, nobody benefits more from an appraiser's professional opinion of value on a home than the new homeowner, even though there is no direct client relationship.
+</P><P class="ContentText">
+
+Like some mortgage brokers, loan officers and real estate salespeople, some appraisers are "bad apples" and will agree to go along with a scheme to defraud lenders and homebuyers so bigger commissions can be had.  Not us, and not the vast majority of appraisers.  Again, the appraiser is paid a set fee whether the loan closes or not, and does not work for any of the commissioned parties to the transaction.  Appraisers are therefore a homeowner's, and a lender's, best front line defense against mortgage fraud.
+</P>
+			
+		</td>
+		
+		<td>
+			<!--<img src="/graphics/shim.gif" border="0" width="10" height="10">-->
+		</td>
+		
+	</tr>
+</table>
+<!--<div id="FormsLayer" style="position:absolute; width:368px; height:178; z-index:2; left: 0; top: 0; visibility: visible;"></div>-->
+			
+		</td>
+	</tr>
+</table>
+<div align=center class=tableText>6120 Shelter Creek Avenue  Las Vegas, NV 89110<br><nobr>Phone: (702) 641-5657</nobr> <nobr>Fax: (702) 641-7944</nobr> <nobr><script language=javascript> var username = 'contact'; var hostname = 'ascentnv.com'; document.write('<nobr>E-mail: <a href=mail' + 'to:' + username + '@' + hostname + '>' + username + '@' + hostname + '</a>');</script><p><a href="/W-9/License/EO"><nobr>W-9 / License / E&O</nobr></a> | <a href="/CodeofEthics"><nobr>Code of Ethics</nobr></a> | <a href="/AppraisalReviews"><nobr>Appraisal Reviews</nobr></a> | <a href="/DateofDeathValuations"><nobr>Date of Death Valuations</nobr></a> | <a href="/Appraiserethics"><nobr>Appraiser ethics</nobr></a> | <a href="/Threeapproachestovalue"><nobr>Three approaches to value</nobr></a> | <a href="/WhatisUSPAP"><nobr>What is USPAP?</nobr></a> | <a href="/Pre-ListingAppraisals"><nobr>Pre-Listing Appraisals</nobr></a> | <a href="/RelocationAppraisal"><nobr>Relocation Appraisal</nobr></a> | <a href="/15vs30YearMtgCalc"><nobr>15 vs 30 Year Mtg Calc</nobr></a> | <a href="/RefiBreakevenCalc"><nobr>Refi Breakeven Calc</nobr></a> | <a href="/MortgageFraud"><nobr>Mortgage Fraud</nobr></a> | <a href="/ResidentialInvestment"><nobr>Residential Investment</nobr></a> | <a href="/OurTechnology"><nobr>Our Technology</nobr></a> | <a href="/OrderanAppraisal"><nobr>Order an Appraisal</nobr></a> | <a href="/ClientLogin"><nobr>Client Login</nobr></a> | <a href="/TellaFriend"><nobr>Tell a Friend</nobr></a> | <a href="/DownloadAdobeAcrobat"><nobr>Download Adobe Acrobat</nobr></a> | <a href="/Services"><nobr>Services</nobr></a> | <a href="/ContactUs"><nobr>Contact Us</nobr></a> | <a href="/WhatisanAppraisal"><nobr>What is an Appraisal</nobr></a> | <a href="/WhygetanAppraisal"><nobr>Why get an Appraisal</nobr></a> | <a href="/AboutPMI"><nobr>About PMI</nobr></a> | <a href="/FAQ"><nobr>FAQ</nobr></a> | <a href="/GlossaryofTerms"><nobr>Glossary of Terms</nobr></a> | <a href="/RealEstateNews"><nobr>Real Estate News</nobr></a> | <a href="/ExpertWitness"><nobr>Expert Witness</nobr></a> | <a href="/DivorceAppraisals"><nobr>Divorce Appraisals</nobr></a> | <a href="/EstateAppraisals"><nobr>Estate Appraisals</nobr></a> | <a href="/AppraisalMyths"><nobr>Appraisal Myths</nobr></a> | <a href="/ForBuyers"><nobr>For Buyers</nobr></a> | <a href="/HomeSellerServices"><nobr>Home Seller Services</nobr></a> | <a href="/ForHomeowners"><nobr>For Homeowners</nobr></a> | <a href="/HowtoPrepare"><nobr>How to Prepare</nobr></a> | <a href="/PressRelease"><nobr>Press Release</nobr></a><p>Copyright &copy; 2006&nbsp;Ascent Appraisal, Inc.<br>Portions Copyright &copy; 2006 a la mode, inc.<br>Another XSite by <a href='http://www.alamode.com/' target='_blank'>a la mode, inc.</a>&nbsp;|&nbsp;<a href='https://ascentnv.appraiserxsites.com/apps/alamodelogin/login.aspx' target='_new'>Admin Login</a>|&nbsp;<a href='/TermsOfUse'>Terms of Use</a></div>
+
+
+
+	</td>
+	</tr>
+	</table>
+	<table width="95%" border="0" cellspacing="1" cellpadding="10">
+		<tr>
+			<td><br></td>
+		</tr>
+		<tr> 
+			<td>
+				<div align="center" class="tableText"><br>
+					<table border="0" cellpadding="0" cellspacing="0" width="95%">
+						<tr>
+							<td>
+								
+							</td>
+						</tr>
+					</table>
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

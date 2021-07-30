@@ -1,0 +1,148 @@
+
+<html>
+	<head>
+		<title>What is an Appraisal? - Ascent Appraisal, Inc., Las Vegas, NV</title>
+		<META HTTP-EQUIV="Expires" CONTENT="-1">
+		<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+		<META NAME="keywords" CONTENT="appraiser, appraisal, home appraisal, house appraisal, real estate appraiser, real estate appraisal, NV appraiserproperty appraiser, property appraisal, residential appraisal, commercial appraisal, house appraisers, appraisal services, commercial real estate appraisal, appraisal services">
+		<META NAME="description" CONTENT="Just what is a Real Estate Appraisal, how is it performed, and how do I benefit from it?  Ascent Appraisal, Inc., Las Vegas, NV.">
+
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/themeScripts.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/flashobject.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/flashPopup.js"></SCRIPT>
+
+		<LINK rel="stylesheet" type="text/css" href="/Styles.css">
+		<LINK rel="stylesheet" type="text/css" href="/templates/themes/mountain/styleSheet.css">
+		
+	</head>
+
+	<body bgcolor="#FFFFFF" topmargin="0" leftmargin="0">
+			
+		<div id="flashPopupNavLeft" style="position:absolute; width:5px; height:5px; z-index:999; left: -200px; top: 200px; visibility: visible;" onMouseOver="stopTime();" onMouseOut="startTime();">
+			<!-- alt content goes here, renders when the user doesn't have the proper flash file -->
+		</div>
+			
+		<table id="flashNav" width="764" align="center" height="100%" border="0" cellpadding="0" cellspacing="10">
+			<tr> 
+				<td width="764" height="142" colspan="3" bgcolor="#FFFFFF">
+					<div id="topFlashNav"><!-- needs flash plugin --></div>
+				</td>
+			</tr>
+			<tr>
+				<td class="nav" width="160" valign="top" bgcolor="#FFFFFF">
+					<div id="leftFlashNav"><!-- needs flash plugin --></div>
+				</td>
+				
+				<script type="text/javascript">
+				
+					var dtDate = new Date();
+					var szPageGuid = dtDate.getUTCMilliseconds().toString();
+				
+					// <![CDATA[
+					var foTop = new FlashObject("/templates/themes/FamilyLight/TopNav.swf", "topNav", "764", "142", 7, "#FFFFFF", "/XSitesBasic/HTMLSite.aspx");
+					foTop.addVariable("host", "www.ascentnv.com");
+					foTop.addVariable("AWSAccountsID", "27120");
+					foTop.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foTop.addVariable("ChosenLanguage", "English");
+					foTop.addVariable("IsMaster", "True");
+					foTop.addVariable("lcGuid", szPageGuid);
+					foTop.addParam("wmode", "transparent");
+					foTop.addParam("scale", "noscale");
+					foTop.addParam("salign", "lt");
+					foTop.addParam("menu", "false");
+					foTop.write("topFlashNav");
+
+					var foSec = new FlashObject("/templates/themes/FamilyLight/LeftNav.swf", "leftNav", "160", "650", 7, "#FFFFFF");
+					foSec.addVariable("host", "www.ascentnv.com");
+					foSec.addVariable("AWSAccountsID", "27120");
+					foSec.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foSec.addVariable("ChosenLanguage", "English");
+					foSec.addVariable("lcGuid", szPageGuid);
+					foSec.addParam("scale", "noscale");
+					foSec.addParam("salign", "lt");
+					foSec.addParam("menu", "false");
+					foSec.write("leftFlashNav");
+					
+					var foDiv = new FlashObject("/templates/themes/nestedNav/style1.swf", "popupSwf", "200", "25", 7, "#FFFFFF");
+					foDiv.addVariable("host", "www.ascentnv.com");
+					foDiv.addVariable("AWSAccountsID", "27120");
+					foDiv.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foDiv.addVariable("ChosenLanguage", "English");
+					foDiv.addVariable("lcGuid", szPageGuid);
+					foDiv.addParam("scale", "noscale");
+					foDiv.addParam("salign", "lt");
+					foDiv.addParam("menu", "false");
+					foDiv.write("flashPopupNavLeft");
+					// ]]>
+				</script>
+				
+				<td width="604" valign="top" bgcolor="#FFFFFF">
+					<table border="0" cellpadding="0" cellspacing="0" width="100%">
+						<tr>
+							<td>
+<script language="JavaScript" type="text/JavaScript" src="/Admin/JS/WizardV1.js"></script>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+	<tr>
+		
+		
+		
+		<td>
+		</td>
+		
+	</tr>
+	<tr>
+		<td width="100%" valign=top colspan=7>
+			
+<SCRIPT TYPE="text/javascript" SRC="/scripts/flashobject_fp8.js"></SCRIPT>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+	<tr>
+		<td>
+			<!--<img src="/graphics/shim.gif" border="0" width="10" height="10">-->
+		</td>
+		<td width="100%" valign=top>
+			<B>What is an appraisal</B></FONT><BR><BR>A home purchase is the largest, single investment most people will ever make. Whether it's a primary residence, a second vacation home or an investment, the purchase of real property is a complex financial transaction that requires multiple parties to pull it all off.<BR><BR>Most of the people involved are very familiar. The Realtor is the most common face of the transaction. The mortgage company provides the financial capital necessary to fund the transaction. The title company ensures that all aspects of the transaction are completed and that a clear title passes from the seller to the buyer.<BR><BR>So who makes sure the value of the property is in line with the amount being paid? There are too many people exposed in the real estate process to let such a transaction proceed without ensuring that the value of the property is commensurate with the amount being paid.<BR><BR>This is where the <B>appraisal</B> comes in. An appraisal is an unbiased estimate of what a buyer might expect to pay - or a seller receive - for a parcel of real estate, where both buyer and seller are informed parties. To be an informed party, most people turn to a licensed, certified, professional appraiser to provide them with the most accurate estimate of the true value of their property.<BR><BR><B>The Inspection</B><BR>So what goes into a real estate appraisal? It all starts with the inspection. An appraiser's duty is to inspect the property being appraised to ascertain the true status of that property. The appraiser must actually see features, such as the number of bedrooms, bathrooms, the location, and so on, to ensure that they really exist and are in the condition a reasonable buyer would expect them to be. The inspection often includes a sketch of the property, ensuring the proper square footage and conveying the layout of the property. Most importantly, the appraiser looks for any obvious features - or defects - that would affect the value of the house.<BR><BR>Once the site has been inspected, an appraiser uses two or three approaches to determining the value of real property: a cost approach, a sales comparison and, in the case of a rental property, an income approach.<BR><BR><B>Cost Approach</B><BR>The cost approach is the easiest to understand. The appraiser uses information on local building costs, labor rates and other factors to determine how much it would cost to construct a property similar to the one being appraised. This value often sets the upper limit on what a property would sell for. Why would you pay more for an existing property if you could spend less and build a brand new home instead? While there may be mitigating factors, such as location and amenities, these are usually not reflected in the cost approach.<BR><BR><B>Sales Comparison</B><BR>Instead, appraisers rely on the sales comparison approach to value these types of items. Appraisers get to know the neighborhoods in which they work. They understand the value of certain features to the residents of that area. They know the traffic patterns, the school zones, the busy throughways; and they use this information to determine which attributes of a property will make a difference in the value. Then, the appraiser researches recent sales in the vicinity and finds properties which are ''comparable'' to the subject being appraised. The sales prices of these properties are used as a basis to begin the sales comparison approach.<BR><BR>Using knowledge of the value of certain items such as square footage, extra bathrooms, hardwood floors, fireplaces or view lots (just to name a few), the appraiser adjusts the comparable properties to more accurately portray the subject property. For example, if the comparable property has a fireplace and the subject does not, the appraiser may deduct the value of a fireplace from the sales price of the comparable home. If the subject property has an extra half-bathroom and the comparable does not, the appraiser might add a certain amount to the comparable property.<BR><BR>In the case of income producing properties - rental houses for example - the appraiser may use a third approach to valuing the property. In this case, the amount of income the property produces is used to arrive at the current value of those revenues over the foreseeable future.<BR><BR><B>Reconciliation</B><BR>Combining information from all approaches, the appraiser is then ready to stipulate an estimated market value for the subject property. It is important to note that while this amount is probably the best indication of what a property is worth, it may not be the final sales price. There are always mitigating factors such as seller motivation, urgency or ''bidding wars'' that may adjust the final price up or down. But the appraised value is often used as a guideline for lenders who don't want to loan a buyer more money that the property is actually worth. The bottom line is: an appraiser will help you get the most accurate property value, so you can make the most informed real estate decisions.
+			
+		</td>
+		
+		<td>
+			<!--<img src="/graphics/shim.gif" border="0" width="10" height="10">-->
+		</td>
+		
+	</tr>
+</table>
+<!--<div id="FormsLayer" style="position:absolute; width:368px; height:178; z-index:2; left: 0; top: 0; visibility: visible;"></div>-->
+			
+		</td>
+	</tr>
+</table>
+<div align=center class=tableText>6120 Shelter Creek Avenue  Las Vegas, NV 89110<br><nobr>Phone: (702) 641-5657</nobr> <nobr>Fax: (702) 641-7944</nobr> <nobr><script language=javascript> var username = 'contact'; var hostname = 'ascentnv.com'; document.write('<nobr>E-mail: <a href=mail' + 'to:' + username + '@' + hostname + '>' + username + '@' + hostname + '</a>');</script><p><a href="/W-9/License/EO"><nobr>W-9 / License / E&O</nobr></a> | <a href="/CodeofEthics"><nobr>Code of Ethics</nobr></a> | <a href="/AppraisalReviews"><nobr>Appraisal Reviews</nobr></a> | <a href="/DateofDeathValuations"><nobr>Date of Death Valuations</nobr></a> | <a href="/Appraiserethics"><nobr>Appraiser ethics</nobr></a> | <a href="/Threeapproachestovalue"><nobr>Three approaches to value</nobr></a> | <a href="/WhatisUSPAP"><nobr>What is USPAP?</nobr></a> | <a href="/Pre-ListingAppraisals"><nobr>Pre-Listing Appraisals</nobr></a> | <a href="/RelocationAppraisal"><nobr>Relocation Appraisal</nobr></a> | <a href="/15vs30YearMtgCalc"><nobr>15 vs 30 Year Mtg Calc</nobr></a> | <a href="/RefiBreakevenCalc"><nobr>Refi Breakeven Calc</nobr></a> | <a href="/MortgageFraud"><nobr>Mortgage Fraud</nobr></a> | <a href="/ResidentialInvestment"><nobr>Residential Investment</nobr></a> | <a href="/OurTechnology"><nobr>Our Technology</nobr></a> | <a href="/OrderanAppraisal"><nobr>Order an Appraisal</nobr></a> | <a href="/ClientLogin"><nobr>Client Login</nobr></a> | <a href="/TellaFriend"><nobr>Tell a Friend</nobr></a> | <a href="/DownloadAdobeAcrobat"><nobr>Download Adobe Acrobat</nobr></a> | <a href="/Services"><nobr>Services</nobr></a> | <a href="/ContactUs"><nobr>Contact Us</nobr></a> | <a href="/WhatisanAppraisal"><nobr>What is an Appraisal</nobr></a> | <a href="/WhygetanAppraisal"><nobr>Why get an Appraisal</nobr></a> | <a href="/AboutPMI"><nobr>About PMI</nobr></a> | <a href="/FAQ"><nobr>FAQ</nobr></a> | <a href="/GlossaryofTerms"><nobr>Glossary of Terms</nobr></a> | <a href="/RealEstateNews"><nobr>Real Estate News</nobr></a> | <a href="/ExpertWitness"><nobr>Expert Witness</nobr></a> | <a href="/DivorceAppraisals"><nobr>Divorce Appraisals</nobr></a> | <a href="/EstateAppraisals"><nobr>Estate Appraisals</nobr></a> | <a href="/AppraisalMyths"><nobr>Appraisal Myths</nobr></a> | <a href="/ForBuyers"><nobr>For Buyers</nobr></a> | <a href="/HomeSellerServices"><nobr>Home Seller Services</nobr></a> | <a href="/ForHomeowners"><nobr>For Homeowners</nobr></a> | <a href="/HowtoPrepare"><nobr>How to Prepare</nobr></a> | <a href="/PressRelease"><nobr>Press Release</nobr></a><p>Copyright &copy; 2006&nbsp;Ascent Appraisal, Inc.<br>Portions Copyright &copy; 2006 a la mode, inc.<br>Another XSite by <a href='http://www.alamode.com/' target='_blank'>a la mode, inc.</a>&nbsp;|&nbsp;<a href='https://ascentnv.appraiserxsites.com/apps/alamodelogin/login.aspx' target='_new'>Admin Login</a>|&nbsp;<a href='/TermsOfUse'>Terms of Use</a></div>
+
+
+
+	</td>
+	</tr>
+	</table>
+	<table width="95%" border="0" cellspacing="1" cellpadding="10">
+		<tr>
+			<td><br></td>
+		</tr>
+		<tr> 
+			<td>
+				<div align="center" class="tableText"><br>
+					<table border="0" cellpadding="0" cellspacing="0" width="95%">
+						<tr>
+							<td>
+								
+							</td>
+						</tr>
+					</table>
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

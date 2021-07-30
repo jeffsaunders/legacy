@@ -1,0 +1,257 @@
+# Webalizer V2.01-10 Incremental Data - 08/09/2005 01:38:56
+2005 8 9 1 38 56
+144 123 21 17 9 10 986071 144 30 0
+2 1 37 1 9
+3 1 9270 2 3 2
+0 0 0 0 0 0
+2 1 6073 1 2 2
+2 1 6073 2 2 2
+18 17 134526 2 18 3
+32 31 201188 8 32 8
+38 36 325696 3 38 3
+45 33 288034 8 45 8
+4 3 15211 2 4 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+6 3 19466 6
+1 1 5015 1
+2 1 5185 2
+1 1 5015 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 1058 1
+0 0 0 0
+0 0 0 0
+15 15 128963 15
+0 0 0 0
+0 0 0 0
+1 1 4127 1
+17 17 133468 17
+0 0 0 0
+0 0 0 0
+3 1 7131 3
+0 0 0 0
+23 15 140682 23
+6 3 18219 6
+23 23 165531 23
+42 40 342011 42
+3 2 10200 3
+0
+0
+0
+123
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+8
+0
+0
+0
+0
+0
+0
+11
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/
+0 25 0 121489 15 5
+/images/header.jpg
+0 7 0 101664 1 0
+/menu.js
+0 5 0 50275 0 0
+/jaggededge.css
+0 8 0 37247 0 0
+/staff.php
+0 3 0 4188 0 0
+/menu.css
+0 8 0 12964 0 0
+/images/spacer.gif
+0 7 0 402 0 0
+/images/whitedot.gif
+0 9 0 344 0 0
+/images/slices/footer_03on.gif
+0 5 0 10660 0 0
+/menu_items.js
+0 4 0 4548 0 1
+/images/mainbg.jpg
+0 7 0 265056 0 0
+/services.php
+0 17 0 70159 3 0
+/menu_tpl.js
+0 4 0 4656 0 0
+/images/slices/footer_03off.gif
+0 5 0 10660 0 0
+/images/watermark.gif
+0 9 0 247040 0 0
+/images/staff.gif
+0 3 0 9327 0 0
+/images/services.gif
+0 7 0 23508 0 0
+# End Of Table - urls
+# -sites- (monthly)
+lj2529.inktomisearch.com
+0 1 0 1058 1 1123534743
+-
+64.124.85.72.become.com
+0 2 1 6073 1 1123532954
+/
+66-194-6-83.gen.twtelecom.net
+0 2 2 10030 2 1123298373
+/
+msnbot.msn.com
+0 2 1 5185 1 1123466468
+/services.php
+64.246.178.34
+0 2 1 4255 1 1123455316
+/
+ezri.wellsfargo.com
+0 17 17 133468 2 1123251153
+/images/services.gif
+66.234.139.218
+0 2 1 6073 2 1123551536
+/
+66-194-6-78.gen.twtelecom.net
+0 1 1 5015 1 1123450169
+/
+lj2526.inktomisearch.com
+0 1 0 1058 1 1123176439
+-
+ip68-111-235-128.sd.sd.cox.net
+0 22 14 135667 1 1123528709
+/images/whitedot.gif
+63.148.99.239
+0 4 4 16315 1 1123368050
+/services.php
+sv-crawl.looksmart.com
+0 4 2 11258 4 1123371467
+/services.php
+lj2527.inktomisearch.com
+0 1 0 1058 1 1123359247
+-
+ip68-108-128-153.lv.lv.cox.net
+0 35 35 316426 1 1123455461
+/images/watermark.gif
+ip68-101-203-244.sd.sd.cox.net
+0 15 15 128963 1 1123498156
+/menu_tpl.js
+www.whois.sc
+0 2 1 4255 1 1122855630
+/
+crawl-66-249-66-52.googlebot.com
+0 3 2 10196 1 1123549141
+/services.php
+66-194-6-76.gen.twtelecom.net
+0 2 2 10030 2 1123530566
+/
+lj2440.inktomisearch.com
+0 3 3 15045 3 1123534744
+/
+ip68-224-47-37.lv.lv.cox.net
+0 22 22 160516 1 1123364891
+/services.php
+sv-fw.looksmart.com
+0 1 1 4127 1 1123336160
+/services.php
+# End Of Table - sites (monthly)
+# -sites- (daily)
+66.234.139.218
+0 1 1 5015 1 1123551536
+/
+crawl-66-249-66-52.googlebot.com
+0 3 2 10196 1 1123549141
+/services.php
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 66
+http://www.google.com/search
+0 2
+http://www.jaggededgelv.com/staff.php
+0 3
+http://www.jaggededgelv.com/services.php
+0 14
+http://www.whois.sc/jaggededgelv.com
+0 2
+http://www.whois.sc/
+0 2
+http://www.totalspaguide.com/lasvegasspa/
+0 1
+http://search.msn.com/results.aspx
+0 1
+http://www.jaggededgelv.com/
+0 53
+# End Of Table - referrers
+# -agents- 
+grub-client-2.6
+0 1
+Googlebot/2.1
+0 3
+BecomeBot/2.3
+0 2
+msnbot/1.0 (+http://search.msn.com/msnbot.htm)
+0 2
+Konqueror/3.0
+0 1
+Konqueror/3.1
+0 1
+Gaisbot/3.0+(robot05@gais.cs.ccu.edu.tw;+http://gais.cs.ccu.e
+0 2
+SurveyBot/2.3 (Whois Source)
+0 4
+MSIE 6.0
+0 118
+Yahoo! Slurp
+0 6
+# End Of Table - agents
+# -search strings- 
+jagged edge day spa
+2
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

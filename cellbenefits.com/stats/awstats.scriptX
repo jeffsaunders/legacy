@@ -1,0 +1,101 @@
+cd /var/www/html/cellbenefits.com/conf > /dev/null
+
+# Vision Sprint
+#./awstats.pl -config=cellbenefits.com -update > /dev/null
+#./awstats.pl -config=agilent.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=altera.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=apple.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=autodesk.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=bankofthewest.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=bayalarm.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=bea.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=bellmicro.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=borgata.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=central.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=convergence.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=flextronics.cellbenefits.com -update > /dev/null                
+#./awstats.pl -config=fosterfarms.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=fujitsu.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=gensler.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=girling.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=google.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=kellymoore.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=longs.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=maxim.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=mckesson.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=nevada.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=pacer.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=openwave.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=orrick.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=ross.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=sandsexpo.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=solectron.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=symantec.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=tao.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=venetian.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=virgin.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=westaff.cellbenefits.com -update > /dev/null
+#./awstats.pl -config=yahoo.cellbenefits.com -update > /dev/null
+
+# Vision ATT
+./awstats.pl -config=mckesson.phonebenefits.com
+./awstats.pl -config=yahoo.phonebenefits.com
+
+# WBS Sprint
+./awstats.pl -config=binghammchale.sprintemployeesite.com
+./awstats.pl -config=clarianarnett.sprintemployeesite.com
+./awstats.pl -config=clarianhealth.sprintemployeesite.com
+./awstats.pl -config=cook.sprintemployeesite.com
+./awstats.pl -config=icemiller.sprintemployeesite.com
+./awstats.pl -config=inbar.sprintemployeesite.com
+./awstats.pl -config=indy.sprintemployeesite.com
+./awstats.pl -config=ivytech.sprintemployeesite.com
+./awstats.pl -config=ivytechstudents.sprintemployeesite.com
+./awstats.pl -config=martin.sprintemployeesite.com
+./awstats.pl -config=ncr.sprintemployeesite.com
+./awstats.pl -config=nicor.sprintemployeesite.com
+./awstats.pl -config=thcg.sprintemployeesite.com
+./awstats.pl -config=unitedwater.sprintemployeesite.com
+./awstats.pl -config=veolia.sprintemployeesite.com
+./awstats.pl -config=wbsna.sprintemployeesite.com
+
+# WBS ATT
+./awstats.pl -config=binghammchale.attemployeesite.com
+./awstats.pl -config=clarianarnett.attemployeesite.com
+./awstats.pl -config=clarianhealth.attemployeesite.com
+./awstats.pl -config=cook.attemployeesite.com
+./awstats.pl -config=icemiller.attemployeesite.com
+./awstats.pl -config=inbar.attemployeesite.com
+./awstats.pl -config=indy.attemployeesite.com
+./awstats.pl -config=ivytech.attemployeesite.com
+./awstats.pl -config=martin.attemployeesite.com
+./awstats.pl -config=unitedwater.attemployeesite.com
+./awstats.pl -config=veolia.attemployeesite.com
+./awstats.pl -config=wbsna.attemployeesite.com
+
+# Axiom Sprint
+./awstats.pl -config=abbott.sprintprogram.com                       
+./awstats.pl -config=ace.sprintprogram.com                       
+./awstats.pl -config=advocatehealth.sprintprogram.com                       
+./awstats.pl -config=airtran.sprintprogram.com                       
+./awstats.pl -config=axiom.sprintprogram.com
+./awstats.pl -config=carnival.sprintprogram.com                       
+./awstats.pl -config=chevron.sprintprogram.com                       
+./awstats.pl -config=devry.sprintprogram.com                       
+./awstats.pl -config=fastenal.sprintprogram.com                       
+./awstats.pl -config=gkservices.sprintprogram.com                       
+./awstats.pl -config=papajohns.sprintprogram.com                       
+./awstats.pl -config=williams-sonoma.sprintprogram.com                       
+
+# Axiom ATT
+./awstats.pl -config=axiom.attprogram.com
+
+# UNI Sprint
+./awstats.pl -config=bbc.sprintprogram.com
+./awstats.pl -config=edu.sprintprogram.com
+./awstats.pl -config=gov.sprintprogram.com
+./awstats.pl -config=medical.sprintprogram.com
+
+# Visconnect
+#./awstats.pl -config=apple.visconnect.com -update > /dev/null
+

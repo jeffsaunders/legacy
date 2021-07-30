@@ -1,0 +1,29 @@
+[11-Aug-2011 11:32:57] PHP Parse error:  syntax error, unexpected $end in /home/dcmclean/public_html/include/contact.php on line 179
+[11-Aug-2011 23:28:41] PHP Parse error:  syntax error, unexpected $end in /home/dcmclean/public_html/index.php on line 364
+[11-Aug-2011 23:28:41] PHP Parse error:  syntax error, unexpected $end in /home/dcmclean/public_html/index.php on line 364
+[11-Aug-2011 23:28:41] PHP Parse error:  syntax error, unexpected $end in /home/dcmclean/public_html/index.php on line 379
+[11-Aug-2011 23:29:40] PHP Parse error:  syntax error, unexpected $end in /home/dcmclean/public_html/index.php on line 390
+[11-Aug-2011 23:30:18] PHP Parse error:  syntax error, unexpected $end in /home/dcmclean/public_html/index.php on line 373
+[21-Aug-2011 17:11:05] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dcmclean/public_html/sendform.php:9) in /home/dcmclean/public_html/sendform.php on line 206
+[21-Aug-2011 17:12:43] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dcmclean/public_html/sendform.php:9) in /home/dcmclean/public_html/sendform.php on line 206
+[21-Aug-2011 17:36:10] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dcmclean/public_html/sendform.php:19) in /home/dcmclean/public_html/sendform.php on line 228
+[24-Aug-2011 22:07:23] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'dcmclean_zc1'@'localhost' (using password: YES) in /home/dcmclean/public_html/dbconnect.php on line 2
+[24-Aug-2011 22:07:23] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'dcmclean_zc1'@'localhost' (using password: YES) in /home/dcmclean/public_html/dbconnect.php on line 2
+[24-Aug-2011 22:07:23] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'dcmclean_zc1'@'localhost' (using password: YES) in /home/dcmclean/public_html/dbconnect.php on line 2
+[24-Aug-2011 22:07:23] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'dcmclean_zc1'@'localhost' (using password: YES) in /home/dcmclean/public_html/dbconnect.php on line 2
+[24-Aug-2011 22:07:23] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'dcmclean_zc1'@'localhost' (using password: YES) in /home/dcmclean/public_html/dbconnect.php on line 2
+[24-Aug-2011 22:07:24] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'dcmclean_zc1'@'localhost' (using password: YES) in /home/dcmclean/public_html/dbconnect.php on line 2
+[24-Aug-2011 22:11:25] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'dcmclean_zc1'@'localhost' (using password: YES) in /home/dcmclean/public_html/dbconnect.php on line 2
+[24-Aug-2011 22:11:25] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'dcmclean_zc1'@'localhost' (using password: YES) in /home/dcmclean/public_html/dbconnect.php on line 2
+[24-Aug-2011 22:11:25] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'dcmclean_zc1'@'localhost' (using password: YES) in /home/dcmclean/public_html/dbconnect.php on line 2
+[24-Aug-2011 22:11:25] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'dcmclean_zc1'@'localhost' (using password: YES) in /home/dcmclean/public_html/dbconnect.php on line 2
+[24-Aug-2011 22:48:59] PHP Warning:  money_format() expects exactly 2 parameters, 1 given in /home/dcmclean/public_html/include/home.php on line 122
+[24-Aug-2011 22:48:59] PHP Warning:  money_format() expects exactly 2 parameters, 1 given in /home/dcmclean/public_html/include/home.php on line 122
+[24-Aug-2011 22:48:59] PHP Warning:  money_format() expects exactly 2 parameters, 1 given in /home/dcmclean/public_html/include/home.php on line 122
+[24-Aug-2011 22:49:00] PHP Warning:  money_format() expects exactly 2 parameters, 1 given in /home/dcmclean/public_html/include/home.php on line 122
+[24-Aug-2011 22:49:00] PHP Warning:  money_format() expects exactly 2 parameters, 1 given in /home/dcmclean/public_html/include/home.php on line 122
+[24-Aug-2011 22:49:00] PHP Warning:  money_format() expects exactly 2 parameters, 1 given in /home/dcmclean/public_html/include/home.php on line 122
+[24-Aug-2011 22:49:00] PHP Warning:  money_format() expects exactly 2 parameters, 1 given in /home/dcmclean/public_html/include/home.php on line 122
+[24-Aug-2011 22:49:00] PHP Warning:  money_format() expects exactly 2 parameters, 1 given in /home/dcmclean/public_html/include/home.php on line 122
+[24-Aug-2011 22:49:00] PHP Warning:  money_format() expects exactly 2 parameters, 1 given in /home/dcmclean/public_html/include/home.php on line 122
+[24-Aug-2011 23:47:52] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dcmclean/public_html/include/leftcolumn.php on line 59

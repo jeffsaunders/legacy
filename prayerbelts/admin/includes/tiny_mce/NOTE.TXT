@@ -1,0 +1,7 @@
+1. Remove /theme/simple/ folder. Not used.
+
+2. Copy latest gzip compressor file.
+
+3. Copy custom plugins:
+	- codeprotect
+	- codeprotect2

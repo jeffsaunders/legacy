@@ -1,0 +1,35 @@
+body
+{
+	background: ffffff;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	scrollbar-arrow-color: #cc0000;
+	scrollbar-base-color: #ebebeb;
+	scrollbar-darkshadow-color: white;
+	scrollbar-track-color: #f9f9f9;
+	scrollbar-face-color: #ebebeb;
+	font-family: Verdana;
+}
+
+a:link		{
+	color: 0000ff;
+	text-decoration: none;
+
+}
+a:active		{
+	color: 0000ff;
+	text-decoration: none;
+
+}
+a:visited	{
+	color: 0000ff;
+	text-decoration: none;
+
+}
+a:hover		{
+	color: #000000;
+	text-decoration: none;
+	background: fec501;
+}

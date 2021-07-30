@@ -1,0 +1,248 @@
+.titleBlack {font-family: Arial, Helvetica, sans-serif;	font-size: 24px; font-weight: bold;	color: #000000;}
+.titleWhite {font-family: Arial, Helvetica, sans-serif;	font-size: 24px; font-weight: bold;	color: #FFFFFF;}
+
+.verticalLabelBlack {font-family: Arial, Helvetica, sans-serif;	font-size: 12px; color: #000000; writing-mode: tb-rl; filter: flipv fliph;}
+.verticalLabelWhite {font-family: Arial, Helvetica, sans-serif;	font-size: 12px; color: #FFFFFF; writing-mode: tb-rl; filter: flipv fliph;}
+.smallVerticalLabelBlack {font-family: Arial, Helvetica, sans-serif; font-size: 9px; color: #000000; writing-mode: tb-rl; filter: flipv fliph;}
+.smallVerticalLabelWhite {font-family: Arial, Helvetica, sans-serif; font-size: 9px; color: #FFFFFF; writing-mode: tb-rl; filter: flipv fliph;}
+
+acronym {cursor:help; text-decoration:none;}
+
+/* SEO */
+.comment { display: none }
+
+.bodyBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px;	color:#000000; text-decoration:none;}
+A.bodyBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px; color:#000000; text-decoration:none;}
+A.bodyBlack:hover {color:Red; text-decoration:underline;}
+A.bodyBlack:active {color:Red;}
+A.bodyBlack:visited {color:#000000;}
+A.bodyBlack:visited:hover {color:Red; text-decoration:underline;}
+
+.bodyGray {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px;	color:#999999; text-decoration:none;}
+A.bodyGray {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px; color:#999999; text-decoration:none;}
+A.bodyGray:hover {color:#585858; text-decoration:underline;}
+A.bodyGray:active {color:#585858;}
+A.bodyGray:visited {color:#999999;}
+A.bodyGray:visited:hover {color:#585858; text-decoration:underline;}
+
+.menuBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px;	color:#000000; text-decoration:none;}
+A.menuBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px; color:#000000; text-decoration:none;}
+A.menuBlack:hover {color:Red text-decoration:underline;}
+A.menuBlack:active {color:Red}
+A.menuBlack:visited {color:Red}
+A.menuBlack:visited:hover {color:#E20074; text-decoration:underline;}
+
+.menuGray {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px; color:#999999; text-decoration:none;}
+A.menuGray {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px; color:#999999; text-decoration:none;}
+A.menuGray:hover {color:#585858; text-decoration:underline;}
+A.menuGray:active {color:#585858;}
+A.menuGray:visited {color:#999999;}
+A.menuGray:visited:hover {color:#585858; text-decoration:none;}
+
+.menuWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px; color:#FFFFFF; text-decoration:none;}
+A.menuWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px; color:#FFFFFF; text-decoration:none;}
+A.menuWhite:hover {color:#DD0C08; text-decoration:underline;}
+A.menuWhite:active {color:#DD0C08;}
+A.menuWhite:visited {color:#FFFFFF;}
+A.menuWhite:visited:hover {color:#DD0C08; text-decoration:none;}
+
+.menuOrange {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px; color:#F37D00; text-decoration:none;}
+A.menuOrange {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px; color:#F37D00; text-decoration:none;}
+A.menuOrange:hover {color:Red text-decoration:underline;}
+A.menuOrange:active {color:Red}
+A.menuOrange:visited {color:Red}
+A.menuOrange:visited:hover {color:#F37D00; text-decoration:underline;}
+
+.catmenuBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px;	color:#000000; text-decoration:none;}
+A.catmenuBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px; color:#000000; text-decoration:none;}
+A.catmenuBlack:hover {color:Red; text-decoration:underline;}
+A.catmenuBlack:active {color:Red;}
+A.catmenuBlack:visited {color:#000000;}
+A.catmenuBlack:visited:hover {color:Red; text-decoration:underline;}
+
+.scrollBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px;	color:#000000; text-decoration:none;}
+A.scrollBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px; color:#000000; text-decoration:none;}
+A.scrollBlack:hover {color:Red; text-decoration:underline;}
+A.scrollBlack:active {color:Red;}
+A.scrollBlack:visited {color:#000000;}
+A.scrollBlack:visited:hover {color:Red; text-decoration:underline;}
+
+.scrollWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:15px;	color:#FFFFFF; text-decoration:none;}
+A.scrollWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:15px; color:#FFFFFF; text-decoration:none;}
+A.scrollWhite:hover {color:#E20074; text-decoration:underline;}
+A.scrollWhite:active {color:#E20074;}
+A.scrollWhite:visited {color:#FFFFFF;}
+A.scrollWhite:visited:hover {color:#E20074; text-decoration:underline;}
+
+.menuSelect {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px; font-style:italic;color:yellow; text-decoration:none;}
+A.menuSelect {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px; font-style:italic; color:yellow; text-decoration:none;}
+A.menuSelect:hover {color:Red; text-decoration:underline;}
+A.menuSelect:active {color:Red;}
+A.menuSelect:visited {color:yellow;}
+A.menuSelect:visited:hover {color:Red; text-decoration:underline;}
+
+.smallBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:9px;	color:#000000; text-decoration:none;}
+A.smallBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:9px; color:#000000; text-decoration:underline;}
+A.smallBlack:hover {color:Red; text-decoration:underline;}
+A.smallBlack:active {color:Red;}
+A.smallBlack:visited {color:#000000;}
+A.smallBlack:visited:hover {color:Red; text-decoration:underline;}
+
+.smallGray {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:9px;	color:#C0C0C0; text-decoration:none;}
+A.smallGray {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:9px; color:#C0C0C0; text-decoration:none;}
+A.smallGray:hover {color:#585858; text-decoration:underline;}
+A.smallGray:active {color:#585858;}
+A.smallGray:visited {color:#C0C0C0;}
+A.smallGray:visited:hover {color:#585858; text-decoration:underline;}
+
+.smallWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:9px;	color:#FFFFFF; text-decoration:none;}
+A.smallWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:9px; color:#FFFFFF; text-decoration:underline;}
+A.smallWhite:hover {color:Yellow; text-decoration:underline;}
+A.smallWhite:active {color:Yellow;}
+A.smallWhite:visited {color:#FFFFFF;}
+A.smallWhite:visited:hover {color:Yellow; text-decoration:underline;}
+
+.tinyWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:8px;	color:#FFFFFF; text-decoration:none;}
+A.tinyWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:8px; color:#FFFFFF; text-decoration:none;}
+A.tinyWhite:hover {color:Yellow; text-decoration:underline;}
+A.tinyWhite:active {color:Yellow;}
+A.tinyWhite:visited {color:#FFFFFF;}
+A.tinyWhite:visited:hover {color:Yellow; text-decoration:underline;}
+
+.tinyBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:8px;	color:#000000; text-decoration:none;}
+A.tinyBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:8px; color:#000000; text-decoration:underline;}
+A.tinyBlack:hover {color:Red; text-decoration:underline;}
+A.tinyBlack:active {color:Red;}
+A.tinyBlack:visited {color:#000000;}
+A.tinyBlack:visited:hover {color:Red; text-decoration:underline;}
+
+.microBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:5px;	color:#000000; text-decoration:none;}
+A.microBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:5px; color:#000000; text-decoration:none;}
+A.microBlack:hover {color:#E20074; text-decoration:underline;}
+A.microBlack:active {color:#E20074;}
+A.microBlack:visited {color:#000000;}
+A.microBlack:visited:hover {color:#E20074; text-decoration:underline;}
+
+.fancyBlack {font-family:fantasy,Verdana,Arial,Helvetica,sans-serif; font-size:12px;color:#000000; text-decoration:none;}
+A.fancyBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px; color:#000000; text-decoration:none;}
+A.fancyBlack:hover {color:Red; text-decoration:underline;}
+A.fancyBlack:active {color:Red;}
+A.fancyBlack:visited {color:#000000;}
+A.fancyBlack:visited:hover {color:Red; text-decoration:underline;}
+
+.bigBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:14px; color:#000000; text-decoration:none;}
+A.bigBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:14px; color:#000000; text-decoration:none;}
+A.bigBlack:hover {color:Red; text-decoration:underline;}
+A.bigBlack:active {color:Red;}
+A.bigBlack:visited {color:#000000;}
+A.bigBlack:visited:hover {color:Red; text-decoration:underline;}
+
+.xbigBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:18px; color:#000000; text-decoration:none;}
+A.xbigBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:18px; color:#000000; text-decoration:none;}
+A.xbigBlack:hover {color:Red; text-decoration:underline;}
+A.xbigBlack:active {color:Red;}
+A.xbigBlack:visited {color:#000000;}
+A.xbigBlack:visited:hover {color:Red; text-decoration:underline;}
+
+.xbigGray {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:18px; color:#999999; text-decoration:none;}
+A.xbigGray {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:18px; color:#999999; text-decoration:none;}
+A.xbigGray:hover {color:#585858; text-decoration:underline;}
+A.xbigGray:active {color:#585858;}
+A.xbigGray:visited {color:#999999;}
+A.xbigGray:visited:hover {color:#585858; text-decoration:underline;}
+
+.biggerBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:16px; color:#000000; text-decoration:none;}
+A.biggerBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:16px; color:#000000; text-decoration:none;}
+A.biggerBlack:hover {color:#E20074; text-decoration:underline;}
+A.biggerBlack:active {color:#E20074;}
+A.biggerBlack:visited {color:#000000;}
+A.biggerBlack:visited:hover {color:#E20074; text-decoration:underline;}
+
+.bodyWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px;	color:#FFFFFF; text-decoration:none;}
+A.bodyWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px; color:#FFFFFF; text-decoration:none;}
+A.bodyWhite:hover {color:Yellow; text-decoration:underline;}
+A.bodyWhite:active {color:Yellow;}
+A.bodyWhite:visited {color:#FFFFFF;}
+A.bodyWhite:visited:hover {color:Yellow; text-decoration:underline;}
+
+.bigWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:14px; color:#FFFFFF; text-decoration:none;}
+A.bigWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:14px; color:#FFFFFF; text-decoration:none;}
+A.bigWhite:hover {color:#FFE100; text-decoration:underline;}
+A.bigWhite:active {color:#FFE100;}
+A.bigWhite:visited {color:#FFFFFF;}
+A.bigWhite:visited:hover {color:#FFE100; text-decoration:none;}
+
+.xbigWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:18px; color:#FFFFFF; text-decoration:none;}
+A.xbigWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:18px; color:#FFFFFF; text-decoration:none;}
+A.xbigWhite:hover {color:Yellow; text-decoration:underline;}
+A.xbigWhite:active {color:Yellow;}
+A.xbigWhite:visited {color:#FFFFFF;}
+A.xbigWhite:visited:hover {color:Yellow; text-decoration:underline;}
+
+.buttonBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:14px; color:#000000; text-decoration:none;}
+A.buttonBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:14px; color:#000000; text-decoration:none;}
+A.buttonBlack:hover {color:Yellow; text-decoration:none;}
+A.buttonBlack:active {color:Yellow;}
+A.buttonBlack:visited {color:#000000;}
+A.buttonBlack:visited:hover {color:Yellow; text-decoration:none;}
+
+.buttonWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:14px; color:#FFFFFF; text-decoration:none;}
+A.buttonWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:14px; color:#FFFFFF; text-decoration:none;}
+A.buttonWhite:hover {color:Yellow; text-decoration:none;}
+A.buttonWhite:active {color:Yellow;}
+A.buttonWhite:visited {color:#FFFFFF;}
+A.buttonWhite:visited:hover {color:Yellow; text-decoration:none;}
+
+.cellBlack {background-color: #000000;}
+.cellLtBlack {background-color: #666666;}
+.cellDkGray {background-color: #CCCCCC;}
+.cellLtGray {background-color: #E0E0E0;}
+.cellXLtGray {background-color: #F8F8F8;}
+.cellWhite {background-color: #FFFFFF;}
+.cellRed {background-color: #FF0000;}
+.cellYellow {background-color: #FFFF00;}
+.cellMaroon {background-color: #800000;}
+.cellCream {background-color: #FFFFCC;}
+.cellFrost {background-color: #FFFFFF; filter:alpha(opacity=70); style:1;}
+.cellFrostxxx {background-color: #FFFFFF; filter:alpha(opacity=65); -moz-opacity:.65; opacity:.65; style:1;}
+.cellFrostGray {background-color: #E0E0E0; filter:alpha(opacity=65); style:1;}
+.cellFrostCont {position:relative;}
+
+/* Table Border Stuff */
+table.borderBlue {border: 1px solid #58639B;}
+table.borderBlue td {border: 1px solid #58639B;}
+table.borderSprint-Nextel {border: 1px solid #58639B;}
+table.borderSprint-Nextel td {border: 1px solid #58639B;}
+
+/*table.borderAT\&T {border: 1px solid #F37D00;}*/
+/*table.borderAT\&T td {border: 1px solid #F37D00;}*/
+table.borderAT\&T {border: 1px solid #0780C0;}
+table.borderAT\&T td {border: 1px solid #0780C0;}
+
+/* These must follow the ones above */
+table.borderWhite {border: 1px solid #FFFFFF;}
+table.borderWhite td {border: 1px solid #FFFFFF;}
+
+table.borderBlack {border: 1px solid #000000;}
+table.borderBlack td {border: 1px solid #000000;}
+
+table.borderNone {border: 0px solid;}
+table.borderNone td {border: 0px solid;}
+
+/* Warm-Gray scrollbars in IE */
+/*
+body {
+scrollbar-base-color: #CCCCCC;
+scrollbar-arrow-color: #999999;
+scrollbar-3dlight-color: #D4D0C8;
+scrollbar-darkshadow-color: #FFFFFF;
+scrollbar-face-color: #CCCCCC;
+scrollbar-highlight-color: #e6e6e6;
+scrollbar-shadow-color: #CCCCCC;
+scrollbar-track-color: #e6e6e6;
+}
+*/
+
+/* Silver scrollbars in IE */
+body{scrollbar-base-color:Silver;}
+/*body{scrollbar-base-color:#E20074;} /* Magenta */

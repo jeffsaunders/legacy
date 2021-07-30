@@ -1,0 +1,68 @@
+<?php
+
+    $menu1 = <<<MENU1
+    <ul class="tabs">
+        <li class="active">Create New Account</li>
+        <li><a href="__BLOG_URL__&detail=signin">Sign In to Existing Account</a></li>
+    </ul>
+MENU1;
+
+    $menu2 = <<<MENU2
+    <ul class="tabs">
+        <li><a href="__BLOG_URL__&detail=updatedetails">Update Account Details</a></li>
+        <li><a href="__BLOG_URL__&detail=wpconfig">WordPress Configuration</a></li>
+        <li class="active">Create New Account</li>
+    </ul>
+MENU2;
+
+    if (!$nucaptcha_initialized) {
+        echo str_replace('__BLOG_URL__', $blog_url, $menu1);
+    } else {
+        echo str_replace('__BLOG_URL__', $blog_url, $menu2);
+    }
+?>
+
+    <div class="tab_panel">
+        <form class="adminform" method="post" action="">
+            <?php nucaptcha_nonce_field('create_account');?>
+            <table>
+                <tr>
+                    <th colspan=3>Create a new NuCaptcha Lite Account (It's FREE)</th>
+                </tr>
+                <tr>
+                    <td class="c1">Email Address:</td>
+                    <td class="c2"><input id='email' name="email" type="text" maxlength=256 size=32 value="<?php echo NuCaptchaData::Get('email'); ?>"></td>
+                    <td class="c3" id="email_msg">Used as your NuCaptcha account name.</td>
+                </tr>
+                <tr>
+                    <td class="c1">Website Name:</td>
+                    <td class="c2"><input id='domain_name' name="domain_name" type="text" maxlength=256 size=32 value="<?php echo NuCaptchaData::Get('domain_name'); ?>"></td>
+                    <td class="c3" id="domain_name_msg">Name of your WordPress site.</td>
+                </tr>
+                <tr>
+                    <td class="c1">Password:</td>
+                    <td class="c2"><input name="password" id="password" type="password" maxlength=64 size=32></td>
+                    <td class="c3" id="password_msg"></td>
+                </tr>
+                <tr>
+                    <td class="c1">Confirm PW:</td>
+                    <td class="c2"><input name="password_conf" id="password_conf" type="password" maxlength=64 size=32></td>
+                    <td class="c3" id="password_conf_msg"></td>
+                </tr>
+				<tr>
+                    <td class="c1">More Info:</td>
+                    <td class="c2"><input name="email_opt_in" id="email_opt_in" type="checkbox" checked="1"></td>
+                    <td class="c3" id="email_opt_in_msg">Receive important NuCaptcha information and updates.  Your email address will not be shared.</td>
+                </tr>
+                <tr>
+                    <td class="c1"></td>
+                    <td class="c2"><input name="submit_create_account" id="submit" type="submit" value="Create Account"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+
+<script type="text/JavaScript">
+    SetupAdminForm_CreateAccount();
+</script>

@@ -1,0 +1,7 @@
+id#username#password#first_name#last_name#email#enabled#start_root#start_url#language#allow_uploads#user_type#list_group#upload_group#edit_group#description#manage_files#disk_quota
+inc#str#str#str#str#str#int#str#str#str#int#str#int#int#int#str#int#int
+################0#
+1#admin#VkZkR2VXSlhiSGxpTW1oNFNYcEpQUT09#Admin#User#jeff@nr.net#1#/var/www/purplepeak.com/web/sandbox/marmiro#http://marmiro.purplepeak.com#English#1#admin#1#1#1#This is the admin user that was created during program installation.#0#
+2#super#VkZkR2VXSlhiSGxpTW1oNFNYcEpQUT09#Example#Super User#super@email.com#1#/var/www/purplepeak.com/web/sandbox/marmiro#http://marmiro.purplepeak.com#English#1#super#1#1#1#This is the example Super user that was created during program installation.#0#
+3#power#VkZkR2VXSlhiSGxpTW1oNFNYcEpQUT09#Example#Power User#power@email.com#1#/var/www/purplepeak.com/web/sandbox/marmiro#http://marmiro.purplepeak.com#English#1#power#1#1#1#This is the example Power user that was created during program installation.#0#
+4#marmiroc#VkZkR2VXSlhiSGxpTW1oNFNYcEpQUT09#Marmiro#Regular User#regular@email.com#1#/var/www/clients/client3/web1/web/sandbox/marmiro#http://marmiro.purplepeak.com#English#1#normal#1#1#1#This is the example Regular user that was created during program installation.#0#

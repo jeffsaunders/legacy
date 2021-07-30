@@ -1,0 +1,406 @@
+# Webalizer V2.21-02 Incremental Data - 08/12/2011 23:33:05
+2011 8 12 23 33 5
+455 221 52 32 5 18 3840926 89 55 0
+8 5 213 1 12
+4 2 8992 4 2 2
+8 6 24222 6 6 6
+4 4 16796 3 2 2
+218 58 721430 6 27 6
+8 6 22525 6 6 6
+76 49 1136484 3 11 3
+5 3 11665 4 3 3
+17 12 284785 9 6 6
+20 18 289168 12 5 5
+6 5 73675 4 3 3
+67 42 1107366 5 9 4
+22 16 143818 8 9 9
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+14 10 37683 10
+213 54 705861 23
+3 3 57233 1
+6 4 51395 3
+2 2 8398 2
+2 1 2276 1
+7 5 90704 3
+3 3 12597 3
+3 3 34562 2
+3 2 60761 1
+5 3 31258 2
+30 24 566825 5
+48 28 673211 7
+4 2 56097 1
+0 0 0 0
+74 48 1199065 8
+4 3 9123 2
+6 5 50368 0
+1 1 2494 1
+7 5 94066 1
+2 2 8398 2
+4 2 7287 2
+5 3 32220 2
+9 8 49044 7
+0
+0
+0
+221
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+148
+0
+0
+0
+0
+0
+0
+86
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/
+0 89 0 310940 55 21
+/images/logos/SymantecLogo.jpg
+1 1 0 3598 0 0
+/images/logos/KellyMooreLogo.jpg
+1 1 0 6709 0 0
+/images/TireKingdomLogo.jpg
+1 4 0 12408 0 0
+/images/VoicebenefitsThumb.jpg
+1 17 0 229092 0 0
+/images/NTBLogo.jpg
+1 4 27694698150257505 16476 0 0
+/images/CellularMGMTThumb.jpg
+1 17 0 302760 0 0
+/images/logos/VirginLogo.jpg
+1 1 0 3278 0 0
+/images/GoliathReportsThumb.jpg
+1 17 0 156984 0 0
+/images/PremierLogo.jpg
+1 4 0 15020 0 0
+/images/JohnDeereLogo.jpg
+1 4 0 22856 0 0
+/images/KirbyLogo.jpg
+1 4 0 13071 0 0
+/images/AircellLogo.jpg
+1 4 0 12520 0 0
+/BULLSEYECREATIONS.COM
+0 2 0 8398 0 0
+/images/PhonebenefitsThumb.jpg
+1 17 0 307800 0 0
+/images/MobileIntentionsThumb.jpg
+1 17 0 295128 0 0
+/images/CtekLogo.jpg
+1 4 0 12784 0 0
+/images/XploreLogo.jpg
+1 4 0 25332 0 0
+/standard.css
+0 23 0 261668 0 0
+/images/logos/GoogleLogo.jpg
+1 2 0 10682 0 0
+/images/WiresupportThumb.jpg
+1 17 0 159186 0 0
+/images/YourWirelessRewardThumb.jpg
+1 18 0 383362 0 0
+/images/ColdwellBankerLogo.jpg
+1 4 0 10332 0 0
+/images/CellbenefitsThumb.jpg
+1 17 0 465060 0 0
+/images/DevicePortThumb.jpg
+1 17 0 175476 0 0
+/images/logos/McKessonLogo.jpg
+1 1 0 5948 0 0
+/images/TielineLogo.jpg
+1 5 0 24675 0 0
+/images/InputOrdersThumb.jpg
+1 17 0 195840 0 0
+/images/logos/LongsLogo.jpg
+1 1 0 4511 0 0
+/images/BullseyeLogoSmall.jpg
+1 18 10509080 21973 0 0
+/images/VisconnectThumb.jpg
+1 17 0 337602 0 0
+/images/logos/FlextronicsLogo.jpg
+1 1 0 3480 0 0
+# End Of Table - urls
+# -sites- (monthly)
+baiduspider-220-181-108-185.crawl.baidu.com
+0 1 1 4199 1 1312244532
+/
+crawl-66-249-71-249.googlebot.com
+0 2 1 2761 1 1313109876
+/
+baiduspider-220-181-108-100.crawl.baidu.com
+0 1 1 26164 0 0
+-
+38.100.21.25
+0 2 2 27987 1 1312942596
+/
+99-8-77-106.lightspeed.rcsntx.sbcglobal.net
+0 46 26 573563 1 1312634127
+/
+baiduspider-220-181-108-173.crawl.baidu.com
+0 1 1 4199 1 1312586911
+/
+baiduspider-123-125-71-75.crawl.baidu.com
+0 1 0 295 0 0
+-
+baiduspider-220-181-108-184.crawl.baidu.com
+0 1 1 4199 1 1313191985
+/
+baiduspider-123-125-71-82.crawl.baidu.com
+0 1 0 295 0 0
+-
+host195-2-192-252.stavnet.ru
+0 1 1 4199 1 1312441978
+/
+crawl-66-249-71-182.googlebot.com
+0 10 6 18322 6 1312847020
+/
+baiduspider-123-125-71-97.crawl.baidu.com
+0 1 1 4199 1 1312187466
+/
+msnbot-207-46-204-229.search.msn.com
+0 2 1 2928 1 1312311835
+/
+71-22-32-190.hon.clearwire-wmx.net
+0 1 1 4935 0 0
+-
+crawl-66-249-71-76.googlebot.com
+0 4 2 7805 2 1312992180
+/
+baiduspider-220-181-108-107.crawl.baidu.com
+0 2 2 104041 0 0
+-
+baiduspider-220-181-108-114.crawl.baidu.com
+0 1 1 50460 0 0
+-
+baiduspider-123-125-71-117.crawl.baidu.com
+0 1 1 4199 1 1312285135
+/
+aiduspider-220-181-108-166.crawl.baidu.com
+0 2 2 8398 2 1312529001
+/
+a360soaa6.miniserver.com
+0 2 2 8398 0 0
+-
+crawl-66-249-71-18.googlebot.com
+0 8 7 27098 3 1313173642
+/
+msnbot-65-52-110-49.search.msn.com
+0 2 1 2761 1 1313188863
+/
+static-71-244-60-226.dllstx.fios.verizon.net
+0 238 74 1237193 2 1312629176
+/
+baiduspider-220-181-108-102.crawl.baidu.com
+0 1 1 3139 0 0
+-
+baiduspider-220-181-108-106.crawl.baidu.com
+0 1 1 38182 0 0
+-
+baiduspider-220-181-108-120.crawl.baidu.com
+0 1 1 49188 0 0
+-
+msnbot-207-46-204-190.search.msn.com
+0 2 1 2972 1 1312453621
+/
+imparser09.yandex.ru
+0 2 0 612 0 0
+-
+baiduspider-123-125-71-101.crawl.baidu.com
+0 1 1 4199 1 1312417769
+/
+baiduspider-123-125-71-112.crawl.baidu.com
+0 2 2 8398 2 1312849848
+/
+adsl-99-60-221-238.dsl.rcsntx.sbcglobal.net
+0 62 39 1094171 1 1313078078
+/
+baiduspider-220-181-108-171.crawl.baidu.com
+0 3 3 12597 3 1313093383
+/
+baiduspider-220-181-108-175.crawl.baidu.com
+0 2 2 8398 2 1312861756
+/
+baiduspider-220-181-108-182.crawl.baidu.com
+0 1 1 4199 1 1312861625
+/
+baiduspider-123-125-71-84.crawl.baidu.com
+0 1 0 299 0 0
+-
+baiduspider-220-181-108-186.crawl.baidu.com
+0 1 1 4199 1 1312849876
+/
+baiduspider-123-125-71-91.crawl.baidu.com
+0 1 0 299 0 0
+-
+b3090795.crawl.yahoo.net
+0 14 9 111188 5 1313190012
+/
+crawl-66-249-67-206.googlebot.com
+0 2 1 3303 1 1312763916
+/
+baiduspider-220-181-108-79.crawl.baidu.com
+0 2 2 8398 2 1312528926
+/
+68-117-13-111.dhcp.fdul.wi.charter.com
+0 9 8 102101 1 1312902237
+/
+baiduspider-220-181-108-101.crawl.baidu.com
+0 1 1 54766 0 0
+-
+www.whois.sc
+0 2 1 4498 1 1313097826
+/
+baiduspider-220-181-108-105.crawl.baidu.com
+0 2 2 80546 0 0
+-
+baiduspider-220-181-108-112.crawl.baidu.com
+0 1 1 56267 0 0
+-
+baiduspider-220-181-108-116.crawl.baidu.com
+0 1 1 32640 0 0
+-
+msnbot-65-52-110-13.search.msn.com
+0 2 1 2276 1 1312523010
+/
+baiduspider-123-125-71-108.crawl.baidu.com
+0 1 1 4199 1 1313019052
+/
+baiduspider-123-125-71-115.crawl.baidu.com
+0 1 1 4199 1 1313191955
+/
+baiduspider-123-125-71-69.crawl.baidu.com
+0 1 0 299 0 0
+-
+baiduspider-220-181-108-174.crawl.baidu.com
+0 3 3 12597 3 1312691885
+/
+baiduspider-220-181-108-178.crawl.baidu.com
+0 1 1 4199 1 1313093214
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+crawl-66-249-71-249.googlebot.com
+0 2 1 2761 1 1313109876
+/
+baiduspider-220-181-108-184.crawl.baidu.com
+0 1 1 4199 1 1313191985
+/
+crawl-66-249-71-18.googlebot.com
+0 8 7 27098 3 1313173642
+/
+msnbot-65-52-110-49.search.msn.com
+0 2 1 2761 1 1313188863
+/
+baiduspider-220-181-108-120.crawl.baidu.com
+0 1 1 49188 0 0
+-
+b3090795.crawl.yahoo.net
+0 6 4 53313 2 1313190012
+/
+baiduspider-123-125-71-115.crawl.baidu.com
+0 1 1 4199 1 1313191955
+/
+baiduspider-123-125-71-69.crawl.baidu.com
+0 1 0 299 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 120
+http://www.google.com/imgres
+0 2
+http://whois.domaintools.com/bullseyecreations.com
+1 1
+http://bullseyecreations.com/
+1 7
+http://www.bullseyecreations.com/
+1 325
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+0 25
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.9.0.13) Gecko/2009073022 Firefox/3.5.2 (.NET CLR 3.5.30729) SurveyBot/2.3 (
+0 2
+Googlebot-Image/1.0
+0 4
+Baiduspider+(+http://www.baidu.com/search/spider.htm)
+0 5
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CL
+0 210
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; chromeframe/13.0.782.112; SLCC2; .NET CLR 2.0.50727; .NET CLR
+0 62
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2)
+0 2
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MRA 4.6 (build 01425))
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.122 Safari/534.30
+0 46
+Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)
+0 2
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 22
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.60 Safari/534.24
+0 1
+Baiduspider-image+(+http://www.baidu.com/search/spider.htm)
+0 12
+Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0
+0 9
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+0 8
+Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)
+0 14
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:5.0) Gecko/20100101 Firefox/5.0
+0 29
+Mozilla/5.0 (iPhone; U; CPU iPhone )S 4_2_1 like Mac OS X; en-us) AppleWebKit/534.24 (KHTML, like Gecko) Version/5.0.2 Mobile
+0 1
+# End Of Table - agents
+# -search strings- 
+kirby logo
+1
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

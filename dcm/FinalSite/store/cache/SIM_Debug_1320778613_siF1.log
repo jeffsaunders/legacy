@@ -1,0 +1,50 @@
+Nov-08-2011 12:56:53
+=================================
+
+Sent to Authorizenet: Array
+(
+    [x_login] => *******
+    [x_amount] => 1,207.18
+    [x_version] => 3.1
+    [x_method] => CC
+    [x_type] => AUTH_CAPTURE
+    [x_cust_ID] => 10
+    [x_email_customer] => FALSE
+    [x_company] => Lockheed Marttin Aeronautics Corporation
+    [x_first_name] => Matt
+    [x_last_name] => Harris
+    [x_address] => 86 S. Cobb Dr
+    [x_city] => Marietta
+    [x_state] => Georgia
+    [x_zip] => 30063
+    [x_country] => United States
+    [x_phone] => 850-282-4450
+    [x_fax] => 
+    [x_email] => matt.r.harris@lmco.com
+    [x_ship_to_company] => 
+    [x_ship_to_first_name] => F-22 Mod Team
+    [x_ship_to_last_name] => Attn: Ray Stephenson
+    [x_ship_to_address] => 114 Goat Hill Loop
+    [x_ship_to_city] => Tyndall AFB
+    [x_ship_to_state] => Florida
+    [x_ship_to_zip] => 32403
+    [x_ship_to_country] => United States
+    [x_Customer_IP] => 192.91.147.34
+    [x_relay_response] => TRUE
+    [x_relay_URL] => http://www.dcmsanding.com/store/index.php?main_page=checkout_process&amp;action=confirm
+    [x_invoice_num] => 
+    [x_duplicate_window] => 120
+    [x_allow_partial_Auth] => FALSE
+    [x_description] => Website Purchase from DCM Clean Air Store
+    [x_fp_sequence] => 594
+    [x_fp_timestamp] => 1320778613
+    [x_fp_hash] => 53f5577c17dff490356b5ad957972148
+    [x_card_num] => XXXXXXXXXXXXXXXXX7213
+    [x_exp_date] => 0213
+    [x_card_code] => 091
+    [x_Test_Request] => TRUE
+    [zenid] => c26a659d555d7a40e0931dc6e9520d13
+    [url] => https://secure.authorize.net/gateway/transact.dll
+)
+
+

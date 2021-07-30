@@ -1,0 +1,945 @@
+# Webalizer V2.01-10 Incremental Data - 07/24/2005 02:57:03
+2005 7 24 2 57 3
+1939 1196 192 35 43 40 19985593 1939 473 0
+1 1 83 1 24
+3 3 54499 3 3 3
+0 0 0 0 0 0
+12 5 76936 7 12 9
+25 11 150820 14 25 18
+34 28 460912 16 34 19
+28 23 527364 3 28 9
+60 54 898765 13 60 17
+35 30 646354 10 35 13
+154 87 1318299 12 154 17
+80 58 944339 16 80 19
+197 101 1499386 36 197 44
+61 33 581749 19 61 31
+25 19 407067 8 25 9
+97 64 991027 8 97 12
+86 55 833084 12 86 17
+197 110 1863418 17 197 37
+61 51 770469 27 61 29
+202 163 2770569 19 202 29
+94 57 1174617 17 94 25
+161 62 882433 22 161 33
+91 41 708447 11 91 19
+92 61 1089753 24 92 37
+140 78 1305610 9 140 24
+4 2 29676 1 4 3
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+63 55 883111 63
+27 19 297533 27
+35 25 388474 35
+56 48 838706 56
+70 52 763004 70
+26 25 353448 26
+12 5 41853 12
+77 63 1128216 77
+132 62 1022142 132
+145 86 1422453 145
+131 84 1583513 131
+77 39 678842 77
+124 84 1597502 124
+140 105 1540361 140
+169 90 1500472 169
+75 37 595453 75
+154 60 927536 154
+138 57 939743 138
+35 26 500886 35
+33 25 574151 33
+59 42 770051 59
+66 38 577685 66
+27 17 226807 27
+68 52 833651 68
+0
+0
+0
+1196
+0
+0
+0
+0
+0
+27
+0
+0
+0
+0
+529
+0
+0
+15
+0
+0
+0
+170
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/
+0 185 134745344 1870360 138 42
+/buzz.htm
+0 5 0 45060 4 3
+/paypal_logo.gif
+0 18 0 16520 0 4
+/faqs.htm
+0 3 0 32328 3 2
+/web_ads.htm
+0 15 0 173866 7 5
+/ffwbanner.gif
+0 96 0 1971072 4 4
+/affiliates.htm
+0 5 0 573445 3 4
+/LiveonNet.gif
+0 6 0 68646 0 3
+/cabaretclubbanner.jpg
+0 14 0 153792 0 0
+/affiliates2004.htm
+0 27 0 352188 10 4
+/email.gif
+0 122 0 1258275 6 5
+/tv_ads.htm
+0 19 0 165019 9 6
+/ffwhomegraphic.gif
+0 110 0 3209053 17 2
+/468-60-1.jpg
+0 14 0 162120 0 2
+/468x60.jpg
+0 6 0 27730 0 0
+/bio.htm
+0 27 0 247170 13 6
+/tv.htm
+0 38 0 388579 17 10
+/affiliates2000.htm
+0 16 0 1031958 12 7
+/tsilogo.gif
+0 117 0 335362 3 6
+/free_picks.htm
+0 40 0 958194 15 8
+/120x60.jpg
+0 6 0 21370 0 2
+/links.htm
+0 34 0 257400 12 8
+/gaming1.gif
+0 117 0 409486 2 15
+/faqs2004.htm
+0 18 0 117474 4 5
+/videos.htm
+0 5 0 65880 4 1
+/specs.htm
+0 2 0 23610 2 0
+/120-60-2.jpg
+0 15 0 98912 1 0
+/195x60.jpg
+0 7 0 28065 1 0
+/videos2004.htm
+0 27 0 215908 8 3
+/advertising.htm
+0 40 0 306408 12 8
+/spinningfootball.gif
+0 156 0 1886745 6 2
+/all-pro-logo_s.gif
+0 133 0 658286 5 8
+/newsflash.gif
+0 79 0 214173 1 15
+/195-60-2.jpg
+0 87 0 473275 3 5
+/title.jpg
+0 143 0 1970661 11 2
+# End Of Table - urls
+# -sites- (monthly)
+spider6.picsearch.com
+0 1 1 11770 1 1122018088
+/bio.htm
+proxy6-11.adl2.internode.on.net
+0 2 2 36358 1 1121559970
+/tv_ads.htm
+bsn-77-43-238.dsl.siol.net
+0 8 8 175554 2 1122029703
+/ffwbanner.gif
+cpe-24-211-5-219.wi.res.rr.com
+0 15 15 272700 1 1121003488
+/ffwbanner.gif
+ip51cd2740.speed.planet.nl
+0 8 4 58972 4 1121889807
+/tv.htm
+cache-ntc-ad09.proxy.aol.com
+0 1 1 5318 1 1121087161
+/gaming1.gif
+13.wg112.mpls.sflmi01r1.dsl.att.net
+0 11 11 193244 2 1120730017
+/gaming1.gif
+lj2581.inktomisearch.com
+0 2 2 23540 2 1121642504
+/bio.htm
+66-194-6-83.gen.twtelecom.net
+0 1 1 13924 1 1120455021
+/
+crawl-66-249-64-58.googlebot.com
+0 3 2 21347 2 1121570477
+/videos2004.htm
+lj2531.inktomisearch.com
+0 1 1 13176 1 1121223696
+/videos.htm
+msnbot.msn.com
+0 49 24 636736 22 1121869293
+/faqs2004.htm
+cm122-cablenet.europronet.ba
+0 21 19 305022 3 1122109162
+-
+crawl-66-249-66-241.googlebot.com
+0 7 4 45317 4 1121458685
+/tv.htm
+lj2152.inktomisearch.com
+0 1 1 8391 1 1121931118
+/faqs2004.htm
+64.246.165.236
+0 1 1 25593 1 1120535294
+/title.jpg
+64.246.165.237
+0 3 3 43015 1 1120535298
+/email.gif
+7.235.33.65.cfl.res.rr.com
+0 12 12 197838 1 1120758988
+/gaming1.gif
+66-194-6-77.gen.twtelecom.net
+0 2 2 27702 2 1121894542
+/
+dialup-4.235.165.177.dial1.orlando1.level3.net
+0 1 1 11770 1 1120897709
+/bio.htm
+las-cust-208.57.58.158.mpowercom.net
+0 108 59 857042 7 1122034187
+/ffwhomegraphic.gif
+proxy6-7.adl2.internode.on.net
+0 1 1 12419 1 1121559966
+/web_ads.htm
+62.162.19.62
+0 11 11 193098 3 1122008502
+/gaming1.gif
+nk-as01-l025.crnagora.net
+0 8 8 175554 2 1122001784
+/email.gif
+cache-ntc-ac05.proxy.aol.com
+0 1 1 22197 1 1121087160
+/spinningfootball.gif
+lj2536.inktomisearch.com
+0 3 0 3186 3 1122050796
+-
+adsl-69-238-45-206.dsl.pltn13.pacbell.net
+0 7 6 86291 1 1121248147
+/advertising.htm
+lj2260.inktomisearch.com
+0 3 3 344067 3 1122146389
+/affiliates.htm
+spider3.picsearch.com
+0 1 1 12419 1 1122018959
+/web_ads.htm
+195.26.129.123
+0 19 19 303186 3 1121124520
+/gaming1.gif
+cache-ntc-ad06.proxy.aol.com
+0 3 3 33393 1 1121087487
+/
+lj2135.inktomisearch.com
+0 13 0 13806 13 1122159643
+-
+161.38.223.226
+0 8 8 148006 1 1121844500
+/gaming1.gif
+i53875b42.versanet.de
+0 1 0 1186 1 1120468942
+-
+lj2062.inktomisearch.com
+0 3 0 3186 3 1121813600
+-
+218.111.193.32
+0 32 27 414934 3 1121557093
+/all-pro-logo_s.gif
+x1crawler1-1-0.x-echo.com
+0 5 2 31034 3 1121621777
+/
+64.210.196.198
+0 12 11 194302 1 1121652203
+/gaming1.gif
+cache-ntc-ab08.proxy.aol.com
+0 2 2 16777 1 1121087487
+/ffwbanner.gif
+tide517.microsoft.com
+0 1 1 10471 1 1121517044
+/tv.htm
+proxy7-10.adl2.internode.on.net
+0 2 2 17433 1 1121559900
+/advertising.htm
+66-194-6-73.gen.twtelecom.net
+0 1 1 13778 1 1122070193
+/
+216.145.16.210
+0 2 2 55749 1 1120535295
+/tsilogo.gif
+216.145.16.211
+0 2 2 12950 1 1120535295
+/gaming1.gif
+216.145.16.212
+0 1 1 8605 1 1120535295
+/195-60-2.jpg
+i5387606b.versanet.de
+0 1 0 1186 1 1120473545
+-
+lj2351.inktomisearch.com
+0 2 2 21552 2 1121626998
+/faqs.htm
+66.199.235.58
+0 1 1 13778 1 1122049624
+/
+cache-ntc-ac09.proxy.aol.com
+0 1 1 10471 1 1121087179
+/tv.htm
+crawl-66-249-71-28.googlebot.com
+0 2 1 9707 1 1121012123
+/tv_ads.htm
+s0106000f66368bfa.vc.shawcable.net
+0 7 7 93881 1 1120829999
+/gaming1.gif
+217.16.86.81
+0 35 24 358403 1 1121315060
+/spinningfootball.gif
+lj2181.inktomisearch.com
+0 1 1 13176 1 1120372632
+/videos.htm
+lj2287.inktomisearch.com
+0 1 1 13176 1 1121901244
+/videos.htm
+spider7.picsearch.com
+0 5 5 56446 1 1122018702
+/tv_ads.htm
+rrcs-24-123-89-84.central.biz.rr.com
+0 7 7 93552 1 1121676238
+/spinningfootball.gif
+hermes.bigline.net
+0 1 1 10471 1 1120530664
+/tv.htm
+cache-ntc-ac02.proxy.aol.com
+0 1 1 9633 1 1121087457
+/advertising.htm
+lj2131.inktomisearch.com
+0 1 1 7800 1 1121855645
+/links.htm
+crawl-66-249-64-37.googlebot.com
+0 2 1 10695 1 1120996273
+/advertising.htm
+cpe-65-24-65-211.columbus.res.rr.com
+0 8 8 148006 1 1120998979
+/gaming1.gif
+dex-252-16.dxi.net
+0 1 1 13924 1 1121368175
+/
+83.142.22.229
+0 8 8 175700 2 1121509187
+/ffwbanner.gif
+cache-ntc-ad03.proxy.aol.com
+0 2 2 8992 1 1121087487
+/468-60-1.jpg
+egspd42232.ask.com
+0 2 1 14986 1 1121416655
+/
+lj2526.inktomisearch.com
+0 1 0 1058 1 1121876218
+-
+203.116.59.12
+0 11 11 193244 1 1121743073
+/ffwbanner.gif
+cache-ntc-aa04.proxy.aol.com
+0 1 1 9814 1 1121087212
+/videos2004.htm
+crawl-66-249-66-83.googlebot.com
+0 3 2 20583 1 1121612132
+/tv_ads.htm
+lj2186.inktomisearch.com
+0 2 2 53302 2 1121561490
+/free_picks.htm
+83-131-7-11.adsl.net.t-com.hr
+0 12 11 194306 2 1121324895
+-
+66-194-6-80.gen.twtelecom.net
+0 1 1 13924 1 1121299226
+/
+cache-rtc-aa03.proxy.aol.com
+0 1 1 8605 1 1121113464
+/195-60-2.jpg
+bgas3-016.ptt.yu
+0 5 5 101996 3 1122041079
+/free_picks.htm
+pcp0011052609pcs.rtchrd01.md.comcast.net
+0 8 8 148006 1 1121560700
+/gaming1.gif
+ip68-103-60-86.ks.ok.cox.net
+0 5 4 55617 1 1120517825
+/tv.htm
+proxy7-11.adl2.internode.on.net
+0 1 1 9814 1 1121559952
+/videos2004.htm
+84-104-217-38.cable.quicknet.nl
+0 8 0 8480 4 1121891106
+-
+62.65.107.28
+0 5 5 74360 1 1121576657
+/195-60-2.jpg
+cache-rtc-ab04.proxy.aol.com
+0 1 1 4594 1 1121113475
+/tsilogo.gif
+lj2380.inktomisearch.com
+0 2 2 15600 2 1121802702
+/links.htm
+spider4.picsearch.com
+0 2 2 19054 1 1122017827
+/faqs2004.htm
+dyn-83-157-157-147.ppp.tiscali.fr
+0 1 1 0 1 1121748416
+/
+lj2425.inktomisearch.com
+0 3 3 28635 3 1122030505
+/advertising.htm
+h69-11-227-146.69-11.unk.tds.net
+0 1 1 114662 1 1121676234
+/affiliates2000.htm
+246-230.resnet.shsu.edu
+0 12 12 200876 1 1121784209
+/gaming1.gif
+ip244.coolsavings.com
+0 1 1 13924 1 1121332628
+/
+bgas2-007.ptt.yu
+0 12 11 194160 4 1121955497
+-
+lj2497.inktomisearch.com
+0 2 0 2116 2 1121862357
+-
+63.148.99.239
+0 5 5 68479 1 1121799671
+/tv.htm
+66-194-6-74.gen.twtelecom.net
+0 2 2 27848 2 1121738661
+/
+proxy5-10.adl2.internode.on.net
+0 1 1 26651 1 1121559871
+/free_picks.htm
+64.62.168.33
+0 1 0 1062 1 1121678729
+-
+lj2447.inktomisearch.com
+0 2 0 2124 2 1121138821
+-
+adsl-66-126-170-73.dsl.snfc21.pacbell.net
+0 9 8 209276 1 1121696937
+-
+lj2096.inktomisearch.com
+0 2 2 29480 2 1121551518
+/affiliates2004.htm
+166-120-60-69.serverpronto.com
+0 2 1 115724 1 1121245698
+/affiliates2000.htm
+crawl-66-249-71-69.googlebot.com
+0 2 0 1062 1 1121541890
+/
+proxy5-7.adl2.internode.on.net
+0 1 1 7800 1 1121559924
+/links.htm
+64.62.168.66
+0 1 1 13924 1 1121678729
+/
+cache-ntc-aa01.proxy.aol.com
+0 1 1 11770 1 1121087086
+/bio.htm
+cache-rtc-aa07.proxy.aol.com
+0 1 1 16777 1 1121113474
+/email.gif
+lj2132.inktomisearch.com
+0 3 0 0 3 1122063599
+/faqs2004.htm
+c-65-96-12-131.hsd1.ma.comcast.net
+0 9 9 170203 1 1121261233
+/gaming1.gif
+sv-crawl.looksmart.com
+0 21 14 201628 20 1122173823
+/
+85-124-84-211.zollergasse.xdsl-line.inode.at
+0 2 1 14986 1 1120401962
+/
+220.181.26.73
+0 2 1 14840 1 1121895552
+-
+crawl-66-249-71-73.googlebot.com
+0 2 1 14986 1 1120578355
+/
+cache-ntc-ab02.proxy.aol.com
+0 2 2 14227 1 1121087159
+/advertising.htm
+lj2079.inktomisearch.com
+0 3 3 31413 3 1121850455
+/tv.htm
+c-24-2-172-115.hsd1.ct.comcast.net
+0 8 8 208214 2 1120675665
+/gaming1.gif
+lj2527.inktomisearch.com
+0 6 0 6348 6 1121995556
+-
+66-194-6-2.gen.twtelecom.net
+0 7 7 97176 7 1122071076
+/
+cache-rtc-ac09.proxy.aol.com
+0 1 1 13924 1 1121113459
+/
+66-194-6-70.gen.twtelecom.net
+0 8 8 111100 8 1122109468
+/
+spider1.picsearch.com
+0 2 0 2120 1 1122016171
+-
+lj2020.inktomisearch.com
+0 1 1 11805 1 1120951211
+/specs.htm
+isas.jclibrary.org
+0 8 8 148006 1 1120726866
+/gaming1.gif
+66-194-6-81.gen.twtelecom.net
+0 1 1 13924 1 1121781533
+/
+lns-p19-4-idf-82-65-246-159.adsl.proxad.net
+0 1 1 26651 1 1121167835
+/free_picks.htm
+ip68-108-5-86.lv.lv.cox.net
+0 223 73 1083641 13 1122031075
+/195-60-2.jpg
+lj2092.inktomisearch.com
+0 3 0 3186 3 1120854309
+-
+wsip-24-234-162-3.lv.lv.cox.net
+0 543 279 4227045 28 1122135962
+/ffwhomegraphic.gif
+lj2379.inktomisearch.com
+0 1 1 10471 1 1121839452
+/tv.htm
+host-66-202-70-251.har.choiceone.net
+0 6 6 403217 2 1121777467
+/affiliates2000.htm
+proxy5-11.adl2.internode.on.net
+0 2 2 18024 1 1121559947
+/faqs2004.htm
+lj2148.inktomisearch.com
+0 1 1 13176 1 1122159643
+/videos.htm
+cache-ntc-aa05.proxy.aol.com
+0 1 1 16777 1 1121087098
+/email.gif
+64.246.165.130
+0 2 2 47332 1 1120535295
+/ffwbanner.gif
+cache-rtc-ae04.proxy.aol.com
+0 1 1 22197 1 1121113462
+/spinningfootball.gif
+lj2498.inktomisearch.com
+0 7 0 0 7 1122036872
+/affiliates2000.htm
+lj2437.inktomisearch.com
+0 3 3 37257 3 1121697052
+/web_ads.htm
+66-194-6-75.gen.twtelecom.net
+0 1 1 13924 1 1121207610
+/
+lj2267.inktomisearch.com
+0 3 3 41626 3 1122150316
+/
+proxy8-9.adl2.internode.on.net
+0 1 1 13924 1 1121559895
+/
+tabarnak.nexen.net
+0 2 2 0 2 1120964702
+/
+lj2172.inktomisearch.com
+0 3 3 29121 3 1121835285
+/tv_ads.htm
+cache-ntc-ac07.proxy.aol.com
+0 3 3 7632 1 1121087490
+/cabaretclubbanner.jpg
+cache-frr-ad01.proxy.aol.com
+0 1 1 13924 1 1121515651
+/
+lj2289.inktomisearch.com
+0 3 0 3186 3 1121904740
+-
+ltaapc2.epfl.ch
+0 2 1 14986 1 1120963186
+/
+196.40.61.163
+0 33 23 356672 4 1121859905
+/all-pro-logo_s.gif
+promo.directi.com
+0 2 2 27848 1 1121097488
+/
+sv-crawlfw3.looksmart.com
+0 46 42 548812 38 1122135727
+-
+cache-ntc-ad01.proxy.aol.com
+0 1 1 0 1 1121087490
+/bio.htm
+cache-rtc-ad07.proxy.aol.com
+0 1 1 51155 1 1121113462
+/ffwhomegraphic.gif
+cache-ntc-aa09.proxy.aol.com
+0 1 1 5318 1 1121087090
+/gaming1.gif
+ip68-108-4-106.lv.lv.cox.net
+0 83 34 522273 1 1120927805
+/120-60-2.jpg
+host87-194.pool80180.interbusiness.it
+0 1 1 13924 1 1120387745
+/
+lj2483.inktomisearch.com
+0 1 0 1058 1 1121139069
+-
+proxy8-11.adl2.internode.on.net
+0 3 1 16860 1 1121559918
+/affiliates2004.htm
+cache-ntc-aa02.proxy.aol.com
+0 1 1 4594 1 1121087160
+/tsilogo.gif
+cache-rtc-aa08.proxy.aol.com
+0 1 1 25593 1 1121113462
+/title.jpg
+cache-rtc-ae08.proxy.aol.com
+0 1 1 4041 1 1121113462
+/newsflash.gif
+lj2358.inktomisearch.com
+0 1 1 26651 1 1121862521
+/free_picks.htm
+adsl-62-167-203-2.adslplus.ch
+0 9 9 155795 1 1120965852
+/all-pro-logo_s.gif
+66-194-6-71.gen.twtelecom.net
+0 1 1 13924 1 1121794485
+/
+202.152.162.215
+0 12 11 194455 1 1121526188
+/gaming1.gif
+202.152.162.216
+0 15 14 234044 2 1121195592
+/bio.htm
+lj2082.inktomisearch.com
+0 6 0 6365 6 1121626997
+-
+lj2127.inktomisearch.com
+0 12 0 12744 12 1121155684
+-
+lj2093.inktomisearch.com
+0 2 0 2124 2 1120702535
+-
+geosign-v47.fibrewired.on.ca
+0 5 5 68479 2 1120867592
+/links.htm
+srv01.servermain.net
+0 1 1 13924 1 1121024636
+/
+lj2199.inktomisearch.com
+0 1 1 11805 1 1121862357
+/specs.htm
+121-181.dsl.scrtc.com
+0 18 18 247063 1 1121686456
+/cabaretclubbanner.jpg
+proxy6-10.adl2.internode.on.net
+0 2 2 22241 1 1121559911
+/bio.htm
+proxysb01.ext.ti.com
+0 11 11 193244 1 1120827905
+/all-pro-logo_s.gif
+202.152.162.250
+0 29 27 422559 1 1121717520
+/spinningfootball.gif
+spider2.picsearch.com
+0 3 3 48660 1 1122017564
+/links.htm
+lj2065.inktomisearch.com
+0 3 3 41772 3 1121787075
+/
+www.whois.sc
+0 6 3 12777 3 1121636865
+/
+mail.the-star.ie
+0 11 11 193244 3 1120555505
+/ffwhomegraphic.gif
+cache-ntc-ad05.proxy.aol.com
+0 1 1 22197 1 1121087089
+/spinningfootball.gif
+168.26.236.233
+0 7 7 186017 2 1120823459
+/gaming1.gif
+dyn-125-129.3dnet.co.yu
+0 19 19 303186 4 1120712059
+/all-pro-logo_s.gif
+cache-ntc-aa06.proxy.aol.com
+0 2 2 59001 1 1121087217
+/ffwbanner.gif
+crawl-66-249-71-67.googlebot.com
+0 4 2 36575 2 1121184803
+/free_picks.htm
+cache-mtc-ab01.proxy.aol.com
+0 1 1 0 1 1120989406
+/tv_ads.htm
+lj2184.inktomisearch.com
+0 2 2 19628 2 1121562737
+/videos2004.htm
+adsl-62-167-146-172.adslplus.ch
+0 11 11 193244 1 1121648981
+/gaming1.gif
+lj2123.inktomisearch.com
+0 19 0 20157 19 1121850455
+-
+crawl-66-249-65-201.googlebot.com
+0 8 7 1062 4 1120636180
+/ffwhomegraphic.gif
+lj2195.inktomisearch.com
+0 1 1 11770 1 1121995556
+/bio.htm
+cache-ntc-ab07.proxy.aol.com
+0 1 1 7632 1 1121087161
+/all-pro-logo_s.gif
+lj2387.inktomisearch.com
+0 1 1 9012 1 1121876218
+/buzz.htm
+lj2401.inktomisearch.com
+0 3 3 27036 3 1121739177
+/buzz.htm
+203.26.136.135
+0 1 1 10471 1 1121559916
+/tv.htm
+sv-fw.looksmart.com
+0 2 2 37122 2 1121557154
+/tv.htm
+203.26.136.137
+0 1 1 13924 1 1121559867
+/
+ti211110a080-14698.bb.online.no
+0 10 10 159836 2 1121439200
+/gaming1.gif
+204.14.48.4
+0 3 2 28910 1 1120443686
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+sv-crawl.looksmart.com
+0 4 2 29676 3 1122173823
+/
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 565
+http://www.google.com.my/search
+0 1
+http://www.footballforecast.com/tv.htm
+0 17
+http://footballforecast.com/advertising.htm
+0 85
+http://cybermight.com/dev/ffc/
+0 2
+http://www.google.com/search
+0 7
+http://www.footballforecast.com/
+0 630
+http://footballforecast.com/web_ads.htm
+0 24
+http://footballforecast.com/affiliates2004.htm
+0 36
+http://www.cybermight.com/dev/ffc/index.php
+0 8
+http://us.f412.mail.yahoo.com/ym/ShowLetter
+0 1
+http://footballforecast.com/index.htm
+0 17
+http://www.google.com.sg/search
+0 1
+http://footballforecast.com/bio.htm
+0 24
+http://domainsdb.net/footballforecast.com
+0 1
+http://www.trazim.com/Kladionice.htm
+0 7
+http://www.whois.sc/footballforecast.com
+0 3
+http://www.google.ie/search
+0 1
+http://footballforecast.com/tv_ads.htm
+0 11
+http://www.footballforecast.com/affiliates2004.htm
+0 36
+http://footballforecast.com/free_picks.htm
+0 79
+http://search.yahoo.com/search
+0 4
+http://footballforecast.com/links.htm
+0 54
+http://www.footballforecast.com/free_picks.htm
+0 9
+http://footballforecast.com/
+0 66
+http://cybermight.com/tools/supportforum/viewtopic.php
+0 3
+http://www.whois.sc/
+0 3
+http://www.footballforecast.com/advertising.htm
+0 9
+http://www.cybermight.com/dev/ffc/right.php
+0 1
+http://www.trazim.com/fudbal.htm
+0 4
+http://www.cafe.co.yu/sablja/sport/betlinkovi.htm
+0 2
+http://ffc.cybermight.com
+0 1
+http://www.cybermight.com/dev/ffc/
+0 4
+http://www.footballforecast.com/bio.htm
+0 21
+http://aolsearch.aol.com/aol/search
+0 1
+http://www.footballforecast.com
+0 57
+http://ffc.cybermight.com/
+0 2
+http://footballforecast.com/videos2004.htm
+0 50
+http://www.footballforecast.com/affiliates2000.htm
+0 30
+http://www.google.ca/search
+0 1
+http://footballforecast.com/faqs2004.htm
+0 10
+http://footballforecast.com/tv.htm
+0 37
+http://www.footballforecast.com/links.htm
+0 14
+# End Of Table - referrers
+# -agents- 
+larbin_2.6.3 larbin2.6.3@unspecified.mail
+0 1
+larbin_2.6.3 (n.sugandh@epfl.ch)
+0 1
+Googlebot-Image/1.0
+0 10
+grub-client-2.3
+0 1
+grub-client-2.6
+0 5
+Googlebot/2.1
+0 8
+MSIE 5.0
+0 18
+MSIE 5.5
+0 18
+psbot/0.1 (+http://www.picsearch.com/bot.html)
+0 14
+PHP version tracker
+0 3
+msnbot/1.0 (+http://search.msn.com/msnbot.htm)
+0 49
+appie 1.1 (www.walhello.com)
+0 16
+Microsoft Data Access Internet Publishing Provider Protocol D
+0 2
+larbin_2.6.3 n.sugandh@epfl.ch
+0 1
+Zealbot 1.0
+0 11
+MSIE 5.01
+0 11
+MJ12bot/v1.0.1 (http://majestic12.co.uk/bot.php?+)
+0 5
+Mozilla/5.0
+0 103
+Konqueror/3.0
+0 8
+Konqueror/3.1
+0 6
+Ask Jeeves/Teoma
+0 2
+Googlebot/2.1 (+http://www.google.com/bot.html)
+0 15
+sohu-search
+0 2
+MS FrontPage 6.0
+0 41
+Java/1.6.0-ea
+0 18
+cfetch/1.0
+0 3
+Gigabot/2.0
+0 2
+SurveyBot/2.3 (Whois Source)
+0 6
+MSIE 6.0
+0 1338
+Mozilla/4.0 compatible ZyBorg/1.0 Dead Link Checker (wn.dlc@l
+0 46
+Microsoft Office Protocol Discovery
+0 1
+nicebot
+0 2
+DomainsDB.net MetaCrawler v.0.9.7b (http://domainsdb.net/)
+0 1
+MSFrontPage/6.0
+0 2
+larbin_2.6.3 (larbin2.6.3@unspecified.mail)
+0 1
+ScSpider/0.2
+0 7
+Mozilla/4.5
+0 1
+Yahoo! Slurp
+0 134
+libwww-perl/5.803
+0 1
+Opera 7.50
+0 15
+# End Of Table - agents
+# -search strings- 
+tv33 wcag lagrange
+1
+football forecast
+6
+arizona newest dish network
+1
+dennis tobler
+1
+television market
+1
+w43br-tv channel 43
+1
+dish network scheduled listing
+1
+kata -lp
+1
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

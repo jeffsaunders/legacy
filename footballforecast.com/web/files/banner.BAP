@@ -1,0 +1,34 @@
+<BAP>
+BAP Version 1.00
+FileName=Z:\sitesdev\dennistobler\footballforecast.com\files\banner.gif
+Height=60
+Width=468
+BackgroundColor=clWhite
+BackgroundImage=No Background
+<BORDER>
+BevelInner=0
+BevelOuter=0
+Border=0
+BevelWidth=4
+BorderWidth=0
+BorderHilightColor=clWhite
+BorderShadowColor=clGray
+</BORDER>
+<IMAGE>
+Filename=Z:\sitesdev\dennistobler\footballforecast.com\files\banner.jpg
+Left=0
+Top=0
+Height=60
+Width=468
+Stretch=TRUE
+Autosize=FALSE
+GIFNumber=-99
+</IMAGE>
+<ANIMATION>
+AnimationType=Blinds
+AnimationSpeed=10
+AnimationStep=15
+AnimationLoop=0
+AnimationLastFrame=500
+</ANIMATION>
+</BAP>

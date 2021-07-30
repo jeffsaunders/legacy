@@ -1,0 +1,50 @@
+Oct-18-2011 05:52:03
+=================================
+
+Sent to Authorizenet: Array
+(
+    [x_login] => *******
+    [x_amount] => 473.85
+    [x_version] => 3.1
+    [x_method] => CC
+    [x_type] => AUTH_CAPTURE
+    [x_cust_ID] => 7
+    [x_email_customer] => FALSE
+    [x_company] => motion industries
+    [x_first_name] => jamie
+    [x_last_name] => robertson
+    [x_address] => 45313 23rd. st west
+    [x_city] => lancaster
+    [x_state] => California
+    [x_zip] => 93536
+    [x_country] => United States
+    [x_phone] => 661-948-8436
+    [x_fax] => 
+    [x_email] => jamie.robertson@motion-ind.com
+    [x_ship_to_company] => motion industries
+    [x_ship_to_first_name] => jamie
+    [x_ship_to_last_name] => robertson
+    [x_ship_to_address] => 45313 23rd. st west
+    [x_ship_to_city] => lancaster
+    [x_ship_to_state] => California
+    [x_ship_to_zip] => 93536
+    [x_ship_to_country] => United States
+    [x_Customer_IP] => 10.148.4.101
+    [x_relay_response] => TRUE
+    [x_relay_URL] => http://www.dcmsanding.com/store/index.php?main_page=checkout_process&amp;action=confirm
+    [x_invoice_num] => 
+    [x_duplicate_window] => 120
+    [x_allow_partial_Auth] => FALSE
+    [x_description] => Website Purchase from DCM Clean Air Store
+    [x_fp_sequence] => 943
+    [x_fp_timestamp] => 1318978323
+    [x_fp_hash] => cd989ce56e413ccea149fc4444ebc66b
+    [x_card_num] => XXXXXXXXXXXXXXXX9292
+    [x_exp_date] => 0713
+    [x_card_code] => 366
+    [x_Test_Request] => TRUE
+    [zenid] => c73306e65c2c5bb66db5ce1079074bdb
+    [url] => https://secure.authorize.net/gateway/transact.dll
+)
+
+

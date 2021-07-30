@@ -1,0 +1,340 @@
+<html><!-- InstanceBegin template="../../../../My%20Website%27s/snippetmaster.com/Templates/manual%20-%20main%20page.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title></title>
+<!-- InstanceEndEditable -->
+<link href="includes/styles.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+<body bgcolor="#E1E1E1">
+<table width=75% border=0 cellpadding=0 cellspacing=0>
+  <tr>
+    <td><!-- InstanceBeginEditable name="Main Content" --> 
+      <h1>Installation Step 1 - Getting Started</h1>
+      <script>
+<!--
+var counter = 0;
+function PopUp(page) {
+	window.open(page,"popuphelp","top=150px,left=100px,width=500px,height=450px," +
+	"toolbar=no,menubar=no,location=no,status=no,directories=no,scrollbars=yes,resizable=yes");
+	return true;
+}
+// -->
+</script>
+      <!-- show / hide js -->
+      <script language="javascript"> 
+<!-- 
+var state = 'none'; 
+
+function showhide(layer_ref) { 
+
+	if (state == 'block') { state = 'none'; } 
+	else { state = 'block'; } 
+	if (document.all) { //IS IE 4 or 5 (or 6 beta) 
+		eval( "document.all." + layer_ref + ".style.display = state"); 
+	} 
+	if (document.layers) { //IS NETSCAPE 4 or below 
+		document.layers[layer_ref].display = state; 
+	} 
+	if (document.getElementById &&!document.all) { 
+		hza = document.getElementById(layer_ref); 
+		hza.style.display = state; 
+	} 
+} 
+//--> 
+</script>
+      <!-- end show/hide js -->
+      <hr width="85%" size="1">
+      <blockquote> 
+        <p>** Please be sure to visit the <a href="http://www.snippetmaster.com/requirements">System 
+          Requirements</a> page on the SnippetMaster website for current requirements. 
+        </p>
+      </blockquote>
+      <hr width="85%" size="1">
+      <p><em>If you get stuck with any part of installation process and need some 
+        help, please be sure to <a href="help.html">contact me</a> and I will 
+        do my best to assist you. SnippetMaster is a great program and I want 
+        <strong>everyone</strong> to be able to use it!</em></p>
+      <h3>There are two ways to install SnippetMaster:</h3>
+      <ul>
+        <li><a href="#auto_installer">The Auto-Installer</a> (<strong>Recommended</strong>) 
+          This is the easiest and fastest way to install or upgrade to the latest 
+          version of SnippetMaster. Using the Auto-Installer to install SnippetMaster 
+          will literally take only 1 minute... and there is no need to unzip anything, 
+          worry about Zend/Ioncube encoders being installed on your server, binary/ascii 
+          ftp mode, changing file permissions, or anything else!</li>
+        <li><a href="#manual_install">The Manual Install Method</a> (Also know 
+          as &quot;The Hard Way&quot;) </li>
+      </ul>
+      <hr width="80%" size="1">
+      <h3><a name="auto_installer"></a>The Auto-Installer</h3>
+      <p>The Auto-Installer is very simple and makes the installation and upgrading 
+        of SnippetMaster quick and easy.</p>
+      <ol>
+        <li>Download the Auto-Installer file.</li>
+        <li>Upload it into the desired SnippetMaster program folder on your web 
+          server.</li>
+        <li>Run it with your web browser.</li>
+      </ol>
+      <p><em>Yes, it's really that simple!</em> Here are the steps explained in 
+        detail:</p>
+      <p><strong>1. Download the Auto-Installer file.</strong> Visit the <a href="http://www.snippetmaster.com/download/" target="_top"> 
+        download area</a> and download the latest <em>autoinstaller.php</em> file 
+        to your computer. </p>
+      <p><strong>2. Log into web server and find your website root.</strong> Use 
+        any FTP program to log on to your website account and navigate into the 
+        folder where your website homepage and files are located. (This is known 
+        as your &quot;website root&quot; folder.)<br>
+        <br>
+        Here are some examples of different &quot;paths&quot; to the <font color="#FF0000">website 
+        root </font>folder:</p>
+      <blockquote> 
+        <p>/home/username/<font color="#FF0000">public_html</font>/<br>
+          /home/.sites/3/site123/<font color="#FF0000">web</font>/<br>
+          /home/virtual/site123/fst/var/<font color="#FF0000">www</font>/<br>
+          /home/content/u/s/r/username/<font color="#FF0000">html</font>/</p>
+        <p><em>(The path to your own &quot;website root&quot; might be different 
+          because it depends on what kind of &quot;control panel&quot; you're 
+          using for your web hosting.)</em></p>
+        <p><a href="popups/ftp.html" target="_blank" onClick="PopUp('popups/ftp.html'); return false;">More 
+          information on FTP</a> </p>
+      </blockquote>
+      <p><strong>3. Create a new program folder. </strong>Use your FTP program 
+        navigate into your website root folder and then create a <em>new</em> 
+        folder to hold the SnippetMaster program files. I recommend you call the 
+        new folder &quot;<strong>snippetmaster</strong>&quot;.</p>
+      <p> Here are some examples of what the &quot;path&quot; to the new folder 
+        might look like:</p>
+      <blockquote> 
+        <p>/home/username/<font color="#FF0000">public_html</font>/<strong><font color="#009900">snippetmaster</font></strong>/<br>
+          /home/.sites/3/site123/<font color="#FF0000">web</font>/<strong><font color="#009900">snippetmaster</font></strong>/<br>
+          /home/virtual/site123/fst/var/<font color="#FF0000">www</font>/<strong><font color="#009900">snippetmaster</font></strong>/<br>
+          /home/content/u/s/r/<font color="#009900">username</font>/<font color="#FF0000">html</font>/<strong><font color="#009900">snippetmaster</font></strong>/</p>
+        <p><em>(The path to your own SnippetMaster program folder might be different 
+          because it depends on what kind of &quot;control panel&quot; you're 
+          using for your web hosting.)</em></p>
+      </blockquote>
+      <p><strong>4. Upload the Auto-Installer.</strong> Using your FTP program, 
+        upload the Auto-Installer file (autoinstaller.php) <em>into the SnippetMaster 
+        program folder you just created</em>.</p>
+      <p><strong>5. Run the Auto-Installer. </strong> Go to the Auto-Installer 
+        program with your web browser, like this:</p>
+      <blockquote> 
+        <p>http://www.yourdomain.com/<strong><font color="#009900">snippetmaster</font></strong>/autoinstaller.php</p>
+      </blockquote>
+      <p>If you did everything correctly the Auto-Installer will start automatically 
+        and you can now follow the instructions you see in your browser.</p>
+      <p>If you experience any errors or problems using the Auto-Installer, please 
+        be sure to read the error message carefully. Most problems can be fixed 
+        fairly easily, but if you need a hand with anything.. please feel free 
+        to <a href="help.html">contact me for assistance</a>.</p>
+      <hr width="80%" size="1">
+      <h3><a name="manual_install"></a>The Manual Install Method</h3>
+      <p>If you are using this method, it is because you like to do things the 
+        hard way.. or the Auto-Installer did not work for you. </p>
+      <p><strong>1. Download the program. </strong>You will need to download the 
+        version of SnippetMaster that corresponds with the type of encoding system 
+        that works for your server. If you are not sure what is the difference 
+        betwen the <em>Zend</em> and <em>Ioncube</em> file types, then here is 
+        a page to explain more about the <a href="install-zend-vs-ioncube.html">Zend 
+        -vs- Ioncube</a> decision, including a handy testing utility.</p>
+      <br>
+      <p><strong>2. Unzip files. </strong>Unzip (uncompress) the file you downloaded 
+        from the SnippetMaster website. </p>
+      <p>(When unzipping the files, be sure to preserve the internal directory/folder 
+        structure.)<br>
+        <br>
+        <a href="popups/zip-files.html" target="_blank" onClick="PopUp('popups/zip-files.html'); return false;">More 
+        information on Unzipping files</a> </p>
+      <p>&nbsp;</p>
+      <p><strong>3. Log into web server and find your web root .</strong> Use 
+        any FTP program to log into your website account. (ie: Log into the web 
+        server where your website files are located.) Now navigate into your &quot;web 
+        root&quot; folder. If you aren't sure where your web root is located, 
+        just navigate into the folder where your website homepage and website 
+        files are located. <br>
+        <br>
+        Here are some examples of different &quot;paths&quot; to the <font color="#FF0000">web 
+        root </font>folder:</p>
+      <blockquote> 
+        <p>/home/username/<font color="#FF0000">public_html</font>/<br>
+          /home/.sites/3/site123/<font color="#FF0000">web</font>/<br>
+          /home/virtual/site123/fst/var/<font color="#FF0000">www</font>/<br>
+          /home/content/u/s/r/username/<font color="#FF0000">html</font>/</p>
+        <p><font color="#FF0000">red</font> = path to web root</p>
+      </blockquote>
+      <p> <em>(The path to your own web root might be different because it depends 
+        on what kind of &quot;control panel&quot; you're using for your web hosting.)</em></p>
+      <p><a href="popups/ftp.html" target="_blank" onClick="PopUp('popups/ftp.html'); return false;">More 
+        information on FTP</a> </p>
+      <p>&nbsp;</p>
+      <p><strong>4. Create program folder. </strong>Use your FTP program to create 
+        a new folder inside your web root to hold the SnippetMaster program files. 
+        I recommend you call the new folder &quot;<strong>snippetmaster</strong>&quot;.</p>
+      <p>Continuing with the example from step 3, here are some examples of what 
+        the &quot;path&quot; to the new folder might look like:</p>
+      <blockquote> 
+        <p>/home/<font color="#009900">username</font>/<font color="#FF0000">public_html</font>/<strong>snippetmaster</strong>/<br>
+          /home/.sites/3/<font color="#009900">site123</font>/<font color="#FF0000">web</font>/<strong>snippetmaster</strong>/<br>
+          /home/virtual/site123/fst/<font color="#009900">var</font>/<font color="#FF0000">www</font>/<strong>snippetmaster</strong>/<br>
+          /home/content/u/s/r/<font color="#009900">username</font>/<font color="#FF0000">html</font>/<strong>snippetmaster</strong>/</p>
+        <p><font color="#FF0000">red</font> = path to web root<br>
+          <font color="#009900">green</font> = path to account root (used later)</p>
+      </blockquote>
+      <p><em>(The path to your own snippetmaster folder might be different because 
+        it depends on what kind of &quot;control panel&quot; you're using for 
+        your web hosting.)</em></p>
+      <p>&nbsp;</p>
+      <p><strong>5. Upload files. </strong>Use your FTP program to &quot;upload&quot; 
+        (transfer) the files and folders that you unzipped in step 1 into the 
+        new snippetmaster program folder you just created. </p>
+      <ul>
+        <li>If you are using the <em><a href="install-zend-vs-ioncube.html">Ioncube</a></em> 
+          package, then you should make sure your FTP program is set to transfer 
+          files in &quot;auto&quot; mode. (So your ftp program will automatically 
+          determine if &quot;ascii&quot; or &quot;binary&quot; transfer mode is 
+          needed.)</li>
+        <li>If you are using the <em><a href="install-zend-vs-ioncube.html">Zend</a></em> 
+          package, then you must make sure your FTP program is set to transfer 
+          the files in <a href="install-zend-vs-ioncube.html#binary">BINARY</a> 
+          mode.</li>
+      </ul>
+      <blockquote> 
+        <p><font color="#FF0000"><strong>Mac Users:</strong></font> If your FTP 
+          program has a setting for &quot;Translate ISO<br>
+          characters&quot; (e.g. Fetch), make sure it's disabled before you upload.</p>
+      </blockquote>
+      <p> After this step is finished, the contents of the snippetmaster folders 
+        should be identical between your computer and your website.</p>
+      <blockquote> 
+        <p><font size="1">Note: If you are using the <em><a href="install-getting-started.html">ioncube 
+          encoded</a></em><a href="install-getting-started.html"> </a>version 
+          and do not need the ioncube loader files, you can save a bit of disk 
+          space by deleting any unnecessary files in the /ioncube folder. (ie: 
+          If you are uploading to a Windows web server then you can delete the 
+          linux loader files. If you are uploading to a linux web server, then 
+          you can delete the Windows loader files.) <strong>If you have ANY doubt 
+          about deleting anything, then don't!</strong></font></p>
+      </blockquote>
+      <p><a name="custom_db_location"></a></p>
+      <p><strong>6. <a href="javascript:showhide('custom_db_location_div')">Advanced 
+        Users - Click this link to see instructions for creating a customized 
+        location for your database folder</a></strong></p>
+      <div id="custom_db_location_div" style="display: none;"> 
+        <table width="100%" border="0" cellpadding="1" bgcolor="#F0FCFF">
+          <tr> 
+            <td colspan="3"><p><strong>How to Create Your Database Folder Above 
+                The Web Root</strong></p>
+              <p>SnippetMaster uses a text database system to store all its information 
+                about program settings, users, etc. By default, this database 
+                will be located inside the program folder you created in step 
+                3. For most users, this is perfectly fine and provides an acceptable 
+                level of security because the actual database folder is randomly 
+                created, encryption is used to store important information, and 
+                an htaccess file prevents viewing of the files with a browser. 
+              </p>
+              <p>However, if you want to improve the security of your database, 
+                I recommend manually creating the database folder in any location 
+                of your choice. You are free to create the database folder anywhere 
+                you want, but I recommend a folder somewhere above your web root 
+                -- perhaps your <em>account</em> root location -- so it is not 
+                accessible with a browser.</p>
+              <p>Here are the steps to do this:<br>
+                &nbsp;&nbsp;&nbsp; <br>
+              </p></td>
+          </tr>
+          <tr> 
+            <td width="7%" align="right" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.&nbsp;</td>
+            <td width="93%" colspan="2"><p><strong>Find your account root.</strong> 
+                Using your FTP program, navigate into your &quot;account root&quot; 
+                folder. Your <font color="#009900">account root</font> folder 
+                is usually one folder &quot;higher&quot; then your <font color="#FF0000">web 
+                root</font> folder. Go back to step 3 and look at the example 
+                paths again. The <font color="#009900">green</font> folders illustrate 
+                possible <font color="#009900">account root</font> locations.<br>
+                <br>
+                <em>Note:</em> If your web hosting account doesn't have any folders 
+                higher then your <font color="#FF0000">web root</font> folder 
+                (ie: you can't navigate any higher then your <font color="#FF0000">web 
+                root</font> folder with your FTP program), then just skip this 
+                step and you can either create the database folder anywhere else, 
+                or just accept the default location.</p>
+              <p>Here are some examples of different &quot;paths&quot; to the 
+                <font color="#009900">account root</font> folder. If you compare 
+                these with the example paths from <strong>step 2</strong> you 
+                will see we are now one folder &quot;above&quot; the <font color="#FF0000">web 
+                root </font>folder.<br>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/home/<font color="#009900">username</font>/<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/home/.sites/3/<font color="#009900">site123</font>/<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/home/virtual/site123/fst/<font color="#009900">var</font>/<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/home/content/u/s/r/<font color="#009900">username</font>/<br>
+                <br>
+                <em>(The path to your account root is might be different because 
+                it depends on what kind of &quot;control panel&quot; you're using 
+                for your web hosting.) </em><br>
+                &nbsp;</p></td>
+          </tr>
+          <tr> 
+            <td align="right" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.&nbsp;</td>
+            <td colspan="2"><p><strong>Create database folder.</strong> Use your 
+                FTP program to create the a new folder. I recommend you call the 
+                new folder &quot;<strong>snippet-db</strong>&quot;.</p>
+              <p>Following the examples above, here are some different &quot;paths&quot; 
+                to the database folder location you just created.<br>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/home/<font color="#009900">username</font>/<strong>snippet-db</strong>/<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/home/.sites/3/<font color="#009900">site123</font>/<strong>snippet-db</strong>/<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/home/virtual/site123/fst/<font color="#009900">var</font>/<strong>snippet-db</strong>/<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/home/content/u/s/r/<font color="#009900">username</font>/<strong>snippet-db</strong>/<br>
+                <br>
+                <em>(The path to your account root might be different because 
+                it depends on what kind of &quot;control panel&quot; you're using 
+                for your web hosting.) </em></p></td>
+          </tr>
+        </table>
+        <p>&nbsp;</p>
+      </div>
+      <p><strong>7. Rename db pointer file and set file/folder permissions.</strong> 
+        This step is necessary so SnippetMaster can later be upgraded without 
+        overwriting your database, and so SnippetMaster can properly read and 
+        write information to the database. <br>
+        <em><br>
+        Note:</em> Most FTP programs have the ability to rename files and change 
+        file permissions. Usually, if you right-click on the file or folder, you 
+        will see an option to &quot;rename&quot; or &quot;chmod&quot;. <a href="popups/file-permissions.html" target="_blank" onClick="PopUp('popups/file-permissions.html'); return false;">More 
+        information on changing file permissions.</a> (If you get stuck with the 
+        steps below you should contact your web hosting company and ask them to 
+        do them for you.)</p>
+      <ol>
+        <ol>
+          <li><strong>Advanced users:</strong> If you created your own database 
+            folder (step 5), you must give it write permissions now.<br>
+            <br>
+            <strong>Regular users:</strong> <em>(You are using the default database 
+            folder location.)</em> Using your FTP program, navigate into the <strong>/snippetmaster/</strong> 
+            program folder you created in step 3. You should see a folder listed 
+            called <font color="#FF0000">snippet-db</font>. Change the permissions 
+            for this folder so that it is &quot;writable&quot; by the public web 
+            server software. (chmod 777)</li>
+          <li>Use your FTP program, make sure you are in the <strong>/snippetmaster/</strong> 
+            folder and then rename the <font color="#FF0000">db.inc.php-original</font> 
+            file to <font color="#FF0000">db.inc.php</font>. (ie: Remove the ending 
+            &quot;<font color="#FF0000"><em>-original</em></font>&quot; part.)</li>
+          <li>Change the permissions for the <font color="#FF0000">db.inc.php</font> 
+            file so that it is &quot;writable&quot; by the public web server software. 
+            (chmod 666 or 777)</li>
+        </ol>
+      </ol>
+      <p>&nbsp;</p>
+      <p><strong>7. Congratulations - you are almost done!</strong> If you did 
+        everything correctly you won't need to fiddle with the web server or FTP 
+        any more, because everything else is done with the <a href="install-wizard.html">Install 
+        Wizard</a>. <em>&nbsp;&lt;-- Click that link to continue.</em></p>
+      <!-- InstanceEndEditable --> 
+      <p>&nbsp;</p>
+    </td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

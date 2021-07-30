@@ -1,0 +1,83 @@
+.titleBlack {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 24px; font-weight: bold; color: #000000;}
+.titleWhite {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 24px; font-weight: bold; color: #FFFFFF;}
+
+.headerBlack {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #000000;}
+.headerWhite {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #FFFFFF;}
+
+.verticalLabelBlack {font-family: Arial, Helvetica, sans-serif;	font-size: 12px; color: #000000; writing-mode: tb-rl; filter: flipv fliph;}
+.verticalLabelWhite {font-family: Arial, Helvetica, sans-serif;	font-size: 12px; color: #FFFFFF; writing-mode: tb-rl; filter: flipv fliph;}
+.smallVerticalLabelBlack {font-family: Arial, Helvetica, sans-serif; font-size: 9px; color: #000000; writing-mode: tb-rl; filter: flipv fliph;}
+.smallVerticalLabelWhite {font-family: Arial, Helvetica, sans-serif; font-size: 9px; color: #FFFFFF; writing-mode: tb-rl; filter: flipv fliph;}
+
+.bodyBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px;	color:#000000; text-decoration:none;}
+A.bodyBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px; color:#000000; text-decoration:none;}
+A.bodyBlack:hover {color:Red; text-decoration:underline;}
+A.bodyBlack:active {color:Red;}
+A.bodyBlack:visited {color:#000000;}
+A.bodyBlack:visited:hover {color:Red; text-decoration:underline;}
+
+.bodyWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px;	color:#FFFFFF; text-decoration:none;}
+A.bodyWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px; color:#FFFFFF; text-decoration:none;}
+A.bodyWhite:hover {color:Red; text-decoration:underline;}
+A.bodyWhite:active {color:Red;}
+A.bodyWhite:visited {color:#FFFFFF;}
+A.bodyWhite:visited:hover {color:Red; text-decoration:underline;}
+
+.bodyCream {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px;	color:#FFFFCC; text-decoration:none;}
+A.bodyCream {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px; color:#FFFFCC; text-decoration:none;}
+A.bodyCream:hover {color:Red; text-decoration:underline;}
+A.bodyCream:active {color:Red;}
+A.bodyCream:visited {color:#FFFFCC;}
+A.bodyCream:visited:hover {color:Red; text-decoration:underline;}
+
+.smallBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:9px;	color:#000000; text-decoration:none;}
+A.smallBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:9px; color:#000000; text-decoration:none;}
+A.smallBlack:hover {color:Red; text-decoration:underline;}
+A.smallBlack:active {color:Red;}
+A.smallBlack:visited {color:#000000;}
+A.smallBlack:visited:hover {color:Red; text-decoration:underline;}
+
+.smallWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:9px;	color:#FFFFFF; text-decoration:none;}
+A.smallWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:9px; color:#FFFFFF; text-decoration:none;}
+A.smallWhite:hover {color:Yellow; text-decoration:underline;}
+A.smallWhite:active {color:Red;}
+A.smallWhite:visited {color:#FFFFFF;}
+A.smallWhite:visited:hover {color:Yellow; text-decoration:underline;}
+
+.tinyBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:7px;	color:#000000; text-decoration:none;}
+A.tinyBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:7px; color:#000000; text-decoration:none;}
+A.tinyBlack:hover {color:Red; text-decoration:underline;}
+A.tinyBlack:active {color:Red;}
+A.tinyBlack:visited {color:#000000;}
+A.tinyBlack:visited:hover {color:Red; text-decoration:underline;}
+
+.tinyWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:7px;	color:#FFFFFF; text-decoration:none;}
+A.tinyWhite {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:7px; color:#FFFFFF; text-decoration:none;}
+A.tinyWhite:hover {color:Yellow; text-decoration:underline;}
+A.tinyWhite:active {color:Red;}
+A.tinyWhite:visited {color:#FFFFFF;}
+A.tinyWhite:visited:hover {color:Yellow; text-decoration:underline;}
+
+.fancyBlack {font-family:fantasy,Verdana,Arial,Helvetica,sans-serif; font-size:12px;	color:#000000; text-decoration:none;}
+A.fancyBlack {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px; color:#000000; text-decoration:none;}
+A.fancyBlack:hover {color:Red; text-decoration:underline;}
+A.fancyBlack:active {color:Red;}
+A.fancyBlack:visited {color:#000000;}
+A.fancyBlack:visited:hover {color:Red; text-decoration:underline;}
+
+.menuBlue {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:14px;	color:#090982; text-decoration:none;}
+A.menuBlue {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:14px; color:#090982; text-decoration:none;}
+A.menuBlue:hover {color:Red; text-decoration:underline;}
+A.menuBlue:active {color:Red;}
+A.menuBlue:visited {color:#090982;}
+A.menuBlue:visited:hover {color:Red; text-decoration:underline;}
+
+.cellBlack {background-color: #000000;}
+.cellWhite {background-color: #FFFFFF;}
+.cellDkGray {background-color: #CCCCCC;}
+.cellLtGray {background-color: #E0E0E0;}
+.cellXLtGray {background-color: #F8F8F8;}
+.cellRed {background-color: #FF0000;}
+.cellYellow {background-color: #FFFF00;}
+.cellMaroon {background-color: #800000;}
+.cellCream {background-color: #FFFFCC;}

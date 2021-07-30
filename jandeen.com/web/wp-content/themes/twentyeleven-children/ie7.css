@@ -1,0 +1,102 @@
+.wpcf7-form p{
+	position: relative;
+}
+
+.wpcf7-form textarea{
+	float:left;
+}
+
+.wpcf7-form label{
+	position: static;
+	display: inline !important;
+}
+
+.wpcf7-form .required{
+	left:280px;
+	top:20px;
+}
+
+.wpcf7-form{
+	margin:20px 0 0;
+}
+
+.wpcf7-form input.wpcf7-text, .wpcf7-form textarea {
+	padding:0 0 0 2px;
+	text-indent:0px;
+}
+
+body span.wpcf7-not-valid-tip{
+	left:0;
+	width:228px;
+}
+
+
+.your-message span.wpcf7-not-valid-tip{
+	left:0px;
+}
+span.wpcf7-form-control-wrap{
+	left:0;
+}
+
+.wpcf7-form .wpcf7-submit{
+	margin-top:5px;
+}
+
+body div.wpcf7-response-output{
+	top:-15px;
+}
+
+/* COMMENTS */
+#respond .comment-form-author label, #respond .comment-form-email label, #respond .comment-form-url label, #respond .comment-form-comment label{
+	display:block;
+	position:relative;
+	top:0px;
+	left:1px;
+	padding:9px 0 3px;
+	clear: both;
+	height: 20px;
+}
+
+#respond input{
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0 1px 3px rgba(204, 204, 204, 0.95) inset;
+    padding: 4px;
+    position: relative;
+     display: block;
+    height: 24px;
+    line-height:24px;
+    padding-right: 25px;
+    width: 72%;
+    clear:both;
+    margin-bottom:20px;
+    text-indent:3px !important;   
+}
+
+#respond textarea{
+	 text-indent:3px !important;   
+}
+
+#respond input:focus{
+	text-indent:3px;
+}
+
+.comment-notes{
+	padding:0 0 15px 0 !important;
+}
+
+#respond input#submit{
+	padding:5px;
+	width:150px;
+	display: block;
+	position: relative;
+	line-height: 13px;
+}
+
+#respond .captcha .required{
+ top: 47px;
+}
+
+#reply-title{
+	padding-top:15px;
+}

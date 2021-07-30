@@ -1,0 +1,253 @@
+/* BODY */
+body {font-family:Arial,Helvetica,sans-serif; font-size:13px; color:#000000; background-color:#000000; margin:0px;}
+/*html, body {margin:0; padding:0; width:100%; height:100%; }*/
+/*#background{position:fixed; z-index:-1; width:100%; height:100%;}*/
+.bigcontent {z-index:1000; position:relative; top:0px; left:0px;}
+
+/* Downloadable Fonts */
+@font-face {
+	font-family: 'Myvetica';
+	src: url('/fonts/myvetica-web.eot');
+	src: local('?'), url('/fonts/myvetica-web.woff') format('woff'), url('/fonts/myvetica-web.ttf') format('truetype'), url('/fonts/myvetica-web.svg#webfont0cSKlx1I') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MyveticaOblique';
+	src: url('/fonts/myveticaOblique-web.eot');
+	src: local('?'), url('/fonts/myveticaOblique-web.woff') format('woff'), url('/fonts/myveticaOblique-web.ttf') format('truetype'), url('/fonts/myveticaOblique-web.svg#webfontCEvqHYg7') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pictos';
+	src: url('/fonts/pictos-web.eot');
+	src: local('?'), url('/fonts/pictos-web.woff') format('woff'), url('/fonts/pictos-web.ttf') format('truetype'), url('/fonts/pictos-web.svg#webfontIyfZbseF') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* TEXT */
+/* Black */
+.smallBlack {font-family:Myvetica,sans-serif; font-size:10px; color:#000000; text-decoration:none;}
+A.smallBlack {font-family:Myvetica,sans-serif; font-size:10px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.smallBlack:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.smallBlack:active {color:#FF9000; cursor:pointer;}
+A.smallBlack:visited {color:#3264CA; cursor:pointer;}
+A.smallBlack:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.bodyBlack {font-family:Myvetica,sans-serif; font-size:12px; color:#000000; text-decoration:none;}
+A.bodyBlack {font-family:Myvetica,sans-serif; font-size:12px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.bodyBlack:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.bodyBlack:active {color:#FF9000; cursor:pointer;}
+A.bodyBlack:visited {color:#3264CA; cursor:pointer;}
+A.bodyBlack:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.scrollerBlack {font-family:Myvetica,sans-serif; font-size:12px; color:#000000; text-decoration:none;}
+A.scrollerBlack {font-family:Myvetica,sans-serif; font-size:12px; color:#000000; cursor:pointer; text-decoration:none;}
+A.scrollerBlack:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.scrollerBlack:active {color:#FF9000; cursor:pointer;}
+A.scrollerBlack:visited {color:#000000; cursor:pointer;}
+A.scrollerBlack:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.titleBlack {font-family:Myvetica,sans-serif; font-size:14px; color:#000000; text-decoration:none;}
+A.titleBlack {font-family:Myvetica,sans-serif; font-size:14px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.titleBlack:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.titleBlack:active {color:#FF9000; cursor:pointer;}
+A.titleBlack:visited {color:#3264CA; cursor:pointer;}
+A.titleBlack:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.menuBlack {font-family:Myvetica,sans-serif; font-size:14px; color:#000000; text-decoration:none;}
+A.menuBlack {font-family:Myvetica,sans-serif; font-size:14px; color:#000000; cursor:pointer; text-decoration:none;}
+A.menuBlack:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.menuBlack:active {color:#FF9000; cursor:pointer;}
+A.menuBlack:visited {color:#000000; cursor:pointer;}
+A.menuBlack:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.bigBlack {font-family:Myvetica,sans-serif; font-size:18px; color:#000000; text-decoration:none;}
+A.bigBlack {font-family:Myvetica,sans-serif; font-size:18px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.bigBlack:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.bigBlack:active {color:#FF9000;}
+A.bigBlack:visited {color:#3264CA; cursor:pointer;}
+A.bigBlack:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.hugeBlack {font-family:Myvetica,sans-serif; font-size:30px; color:#000000; text-decoration:none;}
+A.hugeBlack {font-family:Myvetica,sans-serif; font-size:30px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.hugeBlack:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.hugeBlack:active {color:#FF9000;}
+A.hugeBlack:visited {color:#3264CA; cursor:pointer;}
+A.hugeBlack:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+/* White */
+.smallWhite {font-family:Myvetica,sans-serif; font-size:10px; color:#FFFFFF; text-decoration:none;}
+A.smallWhite {font-family:Myvetica,sans-serif; font-size:10px; color:#FFFFFF; cursor:pointer; text-decoration:none;}
+A.smallWhite:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.smallWhite:active {color:#FF9000; cursor:pointer;}
+A.smallWhite:visited {color:#FFFFFF; cursor:pointer;}
+A.smallWhite:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.bodyWhite {font-family:Myvetica,sans-serif; font-size:12px; color:#FFFFFF; text-decoration:none;}
+A.bodyWhite {font-family:Myvetica,sans-serif; font-size:12px; color:#FFFFFF; cursor:pointer; text-decoration:none;}
+A.bodyWhite:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.bodyWhite:active {color:#FF9000; cursor:pointer;}
+A.bodyWhite:visited {color:#FFFFFF; cursor:pointer;}
+A.bodyWhite:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.titleWhite {font-family:Myvetica,sans-serif; font-size:14px; color:#FFFFFF; text-decoration:none;}
+A.titleWhite {font-family:Myvetica,sans-serif; font-size:14px; color:#FFFFFF; cursor:pointer; text-decoration:none;}
+A.titleWhite:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.titleWhite:active {color:#FF9000; cursor:pointer;}
+A.titleWhite:visited {color:#FFFFFF; cursor:pointer;}
+A.titleWhite:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.menuWhite {font-family:Myvetica,sans-serif; font-size:16px; color:#FFFFFF; text-decoration:none;}
+A.menuWhite {font-family:Myvetica,sans-serif; font-size:16px; color:#FFFFFF; cursor:pointer; text-decoration:none;}
+A.menuWhite:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.menuWhite:active {color:#FF9000; cursor:pointer;}
+A.menuWhite:visited {color:#FFFFFF; cursor:pointer;}
+A.menuWhite:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.bigWhite {font-family:Myvetica,sans-serif; font-size:18px; color:#FFFFFF; text-decoration:none;}
+A.bigWhite {font-family:Myvetica,sans-serif; font-size:18px; color:#FFFFFF; cursor:pointer; text-decoration:none;}
+A.bigWhite:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.bigWhite:active {color:#FF9000;}
+A.bigWhite:visited {color:#FFFFFF; cursor:pointer;}
+A.bigWhite:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.hugeWhite {font-family:Myvetica,sans-serif; font-size:30px; color:#FFFFFF; text-decoration:none;}
+A.hugeWhite {font-family:Myvetica,sans-serif; font-size:30px; color:#FFFFFF; cursor:pointer; text-decoration:none;}
+A.hugeWhite:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.hugeWhite:active {color:#FF9000;}
+A.hugeWhite:visited {color:#FFFFFF; cursor:pointer;}
+A.hugeWhite:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+/* Blue */
+.smallBlue {font-family:Myvetica,sans-serif; font-size:10px; color:#3264CA; text-decoration:none;}
+A.smallBlue {font-family:Myvetica,sans-serif; font-size:10px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.smallBlue:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.smallBlue:active {color:#FF9000; cursor:pointer;}
+A.smallBlue:visited {color:#3264CA; cursor:pointer;}
+A.smallBlue:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.bodyBlue {font-family:Myvetica,sans-serif; font-size:12px; color:#3264CA; text-decoration:none;}
+A.bodyBlue {font-family:Myvetica,sans-serif; font-size:12px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.bodyBlue:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.bodyBlue:active {color:#FF9000; cursor:pointer;}
+A.bodyBlue:visited {color:#3264CA; cursor:pointer;}
+A.bodyBlue:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.titleBlue {font-family:Myvetica,sans-serif; font-size:14px; color:#3264CA; text-decoration:none;}
+A.titleBlue {font-family:Myvetica,sans-serif; font-size:14px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.titleBlue:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.titleBlue:active {color:#FF9000; cursor:pointer;}
+A.titleBlue:visited {color:#3264CA; cursor:pointer;}
+A.titleBlue:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.menuBlue {font-family:Myvetica,sans-serif; font-size:16px; color:#3264CA; text-decoration:none;}
+A.menuBlue {font-family:Myvetica,sans-serif; font-size:16px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.menuBlue:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.menuBlue:active {color:#FF9000; cursor:pointer;}
+A.menuBlue:visited {color:#3264CA; cursor:pointer;}
+A.menuBlue:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.bigBlue {font-family:Myvetica,sans-serif; font-size:18px; color:#3264CA; text-decoration:none;}
+A.bigBlue {font-family:Myvetica,sans-serif; font-size:18px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.bigBlue:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.bigBlue:active {color:#FF9000;}
+A.bigBlue:visited {color:#3264CA; cursor:pointer;}
+A.bigBlue:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.hugeBlue {font-family:Myvetica,sans-serif; font-size:30px; color:#3264CA; text-decoration:none;}
+A.hugeBlue {font-family:Myvetica,sans-serif; font-size:30px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.hugeBlue:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.hugeBlue:active {color:#FF9000;}
+A.hugeBlue:visited {color:#3264CA; cursor:pointer;}
+A.hugeBlue:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+/* Cyan */
+.smallCyan {font-family:Myvetica,sans-serif; font-size:10px; color:#53A2DF; text-decoration:none;}
+A.smallCyan {font-family:Myvetica,sans-serif; font-size:10px; color:#53A2DF; cursor:pointer; text-decoration:none;}
+A.smallCyan:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.smallCyan:active {color:#FF9000; cursor:pointer;}
+A.smallCyan:visited {color:#53A2DF; cursor:pointer;}
+A.smallCyan:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.bodyCyan {font-family:Myvetica,sans-serif; font-size:12px; color:#53A2DF; text-decoration:none;}
+A.bodyCyan {font-family:Myvetica,sans-serif; font-size:12px; color:#53A2DF; cursor:pointer; text-decoration:none;}
+A.bodyCyan:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.bodyCyan:active {color:#FF9000; cursor:pointer;}
+A.bodyCyan:visited {color:#53A2DF; cursor:pointer;}
+A.bodyCyan:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.titleCyan {font-family:Myvetica,sans-serif; font-size:14px; color:#53A2DF; text-decoration:none;}
+A.titleCyan {font-family:Myvetica,sans-serif; font-size:14px; color:#53A2DF; cursor:pointer; text-decoration:none;}
+A.titleCyan:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.titleCyan:active {color:#FF9000; cursor:pointer;}
+A.titleCyan:visited {color:#53A2DF; cursor:pointer;}
+A.titleCyan:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.menuCyan {font-family:Myvetica,sans-serif; font-size:16px; color:#53A2DF; text-decoration:none;}
+A.menuCyan {font-family:Myvetica,sans-serif; font-size:16px; color:#53A2DF; cursor:pointer; text-decoration:none;}
+A.menuCyan:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.menuCyan:active {color:#FF9000; cursor:pointer;}
+A.menuCyan:visited {color:#53A2DF; cursor:pointer;}
+A.menuCyan:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.bigCyan {font-family:Myvetica,sans-serif; font-size:18px; color:#53A2DF; text-decoration:none;}
+A.bigCyan {font-family:Myvetica,sans-serif; font-size:18px; color:#53A2DF; cursor:pointer; text-decoration:none;}
+A.bigCyan:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.bigCyan:active {color:#FF9000;}
+A.bigCyan:visited {color:#53A2DF; cursor:pointer;}
+A.bigCyan:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+.hugeCyan {font-family:Myvetica,sans-serif; font-size:30px; color:#53A2DF; text-decoration:none;}
+A.hugeCyan {font-family:Myvetica,sans-serif; font-size:30px; color:#53A2DF; cursor:pointer; text-decoration:none;}
+A.hugeCyan:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+A.hugeCyan:active {color:#FF9000;}
+A.hugeCyan:visited {color:#53A2DF; cursor:pointer;}
+A.hugeCyan:visited:hover {color:#FF9000; cursor:pointer; text-decoration:none;}
+
+/* Orange */
+.smallOrange {font-family:Myvetica,sans-serif; font-size:10px; color:#FF9000; text-decoration:none;}
+A.smallOrange {font-family:Myvetica,sans-serif; font-size:10px; color:#FF9000; cursor:pointer; text-decoration:none;}
+A.smallOrange:hover {color:#FFFFFF; cursor:pointer; text-decoration:none;}
+A.smallOrange:active {color:#FFFFFF; cursor:pointer;}
+A.smallOrange:visited {color:#FF9000; cursor:pointer;}
+A.smallOrange:visited:hover {color:#FFFFFF; cursor:pointer; text-decoration:none;}
+
+.bodyOrange {font-family:Myvetica,sans-serif; font-size:12px; color:#FF9000; text-decoration:none;}
+A.bodyOrange {font-family:Myvetica,sans-serif; font-size:12px; color:#FF9000; cursor:pointer; text-decoration:none;}
+A.bodyOrange:hover {color:#FFFFFF; cursor:pointer; text-decoration:none;}
+A.bodyOrange:active {color:#FFFFFF; cursor:pointer;}
+A.bodyOrange:visited {color:#FF9000; cursor:pointer;}
+A.bodyOrange:visited:hover {color:#FFFFFF; cursor:pointer; text-decoration:none;}
+
+.titleOrange {font-family:Myvetica,sans-serif; font-size:14px; color:#FF9000; text-decoration:none;}
+A.titleOrange {font-family:Myvetica,sans-serif; font-size:14px; color:#FF9000; cursor:pointer; text-decoration:none;}
+A.titleOrange:hover {color:#FFFFFF; cursor:pointer; text-decoration:none;}
+A.titleOrange:active {color:#FFFFFF; cursor:pointer;}
+A.titleOrange:visited {color:#FF9000; cursor:pointer;}
+A.titleOrange:visited:hover {color:#FFFFFF; cursor:pointer; text-decoration:none;}
+
+.menuOrange {font-family:Myvetica,sans-serif; font-size:16px; color:#FF9000; text-decoration:none;}
+A.menuOrange {font-family:Myvetica,sans-serif; font-size:16px; color:#FF9000; cursor:pointer; text-decoration:none;}
+A.menuOrange:hover {color:#FFFFFF; cursor:pointer; text-decoration:none;}
+A.menuOrange:active {color:#FFFFFF; cursor:pointer;}
+A.menuOrange:visited {color:#FF9000; cursor:pointer;}
+A.menuOrange:visited:hover {color:#FFFFFF; cursor:pointer; text-decoration:none;}
+
+.bigOrange {font-family:Myvetica,sans-serif; font-size:18px; color:#FF9000; text-decoration:none;}
+A.bigOrange {font-family:Myvetica,sans-serif; font-size:18px; color:#FF9000; cursor:pointer; text-decoration:none;}
+A.bigOrange:hover {color:#FFFFFF; cursor:pointer; text-decoration:none;}
+A.bigOrange:active {color:#FFFFFF;}
+A.bigOrange:visited {color:#FF9000; cursor:pointer;}
+A.bigOrange:visited:hover {color:#FFFFFF; cursor:pointer; text-decoration:none;}
+
+.hugeOrange {font-family:Myvetica,sans-serif; font-size:30px; color:#FF9000; text-decoration:none;}
+A.hugeOrange {font-family:Myvetica,sans-serif; font-size:30px; color:#FF9000; cursor:pointer; text-decoration:none;}
+A.hugeOrange:hover {color:#FFFFFF; cursor:pointer; text-decoration:none;}
+A.hugeOrange:active {color:#FFFFFF;}
+A.hugeOrange:visited {color:#FF9000; cursor:pointer;}
+A.hugeOrange:visited:hover {color:#FFFFFF; cursor:pointer; text-decoration:none;}
+

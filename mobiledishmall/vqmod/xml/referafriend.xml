@@ -1,0 +1,50 @@
+<modification>
+  <id>Referafriend</id>
+  <version>1.0</version>
+  <vqmver>1.2.3</vqmver>
+  <author>StoreYa</author>
+
+  <file name="catalog/controller/checkout/confirm.php">
+    <operation>
+      <search position="before"><![CDATA[$this->data['payment'] = $this->getChild('payment/' . $this->session->data['payment_method']['code']);]]></search>
+      <add>
+        <![CDATA[	$ADtotal = 1;	$this->session->data['ADtotal'] = $total; $ADorderid = 0; $this->session->data['ADorderid'] = $this->session->data['order_id']; $ADname = 'cust_name'; $this->session->data['ADname'] =$data['firstname'].' '.$data['lastname']; $ADemail = 'cust_email'; $this->session->data['ADemail'] = $data['email'];]]>
+      </add>
+    </operation>
+  </file>
+
+  <file name="catalog/controller/checkout/success.php">
+    <operation>
+      <search position="after"><![CDATA[public function index() { ]]></search>
+      <add>
+        <![CDATA[ $this->data['ADtotal'] = $this->session->data['ADtotal']; $this->data['ADorderid'] = $this->session->data['ADorderid']; $this->data['ADname'] = $this->session->data['ADname']; $this->data['ADemail'] = $this->session->data['ADemail'];]]></add>
+    </operation>
+  </file>
+
+
+  <file name="catalog/view/theme/*/template/common/success.tpl">
+    <operation>
+      <search position="after"><![CDATA[<?php echo $content_bottom; ?></div>]]></search>
+      <add>
+        <![CDATA[<?php if (isset($this->request->get['route']) && $this->request->get['route'] == 'checkout/success') { ?>
+        <!-- Begin StoreYa script -->		
+<script type="text/javascript">
+ (function(){function load_js(){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src='//www.storeya.com/externalscript/ReferFriend'; var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x)} if(window.attachEvent)window.attachEvent('onload',load_js);else window.addEventListener('load',load_js,false)})();
+
+ var _storeya = _storeya || []; var _storeya_order_details = {
+ SiteID: '<?php $this->load->library('referafriend'); ?>',
+ OrderID: '<?php echo $ADorderid; ?>', 
+ SubTotal: '<?php echo round($ADtotal,2); ?>',
+ Email: '<?php echo $ADemail; ?>',   
+ CustomerName: '<?php echo $ADname; ?>', 
+ };
+
+ _storeya.push([_storeya_order_details]);
+ </script>
+<!-- End StoreYa script -->
+<?php } ?>]]>
+      </add>
+    </operation>
+  </file>
+
+</modification>

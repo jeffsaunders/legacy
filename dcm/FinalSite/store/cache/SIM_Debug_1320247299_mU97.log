@@ -1,0 +1,50 @@
+Nov-02-2011 10:21:39
+=================================
+
+Sent to Authorizenet: Array
+(
+    [x_login] => *******
+    [x_amount] => 129.71
+    [x_version] => 3.1
+    [x_method] => CC
+    [x_type] => AUTH_CAPTURE
+    [x_cust_ID] => 8
+    [x_email_customer] => FALSE
+    [x_company] => Boeing Aerospace
+    [x_first_name] => Charles
+    [x_last_name] => Bowen
+    [x_address] => 6211 Aviation Ave
+    [x_city] => Jacksonville, Fl
+    [x_state] => Florida
+    [x_zip] => 32221
+    [x_country] => United States
+    [x_phone] => 904-317-2637
+    [x_fax] => 
+    [x_email] => charles.i.bowen@boeing.com
+    [x_ship_to_company] => Boeing Aerospace
+    [x_ship_to_first_name] => Jeff
+    [x_ship_to_last_name] => Jennings
+    [x_ship_to_address] => 1899 Berstrom Drive
+    [x_ship_to_city] => Ellsworth AFB
+    [x_ship_to_state] => South Dakota
+    [x_ship_to_zip] => 57706
+    [x_ship_to_country] => United States
+    [x_Customer_IP] => 130.76.96.151
+    [x_relay_response] => TRUE
+    [x_relay_URL] => http://www.dcmsanding.com/store/index.php?main_page=checkout_process&amp;action=confirm
+    [x_invoice_num] => 
+    [x_duplicate_window] => 120
+    [x_allow_partial_Auth] => FALSE
+    [x_description] => Website Purchase from DCM Clean Air Store
+    [x_fp_sequence] => 414
+    [x_fp_timestamp] => 1320247299
+    [x_fp_hash] => 36f04997b7e7c2e5079ab7d00c9ffc16
+    [x_card_num] => XXXXXXXXXXXXXXXXX3758
+    [x_exp_date] => 0215
+    [x_card_code] => 314
+    [x_Test_Request] => TRUE
+    [zenid] => 120f05bdcff53c028160abcf23370965
+    [url] => https://secure.authorize.net/gateway/transact.dll
+)
+
+

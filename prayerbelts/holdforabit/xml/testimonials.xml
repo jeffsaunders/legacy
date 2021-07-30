@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testimonials>
+	<testimonial>
+		<text>Maecenas euismod aliquet justo, ac adipiscing sapien feugiat at. Morbi sollicitudin augue eu ipsum</text>
+		<author>Darren K.</author>
+		<city>San Francisco</city>
+		<state>California</state>
+	</testimonial>
+	<testimonial>
+		<text>Fusce venenatis ligula a enim aliquam vitae sagittis magna adipiscing. Pellentesque iaculis,sem nec ullamcorper semper, ligula nulla suscipit odio, tincidunt aliquet nunc arcu et est</text>
+		<author>Alex P.</author>
+		<city>Dallas</city>
+		<state>Texas</state>
+	</testimonial>
+	<testimonial>
+		<text>Nulla ligula erat, ultricies non ullamcorper nec, molestie quis mauris. Duis volutpat ante ut arcu dignissim sit amet consequat tellus fringilla</text>
+		<author>Shannon M.</author>
+		<city>St. Louis</city>
+		<state>Missouri</state>
+	</testimonial>
+</testimonials>

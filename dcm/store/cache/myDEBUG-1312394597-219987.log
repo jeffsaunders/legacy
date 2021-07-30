@@ -1,0 +1,1 @@
+[03-Aug-2011 13:03:18] PHP Warning:  Variable passed to each() is not an array or object in /var/www/clients/client3/web1/web/sandbox/dcm/store/includes/templates/dcmcleanair/common/html_header.php on line 36

@@ -1,0 +1,35 @@
+<ASX version = "3.0">
+
+<TITLE>Thoroughbred Racing Forecast</TITLE>
+<!--<Logo href = "gblogo.gif" Style = "mark" />-->
+
+<ENTRY ClientSkip="no">
+	<!-- Intro Bumper (Show Intro) -->
+	<AUTHOR>ThoroughbredForecast.com</AUTHOR>
+	<COPYRIGHT>(c)2007 ThoroughbredForecast.com and M&S Racing Stable</COPYRIGHT>
+	<REF HREF="video/5DelMar.wmv"/>
+</ENTRY>
+
+<!--
+<ENTRY ClientSkip="no">
+	<!-- Intro Bumper (Show Intro) -->
+	<AUTHOR>GamingBroadcast.com</AUTHOR>
+	<COPYRIGHT>(c)2006 GamingBroadcast.com</COPYRIGHT>
+	<REF HREF="video/TRFopening.wmv"/>
+</ENTRY>
+
+<ENTRY>
+	<!-- Alamo Commercial -->
+	<AUTHOR>GamingBroadcast.com</AUTHOR>
+	<COPYRIGHT>(c)2006 GamingBroadcast.com</COPYRIGHT>
+	<REF HREF="video/Alamo30.wmv"/>
+</ENTRY>
+
+<ENTRY ClientSkip="no">
+	<!-- Exit Bumper (Show Close) -->
+	<AUTHOR>GamingBroadcast.com</AUTHOR>
+	<COPYRIGHT>(c)2006 GamingBroadcast.com</COPYRIGHT>
+	<REF HREF="video/TRFclosing.wmv"/>
+</ENTRY>-->
+
+</ASX>

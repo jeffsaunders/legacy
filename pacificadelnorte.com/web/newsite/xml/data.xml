@@ -1,0 +1,40 @@
+<rss version="2.0">
+
+
+
+
+
+
+
+
+<channel>
+<title>Weather Underground - Puntarenas, Costa Rica</title>
+	<link>http://www.wunderground.com/</link>
+	<description>Weather Underground RSS Feed</description>
+	<language>EN</language>
+        <image>
+                <url>http://icons.wunderground.com/graphics/smash/wunderTransparent.gif</url>
+                <link>http://www.wunderground.com</link>
+                <title>Weather Underground</title>     
+        </image>
+	<category>weather</category>
+
+
+<item>
+
+     
+     	  
+  	<title>Puntarenas, Costa Rica Current Conditions</title>    
+        <link>http://www.wunderground.com/auto/rss_full/global/stations/78760.xml</link>
+	<description>Temperature: 82&#176;F / 28&#176;C | Humidity: 38% | Pressure: 29.81in / 1009hPa | Conditions:  | Wind Direction: NNE | Wind Speed: 12mph / 18km/h | Updated: 6:00 PM CST
+	</description>
+        <pubDate>Wed, 9 Feb 2005 00:00:00 GMT
+        </pubDate> 
+	
+     
+
+</item>
+
+
+</channel>
+</rss>

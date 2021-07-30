@@ -1,0 +1,226 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+
+<!--
+Holiday Baskets
+
+Design Copyright 2001-2004 Network Resources
+Images Copyright 2001-2004 Blind Center of Nevada
+Authored by Jeff S. Saunders 10/16/2001
+Modified by Jeff S. Saunders 11/02/2004
+-->
+
+<html>
+
+<head>
+	<title>Blind Center of Nevada</title>
+
+	<script language="javascript">
+// Begin Loading Images for Menu Buttons
+	if (document.images) {
+
+	// MouseOut Images
+                  
+		img1off = new Image(); 
+		img1off.src = "images/sweetindulgencewrapped2004.jpg"; 
+		img2off = new Image(); 
+		img2off.src = "images/grandgourmetwrapped2004.jpg";   
+
+	// MouseOver Images
+                  
+		img1on = new Image(); 
+		img1on.src = "images/sweetindulgenceopen2004.jpg"; 
+		img2on = new Image(); 
+		img2on.src = "images/grandgourmetopen2004.jpg";   
+	}
+
+	// Begin Swap Button
+	function imgOn(imgName) {
+        if (document.images) {
+            document[imgName].src = eval(imgName + "on.src");
+        }
+	}
+
+	function imgOff(imgName) {
+        if (document.images) {
+            document[imgName].src = eval(imgName + "off.src");
+        }
+	}
+
+	</script>
+
+<!-- Spawns Child Window -->	
+	<script language="javascript">
+
+	// This function spawns a child window 
+
+	//   SpawnChild(URL including fully qualified URL's,
+	//				Width of the spawned window in pixels,
+	//				Height of the spawned window in pixels,
+	//				Centered (no/0 or 1/yes, which overrides the positioning values below),
+	//				Netscape distance from left in pixels (unless Centered = 1/yes),
+	//				Netscape distance from top in pixels (unless Centered = 1/yes),
+	//				Internet Explorer distance from left in pixels (unless Centered = 1/yes),
+	//				Internet Explorer distance from top in pixels (unless Centered = 1/yes),
+	//				Is window resizable? (no/0 or yes/1 - either works),
+	//				Display scrollbars? (no/0 or yes/1),
+	//				Display menubar? (no/0 or yes/1),
+	//				Display toolbar? (no/0 or yes/1),
+	//				Display statusbar? (no/0 or yes/1)
+	//				)
+
+	// Example - SpawnChild('http://192.168.0.1/ChildWindowContent.html','500','200','150','no','200','150','200','yes','yes','no','0','1')
+	// Creates a window that is 500x200 pels located 150 pels from the left and 200 pels from the top (NOT centered) which loads a page from a server at 192.168.0.1 named ChildWindowContent.html, resizable, with scrollbars & statusbar on.
+	
+	function SpawnChild(Content, ChildName, Width, Height, Centered, NSx, NSy, IEx, IEy, Resizable, ScrollBars, MenuBar, ToolBar, StatusBar){
+		if (window.child && !(window.child.closed))
+			window.child.close();
+		var URL=Content;
+		var Name=ChildName;
+ 		var WindowWidth=parseInt(Width);
+ 		var WindowHeight=parseInt(Height);
+		if ((Centered == "1")||(Centered == "yes")){
+			Left=(screen.width/2)-(Width/2);
+			Top=(screen.height/2)-(Height/2);
+			NSx=Left;
+			NSy=Top;
+			IEx=Left;
+			IEy=Top
+		}
+ 		var ScreenX=parseInt(NSx);
+ 		var ScreenY=parseInt(NSy);
+ 		var Left=parseInt(IEx);
+ 		var Top=parseInt(IEy);
+ 		var Resize=Resizable;
+ 		var SB=ScrollBars;
+		var MB=MenuBar;
+ 		var TB=ToolBar;
+ 		var Status=StatusBar;
+    	child=window.open(URL, Name, "width=" + WindowWidth + ",height=" + WindowHeight + ",screenX=" + ScreenX + ",screenY=" + ScreenY + ",left=" + Left + ",top=" + Top + ",resizable=" + Resize + ",scrollbars=" + SB + ",menubar=" + MB + ",toolbar=" + TB + ",status=" + Status);
+	}
+	</script>
+
+	<script src="language-en.js"></script>
+	<script src="nopcart.js">
+	//=====================================================================||
+	//               NOP Design JavaScript Shopping Cart                   ||
+	//                                                                     ||
+	// For more information on SmartSystems, or how NOPDesign can help you ||
+	// Please visit us on the WWW at http://www.nopdesign.com              ||
+	//                                                                     ||
+	// JavaScript Shop Module, V.4.4.0                                     ||
+	//=====================================================================||
+	</script>
+
+	<script>
+	function notify(form){
+		notice = form.QUANTITY.value + " " + form.NAME.value + "(s) added to your cart";
+		alert(notice);
+		AddToCart(form);
+	}
+	</script>
+</head>
+
+<!--
+.cellBlack {background-color: #000000;}
+.cellWhite {background-color: #FFFFFF;}
+.cellDkGray {background-color: #CCCCCC;}
+.cellLtGray {background-color: #E0E0E0;}
+.cellXLtGray {background-color: #F8F8F8;}
+.cellYellow {background-color: #FFFF00;}
+-->
+
+
+<body bgcolor="White" leftmargin=0 topmargin=0>
+
+<table width="600" border="0" cellpadding="0" cellspacing="0">
+<tr>
+	<td colspan="2"><img src="media/HolidayBasketsHeader2.gif" alt="" width="570" height="232" border="0"></td>
+</tr>
+</table>
+
+<table width="600" border="0" cellpadding="10" cellspacing="0">
+<tr>
+	<td valign="bottom">&nbsp;<font face="serif" size="+3"><strong>2004 Season</strong></font></td>
+	<td align="right"><a href="managecart.html"><img src="images/viewcart.gif" width="150" height="20" alt="" border="0"></a><br><font face="serif" size="1"><strong>**CALL FOR QUANTITY DISCOUNTS&nbsp;</strong></font></td>
+</tr>
+
+<!-- Sweet Indulgence Basket -->
+
+<tr bgcolor="#E0E0E0">
+<!--<tr bgcolor="#F8F8F8">-->
+	<td width="175" align="center" valign="top"><a href="javascript:SpawnChild('sweetindulgence2004.html','child','350','520','yes','40','40','40','40','0','0','0','0','0')" onMouseOver="imgOn('img1')" onMouseOut= "imgOff('img1')"><img src="images/sweetindulgencewrapped2004.jpg" alt="Click To Enlarge" name="img1" id="img1" width="175" border="0"></a><br><font face="serif" size="2">*Point to See Contents,<br>Click to Enlarge</font></td>
+	<td width="425" valign="top">
+		<div align="center"><font face="serif" size="5"><strong>Sweet Indulgence Basket</strong></font></div><br>
+		<ul>
+		<li>Williamsburg Chocolate Covered Peanuts</li>
+		<li>Williamsburg Toffee Peanuts</li>
+		<li>Danielle's Snowy Chocolate Popcorn</li>
+		<li>Danielle's Hand Made Chocolates</li>
+		<li>Hand Dipped Chocolate Oreo Cookies</li>
+		<li>Chocolate Carmel Pretzels</li>
+		<li>Melt-A-Way Mints</li>
+		<FORM NAME=order ACTION="" onSubmit="AddToCart(this);">
+			<table border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td><font face="serif" size="5"><em><strong>$59.00</strong></font>+S&amp;H</em></td>
+				<td><img src="images/spacer.gif" width="10" height="1" alt="" border="0"></td>
+				<td>Quantity: <input type=text size=2 maxlength=3 name=QUANTITY onChange='this.value=CKquantity(this.value)' value="1">&nbsp;&nbsp;<input type="submit" value="Add to Cart"></td>
+			</tr>
+			<tr>
+				<td colspan="3"><font face="serif" size="1"><em>CALL FOR LARGE QUANTITY DISCOUNTS</em></font></td>
+			</tr>
+			</table>
+			</ul>
+			<input type=hidden name=PRICE value="59.00">
+			<input type=hidden name=NAME value="Sweet Indulgence Basket">
+			<input type=hidden name=ID_NUM value="SWEET   ">
+		</FORM>
+	</td>
+</tr>
+
+<!-- Grand Gourmet Basket -->
+
+<tr bgcolor="#F8F8F8">
+	<td width="175" align="center" valign="top"><a href="javascript:SpawnChild('grandgourmet2004.html','child','350','520','yes','40','40','40','40','0','0','0','0','0')" onMouseOver="imgOn('img2')" onMouseOut= "imgOff('img2')"><img src="images/grandgourmetwrapped2004.jpg" alt="Click To Enlarge" name="img2" id="img2" width="175" border="0"></a><br><font face="serif" size="2">*Point to See Contents,<br>Click to Enlarge</font></td>
+	<td width="425" valign="top">
+		<div align="center"><font face="serif" size="5"><strong>Grand Gourmet Basket</strong></font></div><br>
+		<ul>
+		<li>Williamsburg Chocolate Covered Peanuts</li>
+		<li>Williamsburg Honey Toasted Cashews</li>
+		<li>Williamsburg Toffee Peanuts</li>
+		<li>Williamsburg Honey Roasted Peanuts</li>
+		<li>Danielle's Snowy Chocolate Popcorn</li>
+		<li>Danielle's Hand Made Chocolates</li>
+		<li>Danielle's English Toffee</li>
+		<li>Hand Dipped Chocolate Oreo Cookies</li>
+		<li>Chocolate Peppermint Bark</li>
+		<li>Chocolate Carmel Pretzels</li>
+		<li>Melt-A-Way Mints</li>
+		<FORM NAME=order ACTION="" onSubmit="AddToCart(this);">
+			<table border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td><font face="serif" size="5"><em><strong>$89.00</strong></font>+S&amp;H</em></td>
+				<td><img src="images/spacer.gif" width="10" height="1" alt="" border="0"></td>
+				<td>Quantity: <input type=text size=2 maxlength=3 name=QUANTITY onChange='this.value=CKquantity(this.value)' value="1">&nbsp;&nbsp;<input type="submit" value="Add to Cart"></td>
+			</tr>
+			<tr>
+				<td colspan="3"><font face="serif" size="1"><em>CALL FOR LARGE QUANTITY DISCOUNTS</em></font></td>
+			</tr>
+			</table><br>
+			</ul>
+			<input type=hidden name=PRICE value="89.00">
+			<input type=hidden name=NAME value="Grand Gourmet Basket">
+			<input type=hidden name=ID_NUM value="GRAND   ">
+		</FORM>
+	</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+	<td colspan="2" align="center"><font face="serif" size="5"><em><strong>Have a Special Request?  Call (702)642-6000 and we'll create a personalized, made-to-order basket just for you!</strong></em></font></td>
+</tr>
+<tr>
+	<td colspan="2" align="center"><a href="index.php"><b>HOME</b></a></td>
+</tr>
+</table>
+
+</body>
+</html>

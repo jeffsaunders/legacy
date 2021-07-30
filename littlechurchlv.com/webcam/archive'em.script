@@ -1,0 +1,24 @@
+# Archive webcam clips more than 60 days old
+# Grab year and month number for archive month (3 months ago from today, today being the first of the new month)
+set $(date --date='3 months ago' +%Y-%m)
+
+#echo 1 "$1";
+#echo 2 "$2";
+#echo 3 "$3";
+#echo 4 "$4";
+#echo 5 "$5";
+#echo 6 "$6";
+
+# Go where you belong
+#cd /var/www/html/littlechurchlv.com/httpdocs/webcam/
+cd /var/www/webcam/
+
+# Make destination directory
+#mkdir /var/www/html/littlechurchlv.com/httpdocs/webcam/$1
+mkdir /var/www/webcam/$1
+
+# Move every ".flv" file, in this directory, older than 60 days to destination
+#find . -type f -name '*.flv' -maxdepth 1 -mtime +60 -exec mv {} $1 \;
+find . -maxdepth 1 -type f -name '*.flv' -mtime +60 -exec mv {} $1 \;
+
+

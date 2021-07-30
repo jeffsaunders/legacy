@@ -1,0 +1,57 @@
+Nov-02-2011 10:22:25
+=================================
+
+Response Code: 1.
+Response Text: (TESTMODE) This transaction has been approved.
+
+Results Received back from Authorizenet: Array
+(
+    [x_response_code] => 1
+    [x_response_reason_code] => 1
+    [x_response_reason_text] => (TESTMODE) This transaction has been approved.
+    [x_avs_code] => P
+    [x_auth_code] => 000000
+    [x_trans_id] => 0
+    [x_method] => CC
+    [x_card_type] => MasterCard
+    [x_account_number] => XXXX3758
+    [x_first_name] => Charles
+    [x_last_name] => Bowen
+    [x_company] => Boeing Aerospace
+    [x_address] => 6211 Aviation Ave
+    [x_city] => Jacksonville, Fl
+    [x_state] => Florida
+    [x_zip] => 32221
+    [x_country] => United States
+    [x_phone] => 904-317-2637
+    [x_fax] => 
+    [x_email] => charles.i.bowen@boeing.com
+    [x_invoice_num] => 
+    [x_description] => Website Purchase from DCM Clean Air Store
+    [x_type] => auth_capture
+    [x_cust_id] => 8
+    [x_ship_to_first_name] => Jeff
+    [x_ship_to_last_name] => Jennings
+    [x_ship_to_company] => Boeing Aerospace
+    [x_ship_to_address] => 1899 Berstrom Drive
+    [x_ship_to_city] => Ellsworth AFB
+    [x_ship_to_state] => South Dakota
+    [x_ship_to_zip] => 57706
+    [x_ship_to_country] => United States
+    [x_amount] => 129.71
+    [x_tax] => 0.00
+    [x_duty] => 0.00
+    [x_freight] => 0.00
+    [x_tax_exempt] => FALSE
+    [x_po_num] => 
+    [x_MD5_Hash] => DB60DECEE5FFE354DB9B83C48A1CA8D6
+    [x_cvv2_resp_code] => 
+    [x_cavv_response] => 
+    [x_test_request] => true
+    [zenid] => 120f05bdcff53c028160abcf23370965
+    [HashValidationValue] => DB60DECEE5FFE354DB9B83C48A1CA8D6
+    [HashMatchStatus] => PASS
+    [url] => https://secure.authorize.net/gateway/transact.dll
+)
+
+

@@ -1,0 +1,124 @@
+/* CSS Document for IE */
+
+/* GLOBAL */
+body {font-family:Arial,Helvetica,sans-serif; font-size:13px; color:#DADADA; text-align:justify; line-height:1.3em; background-color:#282828; margin:0px; }
+.imageBorder {border:solid 5px #282828;}
+.bodyText {font-family:Arial,Helvetica,sans-serif; font-size:13px; color:#DADADA; line-height:1.3em; text-decoration:none;}
+A.bodyText {font-family:Myvetica,sans-serif; font-size:10px; color:#DADADA; cursor:pointer; text-decoration:none;}
+A.bodyText:hover {color:Red; cursor:pointer; text-decoration:underline;}
+A.bodyText:active {color:Red; cursor:pointer;}
+A.bodyText:visited {color:#DADADA; cursor:pointer;}
+A.bodyText:visited:hover {color:Red; cursor:pointer; text-decoration:underline;}
+
+.smallText {font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#DADADA; vertical-align:text-bottom; text-decoration:none;}
+
+/* HEADER */
+div#headerContainer {position:relative; top:0px; left:0px; width:960px; height:84px; z-index:1;}
+div#soundModule {position:absolute; bottom:0px; right:0px; width:60px; height:30px; z-index:2}
+
+/* MENU */
+div#menuContainer {position:relative; top:0px; left:0px; width:960px; height:35px; background-color:#282828; z-index:2;}
+
+ul#menuLevel1 {position:relative; left:5px; font-family:Arial,Helvetica,sans-serif; font-size:12px; letter-spacing:1px; color:#FFFFFF; list-style:none; margin:0px; z-index:3;}
+ul#menuLevel1 li {position:relative; top:4px; left:0px; padding:0px 5px 0px 0px; display:block; float:left; background:transparent;}
+/*ul#menuLevel1 li a {font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#DADADA; display:block; padding:7px; text-decoration:none;} 
+ul#menuLevel1 li a:hover {color:#FF0000; background-color:#686868; display:block; text-decoration:none;} 
+ul#menuLevel1 li a:active {color:#FF0000; background-color:#686868; display:block; text-decoration:none;} 
+ul#menuLevel1 li a:visited {color:#DADADA; display:block; text-decoration:none;} 
+ul#menuLevel1 li a:visited:hover {color:#FF0000; background-color:#686868; display:block; text-decoration:none;}*/
+ul#menuLevel1 li a {font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#FFFFFF; display:block; padding:7px; text-decoration:none;} 
+ul#menuLevel1 li a:hover {color:#FFFFFF; background-color:#000000; display:block; text-decoration:none;} 
+ul#menuLevel1 li a:active {color:#FFFFFF; background-color:#000000; display:block; text-decoration:none;} 
+ul#menuLevel1 li a:visited {color:#FFFFFF; display:block; text-decoration:none;} 
+ul#menuLevel1 li a:visited:hover {color:#FFFFFF; background-color:#000000; display:block; text-decoration:none;} 
+
+ul#menuLevel1 li ul.menuLevel2 {position:absolute; top:21px; left:-42px; width:175px; padding:1px 1px 1px 1px; letter-spacing:1px; list-style:none; display:block; z-index:65535;}
+/*ul#menuLevel1 li ul.menuLevel2 li {position:relative; left:0px; width:175px; padding:0px 0px 0px 0px; display:block; float:left; border-right:none; border-top:1px solid #252525; background:#686868;}
+ul#menuLevel1 li ul.menuLevel2 li a {font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#DADADA; display:block; padding:7px; text-align:left; text-decoration:none;} 
+ul#menuLevel1 li ul.menuLevel2 li a:hover {color:#FF0000; background:#252525; display:block; text-decoration:none;} 
+ul#menuLevel1 li ul.menuLevel2 li a:active {color:#FF0000; background:#252525; display:block; text-decoration:none;} 
+ul#menuLevel1 li ul.menuLevel2 li a:visited {color:#DADADA; display:block; text-decoration:none;} 
+ul#menuLevel1 li ul.menuLevel2 li a:visited:hover {color:#FF0000; background:#252525; display:block; text-decoration:none;}*/
+ul#menuLevel1 li ul.menuLevel2 li {position:relative; left:0px; width:175px; padding:0px 0px 0px 0px; display:block; float:left; border:1px solid #181818; background:#383838;}
+ul#menuLevel1 li ul.menuLevel2 li a {font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#FFFFFF; display:block; padding:7px; text-align:left; text-decoration:none;} 
+ul#menuLevel1 li ul.menuLevel2 li a:hover {color:#FFFFFF; background:#000000; display:block; text-decoration:none;} 
+ul#menuLevel1 li ul.menuLevel2 li a:active {color:#FFFFFF; background:#000000; display:block; text-decoration:none;} 
+ul#menuLevel1 li ul.menuLevel2 li a:visited {color:#FFFFFF; display:block; text-decoration:none;} 
+ul#menuLevel1 li ul.menuLevel2 li a:visited:hover {color:#FFFFFF; background:#000000; display:block; text-decoration:none;}
+
+/* BODY */
+div#bodyContainer {position:relative; top:0px; left:0px; width:960px; padding:7px 7px 0px 7px; background-color:#181818; z-index:1;}
+div#contentContainer {position:relative; top:0px; left:0px; width:960px; padding:0px 0px 7px 0px; background-color:#181818; z-index:1;}
+.sectionLabel {position:relative; top:0px; font-family:Arial,Helvetica,sans-serif; font-size:16px; color:#EAEAEA; text-decoration:none; padding:7px 0px 7px 7px;}
+
+/* HOME PAGE */
+div#fadeShow1 {position:relative; top:0px; left:0px; width:960px; display:inline-block; background-color:transparent; z-index:1;}
+
+/* CONTENT PAGES */
+div#productTabsContainer {position:relative; top:0px; left:0px; width:946px; display:inline-block; padding:10px 7px 0px 7px; background-color:#282828; z-index:1;}
+
+div#tabsContainer {position:relative; top:3px; left:-3px; width:946px; height:40px; background-color:transparent; z-index:1;}
+.tabContainer {position:relative; top:6px; left:0px; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#DADADA; display:block; padding:7px; background-color:#383838; cursor:pointer; text-decoration:none; z-index:1;}
+.tabHover {position:relative; top:6px; left:0px; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#FF0000; display:block; padding:7px; background-color:#484848; cursor:pointer; text-decoration:none; z-index:1;}
+
+div#productInfoContainer {position:relative; top:0px; left:0px; width:960px; padding:0px 0px 7px 0px; background-color:#282828; z-index:1;}
+
+.imageContainer {border:solid 1px #181818;}
+
+.infoContainer {position:relative; top:0px; left:7px; width:946px; display:inline-block; background-color:#484848; z-index:1; visibility:hidden;}
+.infoLabel {font-family:Arial,Helvetica,sans-serif; font-size:18px; font-weight:bold; color:#DADADA; text-decoration:none;}
+.staticInfoContainer {position:relative; top:0px; left:7px; width:946px; display:inline-block; background-color:#484848; z-index:1;}
+.detailsContainer {position:relative; top:0px; left:0px; width:875px; display:inline-block; background-color:#484848; z-index:1; visibility:hidden;}
+.staticContainer {background-color:#282828; border:solid 1px #585858; padding:15px 15px 15px 15px; line-height:1.5em; text-align:left;}
+
+.eventContainer {background-color:#282828; border:solid 1px #585858; padding:10px 10px 10px 10px; line-height:1.5em; text-align:left;}
+.eventLabel {font-family:Arial,Helvetica,sans-serif; font-size:16px; color:Red; text-decoration:none;}
+A.eventLink {font-family:Myvetica,sans-serif; font-size:13px; color:#DADADA; cursor:pointer; text-decoration:underline;}
+A.eventLink:hover {color:Red; cursor:pointer; text-decoration:underline;}
+A.eventLink:active {color:Red; cursor:pointer;}
+A.eventLink:visited {color:#DADADA; cursor:pointer;}
+A.eventLink:visited:hover {color:Red; cursor:pointer; text-decoration:underline;}
+
+.contactContainer {background-color:#282828; border:solid 1px #585858; padding:20px 0px 20px 20px; line-height:1.45em; text-align:left;}
+.contactLabel {font-family:Arial,Helvetica,sans-serif; font-size:16px; color:#DADADA; text-decoration:none;}
+A.contactLink {font-family:Myvetica,sans-serif; font-size:13px; color:Red; cursor:pointer; text-decoration:none;}
+A.contactLink:hover {color:Red; cursor:pointer; text-decoration:underline;}
+A.contactLink:active {color:Red; cursor:pointer;}
+A.contactLink:visited {color:Red; cursor:pointer;}
+A.contactLink:visited:hover {color:Red; cursor:pointer; text-decoration:underline;}
+
+.detailsButton {position:relative; top:-3px; left:0px; width:100px; display:inline-block; padding:1px; letter-spacing:1px; background-color:#383838; cursor:pointer; text-align:center; text-decoration:none; border:solid 5px #282828; z-index:1;}
+A.detailsButton {font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#DADADA; display:block; padding:7px; text-decoration:none;} 
+A.detailsButton:hover {color:#FF0000; display:block; text-decoration:none;} 
+A.detailsButton:active {color:#FF0000; display:block; text-decoration:none;} 
+A.detailsButton:visited {color:#DADADA; display:block; text-decoration:none;} 
+A.detailsButton:visited:hover {color:#FF0000; display:block; text-decoration:none;} 
+
+A.detailsThumbnail:hover {cursor:pointer;}
+
+.detailsColumnHeader {background-color:#DADADA; color:#383838; text-align:center;}
+.detailsColumn {padding:0px 0px 0px 5px;}
+
+.galleryContainer {background-color:#383838; border:solid 1px #585858;}
+.galleryThumbnail {width:150px; height:100px; border:solid 2px #C0C0C0; background-color:#484848; overflow:hidden;}
+A.galleryThumbnail:hover {cursor:pointer;}
+
+.locationGalleryThumbnail {width:150px; height:100px; border:solid 2px #C0C0C0; background-color:#484848; overflow:hidden;}
+
+.packagingContainer {background-color:#282828; border:solid 1px #585858; padding:0px 15px 15px 15px; line-height:1.5em; text-align:center;}
+
+.techSpecsContainer {background-color:#282828; border:solid 1px #585858; padding:0px 15px 15px 15px; line-height:1.5em; text-align:center;}
+
+.productSeperator {background-color:#181818;}
+.packageSeperator {background-color:#AAAAAA;}
+
+/* FOOTER */
+div#footerContainer {position:relative; top:0px; left:0px; width:975px; height:25px; z-index:0;}
+div#footerContact {position:absolute; bottom:0px; left:0px; font-family:Arial,Helvetica,sans-serif; font-size:11px; color:#DB1E1E; z-index:0;}
+div#footerTranslate {position:absolute; bottom:0px; left:300px; z-index:0;}
+div#footerCopyright {position:absolute; bottom:0px; right:0px; font-family:Arial,Helvetica,sans-serif; font-size:11px; color:#686868; z-index:0;}
+div#footerCopyright a {font-family:Arial,Helvetica,sans-serif; font-size:11px; color:#686868; text-decoration:none;} 
+div#footerCopyright a:hover {color:#FF0000; text-decoration:none;} 
+div#footerCopyright a:active {color:#FF0000; text-decoration:none;} 
+div#footerCopyright a:visited {color:#686868; text-decoration:none;} 
+div#footerCopyright a:visited:hover {color:#FF0000; text-decoration:none;}

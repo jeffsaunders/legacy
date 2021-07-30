@@ -1,0 +1,11 @@
+To: lorie@photographybylorie.com
+From: [email]
+Subject: Web Site Info Request
+
+Visitor's name:  [name]
+
+Visitor's e-mail:  [email]
+
+Visitor's phone number: [phone]
+
+Visitor's comments or question: [comments]

@@ -1,0 +1,51 @@
+    <ul class="tabs">
+        <li class="active">NuCaptcha Sign In</li>
+    </ul>
+    <div class="tab_panel">
+        <form class="adminform" method="post" action="">
+            <?php nucaptcha_nonce_field('signin');?>
+            <table>
+                <tr>
+                    <th colspan=3>NuCaptcha Account Sign In</th>
+                </tr>
+
+				<tr>
+                    <td colspan="3" class="highlight">What is your email address?</td>
+				</tr>
+                <tr>
+                    <td width="200px" style="text-indent: 8px;">My email address is:</td>
+                    <td colspan="2"><input id='email' tabindex="1" name="email" type="text" maxlength=256 size=38 value="<?php echo NuCaptchaData::Get('email'); ?>"></td>
+                </tr>
+
+				<tr class="spacer"><td colspan="3"></td></tr>
+
+				<tr>
+                    <td colspan="3" class="highlight">Do you have a NuCaptcha account password?</td>
+				</tr>
+				<tr>
+                    <td class="c1" style="text-indent: 8px;"><input type="radio" id="radio_password_new" class="radio_password" name="radio_password" value="new"><label for="radio_password_new">No, I am a new customer</label></td>
+                    <td class="c2"></td>
+                    <td class="c3"></td>
+                </tr>
+                <tr>
+                    <td class="c1" style="text-indent: 8px;"><input type="radio" id="radio_password_existing" class="radio_password" name="radio_password" value="existing" checked><label for="radio_password_existing">Yes, I have a password</label></td>
+                    <td class="c2"><input name="password" tabindex="2" id="password" type="password" maxlength=64 size=38><br> <a href="http://console.nucaptcha.com/account/recover" target="_blank" style="font-size:x-small;text-decoration: none; margin-left: 4px;">Forgot your password? Click here</a></td>
+                    <td class="c3" id="password_msg"></td>
+                </tr>
+                <tr>
+                    <td class="c1"></td>
+                    <td class="c2">
+						<?php
+						 echo '<input type="hidden" id="referrer" value="'.lmApiClient::NUCAPTCHA_REFERRER_ID.'">';
+						 ?>
+						<input name="submit_signin" tabindex="3" id="input_submit" type="submit" value="Secure Sign In">
+					</td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+
+<script type="text/JavaScript">
+    SetupAdminForm_SignIn();
+</script>

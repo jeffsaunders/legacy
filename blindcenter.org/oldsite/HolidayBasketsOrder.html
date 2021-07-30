@@ -1,0 +1,305 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+
+<!--
+Holiday Basket Order Form
+
+Design Copyright 2001 Network Resources
+Images Copyright 2001 ISIGHT Center for the Blind
+Authored by Jeff S. Saunders 10/16/2001
+Modified by Jeff S. Saunders 09/19/2002
+-->
+
+<html>
+
+<head>
+	<title>Blind Center of Nevada</title>
+
+	<script language="Javascript">
+	// This function restricts keypresses for a given field to numbers only
+	function keyCheck(eventObj, obj)
+	{
+		var keyCode
+		// Check For Browser Type
+		if (document.all){ 
+			keyCode=eventObj.keyCode
+		}
+		else{
+			keyCode=eventObj.which
+		}
+		var str=obj.value
+		if(keyCode==46){ // Allow only 1 decimal in a number
+			if (str.indexOf(".")>0){
+				return false
+			}
+		}
+		if((keyCode<45 || keyCode >58) && (keyCode != 46)){ // Allow only integers, forward slashes, hyphens & decimal points
+			return false
+		}
+		return true
+	}
+	</script>
+
+	<script language="JavaScript">
+	// This function calculates values and populates the rest of the order form with the results
+	function calculate()
+	{
+		var orderform=document.basketorder
+		var itemvalue = "75"; //this is the price of the basket
+//		var salestaxvalue = ".0725"; //this is the sales tax percentage.
+		var quantity = eval(orderform.quantity.value);
+
+		// Multiplying a text value by 1 converts it to integer
+		var itemtotal = Math.round((quantity * (1*itemvalue))*100)/100;
+
+		// 10% discount if ordered before November 1
+		var now = new Date();
+	    var today = new Date(now.getYear(),now.getMonth(),now.getDate());
+		var deadline = new Date("November 1, 2002");
+	    if (deadline > today){
+			var discount = Math.round((quantity * (1*10))*100)/100;
+		}else{
+			var discount = 0;
+		}
+
+		// Multiplying the value by 100 will move the decimal point 2 places, then
+		// rounding it off will drop everything to the right of the decimal, then
+		// dividing by 100 will move the decimal back - resulting in rounding to cents.
+		// watch for last digit == "0", it will be dropped :(
+		// Could write code to evaluate for trailing zeros and add them as needed.
+//		var salestax = Math.round((itemtotal * salestaxvalue)*100)/100;
+		var subtotal = itemtotal - discount //+ salestax
+		var ordertotal = Math.round((subtotal + (1*shipcost))*100)/100;
+
+		// If the cents == ".00" then they will be dropped - must replace them for display
+		// potential problem is when they DON'T == ".00", then you will get the right
+		// value with ".00" added to the end (i.e. 18.99.00) - watch for this.
+		// Again, could write code to evaluate for trailing zeros and add them only as needed.
+		orderform.item_total.value = itemtotal + ".00";
+		orderform.discount.value = discount + ".00";
+//		orderform.salestax.value = salestax;
+		orderform.subtotal.value = subtotal + ".00";
+
+		// Array of shipping costs - corresponds with list box
+		var shipcost=new Array()
+			shipcost[0]="0"
+			shipcost[1]="10"
+			shipcost[2]="0"
+			shipcost[3]="0"
+		var ordertotal = Math.round((subtotal + (1*shipcost[orderform.ship_method.selectedIndex]))*100)/100;
+		orderform.shipcost.value = shipcost[orderform.ship_method.selectedIndex] + ".00";
+		orderform.order_total.value = ordertotal + ".00";
+		if (orderform.ship_method.selectedIndex == 0){
+			return false;
+		}
+		if (orderform.ship_method.selectedIndex == 1){
+			return true;
+		}
+		if (orderform.ship_method.selectedIndex == 2){
+			alert("Please Call (702)642-6000 For Shipping Cost");
+			return true;
+		}
+		if (orderform.ship_method.selectedIndex == 3){
+			alert("You Will Be Contacted When Your Order Is Complete.");
+			return true;
+		}
+	}
+
+	</script>
+	
+	<script language="javascript">
+	// This function checks to see if they are on a Mac, then prints the page if not.
+	function PrintPage() {
+	if (navigator.appName.indexOf("Microsoft")>=0 && navigator.appVersion.substring(22,23) == 4 || navigator.platform.substring(0,3) == "Mac") {
+		alert("Your current browser does not support this button.  Please choose File/Print from your browser's menu.");
+		} else {
+			window.print();
+        }
+	}
+	</script>
+	
+</head>
+	
+<body bgcolor="White" leftmargin=0 topmargin=0>
+
+<table width="600" border="0" cellpadding="0" cellspacing="0">
+<tr>
+	<td colspan="2" align="center"><img src="media/HolidayBasketsHeader2.gif" width=570 height=232 alt="" border=0><br><hr width="100%"></td>
+</tr>
+<tr>
+	<td width="150" align="right"><img src="media/3Ways.gif" width=100 height=99 alt="3 Ways to Order!" border=0></td>
+	<td width="450" align="center"><font face="serif" size="5"><b>Call (702) 642-6000</b><br><br><i>or <a href="javascript:if (window.print != null) { window.print(); } else { alert('Your browser does not support printing from here.  Please Print from the File menu.'); }" onmouseover="self.status='Print This Page';return true">print</a> this page, fill it out, and mail to:</i><br><b>Blind Center of Nevada<br>1001 N. Bruce Street<br>Las Vegas, NV &nbsp;89101</b><br><br><i>or complete this order form and press <b>order</b>:</i></font></td>
+</tr>
+</table>
+
+<table width="600" border="0" cellpadding="0" cellspacing="0">
+<tr>
+	<td colspan="2"><hr></td>
+</tr>
+<tr>
+	<td width="180">&nbsp;</td>
+	<td>
+		<form action="orderbasket.php" method="post" name="basketorder">
+		<input type="hidden" name="recipient" value="contact@blindcenter.org">
+		<input type="hidden" name="subject" value="Holiday Basket Order">
+		<input type="hidden" name="required" value="bill_first_name,bill_last_name,bill_address1,bill_city,bill_state,bill_zip,bill_phone,ship_first_name,ship_last_name,ship_address1,ship_city,ship_state,ship_zip,ship_phone,quantity,item_total,subtotal,ship_method,order_total">  <!--salestax,-->
+		<input type="hidden" name="print_blank_fields" value="1">
+		<input type="hidden" name="redirect" value="basketorderthanks.html">
+		<table border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td align="left"><font size="4"><b>BILL TO:</b></font><br><br>
+			<table border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td align="right" valign="top"><b>Name:</b></td>
+				<td><input type="text" name="bill_first_name" size="16" maxlength="20">&nbsp;<br><font size="-2"><b>&nbsp;First</b></td>
+				<td><input type="text" name="bill_middle_name" size="4" maxlength="20">&nbsp;<br><font size="-2"><b>&nbsp;Middle</b></td>
+				<td><input type="text" name="bill_last_name" size="16" maxlength="20"><br><font size="-2"><b>&nbsp;Last</b></td>
+			</tr>
+			<tr>
+				<td align="right" valign="top"><b>Address:</b></td>
+				<td colspan="3"><input type="text" name="bill_address1" size="41" maxlength="50"><br><input type="text" name="bill_address2" size="41" maxlength="50"></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td><input type="text" name="bill_city" size="16" maxlength="20">&nbsp;<br><font size="-2"><b>&nbsp;City</b></td>
+				<td><input type="text" name="bill_state" size="4" maxlength="20">&nbsp;<br><font size="-2"><b>&nbsp;State</b></td>
+				<td><input type="text" name="bill_zip" size="16" maxlength="20"><br><font size="-2"><b>&nbsp;Zip</b></td>
+			</tr>
+			<tr>
+				<td align="right" valign="top"><b>Phone:</b></td>
+				<td colspan="3"><input type="text" name="bill_phone" size="16" maxlength="20">&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="bill_phone_type" value="Voice" checked>&nbsp;<b>Voice</b>&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="bill_phone_type" value="TTY">&nbsp;<b>TTY</b></td>
+			</tr>
+			</table>
+			</td>
+		</tr>
+		</table>
+	</td>
+</tr>	
+<tr>
+	<td colspan="2"><hr></td>
+</tr>
+	<td width="180">&nbsp;</td>
+	<td>
+		<table border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td align="left"><font size="4"><b>SHIP TO: (no P.O. Boxes)</b></font><br><br>
+			<table border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td align="right" valign="top"><b>Name:</b></td>
+				<td><input type="text" name="ship_first_name" size="16" maxlength="20">&nbsp;<br><font size="-2"><b>&nbsp;First</b></td>
+				<td><input type="text" name="ship_middle_name" size="4" maxlength="20">&nbsp;<br><font size="-2"><b>&nbsp;Middle</b></td>
+				<td><input type="text" name="ship_last_name" size="16" maxlength="20"><br><font size="-2"><b>&nbsp;Last</b></td>
+			</tr>
+			<tr>
+				<td align="right" valign="top"><b>Address:</b></td>
+				<td colspan="3"><input type="text" name="ship_address1" size="41" maxlength="50"><br><input type="text" name="ship_address2" size="41" maxlength="50"></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td><input type="text" name="ship_city" size="16" maxlength="20">&nbsp;<br><font size="-2"><b>&nbsp;City</b></td>
+				<td><input type="text" name="ship_state" size="4" maxlength="20">&nbsp;<br><font size="-2"><b>&nbsp;State</b></td>
+				<td><input type="text" name="ship_zip" size="16" maxlength="20"><br><font size="-2"><b>&nbsp;Zip</b></td>
+			</tr>
+			<tr>
+				<td align="right" valign="top"><b>Phone:</b></td>
+				<td colspan="3"><input type="text" name="ship_phone" size="16" maxlength="20">&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="ship_phone_type" value="Voice" checked>&nbsp;<b>Voice</b>&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="ship_phone_type" value="TTY">&nbsp;<b>TTY</b></td>
+			</tr>
+			</table>
+		</tr>
+		</table>
+	</td>
+</tr>	
+<tr>
+	<td colspan="2"><hr></td>
+</tr>
+	<td width="180">&nbsp;</td>
+	<td>
+		<table border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td align="left">
+			<table border="1" cellspacing="0" cellpadding="0">
+			<tr>
+				<td align="center"><b>Quantity</b></td>
+				<td width="200" align="center"><b>Basket</b></td>
+				<td align="center"><b>Total</b></td>
+			</tr>
+			<tr>
+				<td align="center"><input type="text" onKeyPress="return keyCheck(event, this)" onBlur="calculate();" name="quantity" size="5" maxlength="5" style="text-align: center;"></td>
+				<td align="right"><font size="-1"><b><i>$75.00 each for a beautiful gift basket set!</i></b></font></td>
+				<td align="right">$<input type="text" name="item_total" size="8" maxlength="8" style="text-align: right;"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right"><font size="-1"><b>Discount</b></font></td>
+				<td align="center">$<input type="text" name="discount" size="8" maxlength="8" style="text-align: right;"></td>
+			</tr>
+<!--			<tr>
+				<td colspan="2" align="right"><font size="-1"><b>Sales Tax (7.25%)</b></font></td>
+				<td align="center">$<input type="text" name="salestax" size="8" maxlength="8" style="text-align: right;"></td>
+			</tr> -->
+			<tr>
+				<td colspan="2" align="right"><font size="-1"><b>Subtotal</b></font></td>
+				<td align="center">$<input type="text" name="subtotal" size="8" maxlength="8" style="text-align: right;"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right">
+					<SELECT NAME="ship_method" onChange="calculate(ship_method.value);">
+						<OPTION VALUE="">Select Shipping Method</OPTION>
+						<OPTION VALUE="Deliver Within Las Vegas">Delivery Within Las Vegas</OPTION>
+						<OPTION VALUE="Ship Outside Las Vegas">Ship Outside Las Vegas</OPTION>
+						<OPTION VALUE="Pickup at ISIGHT Center">Pickup at ISIGHT Center</OPTION>
+					</SELECT>
+					&nbsp;<font size="-1"><b>Shipping/Handling<br></font></td>
+				<td align="right">$<input type="text" name="shipcost" size="8" maxlength="8" style="text-align: right;"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right"><font size="-1"><b>ORDER TOTAL</b></font></td>
+				<td align="center">$<input type="text" name="order_total" size="7" maxlength="7" style="text-align: right; font-weight: bold;"></td>
+			</tr>
+			</table>
+		</tr>
+		<tr>
+			<td align="left"><b>Greeting To Read:</b><br><textarea cols=45 rows=3 name="order_greeting" wrap="physical"></textarea></td>
+		</tr>
+		<tr>
+			<td align="left"><b>Method of Payment:</b></font><br>
+			<table border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>&nbsp;</td>
+				<td align="center" valign="top"><input type="radio" name="payment_type" value="Check" checked>&nbsp;<b>Check</b>&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="payment_type" value="MasterCard">&nbsp;<b>MasterCard</b>&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="payment_type" value="Visa">&nbsp;<b>Visa</b></td>
+			</tr>
+			<tr>
+				<td align="right" valign="top"><b>Card #:</b></td>
+				<td><input type="text" onKeyPress="return keyCheck(event, this)" name="card_number" size="41" maxlength="41"></td>
+			</tr>
+			<tr>
+				<td align="right" valign="top"><b>Exp. Date:</b></td>
+				<td><input type="text" onKeyPress="return keyCheck(event, this)" name="card_expiration" size="41" maxlength="41"></td>
+			</tr>
+			</table>	
+		</tr>
+		</table>
+	</td>
+</tr>	
+<tr>
+	<td colspan="2"><hr></td>
+</tr>
+	<td width="180">&nbsp;</td>
+	<td>
+		<table border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td align="center"><input type="submit" value="Order">&nbsp;<input type="reset" value="Clear"><br></td>
+		</tr>
+		<tr>	
+			<td><div align="center"><b>FOR SHIPMENTS OUTSIDE LAS VEGAS, PLEASE CALL!</b><br><i>TAX DEDUCTIBLE AS ALLOWED BY LAW</i></div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" align="center"><a href="index.php"><b>HOME</b></a></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>
+
+</body>
+
+</html>

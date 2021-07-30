@@ -1,0 +1,347 @@
+
+<html>
+	<head>
+		<title>Refinance Interest Savings</title>
+		<META HTTP-EQUIV="Expires" CONTENT="-1">
+		<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+		<META NAME="keywords" CONTENT="REAL ESTATE APPRAISER, REAL ESTATE APPRAISAL, RESIDENTIAL APPRAISER, RESIDENTIAL APPRAISALS, RESIDENTIAL APPRAISAL, RESIDENTIAL REAL ESTATE APPRAISER, RESIDENTIAL REAL ESTATE APPRAISALS, APPRAISER, APPRAISAL, REAL ESTATE, APPRAISAL SERVICES, APPRAISER SERVICES, LOCAL APPRAISERS, BUSINESS APPRAISAL, BUSINESS VALUATION, BUSINESS OPPORTUNITY, BUSINESS VALUATION, APPRAISING, HOME APPRAISAL, HOME APPRAISER, HOME APPRAISALS, LOAN APPRIASALS, LOAN APPRAISAL, MORTGAGE APPRAISAL, MORTGAGE APPRAISER, MORTGAGE APPRAISALS, APPRAISAL EXPERT WITNESS, APPRAISAL TESTIMONY, EXPERT WITNESS APPRAISAL, LITIGATION SUPPORT, AQB CERTIFIED USPAP INSTRUCTOR, USPAP EXPERT, LITIGATION CONSULTANT">
+		<META NAME="description" CONTENT="Use this calculator to see how much interest you can save by refinancing your mortgage!">
+
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/themeScripts.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/flashobject.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" SRC="/scripts/flashPopup.js"></SCRIPT>
+
+		<LINK rel="stylesheet" type="text/css" href="/Styles.css">
+		<LINK rel="stylesheet" type="text/css" href="/templates/themes/mountain/styleSheet.css">
+		
+	</head>
+
+	<body bgcolor="#FFFFFF" topmargin="0" leftmargin="0">
+			
+		<div id="flashPopupNavLeft" style="position:absolute; width:5px; height:5px; z-index:999; left: -200px; top: 200px; visibility: visible;" onMouseOver="stopTime();" onMouseOut="startTime();">
+			<!-- alt content goes here, renders when the user doesn't have the proper flash file -->
+		</div>
+			
+		<table id="flashNav" width="764" align="center" height="100%" border="0" cellpadding="0" cellspacing="10">
+			<tr> 
+				<td width="764" height="142" colspan="3" bgcolor="#FFFFFF">
+					<div id="topFlashNav"><!-- needs flash plugin --></div>
+				</td>
+			</tr>
+			<tr>
+				<td class="nav" width="160" valign="top" bgcolor="#FFFFFF">
+					<div id="leftFlashNav"><!-- needs flash plugin --></div>
+				</td>
+				
+				<script type="text/javascript">
+				
+					var dtDate = new Date();
+					var szPageGuid = dtDate.getUTCMilliseconds().toString();
+				
+					// <![CDATA[
+					var foTop = new FlashObject("/templates/themes/FamilyLight/TopNav.swf", "topNav", "764", "142", 7, "#FFFFFF", "/XSitesBasic/HTMLSite.aspx");
+					foTop.addVariable("host", "www.ascentnv.com");
+					foTop.addVariable("AWSAccountsID", "27120");
+					foTop.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foTop.addVariable("ChosenLanguage", "English");
+					foTop.addVariable("IsMaster", "True");
+					foTop.addVariable("lcGuid", szPageGuid);
+					foTop.addParam("wmode", "transparent");
+					foTop.addParam("scale", "noscale");
+					foTop.addParam("salign", "lt");
+					foTop.addParam("menu", "false");
+					foTop.write("topFlashNav");
+
+					var foSec = new FlashObject("/templates/themes/FamilyLight/LeftNav.swf", "leftNav", "160", "650", 7, "#FFFFFF");
+					foSec.addVariable("host", "www.ascentnv.com");
+					foSec.addVariable("AWSAccountsID", "27120");
+					foSec.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foSec.addVariable("ChosenLanguage", "English");
+					foSec.addVariable("lcGuid", szPageGuid);
+					foSec.addParam("scale", "noscale");
+					foSec.addParam("salign", "lt");
+					foSec.addParam("menu", "false");
+					foSec.write("leftFlashNav");
+					
+					var foDiv = new FlashObject("/templates/themes/nestedNav/style1.swf", "popupSwf", "200", "25", 7, "#FFFFFF");
+					foDiv.addVariable("host", "www.ascentnv.com");
+					foDiv.addVariable("AWSAccountsID", "27120");
+					foDiv.addVariable("sitename", "/xSites/Appraisers/ascentnv/");
+					foDiv.addVariable("ChosenLanguage", "English");
+					foDiv.addVariable("lcGuid", szPageGuid);
+					foDiv.addParam("scale", "noscale");
+					foDiv.addParam("salign", "lt");
+					foDiv.addParam("menu", "false");
+					foDiv.write("flashPopupNavLeft");
+					// ]]>
+				</script>
+				
+				<td width="604" valign="top" bgcolor="#FFFFFF">
+					<table border="0" cellpadding="0" cellspacing="0" width="100%">
+						<tr>
+							<td>
+<script language="JavaScript" type="text/JavaScript" src="/Admin/JS/WizardV1.js"></script>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+	<tr>
+		
+		
+		
+		<td>
+		</td>
+		
+	</tr>
+	<tr>
+		<td width="100%" valign=top colspan=7>
+			
+<SCRIPT TYPE="text/javascript" SRC="/scripts/flashobject_fp8.js"></SCRIPT>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+	<tr>
+		<td>
+			<!--<img src="/graphics/shim.gif" border="0" width="10" height="10">-->
+		</td>
+		<td width="100%" valign=top>
+			<CENTER>
+<APPLET name="calculator" code="MortgageRefinance.class" align="baseline" WIDTH="565" HEIGHT="520" archive="dinkytown.jar" codebase="/Scripts">
+<PARAM name="ORIGINIAL_LOAN_AMT" value="95000">
+<PARAM name="CURRENT_RATE" value="8.5">
+<PARAM name="CURRENT_LENGTH" value="30">
+<PARAM name="CURRENT_YEARS_REMAINING" value="25">
+<PARAM name="CURRENT_PMI_RATE" value="0.5">
+<PARAM name="PLEASE_COMPUTE" value="1">
+<PARAM name="NEW_RATE" value="6.25">
+<PARAM name="LOAN_ORIGINATION_RATE" value="1.0">
+<PARAM name="POINTS_PAID_NBR" value="1.0">
+<PARAM name="PMI_RATE" value="0.5">
+<PARAM name="OTHER_CLOSING_COSTS" value="800">
+<PARAM name="INCOME_TAX_RATE" value="25">
+<PARAM name="NEW_LENGTH" value="30">
+<PARAM name="PMI_PERCENT" value="0.20">
+<PARAM name="NEW_LOAN_APPRAISED_VALUE" value="110000">
+<PARAM name="OLD_LOAN_APPRAISED_VALUE" value="100000">
+<PARAM name="BACKGROUND_COLOR" value="FFFFFF">
+<PARAM name="BORDER" value="ROUND">
+<PARAM name="BORDER_COLOR" value="000000">
+<PARAM name="BORDER_WIDTH" value="0">
+<PARAM name="BACKGROUND" value="/scripts/background.jpg">
+<PARAM name="COLOR1" value="EAEAEA">
+<PARAM name="COLOR2" value="EAEAEA">
+<PARAM name="TEXT_FOR_REPORT" value="<HTML>
+<HEAD>
+<TITLE>Refinance Breakeven</TITLE>
+<META HTTP-EQUIV='Content-Type' CONTENT='text/html; charset=iso8859-1'>
+<META NAME='Description' CONTENT='Financial Calculators, &QCPQ;1999-2003 KJE Computer Solutions, LLC. For more information please see http://www.dinkytown.net'>
+
+<STYLE>
+<!--
+
+BODY, TABLE, TD, TH, UL, OL, DD, DL, P, BR {
+font-family: helvetica, arial, sans-serif;
+font-size: 10pt;
+}
+
+H1 {
+font-family: helvetica, arial, sans-serif;
+font-size: 13pt;
+font-weight: bold;
+}
+
+DT {
+font-family: helvetica, arial, sans-serif;
+font-size: 10pt;
+font-weight: bold;
+}
+
+P.footer {
+font-family: helvetica, arial, sans-serif;
+font-size: 9pt;
+}
+
+DIV.large {
+font-family: helvetica, arial, sans-serif;
+font-size: 13pt;
+font-weight: bold;
+}
+
+-->
+</STYLE>
+
+</HEAD>
+<BODY bgcolor='#FFFFFF' LINK='#003399' VLINK='#666666' BGCOLOR='#FFFFFF'>
+
+<CENTER><table border=0 bgcolor='#000000' width=468 cellspacing=1 cellpadding=0><tr><td width='100%'><table bgcolor='#FFFFDD' border=0 width=468 cellspacing=1 cellpadding=5><tr><td width='100%' align=center valign=middle><DIV class=large>Mortgage Refinance Breakeven</DIV></td></tr></table></TD></TR></TABLE></CENTER>
+
+<H1>Breakeven Measures</H1><P>The table below lists four different breakeven measurements. The computations become more conservative as you move down the list. Most people feel comfortable using methods 2 and 3. If you are planning on staying in your home longer than these measures, refinancing is a very good option.<P><CENTER><table border=0 bgcolor='#000000' width=95% cellspacing=1 cellpadding=0><tr><td width='100%'><table bgcolor='#FFFFFF' border=0 width=100% cellspacing=1 cellpadding=5>
+<TR BGCOLOR='CCCCCC'>
+<TD WIDTH=30%><CENTER><b>Measure</b></TD><TD WIDTH=10%><CENTER><b>Months</b></CENTER></TD><TD WIDTH=60%><CENTER><b>Definition</b></CENTER></TD>
+</TR>
+<TR>
+<TD WIDTH=30% valign=top><b>1. Monthly payment savings:</b></TD><TD WIDTH=10% valign=top><CENTER>BREAK_EVEN_PAYMENTS</CENTER></TD><TD WIDTH=60%>The number of months it will take for your monthly payment reduction to be greater then your closing costs.<BR><BR></TD>
+</TR><TR>
+<TD WIDTH=30% valign=top><b>2. PMI & interest savings:</b></TD><TD WIDTH=10% valign=top><CENTER>BREAK_EVEN_INTEREST</CENTER></TD><TD WIDTH=60%>The number of months it will take for your interest and PMI savings to exceed your closing costs.<BR><BR></TD>
+</TR><TR>
+<TD WIDTH=30% valign=top><b>3. Total savings after tax:</b></TD><TD WIDTH=10% valign=top><CENTER>BREAK_EVEN_TAX_INTEREST</CENTER></TD><TD WIDTH=60%>The number of months it will take for the after-tax interest and PMI savings to exceed your closing costs. Your income tax rate was entered as INCOME_TAX_RATE.<BR><BR></TD>
+</TR>
+<TR>
+<TD WIDTH=30% valign=top><b>4. Total savings vs. prepayment:</b></TD><TD WIDTH=10% valign=top><CENTER>BREAK_EVEN_PREPAY</CENTER></TD><TD WIDTH=60%>This is the most conservative breakeven measure. It is the number of months it will take for the after-tax interest and PMI savings to exceed both the closing costs and any interest savings from prepaying your mortgage. The prepayment amount used in this calculation is the amount that you would have to spend on closing costs.<BR><BR></TD>
+</TR></TABLE></TD></TR></TABLE>
+</CENTER>
+
+<H1>Refinancing Summary</H1><P>Refinancing will change your monthly payment for principal, interest and PMI from CURRENT_PAYMENT to NEW_PAYMENT. Your new loan will be NEW_LOAN_BALANCE at NEW_RATE for NEW_LENGTH years. Closing costs are estimated at TOTAL_CLOSING_COSTS. To avoid PMI payments on your new loan NEW_LOAN_20_EQUITY in equity is required. This equals PMI_PERCENT of your home's current appraisal price. 
+<P><CENTER><table border=0 bgcolor='#000000' width=95% cellspacing=1 cellpadding=0><tr><td width='100%'><table bgcolor='#FFFFFF' border=0 width=100% cellspacing=1 cellpadding=5>
+<TR BGCOLOR='CCCCCC'>
+<TD WIDTH=50% COLSPAN=2 ><CENTER><b>Original Loan</b></TD><TD WIDTH=50% COLSPAN=2><CENTER><b>New Loan</b></CENTER></TD></TR>
+<TR><TD><b>Mortgage amount</b></TD><TD>ORIGINIAL_LOAN_AMT</TD>
+<TD><b>Mortgage amount</b></TD><TD>NEW_LOAN_BALANCE</TD></TR>
+
+<TR><TD><b>Appraised value</b></TD><TD>OLD_LOAN_APPRAISED_VALUE
+</TD>
+<TD><b>Appraised value</b></TD><TD>NEW_LOAN_APPRAISED_VALUE
+</TD></TR>
+
+<TR><TD><B>Interest rate</b></TD><TD>CURRENT_RATE</TD>
+<TD><B>Interest rate</b></TD><TD>NEW_RATE</TD></TR>
+
+<TR><TD><b>Term in years</b></TD><TD>CURRENT_LENGTH</TD>
+<TD><b>Term in years</b></TD><TD>NEW_LENGTH</TD></TR>
+
+<TR><TD><b>Years remaining</b></TD><TD>CURRENT_YEARS_REMAINING</TD>
+<TD><b>Years remaining</b></TD><TD>NEW_LENGTH</TD></TR>
+
+<TR><TD><b>PI payment</b></TD><TD>CURRENT_PI</TD>
+<TD><b>PI payment</b></TD><TD>MONTHLY_PI</TD></TR>
+
+<TR><TD><b>Monthly PMI</b></TD><TD>CURRENT_MONTHLY_PMI</TD>
+<TD><b>Monthly PMI</b></TD><TD>MONTHLY_PMI</TD></TR>
+
+
+</TABLE></TD></TR></TABLE>
+</CENTER>
+
+<P><DIV class=large>Payment Schedule Comparison</DIV>
+<BR>
+<HR SIZE=1>
+**REPEATING GROUP**
+
+<BR>
+<HR SIZE=1>
+<CENTER><P class=footer>  Information and interactive calculators are made available to you as self-help tools for your independent use and are not intended to provide investment advice. We can not and do not guarantee their applicability or accuracy in regards to your individual circumstances. All examples are hypothetical and are for illustrative purposes.  We encourage you to seek personalized advice from qualified professionals regarding all personal finance issues. </P></CENTER><br><br>
+</BODY>
+</HTML>
+">
+<CENTER>This Financial Calculator requires a Browser with Java™ applet Support.  If you are seeing this message you will need to download SUN's Java™ Plug-in.  This can be done simply, and automatically, by clicking the link below: <P><A href="http://www.java.com" target=_blank><b>Get the Java™ Plug-in!</b></A></CENTER></APPLET>
+ </CENTER>
+ <STYLE>
+<!--
+
+BODY, TABLE, TD, TH, UL, OL, DD, DL, P, BR {
+font-family: helvetica, arial, sans-serif;
+font-size: 10pt;
+}
+
+H1 {
+font-family: helvetica, arial, sans-serif;
+font-size: 13pt;
+font-weight: bold;
+}
+
+DT {
+font-family: helvetica, arial, sans-serif;
+font-size: 10pt;
+font-weight: bold;
+}
+
+P.footer {
+font-family: helvetica, arial, sans-serif;
+font-size: 9pt;
+}
+
+DIV.large {
+font-family: helvetica, arial, sans-serif;
+font-size: 13pt;
+font-weight: bold;
+}
+
+-->
+</STYLE>
+<script src="/scripts/calc.js" type="text/javascript"></script>
+
+<CENTER><SCRIPT>document.write(showbuttons())</SCRIPT></CENTER>
+
+<P>How long will it take to breakeven on a mortgage refinance? That depends on a multitude of factors. These factors include your current interest rate, the new potential rate, closing costs and how long you plan to stay in your home. Use this calculator to sort through the confusion, and determine if refinancing your mortgage is a sound financial decision.  Click the "View Report" button for a detailed look at your records.<P>
+<H1>Definitions</H1><P><CENTER><TABLE WIDTH="95%"><TR><TD><DL>
+<DT><B>Original mortgage amount</B><DD>Original amount of your mortgage.<P>
+<DT><B>Appraised value</B><DD>The appraised value of your home when you purchased it.<P>
+<DT><B>Current term in years</B><DD>Total length of your current mortgage in years.<P>
+<DT><B>Years remaining</B><DD>Number of years remaining on your current mortgage.<P>
+<DT><B>Income tax rate</B><DD>Your current income tax rate.<P>
+<DT><B>Calculate balance</B><DD>To let the calculator determine your remaining balance, based on your original loan information and years remaining, check this box. To enter your own amount, leave this box unchecked.<P>
+<DT><B>Current appraised value</B><DD>The current appraised value of your home.<P>
+<DT><B>Loan balance</B><DD>Balance of your mortgage that will be refinanced.<P>
+<DT><B>New interest rate</B><DD>The annual interest rate for the new loan.<P>
+<DT><B>New term in years</B><DD>Number of years for your new loan.<P>
+<DT><B>Loan origination rate</B><DD>This is the percentage of the new mortgage that is paid to the lender as the loan origination fee. Typically this fee is 1% of the loan balance.<P>
+<DT><B>Other closing costs</B><DD>Estimate of all other closing costs for this loan. This should include filing fees, appraiser fees and any other misc. fees paid.<P>
+<DT><B>Points paid</B><DD>This is the number of points paid to the lender to reduce the interest rate on the mortgage. Each point costs 1% of the new loan amount.<P>
+<DT><B>Current payment</B><DD>Your current payment is the sum of principal, interest and PMI (Principal Mortgage Insurance). Because refinancing does not affect your insurance or taxes, they are not included here.<P>
+<DT><B>New payment</B><DD>Your new payment is the sum of principal, interest and PMI.<P>
+<DT><B>Monthly PMI payment</B><DD>Monthly cost of Principal Mortgage Insurance (PMI). For loans secured with less than 20% down, PMI is estimated at 0.5% of your loan balance each year. Monthly PMI is calculated by multiplying your starting loan balance by this percent and dividing by 12. When the equity in your home exceeds the percentage required for PMI, your PMI payment drops to zero.<P>
+<DT><B>Monthly PI payment</B><DD>Monthly principal and interest payment.<P>
+<DT><B>Breakeven monthly payment savings</B><DD>The number of months it will take for your monthly payment reduction to be greater than closing costs.<P>
+<DT><B>Breakeven PMI & interest savings</B><DD>The number of months it will take for your interest and PMI savings to exceed your closing costs.<P>
+<DT><B>Breakeven total savings after-tax</B><DD>The number of months it will take for your after-tax interest and PMI savings to exceed your closing costs.<P>
+<DT><B>Breakeven total savings vs. prepayment</B><DD>This is the most conservative breakeven measure. It is the number of months it will take for your after-tax interest and PMI savings to exceed both your closing costs and any interest savings from prepaying your mortgage. The prepayment amount used in this calculation is the amount that you would have to spend on closing costs.
+</DL></TD></TR></TABLE></CENTER>
+
+<BR>
+<HR SIZE=1>
+<CENTER>
+<P class=footer> Information and interactive calculators are made available to you as self-help tools for your independent use and are not intended to provide investment advice. We can not and do not guarantee their applicability or accuracy in regards to your individual circumstances. All examples are hypothetical and are for illustrative purposes.  We encourage you to seek personalized advice from qualified professionals regarding all personal finance issues.  </P></CENTER>
+<BR>
+</BODY>
+</HTML>
+
+			
+		</td>
+		
+		<td>
+			<!--<img src="/graphics/shim.gif" border="0" width="10" height="10">-->
+		</td>
+		
+	</tr>
+</table>
+<!--<div id="FormsLayer" style="position:absolute; width:368px; height:178; z-index:2; left: 0; top: 0; visibility: visible;"></div>-->
+			
+		</td>
+	</tr>
+</table>
+<div align=center class=tableText>6120 Shelter Creek Avenue  Las Vegas, NV 89110<br><nobr>Phone: (702) 641-5657</nobr> <nobr>Fax: (702) 641-7944</nobr> <nobr><script language=javascript> var username = 'contact'; var hostname = 'ascentnv.com'; document.write('<nobr>E-mail: <a href=mail' + 'to:' + username + '@' + hostname + '>' + username + '@' + hostname + '</a>');</script><p><a href="/W-9/License/EO"><nobr>W-9 / License / E&O</nobr></a> | <a href="/CodeofEthics"><nobr>Code of Ethics</nobr></a> | <a href="/AppraisalReviews"><nobr>Appraisal Reviews</nobr></a> | <a href="/DateofDeathValuations"><nobr>Date of Death Valuations</nobr></a> | <a href="/Appraiserethics"><nobr>Appraiser ethics</nobr></a> | <a href="/Threeapproachestovalue"><nobr>Three approaches to value</nobr></a> | <a href="/WhatisUSPAP"><nobr>What is USPAP?</nobr></a> | <a href="/Pre-ListingAppraisals"><nobr>Pre-Listing Appraisals</nobr></a> | <a href="/RelocationAppraisal"><nobr>Relocation Appraisal</nobr></a> | <a href="/15vs30YearMtgCalc"><nobr>15 vs 30 Year Mtg Calc</nobr></a> | <a href="/RefiBreakevenCalc"><nobr>Refi Breakeven Calc</nobr></a> | <a href="/MortgageFraud"><nobr>Mortgage Fraud</nobr></a> | <a href="/ResidentialInvestment"><nobr>Residential Investment</nobr></a> | <a href="/OurTechnology"><nobr>Our Technology</nobr></a> | <a href="/OrderanAppraisal"><nobr>Order an Appraisal</nobr></a> | <a href="/ClientLogin"><nobr>Client Login</nobr></a> | <a href="/TellaFriend"><nobr>Tell a Friend</nobr></a> | <a href="/DownloadAdobeAcrobat"><nobr>Download Adobe Acrobat</nobr></a> | <a href="/Services"><nobr>Services</nobr></a> | <a href="/ContactUs"><nobr>Contact Us</nobr></a> | <a href="/WhatisanAppraisal"><nobr>What is an Appraisal</nobr></a> | <a href="/WhygetanAppraisal"><nobr>Why get an Appraisal</nobr></a> | <a href="/AboutPMI"><nobr>About PMI</nobr></a> | <a href="/FAQ"><nobr>FAQ</nobr></a> | <a href="/GlossaryofTerms"><nobr>Glossary of Terms</nobr></a> | <a href="/RealEstateNews"><nobr>Real Estate News</nobr></a> | <a href="/ExpertWitness"><nobr>Expert Witness</nobr></a> | <a href="/DivorceAppraisals"><nobr>Divorce Appraisals</nobr></a> | <a href="/EstateAppraisals"><nobr>Estate Appraisals</nobr></a> | <a href="/AppraisalMyths"><nobr>Appraisal Myths</nobr></a> | <a href="/ForBuyers"><nobr>For Buyers</nobr></a> | <a href="/HomeSellerServices"><nobr>Home Seller Services</nobr></a> | <a href="/ForHomeowners"><nobr>For Homeowners</nobr></a> | <a href="/HowtoPrepare"><nobr>How to Prepare</nobr></a> | <a href="/PressRelease"><nobr>Press Release</nobr></a><p>Copyright &copy; 2006&nbsp;Ascent Appraisal, Inc.<br>Portions Copyright &copy; 2006 a la mode, inc.<br>Another XSite by <a href='http://www.alamode.com/' target='_blank'>a la mode, inc.</a>&nbsp;|&nbsp;<a href='https://ascentnv.appraiserxsites.com/apps/alamodelogin/login.aspx' target='_new'>Admin Login</a>|&nbsp;<a href='/TermsOfUse'>Terms of Use</a></div>
+
+
+
+	</td>
+	</tr>
+	</table>
+	<table width="95%" border="0" cellspacing="1" cellpadding="10">
+		<tr>
+			<td><br></td>
+		</tr>
+		<tr> 
+			<td>
+				<div align="center" class="tableText"><br>
+					<table border="0" cellpadding="0" cellspacing="0" width="95%">
+						<tr>
+							<td>
+								
+							</td>
+						</tr>
+					</table>
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

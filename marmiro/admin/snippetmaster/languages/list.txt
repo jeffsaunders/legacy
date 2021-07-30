@@ -1,0 +1,4 @@
+en - english	done.
+de - german	done.
+nl - dutch
+sv - swedish	done.

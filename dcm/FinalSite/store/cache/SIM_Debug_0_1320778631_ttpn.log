@@ -1,0 +1,57 @@
+Nov-08-2011 12:57:11
+=================================
+
+Response Code: 1.
+Response Text: (TESTMODE) This transaction has been approved.
+
+Results Received back from Authorizenet: Array
+(
+    [x_response_code] => 1
+    [x_response_reason_code] => 1
+    [x_response_reason_text] => (TESTMODE) This transaction has been approved.
+    [x_avs_code] => P
+    [x_auth_code] => 000000
+    [x_trans_id] => 0
+    [x_method] => CC
+    [x_card_type] => Visa
+    [x_account_number] => XXXX7213
+    [x_first_name] => Matt
+    [x_last_name] => Harris
+    [x_company] => Lockheed Marttin Aeronautics Corporation
+    [x_address] => 86 S. Cobb Dr
+    [x_city] => Marietta
+    [x_state] => Georgia
+    [x_zip] => 30063
+    [x_country] => United States
+    [x_phone] => 850-282-4450
+    [x_fax] => 
+    [x_email] => matt.r.harris@lmco.com
+    [x_invoice_num] => 
+    [x_description] => Website Purchase from DCM Clean Air Store
+    [x_type] => auth_capture
+    [x_cust_id] => 10
+    [x_ship_to_first_name] => F-22 Mod Team
+    [x_ship_to_last_name] => Attn: Ray Stephenson
+    [x_ship_to_company] => 
+    [x_ship_to_address] => 114 Goat Hill Loop
+    [x_ship_to_city] => Tyndall AFB
+    [x_ship_to_state] => Florida
+    [x_ship_to_zip] => 32403
+    [x_ship_to_country] => United States
+    [x_amount] => 1207.18
+    [x_tax] => 0.00
+    [x_duty] => 0.00
+    [x_freight] => 0.00
+    [x_tax_exempt] => FALSE
+    [x_po_num] => 
+    [x_MD5_Hash] => E5BDCC6FA8A95672F1A8239371E26EBC
+    [x_cvv2_resp_code] => 
+    [x_cavv_response] => 
+    [x_test_request] => true
+    [zenid] => c26a659d555d7a40e0931dc6e9520d13
+    [HashValidationValue] => E5BDCC6FA8A95672F1A8239371E26EBC
+    [HashMatchStatus] => PASS
+    [url] => https://secure.authorize.net/gateway/transact.dll
+)
+
+

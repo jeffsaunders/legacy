@@ -1,0 +1,81 @@
+---------- Date: 2014-09-07 01:17:07 ~ IP : 71.244.60.226 ----------
+REQUEST URI : /sandbox/mobiledishmall/KING-DOME-White
+MOD DETAILS:
+   modFile   : /var/www/clients/client3/web1/web/sandbox/mobiledishmall/vqmod/xml/remove-add-to-cart-if-out-of-stock.xml
+   id        : @tik Remove Add to Cart button for Out of Stock items
+   version   : 1.4.1
+   vqmver    : 2.4.1
+   author    : OC2PS
+VQModObject::parseMods - Could not resolve path for [catalog/controller/module/wishlist.php] (SKIPPED)
+
+File Name    : catalog/view/theme/*/template/product/product.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <input type="button" value="<?php echo $button_cart; ?>" id="button-cart" class="button" />
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-09-07 01:17:27 ~ IP : 71.244.60.226 ----------
+REQUEST URI : /sandbox/mobiledishmall/product/category&amp;path=59_61
+MOD DETAILS:
+   modFile   : /var/www/clients/client3/web1/web/sandbox/mobiledishmall/vqmod/xml/remove-add-to-cart-if-out-of-stock.xml
+   id        : @tik Remove Add to Cart button for Out of Stock items
+   version   : 1.4.1
+   vqmver    : 2.4.1
+   author    : OC2PS
+
+File Name    : catalog/view/theme/*/template/product/category.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <input type="button" value="<?php echo $button_cart; ?>" onclick="addToCart('<?php echo $product['product_id']; ?>');" class="button" />
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-09-07 01:40:17 ~ IP : 71.244.60.226 ----------
+REQUEST URI : /sandbox/mobiledishmall/KING-DOME-White
+MOD DETAILS:
+   modFile   : /var/www/clients/client3/web1/web/sandbox/mobiledishmall/vqmod/xml/Pre-Order, Out Of Stock, Enquiry - Stock status show off and function.xml
+   id        : PreOrder-OOS-Enquire_mods
+   version   : 1.5.2 To 1.5.6
+   vqmver    : 2.2.2
+   author    : Duja
+VQModObject::parseMods - Could not resolve path for [catalog/language/vietnamese/vietnamese.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [catalog/language/vietnamese/vietnamese.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [catalog/language/vietnamese/information/contact.php] (SKIPPED)
+
+MOD DETAILS:
+   modFile   : /var/www/clients/client3/web1/web/sandbox/mobiledishmall/vqmod/xml/color_status2.xml
+   id        : Change stock color
+   version   : 1.5.x
+   vqmver    : 1.0.0
+   author    : sparemyparts.com
+
+File Name    : catalog/view/theme/*/template/product/product.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <span><?php echo $text_stock; ?></span> <?php echo $stock; ?></div>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-09-07 01:41:26 ~ IP : 71.244.60.226 ----------
+REQUEST URI : /sandbox/mobiledishmall/KING-DOME-Black
+MOD DETAILS:
+   modFile   : /var/www/clients/client3/web1/web/sandbox/mobiledishmall/vqmod/xml/Pre-Order, Out Of Stock, Enquiry - Stock status show off and function.xml
+   id        : PreOrder-OOS-Enquire_mods
+   version   : 1.5.2 To 1.5.6
+   vqmver    : 2.2.2
+   author    : Duja
+VQModObject::parseMods - Could not resolve path for [catalog/language/vietnamese/vietnamese.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [catalog/language/vietnamese/vietnamese.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [catalog/language/vietnamese/information/contact.php] (SKIPPED)
+
+MOD DETAILS:
+   modFile   : /var/www/clients/client3/web1/web/sandbox/mobiledishmall/vqmod/xml/color_status2.xml
+   id        : Change stock color
+   version   : 1.5.x
+   vqmver    : 1.0.0
+   author    : sparemyparts.com
+
+File Name    : catalog/view/theme/*/template/product/product.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <span><?php echo $text_stock; ?></span> <?php echo $stock; ?></div>
+
+----------------------------------------------------------------------
+
+

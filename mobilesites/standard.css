@@ -1,0 +1,400 @@
+/* BODY */
+/*.backgroundcontent {z-index:0; position:relative; top:0px; left:0px;}*/
+html, body {margin:0; padding:0; width:100%; height:100%;}
+#background{position:fixed; z-index:-1; width:100%; height:100%;}
+/*#background{position:fixed; _position:absolute; top:0; _top:expression(eval(document.body.scrollTop)); z-index:-1; width:100%; height:100%;}*/
+/*#scroller {position:absolute; width:100%; height:100%; top:0; left:0; overflow:auto; z-index:2;}*/
+.menucontent {z-index:1000; position:relative; top:0px; left:0px;}
+
+/*
+ h1{
+  position:fixed;
+  _position:absolute;
+  top:0;
+  _top:expression(eval(document.body.scrollTop));
+  left:0;
+  margin:0;
+  padding:0;
+  background:lime;
+ }
+*/
+
+
+
+/* TEXT */
+
+/* BLACK */
+.tinyBlack {font-family:Arial,Helvetica,sans-serif; font-size:8px;	color:#000000; text-decoration:none;}
+A.tinyBlack {font-family:Arial,Helvetica,sans-serif; font-size:8px; color:#000000; text-decoration:none;}
+A.tinyBlack:hover {color:Red; text-decoration:underline;}
+A.tinyBlack:active {color:Red;}
+A.tinyBlack:visited {color:#000000;}
+A.tinyBlack:visited:hover {color:Red; text-decoration:underline;}
+
+.smallBlack {font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#000000; text-decoration:none;}
+A.smallBlack {font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#000000; text-decoration:underline;}
+A.smallBlack:hover {color:Red; text-decoration:underline;}
+A.smallBlack:active {color:Red;}
+A.smallBlack:visited {color:#000000;}
+A.smallBlack:visited:hover {color:Red; text-decoration:underline;}
+
+.bodyBlack {font-family:Arial,Helvetica,sans-serif; font-size:12px;	color:#000000; text-decoration:none;}
+A.bodyBlack {font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#000000; text-decoration:underline;}
+A.bodyBlack:hover {color:Red; text-decoration:underline;}
+A.bodyBlack:active {color:Red;}
+A.bodyBlack:visited {color:#000000;}
+A.bodyBlack:visited:hover {color:Red; text-decoration:underline;}
+
+.fancyBlack {font-family:fantasy,Arial,Helvetica,sans-serif; font-size:12px; color:#000000; text-decoration:none;}
+A.fancyBlack {font-family:fantasy,Arial,Helvetica,sans-serif; font-size:12px; color:#000000; text-decoration:none;}
+A.fancyBlack:hover {color:Red; text-decoration:underline;}
+A.fancyBlack:active {color:Red;}
+A.fancyBlack:visited {color:#000000;}
+A.fancyBlack:visited:hover {color:Red; text-decoration:underline;}
+
+.menuBlack {font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#000000; text-decoration:none;}
+A.menuBlack {font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#000000; text-decoration:none;}
+A.menuBlack:hover {color:Red; text-decoration:none;}
+A.menuBlack:active {color:Red;}
+A.menuBlack:visited {color:#000000;}
+A.menuBlack:visited:hover {color:Red; text-decoration:none;}
+
+.bigBlack {font-family:Arial,Helvetica,sans-serif; font-size:16px; color:#000000; text-decoration:none;}
+A.bigBlack {font-family:Arial,Helvetica,sans-serif; font-size:16px; color:#000000; text-decoration:underline;}
+A.bigBlack:hover {color:Red; text-decoration:underline;}
+A.bigBlack:active {color:Red;}
+A.bigBlack:visited {color:#000000;}
+A.bigBlack:visited:hover {color:Red; text-decoration:underline;}
+
+.xbigBlack {font-family:Arial,Helvetica,sans-serif; font-size:20px; color:#000000; text-decoration:none;}
+A.xbigBlack {font-family:Arial,Helvetica,sans-serif; font-size:20px; color:#000000; text-decoration:none;}
+A.xbigBlack:hover {color:Red; text-decoration:underline;}
+A.xbigBlack:active {color:Red;}
+A.xbigBlack:visited {color:#000000;}
+A.xbigBlack:visited:hover {color:Red; text-decoration:underline;}
+
+.titleBlack {font-family: Arial, Helvetica, sans-serif;	font-size: 24px; font-weight: bold;	color: #000000;}
+.verticalLabelBlack {font-family: Arial, Helvetica, sans-serif;	font-size: 12px; color: #000000; writing-mode: tb-rl; filter: flipv fliph;}
+.smallVerticalLabelBlack {font-family: Arial, Helvetica, sans-serif; font-size: 9px; color: #000000; writing-mode: tb-rl; filter: flipv fliph;}
+
+/* WHITE */
+.tinyWhite {font-family:Arial,Helvetica,sans-serif; font-size:8px;	color:#FFFFFF; text-decoration:none;}
+A.tinyWhite {font-family:Arial,Helvetica,sans-serif; font-size:8px; color:#FFFFFF; text-decoration:none;}
+A.tinyWhite:hover {color:Red; text-decoration:underline;}
+A.tinyWhite:active {color:Red;}
+A.tinyWhite:visited {color:#FFFFFF;}
+A.tinyWhite:visited:hover {color:Red; text-decoration:underline;}
+
+.smallWhite {font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#FFFFFF; text-decoration:none;}
+A.smallWhite {font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#FFFFFF; text-decoration:underline;}
+A.smallWhite:hover {color:Red; text-decoration:underline;}
+A.smallWhite:active {color:Red;}
+A.smallWhite:visited {color:#FFFFFF;}
+A.smallWhite:visited:hover {color:Red; text-decoration:underline;}
+
+.bodyWhite {font-family:Arial,Helvetica,sans-serif; font-size:12px;	color:#FFFFFF; text-decoration:none;}
+A.bodyWhite {font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#FFFFFF; text-decoration:underline;}
+A.bodyWhite:hover {color:Yellow; text-decoration:underline;}
+A.bodyWhite:active {color:Yellow;}
+A.bodyWhite:visited {color:#FFFFFF;}
+A.bodyWhite:visited:hover {color:Yellow; text-decoration:underline;}
+
+.fancyWhite {font-family:fantasy,Arial,Helvetica,sans-serif; font-size:12px; color:#FFFFFF; text-decoration:none;}
+A.fancyWhite {font-family:fantasy,Arial,Helvetica,sans-serif; font-size:12px; color:#FFFFFF; text-decoration:none;}
+A.fancyWhite:hover {color:Red; text-decoration:underline;}
+A.fancyWhite:active {color:Red;}
+A.fancyWhite:visited {color:#FFFFFF;}
+A.fancyWhite:visited:hover {color:Red; text-decoration:underline;}
+
+.menuWhite {font-family:Arial,Helvetica,sans-serif; font-size:13px;	color:#FFFFFF; text-decoration:none;}
+A.menuWhite {font-family:Arial,Helvetica,sans-serif; font-size:13px; color:#FFFFFF; text-decoration:none;}
+A.menuWhite:hover {color:Red; text-decoration:none;}
+A.menuWhite:active {color:Red;}
+A.menuWhite:visited {color:#FFFFFF;}
+A.menuWhite:visited:hover {color:Red; text-decoration:none;}
+
+.bigWhite {font-family:Arial,Helvetica,sans-serif; font-size:16px; color:#FFFFFF; text-decoration:none;}
+A.bigWhite {font-family:Arial,Helvetica,sans-serif; font-size:16px; color:#FFFFFF; text-decoration:none;}
+A.bigWhite:hover {color:Red; text-decoration:underline;}
+A.bigWhite:active {color:Red;}
+A.bigWhite:visited {color:#FFFFFF;}
+A.bigWhite:visited:hover {color:Red; text-decoration:underline;}
+
+.xbigWhite {font-family:Arial,Helvetica,sans-serif; font-size:20px; color:#FFFFFF; text-decoration:none;}
+A.xbigWhite {font-family:Arial,Helvetica,sans-serif; font-size:20px; color:#FFFFFF; text-decoration:none;}
+A.xbigWhite:hover {color:Red; text-decoration:underline;}
+A.xbigWhite:active {color:Red;}
+A.xbigWhite:visited {color:#FFFFFF;}
+A.xbigWhite:visited:hover {color:Red; text-decoration:underline;}
+
+.superWhite {font-family:Arial,Helvetica,sans-serif; font-size:24px; color:#FFFFFF; text-decoration:none;}
+A.superWhite {font-family:Arial,Helvetica,sans-serif; font-size:24px; color:#FFFFFF; text-decoration:none;}
+A.superWhite:hover {color:Red; text-decoration:underline;}
+A.superWhite:active {color:Red;}
+A.superWhite:visited {color:#FFFFFF;}
+A.superWhite:visited:hover {color:Red; text-decoration:underline;}
+
+.titleWhite {font-family: Arial, Helvetica, sans-serif;	font-size: 24px; font-weight: bold;	color: #FFFFFF;}
+.verticalLabelWhite {font-family: Arial, Helvetica, sans-serif;	font-size: 12px; color: #FFFFFF; writing-mode: tb-rl; filter: flipv fliph;}
+.smallVerticalLabelWhite {font-family: Arial, Helvetica, sans-serif; font-size: 9px; color: #FFFFFF; writing-mode: tb-rl; filter: flipv fliph;}
+
+/* GRAY */
+.tinyGray {font-family:Arial,Helvetica,sans-serif; font-size:8px;	color:#909090; text-decoration:none;}
+A.tinyGray {font-family:Arial,Helvetica,sans-serif; font-size:8px; color:#909090; text-decoration:none;}
+A.tinyGray:hover {color:Black; text-decoration:underline;}
+A.tinyGray:active {color:Black;}
+A.tinyGray:visited {color:#909090;}
+A.tinyGray:visited:hover {color:Black; text-decoration:underline;}
+
+.smallGray {font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#909090; text-decoration:none;}
+A.smallGray {font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#909090; text-decoration:underline;}
+A.smallGray:hover {color:Black; text-decoration:underline;}
+A.smallGray:active {color:Black;}
+A.smallGray:visited {color:#909090;}
+A.smallGray:visited:hover {color:Black; text-decoration:underline;}
+
+.bodyGray {font-family:Arial,Helvetica,sans-serif; font-size:12px;	color:#909090; text-decoration:none;}
+A.bodyGray {font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#909090; text-decoration:underline;}
+A.bodyGray:hover {color:Black; text-decoration:underline;}
+A.bodyGray:active {color:Black;}
+A.bodyGray:visited {color:#909090;}
+A.bodyGray:visited:hover {color:Black; text-decoration:underline;}
+
+.fancyGray {font-family:fantasy,Arial,Helvetica,sans-serif; font-size:12px; color:#909090; text-decoration:none;}
+A.fancyGray {font-family:fantasy,Arial,Helvetica,sans-serif; font-size:12px; color:#909090; text-decoration:none;}
+A.fancyGray:hover {color:Black; text-decoration:underline;}
+A.fancyGray:active {color:Black;}
+A.fancyGray:visited {color:#909090;}
+A.fancyGray:visited:hover {color:Black; text-decoration:underline;}
+
+.menuGray {font-family:Arial,Helvetica,sans-serif; font-size:13px;	color:#909090; text-decoration:none;}
+A.menuGray {font-family:Arial,Helvetica,sans-serif; font-size:13px; color:#909090; text-decoration:none;}
+A.menuGray:hover {color:Black; text-decoration:none;}
+A.menuGray:active {color:Black;}
+A.menuGray:visited {color:#909090;}
+A.menuGray:visited:hover {color:Black; text-decoration:none;}
+
+.bigGray {font-family:Arial,Helvetica,sans-serif; font-size:16px; color:#909090; text-decoration:none;}
+A.bigGray {font-family:Arial,Helvetica,sans-serif; font-size:16px; color:#909090; text-decoration:none;}
+A.bigGray:hover {color:Black; text-decoration:underline;}
+A.bigGray:active {color:Black;}
+A.bigGray:visited {color:#909090;}
+A.bigGray:visited:hover {color:Black; text-decoration:underline;}
+
+.xbigGray {font-family:Arial,Helvetica,sans-serif; font-size:20px; color:#909090; text-decoration:none;}
+A.xbigGray {font-family:Arial,Helvetica,sans-serif; font-size:20px; color:#909090; text-decoration:none;}
+A.xbigGray:hover {color:Black; text-decoration:underline;}
+A.xbigGray:active {color:Black;}
+A.xbigGray:visited {color:#909090;}
+A.xbigGray:visited:hover {color:Black; text-decoration:underline;}
+
+.titleGray {font-family: Arial, Helvetica, sans-serif;	font-size: 24px; font-weight: bold;	color: #909090;}
+.verticalLabelGray {font-family: Arial, Helvetica, sans-serif;	font-size: 12px; color: #909090; writing-mode: tb-rl; filter: flipv fliph;}
+.smallVerticalLabelGray {font-family: Arial, Helvetica, sans-serif; font-size: 9px; color: #909090; writing-mode: tb-rl; filter: flipv fliph;}
+
+/* DARK GRAY */
+.tinyDarkGray {font-family:Arial,Helvetica,sans-serif; font-size:8px; color:#3F3F3F; text-decoration:none;}
+A.tinyDarkGray {font-family:Arial,Helvetica,sans-serif; font-size:8px; color:#3F3F3F; text-decoration:none;}
+A.tinyDarkGray:hover {color:Black; text-decoration:underline;}
+A.tinyDarkGray:active {color:Black;}
+A.tinyDarkGray:visited {color:#3F3F3F;}
+A.tinyDarkGray:visited:hover {color:Black; text-decoration:underline;}
+
+.smallDarkGray {font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#3F3F3F; text-decoration:none;}
+A.smallDarkGray {font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#3F3F3F; text-decoration:underline;}
+A.smallDarkGray:hover {color:Black; text-decoration:underline;}
+A.smallDarkGray:active {color:Black;}
+A.smallDarkGray:visited {color:#3F3F3F;}
+A.smallDarkGray:visited:hover {color:Black; text-decoration:underline;}
+
+.smBodyDarkGray {font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#3F3F3F; text-decoration:none;}
+A.smBodyDarkGray {font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#3F3F3F; text-decoration:none;}
+A.smBodyDarkGray:hover {color:#760025; text-decoration:underline;}
+A.smBodyDarkGray:active {color:#760025;}
+A.smBodyDarkGray:visited {color:#3F3F3F;}
+A.smBodyDarkGray:visited:hover {color:#760025; text-decoration:underline;}
+
+.bodyDarkGray {font-family:Arial,Helvetica,sans-serif; font-size:14px;	color:#3F3F3F; text-decoration:none;}
+A.bodyDarkGray {font-family:Arial,Helvetica,sans-serif; font-size:14px; color:#3F3F3F; text-decoration:none;}
+A.bodyDarkGray:hover {color:#760025; text-decoration:underline;}
+A.bodyDarkGray:active {color:#760025;}
+A.bodyDarkGray:visited {color:#3F3F3F;}
+A.bodyDarkGray:visited:hover {color:#760025; text-decoration:underline;}
+
+.fancyDarkGray {font-family:cursive,Arial,Helvetica,sans-serif; font-size:12px; color:#3F3F3F; text-decoration:none;}
+A.fancyDarkGray {font-family:cursive,Arial,Helvetica,sans-serif; font-size:12px; color:#3F3F3F; text-decoration:none;}
+A.fancyDarkGray:hover {color:Black; text-decoration:underline;}
+A.fancyDarkGray:active {color:Black;}
+A.fancyDarkGray:visited {color:#3F3F3F;}
+A.fancyDarkGray:visited:hover {color:Black; text-decoration:underline;}
+
+.menuDarkGray {font-family:Arial,Helvetica,sans-serif; font-size:14px;	color:#3F3F3F; text-decoration:none;}
+A.menuDarkGray {font-family:Arial,Helvetica,sans-serif; font-size:14px; color:#3F3F3F; text-decoration:none;}
+A.menuDarkGray:hover {color:Black; text-decoration:none;}
+A.menuDarkGray:active {color:Black;}
+A.menuDarkGray:visited {color:#3F3F3F;}
+A.menuDarkGray:visited:hover {color:Black; text-decoration:none;}
+
+.bigDarkGray {font-family:Arial,Helvetica,sans-serif; font-size:16px; color:#3F3F3F; text-decoration:none;}
+A.bigDarkGray {font-family:Arial,Helvetica,sans-serif; font-size:16px; color:#3F3F3F; text-decoration:none;}
+A.bigDarkGray:hover {color:Black; text-decoration:underline;}
+A.bigDarkGray:active {color:Black;}
+A.bigDarkGray:visited {color:#3F3F3F;}
+A.bigDarkGray:visited:hover {color:Black; text-decoration:underline;}
+
+.xbigDarkGray {font-family:Arial,Helvetica,sans-serif; font-size:20px; color:#3F3F3F; text-decoration:none;}
+A.xbigDarkGray {font-family:Arial,Helvetica,sans-serif; font-size:20px; color:#3F3F3F; text-decoration:none;}
+A.xbigDarkGray:hover {color:Black; text-decoration:underline;}
+A.xbigDarkGray:active {color:Black;}
+A.xbigDarkGray:visited {color:#3F3F3F;}
+A.xbigDarkGray:visited:hover {color:Black; text-decoration:underline;}
+
+.titleDarkGray {font-family: Arial, Helvetica, sans-serif;	font-size: 24px; font-weight: bold;	color: #3F3F3F;}
+.verticalLabelDarkGray {font-family: Arial, Helvetica, sans-serif;	font-size: 12px; color: #3F3F3F; writing-mode: tb-rl; filter: flipv fliph;}
+.smallVerticalLabelDarkGray {font-family: Arial, Helvetica, sans-serif; font-size: 9px; color: #3F3F3F; writing-mode: tb-rl; filter: flipv fliph;}
+
+/* IVORY */
+.tinyIvory {font-family:Arial,Helvetica,sans-serif; font-size:8px;	color:#F9F6E9; text-decoration:none;}
+A.tinyIvory {font-family:Arial,Helvetica,sans-serif; font-size:8px; color:#F9F6E9; text-decoration:none;}
+A.tinyIvory:hover {color:Red; text-decoration:underline;}
+A.tinyIvory:active {color:Red;}
+A.tinyIvory:visited {color:#F9F6E9;}
+A.tinyIvory:visited:hover {color:Red; text-decoration:underline;}
+
+.smallIvory {font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#F9F6E9; text-decoration:none;}
+A.smallIvory {font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#F9F6E9; text-decoration:none;}
+A.smallIvory:hover {color:Red; text-decoration:underline;}
+A.smallIvory:active {color:Red;}
+A.smallIvory:visited {color:#F9F6E9;}
+A.smallIvory:visited:hover {color:Red; text-decoration:underline;}
+
+.bodyIvory {font-family:Arial,Helvetica,sans-serif; font-size:12px;	color:#F9F6E9; text-decoration:none;}
+A.bodyIvory {font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#F9F6E9; text-decoration:underline;}
+A.bodyIvory:hover {color:Red; text-decoration:underline;}
+A.bodyIvory:active {color:Red;}
+A.bodyIvory:visited {color:#F9F6E9;}
+A.bodyIvory:visited:hover {color:Red; text-decoration:underline;}
+
+.fancyIvory {font-family:fantasy,Arial,Helvetica,sans-serif; font-size:12px; color:#F9F6E9; text-decoration:none;}
+A.fancyIvory {font-family:fantasy,Arial,Helvetica,sans-serif; font-size:12px; color:#F9F6E9; text-decoration:none;}
+A.fancyIvory:hover {color:Red; text-decoration:underline;}
+A.fancyIvory:active {color:Red;}
+A.fancyIvory:visited {color:#FFFFCC;}
+A.fancyIvory:visited:hover {color:Red; text-decoration:underline;}
+
+.menuIvory {font-family:Arial,Helvetica,sans-serif; font-size:13px;	color:#F9F6E9; text-decoration:none;}
+A.menuIvory {font-family:Arial,Helvetica,sans-serif; font-size:13px; color:#F9F6E9; text-decoration:none;}
+A.menuIvory:hover {color:Red; text-decoration:none;}
+A.menuIvory:active {color:Red;}
+A.menuIvory:visited {color:#F9F6E9;}
+A.menuIvory:visited:hover {color:Red; text-decoration:none;}
+
+.bigIvory {font-family:Arial,Helvetica,sans-serif; font-size:16px; color:#F9F6E9; text-decoration:none;}
+A.bigIvory {font-family:Arial,Helvetica,sans-serif; font-size:16px; color:#F9F6E9; text-decoration:none;}
+A.bigIvory:hover {color:Red; text-decoration:underline;}
+A.bigIvory:active {color:Red;}
+A.bigIvory:visited {color:#F9F6E9;}
+A.bigIvory:visited:hover {color:Red; text-decoration:underline;}
+
+.xbigIvory {font-family:Arial,Helvetica,sans-serif; font-size:20px; color:#F9F6E9; text-decoration:none;}
+A.xbigIvory {font-family:Arial,Helvetica,sans-serif; font-size:20px; color:#F9F6E9; text-decoration:none;}
+A.xbigIvory:hover {color:Red; text-decoration:underline;}
+A.xbigIvory:active {color:Red;}
+A.xbigIvory:visited {color:#F9F6E9;}
+A.xbigIvory:visited:hover {color:Red; text-decoration:underline;}
+
+.superIvory {font-family:Arial,Helvetica,sans-serif; font-size:24px; color:#FFFFFF; text-decoration:none;}
+A.superIvory {font-family:Arial,Helvetica,sans-serif; font-size:24px; color:#FFFFFF; text-decoration:none;}
+A.superIvory:hover {color:Red; text-decoration:underline;}
+A.superIvory:active {color:Red;}
+A.superIvory:visited {color:#FFFFFF;}
+A.superIvory:visited:hover {color:Red; text-decoration:underline;}
+
+.titleIvory {font-family: Arial, Helvetica, sans-serif;	font-size: 24px; font-weight: bold;	color: #F9F6E9;}
+.verticalLabelIvory {font-family: Arial, Helvetica, sans-serif;	font-size: 12px; color: #F9F6E9; writing-mode: tb-rl; filter: flipv fliph;}
+.smallVerticalLabelIvory {font-family: Arial, Helvetica, sans-serif; font-size: 9px; color: #F9F6E9; writing-mode: tb-rl; filter: flipv fliph;}
+
+/* BURGUNDY */
+.tinyBurgundy {font-family:Arial,Helvetica,sans-serif; font-size:8px;	color:#760025; text-decoration:none;}
+A.tinyBurgundy {font-family:Arial,Helvetica,sans-serif; font-size:8px; color:#760025; text-decoration:none;}
+A.tinyBurgundy:hover {color:Red; text-decoration:underline;}
+A.tinyBurgundy:active {color:Red;}
+A.tinyBurgundy:visited {color:#760025;}
+A.tinyBurgundy:visited:hover {color:Red; text-decoration:underline;}
+
+.smallBurgundy {font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#760025; text-decoration:none;}
+A.smallBurgundy {font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#760025; text-decoration:none;}
+A.smallBurgundy:hover {color:Red; text-decoration:underline;}
+A.smallBurgundy:active {color:Red;}
+A.smallBurgundy:visited {color:#760025;}
+A.smallBurgundy:visited:hover {color:Red; text-decoration:underline;}
+
+.bodyBurgundy {font-family:Arial,Helvetica,sans-serif; font-size:14px;	color:#760025; text-decoration:none;}
+A.bodyBurgundy {font-family:Arial,Helvetica,sans-serif; font-size:14px; color:#760025; text-decoration:underline;}
+A.bodyBurgundy:hover {color:Red; text-decoration:underline;}
+A.bodyBurgundy:active {color:Red;}
+A.bodyBurgundy:visited {color:#760025;}
+A.bodyBurgundy:visited:hover {color:Red; text-decoration:underline;}
+
+.fancyBurgundy {font-family:fantasy,Arial,Helvetica,sans-serif; font-size:12px; color:#760025; text-decoration:none;}
+A.fancyBurgundy {font-family:fantasy,Arial,Helvetica,sans-serif; font-size:12px; color:#760025; text-decoration:none;}
+A.fancyBurgundy:hover {color:Red; text-decoration:underline;}
+A.fancyBurgundy:active {color:Red;}
+A.fancyBurgundy:visited {color:#FFFFCC;}
+A.fancyBurgundy:visited:hover {color:Red; text-decoration:underline;}
+
+.menuBurgundy {font-family:Arial,Helvetica,sans-serif; font-size:12px;	color:#760025; text-decoration:none;}
+A.menuBurgundy {font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#760025; text-decoration:none;}
+A.menuBurgundy:hover {color:Red; text-decoration:underline;}
+A.menuBurgundy:active {color:Red;}
+A.menuBurgundy:visited {color:#760025;}
+A.menuBurgundy:visited:hover {color:Red; text-decoration:underline;}
+
+.bigBurgundy {font-family:Arial,Helvetica,sans-serif; font-size:16px; color:#760025; text-decoration:none;}
+A.bigBurgundy {font-family:Arial,Helvetica,sans-serif; font-size:16px; color:#760025; text-decoration:none;}
+A.bigBurgundy:hover {color:Red; text-decoration:underline;}
+A.bigBurgundy:active {color:Red;}
+A.bigBurgundy:visited {color:#760025;}
+A.bigBurgundy:visited:hover {color:Red; text-decoration:underline;}
+
+.xbigBurgundy {font-family:Arial,Helvetica,sans-serif; font-size:20px; color:#760025; text-decoration:none;}
+A.xbigBurgundy {font-family:Arial,Helvetica,sans-serif; font-size:20px; color:#760025; text-decoration:none;}
+A.xbigBurgundy:hover {color:Red; text-decoration:underline;}
+A.xbigBurgundy:active {color:Red;}
+A.xbigBurgundy:visited {color:#760025;}
+A.xbigBurgundy:visited:hover {color:Red; text-decoration:underline;}
+
+.titleBurgundy {font-family: Arial, Helvetica, sans-serif;	font-size: 24px; font-weight: bold;	color: #760025;}
+.verticalLabelBurgundy {font-family: Arial, Helvetica, sans-serif;	font-size: 12px; color: #760025; writing-mode: tb-rl; filter: flipv fliph;}
+.smallVerticalLabelBurgundy {font-family: Arial, Helvetica, sans-serif; font-size: 9px; color: #760025; writing-mode: tb-rl; filter: flipv fliph;}
+
+/* RED */
+.bigRed {font-family:Arial,Helvetica,sans-serif; font-size:16px; color:Red; text-decoration:none;}
+A.bigRed {font-family:Arial,Helvetica,sans-serif; font-size:16px; color:Red; text-decoration:none;}
+A.bigRed:hover {color:Black; text-decoration:underline;}
+A.bigRed:active {color:Black;}
+A.bigRed:visited {color:Red;}
+A.bigRed:visited:hover {color:Black; text-decoration:underline;}
+
+
+/* CELLS */
+.cellBlack {background-color: #000000;}
+.cellLtBlack {background-color: #666666;}
+.cellDkGray {background-color: #CCCCCC;}
+.cellLtGray {background-color: #E0E0E0;}
+.cellXLtGray {background-color: #F8F8F8;}
+.cellWhite {background-color: #FFFFFF;}
+.cellGold {background-color: #FF0000;}
+.cellGold {background-color: #FFFF00;}
+.cellMaroon {background-color: #800000;}
+.cellCream {background-color: #FFFFCC;}
+.cellFrost {background-color: #FFFFFF; filter:alpha(opacity=70); style:1;}
+.cellFrostGray {background-color: #E0E0E0; filter:alpha(opacity=65); style:1;}
+.cellFrostGold {background-color: #EDB126; filter:alpha(opacity=70); style:1;}
+.cellFrostCont {position:relative;}
+.cellFrostBlue {background-color: #2A77D6; filter:alpha(opacity=70); style:1;}
+.cellFrostDkBlue {background-color: #2564AD; filter:alpha(opacity=70); style:1;}
+.cellFrostDkBlueTrans {background-color: Transparent; filter:alpha(opacity=70); style:1;}
+.cellFrostWhite {background-color: white; filter:alpha(opacity=75); style:1;}
+
+//-moz-opacity:0.7;

@@ -1,0 +1,216 @@
+/* BODY */
+body {font-family:Arial,Helvetica,sans-serif; font-size:13px; color:#000000; background-color:#1F1F1F; margin:0px;}
+/*html, body {margin:0; padding:0; width:100%; height:100%; }*/
+/*#background{position:fixed; z-index:-1; width:100%; height:100%;}*/
+.bigcontent {z-index:1000; position:relative; top:0px; left:0px;}
+
+/* Downloadable Fonts */
+@font-face {
+	font-family: 'Myvetica';
+	src: url('/fonts/myvetica-web.eot');
+	src: local('?'), url('/fonts/myvetica-web.woff') format('woff'), url('/fonts/myvetica-web.ttf') format('truetype'), url('/fonts/myvetica-web.svg#webfont0cSKlx1I') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MyveticaOblique';
+	src: url('/fonts/myveticaOblique-web.eot');
+	src: local('?'), url('/fonts/myveticaOblique-web.woff') format('woff'), url('/fonts/myveticaOblique-web.ttf') format('truetype'), url('/fonts/myveticaOblique-web.svg#webfontCEvqHYg7') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pictos';
+	src: url('/fonts/pictos-web.eot');
+	src: local('?'), url('/fonts/pictos-web.woff') format('woff'), url('/fonts/pictos-web.ttf') format('truetype'), url('/fonts/pictos-web.svg#webfontIyfZbseF') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+#fb
+{
+	background:url(images/facebook.png) -7px -8px;
+}
+
+#fb:hover
+{
+	background:url(images/facebook.png) 68px -8px;
+	border:0;
+}
+#smribbon
+{
+	background:0;
+	border:0;
+	left:5px;
+	margin:0;
+	position:absolute;
+	top:-13px;
+	width:300px;
+}
+
+#smribbon li
+{
+	background:0;
+	border:0;
+	float:left;
+	margin:0;
+	width:36px;
+}
+
+#smribbon li a
+{
+	display:block;
+	float:left;
+	height:170px;
+	text-indent:-9999px;
+	width:63px;
+}
+
+
+
+/* TEXT */
+/* Black */
+.smallBlack {font-family:Myvetica,sans-serif; font-size:10px; color:#000000; text-decoration:none;}
+A.smallBlack {font-family:Myvetica,sans-serif; font-size:10px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.smallBlack:hover {color:Red; cursor:pointer; text-decoration:underline;}
+A.smallBlack:active {color:Red; cursor:pointer;}
+A.smallBlack:visited {color:#3264CA; cursor:pointer;}
+A.smallBlack:visited:hover {color:Red; cursor:pointer; text-decoration:underline;}
+
+.bodyBlack {font-family:Myvetica,sans-serif; font-size:12px; color:#000000; text-decoration:none;}
+A.bodyBlack {font-family:Myvetica,sans-serif; font-size:12px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.bodyBlack:hover {color:Red; cursor:pointer; text-decoration:underline;}
+A.bodyBlack:active {color:Red; cursor:pointer;}
+A.bodyBlack:visited {color:#3264CA; cursor:pointer;}
+A.bodyBlack:visited:hover {color:Red; cursor:pointer; text-decoration:underline;}
+
+.titleBlack {font-family:Myvetica,sans-serif; font-size:14px; color:#000000; text-decoration:none;}
+A.titleBlack {font-family:Myvetica,sans-serif; font-size:14px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.titleBlack:hover {color:Red; cursor:pointer; text-decoration:underline;}
+A.titleBlack:active {color:Red; cursor:pointer;}
+A.titleBlack:visited {color:#3264CA; cursor:pointer;}
+A.titleBlack:visited:hover {color:Red; cursor:pointer; text-decoration:underline;}
+
+.menuBlack {font-family:Myvetica,sans-serif; font-size:14px; color:#000000; text-decoration:none;}
+A.menuBlack {font-family:Myvetica,sans-serif; font-size:14px; color:#000000; cursor:pointer; text-decoration:none;}
+A.menuBlack:hover {color:Red; cursor:pointer; text-decoration:underline;}
+A.menuBlack:active {color:Red; cursor:pointer;}
+A.menuBlack:visited {color:#000000; cursor:pointer;}
+A.menuBlack:visited:hover {color:Red; cursor:pointer; text-decoration:underline;}
+
+.bigBlack {font-family:Myvetica,sans-serif; font-size:18px; color:#000000; text-decoration:none;}
+A.bigBlack {font-family:Myvetica,sans-serif; font-size:18px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.bigBlack:hover {color:Red; cursor:pointer; text-decoration:underline;}
+A.bigBlack:active {color:Red;}
+A.bigBlack:visited {color:#3264CA; cursor:pointer;}
+A.bigBlack:visited:hover {color:Red; cursor:pointer; text-decoration:underline;}
+
+.biggerBlack {font-family:Myvetica,sans-serif; font-size:24px; color:#000000; text-decoration:none;}
+A.biggerBlack {font-family:Myvetica,sans-serif; font-size:24px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.biggerBlack:hover {color:Red; cursor:pointer; text-decoration:underline;}
+A.biggerBlack:active {color:Red;}
+A.biggerBlack:visited {color:#3264CA; cursor:pointer;}
+A.biggerBlack:visited:hover {color:Red; cursor:pointer; text-decoration:underline;}
+
+.hugeBlack {font-family:Myvetica,sans-serif; font-size:30px; color:#000000; text-decoration:none;}
+A.hugeBlack {font-family:Myvetica,sans-serif; font-size:30px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.hugeBlack:hover {color:Red; cursor:pointer; text-decoration:underline;}
+A.hugeBlack:active {color:Red;}
+A.hugeBlack:visited {color:#3264CA; cursor:pointer;}
+A.hugeBlack:visited:hover {color:Red; cursor:pointer; text-decoration:underline;}
+
+/* White */
+.smallWhite {font-family:Myvetica,sans-serif; font-size:10px; color:#FFFFFF; text-decoration:none;}
+A.smallWhite {font-family:Myvetica,sans-serif; font-size:10px; color:#FFFFFF; cursor:pointer; text-decoration:none;}
+A.smallWhite:hover {color:Yellow; cursor:pointer; text-decoration:underline;}
+A.smallWhite:active {color:Yellow; cursor:pointer;}
+A.smallWhite:visited {color:#FFFFFF; cursor:pointer;}
+A.smallWhite:visited:hover {color:Yellow; cursor:pointer; text-decoration:underline;}
+
+.bodyWhite {font-family:Myvetica,sans-serif; font-size:12px; color:#FFFFFF; text-decoration:none;}
+A.bodyWhite {font-family:Myvetica,sans-serif; font-size:12px; color:#FFFFFF; cursor:pointer; text-decoration:none;}
+A.bodyWhite:hover {color:Yellow; cursor:pointer; text-decoration:underline;}
+A.bodyWhite:active {color:Yellow; cursor:pointer;}
+A.bodyWhite:visited {color:#FFFFFF; cursor:pointer;}
+A.bodyWhite:visited:hover {color:Yellow; cursor:pointer; text-decoration:underline;}
+
+.menuWhite {font-family:Myvetica,sans-serif; font-size:12px; color:#FFFFFF; text-decoration:none;}
+A.menuWhite {font-family:Myvetica,sans-serif; font-size:12px; color:#FFFFFF; cursor:pointer; text-decoration:none;}
+A.menuWhite:hover {color:#DF5256; cursor:pointer; text-decoration:none;}
+A.menuWhite:active {color:#DF5256; cursor:pointer;}
+A.menuWhite:visited {color:#FFFFFF; cursor:pointer;}
+A.menuWhite:visited:hover {color:#DF5256; cursor:pointer; text-decoration:none;}
+
+.titleWhite {font-family:Myvetica,sans-serif; font-size:14px; color:#FFFFFF; text-decoration:none;}
+A.titleWhite {font-family:Myvetica,sans-serif; font-size:14px; color:#FFFFFF; cursor:pointer; text-decoration:none;}
+A.titleWhite:hover {color:Red; cursor:pointer; text-decoration:underline;}
+A.titleWhite:active {color:Red; cursor:pointer;}
+A.titleWhite:visited {color:#FFFFFF; cursor:pointer;}
+A.titleWhite:visited:hover {color:Red; cursor:pointer; text-decoration:underline;}
+
+.bigWhite {font-family:Myvetica,sans-serif; font-size:18px; color:#FFFFFF; text-decoration:none;}
+A.bigWhite {font-family:Myvetica,sans-serif; font-size:18px; color:#FFFFFF; cursor:pointer; text-decoration:none;}
+A.bigWhite:hover {color:Red; cursor:pointer; text-decoration:underline;}
+A.bigWhite:active {color:Red;}
+A.bigWhite:visited {color:#FFFFFF; cursor:pointer;}
+A.bigWhite:visited:hover {color:Red; cursor:pointer; text-decoration:underline;}
+
+.biggerWhite {font-family:Myvetica,sans-serif; font-size:24px; color:#FFFFFF; text-decoration:none;}
+A.biggerWhite {font-family:Myvetica,sans-serif; font-size:24px; color:#FFFFFF; cursor:pointer; text-decoration:none;}
+A.biggerWhite:hover {color:Red; cursor:pointer; text-decoration:underline;}
+A.biggerWhite:active {color:Red;}
+A.biggerWhite:visited {color:#FFFFFF; cursor:pointer;}
+A.biggerWhite:visited:hover {color:Red; cursor:pointer; text-decoration:underline;}
+
+.hugeWhite {font-family:Myvetica,sans-serif; font-size:30px; color:#FFFFFF; text-decoration:none;}
+A.hugeWhite {font-family:Myvetica,sans-serif; font-size:30px; color:#FFFFFF; cursor:pointer; text-decoration:none;}
+A.hugeWhite:hover {color:Red; cursor:pointer; text-decoration:underline;}
+A.hugeWhite:active {color:Red;}
+A.hugeWhite:visited {color:#FFFFFF; cursor:pointer;}
+A.hugeWhite:visited:hover {color:Red; cursor:pointer; text-decoration:underline;}
+
+/* Blue */
+.smallBlue {font-family:Myvetica,sans-serif; font-size:10px; color:#3264CA; text-decoration:none;}
+A.smallBlue {font-family:Myvetica,sans-serif; font-size:10px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.smallBlue:hover {color:Red; cursor:pointer; text-decoration:underline;}
+A.smallBlue:active {color:Red; cursor:pointer;}
+A.smallBlue:visited {color:#3264CA; cursor:pointer;}
+A.smallBlue:visited:hover {color:Red; cursor:pointer; text-decoration:underline;}
+
+.bodyBlue {font-family:Myvetica,sans-serif; font-size:12px; color:#3264CA; text-decoration:none;}
+A.bodyBlue {font-family:Myvetica,sans-serif; font-size:12px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.bodyBlue:hover {color:Red; cursor:pointer; text-decoration:underline;}
+A.bodyBlue:active {color:Red; cursor:pointer;}
+A.bodyBlue:visited {color:#3264CA; cursor:pointer;}
+A.bodyBlue:visited:hover {color:Red; cursor:pointer; text-decoration:underline;}
+
+.titleBlue {font-family:Myvetica,sans-serif; font-size:14px; color:#3264CA; text-decoration:none;}
+A.titleBlue {font-family:Myvetica,sans-serif; font-size:14px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.titleBlue:hover {color:Yellow; cursor:pointer; text-decoration:underline;}
+A.titleBlue:active {color:Yellow; cursor:pointer;}
+A.titleBlue:visited {color:#3264CA; cursor:pointer;}
+A.titleBlue:visited:hover {color:Yellow; cursor:pointer; text-decoration:underline;}
+
+.menuBlue {font-family:Myvetica,sans-serif; font-size:16px; color:#3264CA; text-decoration:none;}
+A.menuBlue {font-family:Myvetica,sans-serif; font-size:16px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.menuBlue:hover {color:Yellow; cursor:pointer; text-decoration:underline;}
+A.menuBlue:active {color:Yellow; cursor:pointer;}
+A.menuBlue:visited {color:#3264CA; cursor:pointer;}
+A.menuBlue:visited:hover {color:Yellow; cursor:pointer; text-decoration:underline;}
+
+.bigBlue {font-family:Myvetica,sans-serif; font-size:18px; color:#3264CA; text-decoration:none;}
+A.bigBlue {font-family:Myvetica,sans-serif; font-size:18px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.bigBlue:hover {color:Yellow; cursor:pointer; text-decoration:underline;}
+A.bigBlue:active {color:Yellow;}
+A.bigBlue:visited {color:#3264CA; cursor:pointer;}
+A.bigBlue:visited:hover {color:Yellow; cursor:pointer; text-decoration:underline;}
+
+.hugeBlue {font-family:Myvetica,sans-serif; font-size:30px; color:#3264CA; text-decoration:none;}
+A.hugeBlue {font-family:Myvetica,sans-serif; font-size:30px; color:#3264CA; cursor:pointer; text-decoration:none;}
+A.hugeBlue:hover {color:Yellow; cursor:pointer; text-decoration:underline;}
+A.hugeBlue:active {color:Yellow;}
+A.hugeBlue:visited {color:#3264CA; cursor:pointer;}
+A.hugeBlue:visited:hover {color:Yellow; cursor:pointer; text-decoration:underline;}
+

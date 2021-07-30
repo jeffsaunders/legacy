@@ -1,0 +1,18 @@
+CREATE TABLE corppartners
+(
+        company_name VARCHAR(50) not NULL,
+        level VARCHAR(20) not NULL,
+        url VARCHAR(20)
+);
+
+mysql> describe corppartners;
++--------------+-------------+------+-----+---------+-------+
+| Field        | Type        | Null | Key | Default | Extra |
++--------------+-------------+------+-----+---------+-------+
+| company_name | varchar(50) |      |     |         |       |
+| level        | varchar(20) |      |     |         |       |
+| url          | varchar(20) | YES  |     | NULL    |       |
++--------------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> 

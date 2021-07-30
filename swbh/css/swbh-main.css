@@ -1,0 +1,213 @@
+/*
+		SMART WOMEN BUY HOMES STYLESHEET
+		BY: Brandon McCarthy - eWomenNetwork
+			brandon.mccarthy@ewomennetwork.com
+		
+		Orange: #f35c23
+		Blue: #1b409b
+		
+		Site Width: 960px
+		Content Area width: 640px
+		SideBar Width: 320px
+		
+/*
+	RESET
+*/
+
+*									{ margin: 0; padding: 0; }
+html								{ overflow-y: scroll; }
+html, body							{ height: 100%; }
+body								{ font-size: 62.5%; font-family: Arial, sans-serif; color: #272727;}
+
+body#sub							{ font-size: 62.5%; font-family: Arial, sans-serif; color: #272727; background: url(../images/swbh-bg.jpg) top left repeat-x white; }
+body#homepage						{ font-size: 62.5%; font-family: Arial, sans-serif; color: #272727; background: url(../images/homepage_bg.jpg) top left repeat-x white; }
+
+ul									{ list-style: square inside; }
+ol									{ list-style: decimal inside; }
+a									{ outline: none; text-decoration: none; }
+a img								{ border: none; background: none; }
+img									{ vertical-align: middle; }
+table								{ border-collapse: collapse; }
+
+/*
+	UTILITY
+*/
+.floatLeft 							{ float: left; }
+.floatRight							{ float: right; }
+.clear								{ clear: both; }
+
+
+/*
+	TYPGROGRAPHY
+*/
+p									{ font-size: 14px; color:#666666; margin: 0 0 0 0; padding: 0 0 20px 0; line-height:20px; }
+li									{ font-size: 14px; color:#666666; margin: 0 0 5px 0; }
+ul									{ margin-bottom: 35px;}
+a									{ color: #f35c23; }
+a:hover								{ color: #f35c23; text-decoration: underline;}
+h1									{ font-size: 3.6em; font-family:Verdana, Geneva, sans-serif; font-weight: normal; }
+h2									{ font-size: 30px; font-family:Verdana, Geneva, sans-serif; color:#666666;  font-weight: normal; margin: 0 0 50px 0}
+h3									{ font-size: 20px; font-family:Verdana, Geneva, sans-serif; color:#666666; font-weight: normal; margin: 0 0 35px 0; }
+h4									{ color: white; font-family:Verdana, Geneva, sans-serif; color:#666666; font-size: 20px; font-weight:bold; margin: 0 0 35px 0; }
+.post h4							{ font-size: 1.8em;  font-weight: normal; margin: 0 0 10px 0; color: #900; }
+td									{ font-size: 14px; color:#666666; }
+.finePrint							{ font-size: 10px; color:#666666; }
+.indent								{ margin-left:40px;}									  
+
+/*
+	FORMS
+*/
+
+.checkout							{ background: #F6F6F6; border:none; margin:0px 0px 20px 0px; padding:20px 10px 10px 10px;}
+#realtor-signup						{ background: #F6F6F6; border:none; margin:0px 0px 20px 0px; padding:10px;}
+#realtor-signup h3					{ font-size: 18px;}
+.form-fields						{ margin: 0px 0px 0px 20px;}
+.radio-indent, .check-indent		{ margin: 0 0 0 10px;}
+.ta-other							{ margin: 0 0 0 28px;}
+.ta-other:focus						{ border: 3px solid #F25b24;}
+.button 							{ font-family: Verdana, Arial, sans-serif; display: inline-block; background: #F25B24 !important; 
+									  border: 1px solid #be4010 !important; padding: 7px 7px 7px 7px !important; color: #fff !important; font-size: 11px !important; cursor: pointer;}
+.button:hover						{ background: #666666; border: 1px solid #333333;}
+
+.button1 							{ font-family: Verdana, Arial, sans-serif; background: #F25B24 !important; -webkit-border-radius:5px; -moz-border-radius: 5px; border-radius:5px; font-weight:bold;
+									  border: 1px solid #be4010 !important; padding: 8px 7px 8px 7px !important; color: #fff !important; font-size: 20px !important; cursor: pointer;}
+.button2							{ font-family: Verdana, Arial, sans-serif; background: #666666 !important; -webkit-border-radius:5px; -moz-border-radius: 5px; border-radius:5px;
+									  border: 1px solid #be4010 !important; padding: 8px 10px 8px 10px !important; color: #fff !important; font-size: 12px !important; cursor: pointer;}									  
+									  
+		  
+
+form .small-input 					{ width: 25% !important;}
+form .medium-input 					{ width: 50% !important;}
+form .select-input 					{ width: 52.5% !important;}
+form .small-input:focus,
+form .medium-input:focus			{ border:3px solid #F25B24;}
+form input.text-input,
+form select,
+form textarea,
+form .wysiwyg 						{ padding: 6px; font-size: 13px; background: #fff url('../images/bg-form-field.gif') top left repeat-x; border: 1px solid #d5d5d5; color: #333;}
+
+#realtor-signup form				{ border:none !important;}
+
+.video-bg							{ margin:0px 0px 20px 0px; padding:0px;}
+.video-bg iframe					{border: 10px solid #f35c23;}
+.video-bg p							{ text-align:center;margin:0px; padding:0px;}
+
+.form-name							{ margin:0px 0px 10px 0px; padding:0px;}
+.form-name p						{ margin:0px 10px 0px 0px; padding:0px; float:left;}
+.form-name p input					{ width:300px !important;}
+.form-address						{ margin:10p 0px 0px 10px; padding:0px;}
+.form-address p						{ margin:10px 0px 0px 0px; padding:0px;}
+
+
+.form-location						{ margin:10px 0px 0px 0px;padding:0px;}
+.form-location p					{ float:left; margin:0px 10px 0px 0px !important; padding:0px !important;}			
+.form-location input				{ width:250px !important;}	
+/*
+	STRUCTURE
+*/
+
+#page-wrap							{ width: 960px; margin: 0px auto -150px; min-height: 100%; height: auto !important; height: 100%; background:url(../images/header.jpg) no-repeat top left;}
+#page-wrap-home						{ width: 960px; margin: 0px auto -150px; min-height: 100%; height: auto !important; height: 100%;}
+
+#header								{ height:128px;}
+#main-menu							{ height:25px;}
+/*#content-area 						{ margin: 40px 0 0 0; width: 620px; float:left; background:#0F0; position:relative;}
+#sidebar							{ margin: 40px 0 0 38px; width: 302px; float:left; background:#F00; position:relative;}*/
+
+
+#wrapper							{ margin-top:40px;}
+#content-area						{ float: left; width: 620px; }
+#content-area-ns					{ float:left; display:inline;}
+* html #content-area				{ display: inline; }
+#sidebar							{ float: left; width: 300px; margin:0px 0 0px 20px; /*background:#0F0;*/}
+
+
+#block_3							{ float: left; width: 33%; background:#00F;}
+
+
+/*
+	HEADER
+*/
+
+#header h1							{ text-indent:-9999px;}
+
+#home-header 						{ width: 960px; height: 133px;}
+#banner-area 						{ margin: 0px; padding: 0px; width:960px; height:211px;}
+
+#lower-banner						{ width:960px;}
+.lower-banner-left					{ float:left; width:434px; height:118px;}
+.lower-banner-right					{ float:left; width:526px; height:118px;}
+
+#swbh-info 							{ width: 960px; margin-top: 20px;}
+.swbh-info-left						{ float:left; width:546px; padding: 0 60px 0 0;}
+.swbh-info-right					{ float:left; width:354px; padding-top: 20px;}
+
+/*
+	CONTENT
+*/
+#content-area ol					{ list-style-position:outside; margin: 0 0 15px 10px;}
+#content-area li					{ font-size: 14px; color:#666666;  margin-left: 1.5em; padding: 5px 20px; font-family:Verdana, Geneva, sans-serif; line-height:20px;}
+.o-list 							{ padding-left: 10px;}
+p span								{ font-size: 12px; font-style:italic;}
+
+.faq-wrap							{}
+.faq-sec							{ margin: 0 0 20px 0;}
+.faq-question						{ background: #f6f6f6; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px 5px 0 0; padding: 5px 10px !important; border: 1px solid #c1c1c1;}
+.faq-question:hover					{ background: #f35c23; }
+.faq-question:hover a				{ color:#ffffff;}
+.faq-question h4					{ margin: 0px; padding: 0px;}
+.faq-question h4 a					{ color:#333333; margin:0px; padding: 0px;}
+.faq-question h4 a:hover			{ text-decoration:none; color:#ffffff; background:#f35c23;}
+
+.faq-answer 						{ border-left: 1px solid #c1c1c1; border-right: 1px solid #c1c1c1; border-bottom: 1px solid #c1c1c1; border-radius: 0 0 5px 5px;}
+.faq-answer p						{ padding:20px; font-size: 14px; color:#333;}
+.faq-answer ol						{ padding: 0 20px;}
+.faq-answer li						{ color:#333333 !important;}	
+
+/*
+	SIDEBAR
+*/
+.sidebar-pic 						{ height: auto; width:300px;border-bottom: 10px solid #f35c23; margin-bottom:-10px;}
+.block 								{ width:300px; height:300px;background-color:#999999;margin:0 0 20px 0; border:1px solid #666666; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+.block h2							{ padding: 120px 0 0 0;text-align:center; color:#ffffff;}
+.contact							{ margin-bottom:20px;}
+
+/*
+	MENU
+*/
+#menu-bar-home						{ background:url(../images/nav_bg.jpg) no-repeat top left; width:960px; height: 33px; margin: 0 0 0 0; padding: 7px 0 0 0;}
+ul.main-nav-home					{ width: 960px; float: left; margin: 0 0 0 60px; }
+ul.main-nav-home	li				{ display: inline; }
+ul.main-nav-home li a				{ color:#999999; font-size: 1.2em; padding: 3px 8px;}
+ul.main-nav-home li a:hover			{ color:#ffffff; background-color:#f35c23; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; text-decoration:none;}
+
+#menu-bar							{ margin-top: 7px;}
+ul.main-nav							{ width: 700px; float: left; margin: 0 0 0 20px; }
+ul.main-nav	li						{ display: inline; }
+ul.main-nav li a					{ color:#999999; font-size: 1.2em; padding: 3px 8px;}
+ul.main-nav li a:hover 				{ color:#ffffff; background-color:#f35c23; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; text-decoration:none;}
+
+a.specialNav						{ color:#ffffff !important; background-color:#999999; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+.nudge-right						{ margin-left: 20px;}
+.nudge-right2						{ margin-left: 250px;}
+
+
+/*
+	FOOTER
+*/
+
+
+
+#footer								{ height: 150px; border-top: 15px solid #f35c23; background-color:#ffffff; }
+#footer-inside						{ width: 960px; margin: 0 auto; }
+
+.footer-left						{ float: left; width: 600px;}
+.footer-left p 						{ margin: 10px 0 0 5px; color:#999999;}
+ul.footer-nav						{ width: 700px; margin: 20px 0 0 0; }
+ul.footer-nav li					{ display: inline;  }
+ul.footer-nav li a					{ color:#999999; padding: 3px 8px;}
+ul.footer-nav li a:hover 			{ color:#ffffff; background-color:#f35c23; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; text-decoration: none;}
+
+a.specialFooter						{ color:#ffffff !important; background-color:#999999; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+.realtor-icon 						{ float:right; margin: 20px 0 0 0;}
+

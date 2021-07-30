@@ -1,0 +1,62 @@
+/* SHAPES */
+/*.roundedCorners {border-radius:15px; -moz-border-radius:15px;}*/
+.roundedCorners {border-radius:15px 15px 15px 15px; -moz-border-radius:15px 15px 15px 15px;}
+.roundedTops {border-radius:15px 15px 0px 0px; -moz-border-radius:15px 15px 0px 0px;}
+.roundedTopLeft {border-radius:15px 0px 0px 0px; -moz-border-radius:15px 0px 0px 0px;}
+.roundedTopRight {border-radius:0px 15px 0px 0px; -moz-border-radius:0px 15px 0px 0px;}
+.roundedBottoms {border-radius:0px 0px 15px 15px; -moz-border-radius:0px 0px 15px 15px;}
+.roundedBottomLeft {border-radius:0px 0px 15px 0px; -moz-border-radius:0px 0px 15px 0px;}
+.roundedBottomRight {border-radius:0px 0px 0px 15px; -moz-border-radius:0px 0px 0px 15px;}
+.roundedPolygon {border-radius:0px 15px 0px 15px; -moz-border-radius:0px 15px 0px 15px;} /*upper-right & lower-left rounded*/
+
+/* Add a drop shadow */
+.shadowXSmall {
+	box-shadow: 1px 1px 2px #575757;
+	-moz-box-shadow: 1px 1px 2px #575757;
+	-webkit-box-shadow: 1px 1px 2px #575757;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#575757')"; /* For IE 8 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#575757'); /* For IE 5.5-7 */
+}
+.shadowSmall {
+	box-shadow: 2px 2px 3px #575757;
+	-moz-box-shadow: 2px 2px 3px #575757;
+	-webkit-box-shadow: 2px 2px 3px #575757;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#575757')"; /* For IE 8 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#575757'); /* For IE 5.5-7 */
+}
+.shadow {
+	box-shadow: 3px 3px 4px #575757;
+	-moz-box-shadow: 3px 3px 4px #575757;
+	-webkit-box-shadow: 3px 3px 4px #575757;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#575757')"; /* For IE 8 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#575757'); /* For IE 5.5-7 */
+}
+
+/* Backgrounds 7abec6*/
+.gradientUp {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(35,45,51,.75)), to(rgba(35,45,51,1))); /* WebKit */
+	background: -moz-linear-gradient(bottom, rgba(35,45,51,1), rgba(35,45,51,.75)); /* For Mozilla */
+	-moz-filter: progid:DXImageTransform.Microsoft.gradient(gradientyype=0, startColorstr='#CC232D33', endColorstr='#FF232D33'); /* For gt IE8 */
+	filter: progid:DXImageTransform.Microsoft.gradient(gradientyype=0, startColorstr='#CC232D33', endColorstr='#FF232D33'); /* For lt IE8 */
+}
+.frostWhite {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.5)), to(rgba(255,255,255,.5))); /* WebKit */
+	background: -moz-linear-gradient(bottom, rgba(255,255,255,.5), rgba(255,255,255,.5)); /* For Mozilla */
+	-moz-filter: progid:DXImageTransform.Microsoft.gradient(gradientyype=0, startColorstr='#88FFFFFF', endColorstr='#88FFFFFF'); /* For gt IE8 */
+	filter: progid:DXImageTransform.Microsoft.gradient(gradientyype=0, startColorstr='#88FFFFFF', endColorstr='#88FFFFFF'); /* For lt IE8 */
+}
+.frostGray {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(160,160,160,.5)), to(rgba(160,160,160,.5))); /* WebKit */
+	background: -moz-linear-gradient(bottom, rgba(160,160,160,.5), rgba(160,160,160,.5)); /* For Mozilla */
+	-moz-filter: progid:DXImageTransform.Microsoft.gradient(gradientyype=0, startColorstr='#88A0A0A0', endColorstr='#88A0A0A0'); /* For gt IE8 */
+	filter: progid:DXImageTransform.Microsoft.gradient(gradientyype=0, startColorstr='#88A0A0A0', endColorstr='#88A0A0A0'); /* For lt IE8 */
+}
+.frostBlue {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(122,190,198,.5)), to(rgba(122,190,198,.5))); /* WebKit */
+	background: -moz-linear-gradient(bottom, rgba(122,190,198,.5), rgba(122,190,198,.5)); /* For Mozilla */
+	-moz-filter: progid:DXImageTransform.Microsoft.gradient(gradientyype=0, startColorstr='#887ABEC6', endColorstr='#887ABEC6'); /* For gt IE8 */
+	filter: progid:DXImageTransform.Microsoft.gradient(gradientyype=0, startColorstr='#887ABEC6', endColorstr='#887ABEC6'); /* For lt IE8 */
+}
+
+
+

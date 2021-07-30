@@ -1,0 +1,47 @@
+.text_small_white {  font-size: 9px; color: #330066}
+.text_regular_white {  font-size: 12px; color: #330066; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold}
+a.text_regular_white:hover { color: #666666}
+a.text_regular_white:active { color: #666666}
+.text_error_red {  font-size: 12px; color: red; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold}
+.text_regular_black { font-size: 12px; color: #333333; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: normal}
+
+.programName {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+}
+.username {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+}
+.headerLinks {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #330066;
+	text-decoration: none;
+}
+a.headerLinks:link { }
+a.headerLinks:hover { color: #666666; text-decoration: underline;}
+a.headerLinks:active { color: #666666}
+
+.poweredByHeader {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	color: #333333;
+	text-decoration: none;
+}
+a.poweredByHeader:link { }
+a.poweredByHeader:hover { color: #666666; text-decoration: underline;}
+a.poweredByHeader:active { color: #666666}
+
+.copyrightFooter {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #666666}
+a.copyrightFooter:link { text-decoration: underline;}
+a.copyrightFooter:hover { color: #333333}
+a.copyrightFooter:active { color: #333333}
+
+.loginText {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #330066}
+.loginTextSmall {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #330066}

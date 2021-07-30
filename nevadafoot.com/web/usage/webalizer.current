@@ -1,0 +1,910 @@
+# Webalizer V2.01-10 Incremental Data - 03/12/2006 00:00:26
+2006 3 12 0 0 26
+1500 1325 185 50 25 31 7911363 1500 263 0
+1 1 64 1 12
+16 16 63076 2 16 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+130 113 633096 28 130 35
+278 230 1591164 25 278 29
+185 174 916549 38 185 42
+281 253 1432967 41 281 43
+260 234 1313770 45 260 53
+220 190 1108622 27 220 31
+129 114 840017 21 129 28
+1 1 12102 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+6 3 33551 6
+56 47 240418 56
+58 47 257554 58
+14 10 108767 14
+30 26 196847 30
+15 14 93661 15
+84 75 401848 84
+124 117 739301 124
+55 51 318770 55
+133 131 653598 133
+102 78 491925 102
+61 57 287809 61
+49 44 312521 49
+136 134 749980 136
+102 84 408402 102
+47 42 358148 47
+66 62 307647 66
+55 49 260938 55
+95 84 534115 95
+45 43 379275 45
+32 30 179607 32
+29 26 133544 29
+62 46 318707 62
+44 25 144430 44
+0
+0
+0
+1325
+0
+0
+0
+0
+0
+5
+0
+0
+0
+0
+71
+0
+0
+0
+0
+0
+0
+99
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/
+0 352 0 4171168 167 53
+/new_patient_form.pdf
+0 6 0 30981 1 0
+/images/fungustoenail1.jpg
+0 9 0 55188 0 0
+/images/corns.jpg
+0 3 0 22803 0 0
+/images/projector.gif
+0 9 0 3798 0 0
+/images/headerlocations.gif
+0 10 0 14940 0 0
+/images/menuheel.gif
+0 80 0 184896 3 1
+/images/craigmap.jpg
+0 10 0 22160 0 0
+/images/hammertoe2.jpg
+0 21 0 112749 2 0
+/images/footexam.jpg
+0 7 0 55195 0 0
+/images/heelspur.jpg
+0 13 0 49517 0 0
+/images/prettyfeet.jpg
+0 29 0 104444 3 1
+/images/surgery.jpg
+0 14 0 80904 1 0
+/images/bunion2.jpg
+0 3 0 24150 0 0
+/images/hammertoe1.jpg
+0 21 0 183792 2 0
+/nevadafoot.css
+0 83 0 503496 5 1
+/images/bunion1.jpg
+0 3 0 28074 0 0
+/images/spacer.gif
+0 78 0 4690 3 0
+/images/headernewpatients.gif
+0 6 0 11484 1 0
+/images/menuheader.gif
+0 78 0 526465 3 1
+/images/headerpatientprivacy.gif
+0 1 0 1376 0 1
+/images/headernevadafoot.gif
+0 26 0 42425 2 1
+/images/shockwave.jpg
+0 9 0 20547 0 0
+/images/headerfootfacts.gif
+0 4 0 4468 0 0
+/images/menubg.gif
+0 78 0 6790 0 1
+/images/footxray.jpg
+0 4 0 15248 0 0
+/images/calluses.jpg
+0 3 0 30813 0 0
+/images/warts2.jpg
+0 3 0 9453 0 0
+/images/westmap.jpg
+0 10 0 32570 1 0
+/images/warts1.jpg
+0 3 0 23652 0 0
+/images/shockwavevideoleft.jpg
+0 5 0 16010 0 0
+/images/bonespur.jpg
+0 13 0 68744 0 0
+/images/shockwavelright.jpg
+0 9 0 19179 0 0
+/images/aksm-orthologo.gif
+0 11 0 53031 0 0
+/images/shockwaveleft.jpg
+0 9 0 24264 0 0
+/images/bodybg.jpg
+0 77 0 31220 3 1
+/images/familyfeet.jpg
+0 6 0 22086 1 1
+/images/footcolorxray.jpg
+0 4 0 24588 0 0
+/images/ingrowntoenail2.jpg
+0 13 0 83629 0 0
+/images/headercredentials.gif
+0 11 0 10530 0 0
+/images/eastmap.jpg
+0 10 0 31770 1 0
+/images/headerailments.gif
+0 47 0 88044 2 0
+/images/summerlinmap.jpg
+0 10 0 39390 0 0
+/images/ingrowntoenail1.jpg
+0 14 0 85708 0 0
+/images/realplayerlogo.gif
+0 5 0 14935 0 0
+/images/bodyheader.gif
+0 79 0 586224 3 1
+/images/fungustoenail2.jpg
+0 9 0 94356 0 0
+/images/bodyfooter.jpg
+0 77 0 110180 3 2
+/images/get_adobe_reader.gif
+0 5 0 9765 0 0
+/images/headershockwave.gif
+0 11 0 17820 0 0
+# End Of Table - urls
+# -sites- (monthly)
+h64-5-245-34.gtcust.grouptelecom.net
+0 2 1 9062 1 1142108515
+/
+lj2529.inktomisearch.com
+0 1 0 1052 1 1141731835
+-
+lj601261.inktomisearch.com
+0 1 1 9415 1 1141907212
+/
+cache-ntc-ac01.proxy.aol.com
+0 2 2 8034 2 1141846472
+/images/prettyfeet.jpg
+64.34.145.195
+0 4 2 21440 2 1142008608
+/
+66-194-6-72.gen.twtelecom.net
+0 2 2 19328 2 1142024795
+/
+nv-71-0-35-85.dyn.sprint-hsd.net
+0 47 39 250922 2 1141639473
+/images/hammertoe2.jpg
+pme108cat2.med.unr.edu
+0 36 20 81345 1 1141827523
+/images/bodybg.jpg
+lj2520.inktomisearch.com
+0 1 0 1052 1 1141963752
+-
+62-99-226-178.static.adsl-line.inode.at
+0 11 11 42491 1 1141998316
+/images/bodybg.jpg
+cache-ntc-ad02.proxy.aol.com
+0 2 2 892 2 1141846481
+/images/bodybg.jpg
+c-67-185-94-89.hsd1.wa.comcast.net
+0 18 18 91289 1 1141926326
+/images/footxray.jpg
+cache-rtc-ad08.proxy.aol.com
+0 1 1 1914 1 1141582407
+/images/headerailments.gif
+lj2275.inktomisearch.com
+0 3 0 3188 3 1141724089
+-
+msnbot.msn.com
+0 22 14 188800 10 1142072703
+/
+lj602066.inktomisearch.com
+0 3 0 3161 3 1141907212
+-
+ip68-104-116-240.lv.lv.cox.net
+0 12 12 58105 1 1141837637
+/images/bodyfooter.jpg
+mek33-2-82-224-131-86.fbx.proxad.net
+0 2 2 14748 1 1141867861
+/images/surgery.jpg
+cache-ntc-aa03.proxy.aol.com
+0 2 2 3394 2 1141846472
+/images/headernevadafoot.gif
+133.9.238.96
+0 25 21 229593 1 1142082089
+/
+aspra25.informatik.uni-leipzig.de
+0 1 1 24020 1 1142047675
+/
+cache-rtc-ae09.proxy.aol.com
+0 1 1 1574 1 1141582410
+/images/bodyfooter.jpg
+156.108.164.51
+0 12 12 59955 1 1141991590
+/images/bodyheader.gif
+ip68-108-29-74.lv.lv.cox.net
+0 11 11 42491 1 1141829563
+/images/bodyheader.gif
+203.110.86.18
+0 12 12 53336 1 1141620841
+/images/bodybg.jpg
+lj2503.inktomisearch.com
+0 1 1 9929 1 1141570253
+/
+cache-rtc-aa02.proxy.aol.com
+0 1 1 446 1 1141582410
+/images/bodybg.jpg
+66.220.20.30
+0 1 0 1056 1 1141924979
+/
+cache-ntc-ab04.proxy.aol.com
+0 1 1 1914 1 1141742177
+/images/headernewpatients.gif
+lj2016.inktomisearch.com
+0 1 1 6804 1 1141781884
+/nevadafoot.css
+mmcrm4043.search.mud.yahoo.com
+0 1 0 0 1 1141863306
+/images/prettyfeet.jpg
+66-194-6-77.gen.twtelecom.net
+0 1 1 9664 1 1141657279
+/
+c-66-229-19-157.hsd1.ca.comcast.net
+0 12 12 46763 1 1141982207
+/images/bodybg.jpg
+px2ar.ed.shawcable.net
+0 13 11 48939 1 1141852854
+-
+lj2597.inktomisearch.com
+0 1 1 14860 1 1141807516
+/
+addr-70-103-181-25.keyoncom.com
+0 25 17 73875 1 1141597265
+-
+cache-ntc-ad06.proxy.aol.com
+0 2 2 20962 1 1141914652
+/images/footcolorxray.jpg
+lj2210.inktomisearch.com
+0 1 1 9929 1 1141888880
+/
+lj601007.inktomisearch.com
+0 1 1 9664 1 1142091157
+/
+lj601079.inktomisearch.com
+0 1 1 14815 1 1141888462
+/
+hlfxns01bbf-142068198158.dhcp-dynamic.ns.aliant.net
+0 12 12 58105 1 1141540676
+/images/bodybg.jpg
+crawl-66-249-72-78.googlebot.com
+0 30 23 294478 4 1141870415
+/
+cache-ntc-ad10.proxy.aol.com
+0 4 4 328 2 1141846472
+/images/menubg.gif
+rrcs-72-43-53-88.nys.biz.rr.com
+0 12 12 52984 1 1141912535
+/images/heelspur.jpg
+ip68-96-179-20.lv.lv.cox.net
+0 33 33 185683 1 1141810671
+/
+64.210.196.197
+0 13 11 44596 1 1142093440
+/images/bodyfooter.jpg
+cache-ntc-ab08.proxy.aol.com
+0 2 2 6858 2 1141846483
+/images/eastmap.jpg
+dsl-91.netexpress.net
+0 21 21 125661 1 1141909759
+/images/aksm-orthologo.gif
+66-194-6-73.gen.twtelecom.net
+0 1 1 9664 1 1141916215
+/
+lj2084.inktomisearch.com
+0 1 1 9929 1 1141548013
+/
+lj2204.inktomisearch.com
+0 2 0 2112 2 1141781884
+-
+pool-71-250-174-59.nwrknj.east.verizon.net
+0 19 18 127556 1 1142062501
+/
+lj602056.inktomisearch.com
+0 2 0 2098 2 1142093949
+-
+mctnnbsa24w-142167036070.pppoe-dynamic.nb.aliant.net
+0 10 10 42045 1 1141537657
+/images/bodyheader.gif
+yp110.superpages.com
+0 2 2 19328 1 1141659542
+/
+ppp-70-246-244-51.dsl.ksc2mo.swbell.net
+0 12 11 44087 1 1141570789
+/images/bodybg.jpg
+c-68-44-86-214.hsd1.nj.comcast.net
+0 11 11 46841 1 1141728291
+/images/menuheel.gif
+cache-rtc-aa10.proxy.aol.com
+0 2 2 164 1 1141582409
+/images/menubg.gif
+fernwood-arbiter-a.net.nih.gov
+0 2 2 10574 1 1141867859
+/images/menuheel.gif
+host-216-78-98-120.asm.bellsouth.net
+0 19 19 130474 1 1141803030
+/
+wsip-70-182-249-97.ks.ks.cox.net
+0 30 30 152014 1 1141629349
+/images/hammertoe2.jpg
+woclu2.informatik.uni-leipzig.de
+0 2 2 24428 2 1141911852
+/
+dsl-216-227-90-85.pivot.net
+0 18 18 70786 1 1141730892
+/images/realplayerlogo.gif
+lj2131.inktomisearch.com
+0 1 1 9415 1 1142119767
+/
+nlwan.titlelaw.com
+0 15 15 78599 1 1141726416
+/images/ingrowntoenail2.jpg
+dex-252-16.dxi.net
+0 1 1 9664 1 1141963373
+/
+hse-toronto-ppp133763.sympatico.ca
+0 12 12 53336 1 1141872774
+/images/menuheader.gif
+lj602089.inktomisearch.com
+0 1 0 1052 1 1141736498
+-
+38.118.25.59
+0 2 2 16468 1 1142117680
+/nevadafoot.css
+c-69-245-65-83.hsd1.mi.comcast.net
+0 13 12 61011 1 1142098525
+/images/menuheader.gif
+66-194-6-67.gen.twtelecom.net
+0 1 1 9664 1 1141765820
+/
+pool-71-106-28-234.lsanca.dsl-w.verizon.net
+0 37 20 87168 1 1141688285
+/images/bodybg.jpg
+255-61.69-92-cpe.cableone.net
+0 18 18 110861 1 1141974794
+/images/ingrowntoenail2.jpg
+cache-rtc-ad02.proxy.aol.com
+0 1 1 8752 1 1141582410
+/images/hammertoe1.jpg
+cache-ntc-aa04.proxy.aol.com
+0 2 2 14830 2 1141846472
+/images/menuheader.gif
+67-15-184-41.opticaljungle.com
+0 2 2 19328 1 1141937294
+/
+h64-5-245-33.gtcust.grouptelecom.net
+0 2 1 10985 1 1141954013
+/
+lj2261.inktomisearch.com
+0 3 0 3168 3 1142119767
+-
+lj2306.inktomisearch.com
+0 1 1 14957 1 1141701431
+/
+server291.crawler09.com
+0 2 2 0 1 1142048136
+/
+cpe-24-208-159-1.insight.res.rr.com
+0 11 11 42491 1 1142023678
+/images/bodyheader.gif
+ool-4575af29.dyn.optonline.net
+0 13 13 67844 1 1141842303
+/
+lj2041.inktomisearch.com
+0 1 1 11185 1 1141772340
+/
+ilrscl2-dsl232.shawneelink.net
+0 18 18 121520 1 1142008510
+/
+cache-rtc-ab04.proxy.aol.com
+0 1 1 7415 1 1141582407
+/images/menuheader.gif
+nv-71-55-107-147.dhcp.sprint-hsd.net
+0 19 18 69913 1 1141869149
+/images/aksm-orthologo.gif
+cache-ntc-ac06.proxy.aol.com
+0 1 1 6742 1 1141914637
+/images/surgery.jpg
+lj2244.inktomisearch.com
+0 1 1 8006 1 1141619055
+/
+scrub2.mms.search.scd.yahoo.com
+0 3 2 1069 1 1142029775
+/images/prettyfeet.jpg
+corner.genuity.no
+0 2 2 14748 1 1141867859
+/images/surgery.jpg
+cache-ntc-ad07.proxy.aol.com
+0 3 3 18500 2 1141846483
+/images/craigmap.jpg
+lj2497.inktomisearch.com
+0 1 0 1045 1 1141619055
+-
+las-cust-66.18.132.254.mpowercom.net
+0 14 14 58409 1 1141897164
+/images/surgery.jpg
+nv-71-1-179-148.dyn.sprint-hsd.net
+0 14 14 50049 1 1141736736
+/images/bodybg.jpg
+ip70-189-239-86.lv.lv.cox.net
+0 22 22 121580 1 1141895911
+/images/get_adobe_reader.gif
+lj2266.inktomisearch.com
+0 1 0 1049 1 1141888880
+-
+lj2522.inktomisearch.com
+0 2 0 2104 2 1141807516
+-
+d80-237-144-96.dds.hosteurope.de
+0 3 2 22336 3 1141909546
+/
+lj602132.inktomisearch.com
+0 1 0 1045 1 1141854791
+-
+lj2171.inktomisearch.com
+0 1 1 9415 1 1141963752
+/
+cache-ntc-aa08.proxy.aol.com
+0 1 1 8853 1 1141846482
+/
+wsip-24-120-183-161.lv.lv.cox.net
+0 38 32 154494 1 1141973226
+-
+lj2363.inktomisearch.com
+0 1 1 8853 1 1141941928
+/
+adsl-214-9-185.asm.bellsouth.net
+0 13 13 73062 1 1141803179
+/images/bodybg.jpg
+crawl5.exabot.com
+0 2 1 10720 1 1142071789
+/
+lj2227.inktomisearch.com
+0 1 1 9664 1 1141732018
+/
+168-215-215-195.gen.twtelecom.net
+0 20 19 241199 1 1141672655
+/
+cache-rtc-aa07.proxy.aol.com
+0 1 1 8142 1 1141582407
+/images/bodyheader.gif
+wsip-24-234-84-12.lv.lv.cox.net
+0 11 11 42491 1 1141642205
+/images/bodybg.jpg
+sv-crawl.looksmart.com
+0 1 0 1056 1 1141558457
+-
+66-194-6-68.gen.twtelecom.net
+0 2 2 19328 2 1141978843
+/
+cache-ntc-ab02.proxy.aol.com
+0 1 1 8752 1 1141914606
+/images/hammertoe1.jpg
+ip67-94-152-122.z152-94-67.customer.algx.net
+0 15 15 53412 1 1141750333
+/images/bodybg.jpg
+66-194-6-79.gen.twtelecom.net
+0 1 1 9664 1 1141877447
+/
+pcai056.informatik.uni-leipzig.de
+0 1 1 9664 1 1141999150
+/
+cache-rtc-ab01.proxy.aol.com
+0 1 1 2568 1 1141582408
+/images/menuheel.gif
+lj2176.inktomisearch.com
+0 1 1 12102 1 1141630056
+/
+tm.net.my
+0 15 15 53412 1 1141179028
+/images/aksm-orthologo.gif
+66-194-6-70.gen.twtelecom.net
+0 2 2 19328 2 1141804558
+/
+lj601451.inktomisearch.com
+0 4 4 38656 4 1142093949
+/
+lj2201.inktomisearch.com
+0 1 1 13274 1 1141623951
+/
+pool-71-108-97-41.lsanca.dsl-w.verizon.net
+0 18 18 70786 1 1141652031
+/images/realplayerlogo.gif
+ip68-224-89-131.lv.lv.cox.net
+0 43 32 179838 1 1142014382
+-
+fw.petoskeycardiology.com
+0 11 11 46841 1 1141817247
+/images/menubg.gif
+1cust2094.an1.dca17.da.uu.net
+0 12 12 62169 1 1142080506
+/images/bodybg.jpg
+user-12lm5u2.cable.mindspring.com
+0 12 12 54642 1 1141590072
+/images/bodyfooter.jpg
+adsl-69-148-144-163.dsl.wchtks.swbell.net
+0 4 4 37220 1 1142106106
+/images/bodyheader.gif
+cache-rtc-ad03.proxy.aol.com
+0 1 1 5369 1 1141582410
+/images/hammertoe2.jpg
+exechouse.kent.net
+0 12 12 60937 1 1141799594
+/images/fungustoenail2.jpg
+103.sub-66-174-93.myvzw.com
+0 15 15 78599 1 1141807561
+/images/bonespur.jpg
+cache-ntc-ab06.proxy.aol.com
+0 2 2 9123 1 1141914652
+/images/headerfootfacts.gif
+rrcs-67-78-52-102.sw.biz.rr.com
+0 15 15 86552 1 1141652263
+/images/ingrowntoenail2.jpg
+ip24-253-82-136.lv.lv.cox.net
+0 17 7 32600 1 1141640889
+/images/bodybg.jpg
+cache-rtc-ab05.proxy.aol.com
+0 1 1 6804 1 1141582406
+/nevadafoot.css
+lj602058.inktomisearch.com
+0 1 0 1056 1 1141936799
+-
+cache-ntc-ac07.proxy.aol.com
+0 4 4 10569 2 1141846483
+/images/summerlinmap.jpg
+21.red-83-49-24.dynamicip.rima-tde.net
+0 18 18 98956 1 1141911374
+/images/ingrowntoenail2.jpg
+222.124.3.69
+0 14 13 72778 1 1141818818
+/nevadafoot.css
+lj2289.inktomisearch.com
+0 1 0 0 1 1142029724
+/new_patient_form.pdf
+70.208.118.70.cfl.res.rr.com
+0 4 2 21449 1 1141971549
+/
+cache-ntc-ad08.proxy.aol.com
+0 4 4 41094 3 1141914574
+/
+82-38-99-80.cable.ubr02.donc.blueyonder.co.uk
+0 12 12 52984 1 1141889724
+/images/bodybg.jpg
+lj2461.inktomisearch.com
+0 1 0 1065 1 1141949922
+-
+lj2144.inktomisearch.com
+0 1 1 14957 1 1141685262
+/
+p54ae1e08.dip0.t-ipconnect.de
+0 3 3 23345 1 1141735287
+/
+h252.33.96.216.ip.alltel.net
+0 11 1 8006 1 1141870803
+/images/bodyheader.gif
+sv-crawlfw3.looksmart.com
+0 34 34 431190 28 1142121626
+/
+cache-ntc-aa09.proxy.aol.com
+0 1 1 1914 1 1141914606
+/images/headerailments.gif
+rrcs-71-40-13-98.sw.biz.rr.com
+0 32 32 177887 1 1141720881
+/images/surgery.jpg
+lj601672.inktomisearch.com
+0 1 1 8853 1 1141736499
+/
+dynamic-acs-24-144-135-126.zoominternet.net
+0 12 12 58105 1 1141573897
+/images/bodyfooter.jpg
+pool-71-113-120-219.sttlwa.dsl-w.verizon.net
+0 14 12 60075 1 1141743750
+-
+pool-151-201-46-222.pitt.east.verizon.net
+0 23 23 167799 1 1141842421
+/images/hammertoe2.jpg
+213.252.152.21
+0 6 5 24895 1 1141923974
+/images/bodyheader.gif
+cpe-66-66-84-90.rochester.res.rr.com
+0 11 11 42491 1 1141996685
+/images/menuheader.gif
+cache-rtc-aa01.proxy.aol.com
+0 1 1 14957 1 1141582401
+/
+cache-ntc-ab03.proxy.aol.com
+0 3 3 10351 1 1141914652
+/images/footxray.jpg
+lj2199.inktomisearch.com
+0 3 0 3168 3 1141732018
+-
+lj2530.inktomisearch.com
+0 1 1 9664 1 1141949922
+/
+www.gigablast.com
+0 2 1 10135 1 1142097636
+/new_patient_form.pdf
+71.31.116.150
+0 23 17 74852 1 1141868128
+/images/surgery.jpg
+lj602065.inktomisearch.com
+0 1 0 1056 1 1141779363
+-
+c-24-0-240-51.hsd1.tx.comcast.net
+0 11 11 42491 1 1141652553
+/images/bodybg.jpg
+lj601922.inktomisearch.com
+0 1 1 12326 1 1141854792
+/
+ip68-96-231-106.lv.lv.cox.net
+0 11 11 42491 1 1141916301
+/images/bodyfooter.jpg
+host58.sprintnetops.net
+0 24 24 97041 1 1141725112
+/images/bodybg.jpg
+nat-7.cat.com
+0 12 12 58105 1 1141540667
+/images/bodybg.jpg
+lj601858.inktomisearch.com
+0 1 1 9929 1 1141812289
+/
+www.whois.sc
+0 4 2 21699 1 1141632388
+/
+cache-ntc-ad05.proxy.aol.com
+0 2 2 13608 2 1141846471
+/nevadafoot.css
+gout.sfcc.cc.fl.us
+0 12 12 60937 1 1141896352
+/images/fungustoenail2.jpg
+66-194-6-76.gen.twtelecom.net
+0 1 1 9664 1 1141697612
+/
+lj2343.inktomisearch.com
+0 1 1 9664 1 1141731835
+/
+lj2026.inktomisearch.com
+0 1 1 12326 1 1141580940
+/
+host86-141-211-211.range86-141.btcentralplus.com
+0 15 15 82062 1 1141959431
+/images/bonespur.jpg
+cache-ntc-aa06.proxy.aol.com
+0 3 3 12563 3 1141914651
+/
+astound-64-85-252-235.ca.astound.net
+0 15 15 53412 1 1142094921
+/images/bodybg.jpg
+ool-43565c30.dyn.optonline.net
+0 23 23 179218 1 1141684232
+/images/ingrowntoenail2.jpg
+c-67-190-105-186.hsd1.co.comcast.net
+0 11 11 42491 1 1141854557
+/images/bodybg.jpg
+lj2270.inktomisearch.com
+0 2 0 2130 2 1141580940
+-
+host.233.146.mtl.cablemodem.vdn.ca
+0 2 2 14748 1 1141867861
+/images/surgery.jpg
+lj602061.inktomisearch.com
+0 1 0 1056 1 1141614394
+-
+cache-ntc-aa10.proxy.aol.com
+0 1 1 3257 1 1141846483
+/images/westmap.jpg
+info015.informatik.uni-leipzig.de
+0 4 4 50730 4 1142061634
+/
+lj2337.inktomisearch.com
+0 1 1 8853 1 1141724089
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+sv-crawlfw3.looksmart.com
+0 1 1 12102 1 1142121626
+/
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 349
+http://images.search.yahoo.com/search/images/view
+0 1
+http://www.local.com/results.aspx
+0 1
+http://www.google.co.uk/search
+0 1
+http://mysearch.myway.com/jsp/GGmain.jsp
+0 1
+http://www.google.com/search
+0 9
+http://www.whois.sc/nevadafoot.com
+0 1
+http://www.picsearch.com/search.cgi
+0 1
+http://www.nevadafoot.com
+0 12
+http://www.google.co.id/search
+0 1
+http://search.sympatico.msn.ca/results.aspx
+0 3
+http://www.nevadafoot.com/
+0 1025
+http://www.google.co.in/search
+0 1
+http://www.spidervisit.com
+0 2
+http://www.hotbot.com/default.asp
+0 1
+http://nevadafoot.com/
+0 27
+http://images.google.at/imgres
+0 1
+http://search.msn.com/results.asp
+0 2
+http://www.whois.sc/
+0 2
+http://www.altavista.com/image/randomlink
+0 4
+http://local.yahoo.com/results
+0 1
+http://images.google.com/imgres
+0 6
+http://search.msn.com/results.aspx
+0 22
+http://www.nevadafootinstitute.com/
+0 25
+http://www.whois.sc/nevadafootinstitute.com
+0 1
+# End Of Table - referrers
+# -agents- 
+larbin_2.6.3 larbin2.6.3@unspecified.mail
+0 2
+findlinks/1.1.1-a1 (+http://wortschatz.uni-leipzig.de/findlin
+0 8
+Googlebot/2.1
+0 30
+MSIE 5.0
+0 2
+MSIE 5.5
+0 23
+webcollage/1.102
+0 2
+webcollage/1.117
+0 2
+webcollage/1.125
+0 2
+webcollage/1.127
+0 2
+msnbot/1.0 (+http://search.msn.com/msnbot.htm)
+0 22
+e-SocietyRobot(http://www.yama.info.waseda.ac.jp/~yamana/es/)
+0 25
+Yahoo-MMCrawler/3.x (mms dash mmcrawler dash support at yahoo
+0 1
+MSIE 5.23
+0 18
+oBot
+0 6
+Mozilla/5.0
+0 146
+Konqueror/3.0
+0 3
+Konqueror/3.1
+0 5
+Scooter/3.3
+0 3
+Wget/1.10.2
+0 20
+SurveyBot/2.3 (Whois Source)
+0 4
+MSIE 6.0
+0 1057
+Mozilla/4.0 compatible ZyBorg/1.0 Dead Link Checker (wn.dlc@l
+0 34
+Gigabot/2.0/gigablast.com/spider.html
+0 2
+SBIder/0.8-dev (SBIder; http://www.sitesell.com/sbider.html; 
+0 4
+Lynx/2.8.3rel.1 libwww-FM/2.14
+0 2
+larbin_2.6.3 (larbin2.6.3@unspecified.mail)
+0 2
+findlinks/1.1-a8 (+http://wortschatz.uni-leipzig.de/findlinks
+0 3
+Yahoo! Slurp
+0 60
+Exabot/2.0
+0 2
+HTTP/1.0
+0 2
+MJ12bot/v1.0.7 (http://majestic12.co.uk/bot.php?+)
+0 4
+# End Of Table - agents
+# -search strings- 
+extracorporeal shockwave therapy (eswt)
+1
+red swollen toes
+1
+red swollen toe joints
+1
+nevada foot doctors
+1
+posiatrists
+1
+ingrown toenails
+1
+foot doctors nevada
+1
+prettyfeet
+2
+bunion surgery nevada
+1
+spurs in toe joints
+1
+heel bone spurs
+1
+toenails
+1
+fungus feet
+3
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

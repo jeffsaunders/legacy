@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Prayer Belts</title>
+<link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript">
+
+/*** 
+    Simple jQuery Slideshow Script
+    Released by Jon Raasch (jonraasch.com) under FreeBSD license: free to use or modify, not responsible for anything, etc.  Please link out to me if you like it :)
+***/
+
+function slideSwitch() {
+    var $active = $('#slideshow IMG.active');
+
+    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+    // use this to pull the images in the order they appear in the markup
+    var $next =  $active.next().length ? $active.next()
+        : $('#slideshow IMG:first');
+
+    // uncomment the 3 lines below to pull the images in random order
+    
+    // var $sibs  = $active.siblings();
+    // var rndNum = Math.floor(Math.random() * $sibs.length );
+    // var $next  = $( $sibs[ rndNum ] );
+
+
+    $active.addClass('last-active');
+
+    $next.css({opacity: 0.0})
+        .addClass('active')
+        .animate({opacity: 1.0}, 1000, function() {
+            $active.removeClass('active last-active');
+        });
+}
+
+$(function() {
+    setInterval( "slideSwitch()", 5000 );
+});
+
+</script>
+</head>
+
+<body>
+	<div id="container">
+    	<div class="topbar">
+            <label><a href="#">Join Our Mailing List</a></label>
+            <div>
+                <a href="#">0 Items</a>
+                <a href="#" ><img src="images/checkout.gif"/></a>
+            </div>
+        </div>
+        <div id="header">
+        	<h1><a href="index.html"><img src="images/logo.gif" /></a></h1>
+            <div>
+            	<a href="#"><img src="images/friend.gif" /></a>
+                <a href="#"><img src="images/twitter.gif"  class="twit"/></a>
+                <a href="#"><img src="images/facebook.gif" /></a>
+            </div>
+        </div>
+        <div id="nav">
+        	<div id="nav_r">
+            	<ul>
+                	<li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Products</a></li>
+                    <li><a href="#">Our Mission</a></li>
+                    <li><a href="#">F.A.Q</a></li>
+                    <li class="last"><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="banner">
+        
+            <div id="slide">
+				<div id="slideshow">
+						<img src="images/image1.jpg"  class="active" />
+						<img src="images/image2.jpg"  />
+                        <img src="images/image3.jpg"  />
+				</div>
+            </div>
+	
+        
+          <img src="images/add1.gif" border="0" usemap="#Map" />
+				<map name="Map" id="Map"><area shape="rect" coords="64,215,197,259" href="#" /></map>
+        <img src="images/add2.gif" border="0" usemap="#Map2" />
+				<map name="Map2" id="Map2"><area shape="rect" coords="63,215,194,258" href="#" /></map>
+        </div>
+        <div id="secondbar">
+        	<img src="images/secondbar.gif" />
+         </div>
+        <div id="content">
+      	  	<div class="row1">
+            	<h2><span>Our Blog</span></h2>
+                <div>
+                	<label>October 4, 2011</label>
+                    <p>Sed viverra rhoncus mauris, ac elementum mi interdum accumsan. In vel nunc neque, vulputate tincidunt tortor. Proin sed leo metus. Nam et rhoncus quam... </p>
+                    <a href="#">More >></a>
+                </div>
+                <div>
+                	<label>October 4, 2011</label>
+                    <p>Sed viverra rhoncus mauris, ac elementum mi interdum accumsan. In vel nunc neque, vulputate tincidunt tortor. Proin sed leo metus. Nam et rhoncus quam... </p>
+                    <a href="#">More >></a>
+                </div>
+                <div class="line">
+                	<label>October 4, 2011</label>
+                    <p>Sed viverra rhoncus mauris, ac elementum mi interdum accumsan. In vel nunc neque, vulputate tincidunt tortor. Proin sed leo metus. Nam et rhoncus quam... </p>
+                    <a href="#">More >></a>
+                </div>
+                
+            </div>
+            <div class="row2">
+            	<h2><span>Twitter</span></h2>
+                <div>
+                	<label>@Did_I_Ask_You (zay riles)</label>
+                    <p>Now playing #Prayer so goodnight and always remember Zay Riles  </p>
+                    <a href="#">Posted on 11.8.11 @ 12:44 am</a>
+                </div>
+                <div>
+                	<label>October 4, 2011</label>
+                    <p>RT @Zo_Always_Zo: #Prayer Dear lord, I thank you for allowing me to see another day and enjoying another night. I ask that you lay me down to sleep and.. cont </p>
+                    <a href="#">Posted on 11.8.11 @ 12:44 am</a>
+                </div>
+                <div class="line">
+                	<label>October 4, 2011</label>
+                    <p>Amen: I want to thank God for everything He has done for me if it wasn't for Him I don't know wher... http://t.co/bjFE5iC8 #pray #prayer </p>
+                    <a href="#">Posted on 11.8.11 @ 12:44 am</a>
+                </div>
+                
+            </div>
+            <div class="row3">
+            	<h2>Testimonials</h2>
+                <div>
+                	<label>Darren K. - San Francisco, California</label>
+                    <p>euismod aliquet justo, ac adipiscing sapien feugiat at. Morbi sollicitudin augue eu ipsum...</p>
+                    <a href="#">More >></a>
+                </div>
+                <div>
+                	<label>Darren K. - San Francisco, California</label>
+                    <p>ligula a enim aliquam vitae sagittis magna adipiscing. Pellentesque iaculis,sem nec ullamcorper semper, ligula nulla suscipit odio, tincidunt aliquet nunc arcu et est...</p>
+                    <a href="#">More >></a>
+                </div>
+                <div class="line">
+                	<label>Darren K. - San Francisco, California</label>
+                    <p>erat, ultricies non ullamcorper nec, molestie quis mauris. Duis volutpat ante ut arcu dignissim sit amet consequat tellus fringilla...</p>
+                    <a href="#">More >></a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Products</a></li>
+                    <li><a href="#">Our Mission</a></li>
+                    <li><a href="#">F.A.Q</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li class="line"><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+           <p>Copyright© 2010-2011, PrayerBelts, Inc.  All Rights Reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
